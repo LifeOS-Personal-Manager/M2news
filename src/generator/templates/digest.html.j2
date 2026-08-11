@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page_title }}</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7f7f5;
+      --text: #1f2933;
+      --muted: #667085;
+      --line: #d9ded8;
+      --accent: #0f766e;
+      --paper: #ffffff;
+      --soft: #eef6f4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.65;
+    }
+    main {
+      width: min(1040px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 32px 0 56px;
+    }
+    header {
+      border-bottom: 1px solid var(--line);
+      margin-bottom: 24px;
+      padding-bottom: 18px;
+    }
+    h1 { font-size: 28px; margin: 0 0 8px; letter-spacing: 0; }
+    h2 { font-size: 22px; margin: 30px 0 12px; letter-spacing: 0; }
+    h3 { font-size: 18px; margin: 20px 0 12px; letter-spacing: 0; }
+    h4 { font-size: 17px; line-height: 1.45; margin: 0 0 8px; }
+    .meta, .source, time, .confidence { color: var(--muted); font-size: 14px; }
+    .highlights {
+      background: var(--soft);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      margin-bottom: 24px;
+      padding: 16px 18px;
+    }
+    .highlights ol { margin: 8px 0 0; padding-left: 22px; }
+    article {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      margin-bottom: 12px;
+      padding: 16px;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    p { margin: 8px 0 10px; }
+    .item-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 12px;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+    .label { color: var(--muted); font-weight: 600; }
+    .empty {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px 16px;
+    }
+    @media (max-width: 560px) {
+      main { width: min(100% - 24px, 1040px); padding-top: 22px; }
+      h1 { font-size: 24px; }
+      article { padding: 14px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>{{ page_title }}</h1>
+      <div class="meta">
+        覆盖 {{ digest.period.from }} 至 {{ digest.period.to }}，
+        生成于 {{ digest.generated_at }}
+      </div>
+    </header>
+
+    <section class="highlights">
+      <strong>重点速览</strong>
+      {% if digest.top_highlights %}
+      <ol>
+        {% for item in digest.top_highlights %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ol>
+      {% else %}
+      <p>暂无重点资讯。</p>
+      {% endif %}
+    </section>
+
+    {% for region in regions %}
+    <section>
+      <h2>{{ region_labels[region] }}</h2>
+      {% for category in categories %}
+      <section>
+        <h3>{{ category_labels[category] }}</h3>
+        {% set articles = digest.sections[region][category] %}
+        {% if articles %}
+          {% for article in articles %}
+          <article>
+            <h4><a href="{{ article.url }}" rel="noopener noreferrer">{{ article.title }}</a></h4>
+            <div class="item-meta">
+              <span class="source">{{ article.source }}</span>
+              {% if article.published_at %}<time>{{ article.published_at }}</time>{% endif %}
+              <span class="confidence">置信度 {{ "%.0f"|format(article.confidence * 100) }}%</span>
+            </div>
+            <p><span class="label">摘要：</span>{{ article.summary }}</p>
+            <p><span class="label">影响：</span>{{ article.impact }}</p>
+            <p><span class="label">值得关注：</span>{{ article.why_it_matters }}</p>
+            {% if article.references %}
+            <p><span class="label">来源：</span>
+              {% for ref in article.references %}
+              <a href="{{ ref.url }}" rel="noopener noreferrer">{{ ref.source or ref.title }}</a>{% if not loop.last %}、{% endif %}
+              {% endfor %}
+            </p>
+            {% endif %}
+          </article>
+          {% endfor %}
+        {% else %}
+        <p class="empty">暂无入选资讯。</p>
+        {% endif %}
+      </section>
+      {% endfor %}
+    </section>
+    {% endfor %}
+  </main>
+</body>
+</html>

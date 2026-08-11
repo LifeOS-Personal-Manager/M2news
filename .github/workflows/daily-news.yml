@@ -1,0 +1,72 @@
+name: Daily News Digest
+
+on:
+  schedule:
+    # 08:00 Asia/Shanghai = 00:00 UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run tests
+        run: pytest
+
+      - name: Generate digest
+        env:
+          NEWS_SOURCES: ${{ vars.NEWS_SOURCES }}
+          OUTPUT_DIR: public/news
+          TIMEZONE: Asia/Shanghai
+          USER_AGENT: PersonalNewsDigestBot/1.0
+          REQUEST_TIMEOUT: "15"
+          MAX_ARTICLES_PER_SOURCE: "20"
+          BASE_URL: ${{ vars.BASE_URL }}
+          ENABLE_LLM_ANALYSIS: "true"
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASE_URL: ${{ vars.OPENAI_BASE_URL }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+          OPENAI_TIMEOUT: "90"
+          ENABLE_SUPABASE_BACKUP: ${{ vars.ENABLE_SUPABASE_BACKUP }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SUPABASE_TABLE_DIGESTS: news_digests
+          SUPABASE_TABLE_ARTICLES: news_articles
+        run: python -m src.main
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,1 @@
+"""Personal news digest package."""
