@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import logging
+import re
 import time
 from datetime import datetime
 from email.utils import parsedate_to_datetime
@@ -13,6 +14,14 @@ from src.config import NewsSource
 from src.models import RawNewsItem
 
 logger = logging.getLogger(__name__)
+
+
+def _strip_html(text: str) -> str:
+    if not text:
+        return ""
+    text = re.sub(r"<[^>]+>", "", text)
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
 
 
 class RssCollector:
@@ -37,15 +46,16 @@ class RssCollector:
         items: list[RawNewsItem] = []
         for entry in feed.entries:
             link = str(entry.get("link", "")).strip()
-            title = str(entry.get("title", "")).strip()
+            title = _strip_html(str(entry.get("title", "")).strip())
             if not link or not title:
                 continue
-            summary = str(
+            raw_summary = (
                 entry.get("summary")
                 or entry.get("description")
                 or entry.get("subtitle")
                 or ""
             )
+            summary = _strip_html(str(raw_summary))[:500]
             items.append(
                 RawNewsItem.create(
                     title=title,

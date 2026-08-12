@@ -10,70 +10,130 @@
       --bg: #f7f7f5;
       --text: #1f2933;
       --muted: #667085;
-      --line: #d9ded8;
+      --line: #e4e4e1;
       --accent: #0f766e;
+      --accent-dark: #0d5f57;
       --paper: #ffffff;
       --soft: #eef6f4;
+      --soft-border: #c5e0da;
+      --highlight: #fff8e6;
+      --highlight-border: #e6c85a;
     }
     * { box-sizing: border-box; }
     body {
       margin: 0;
       background: var(--bg);
       color: var(--text);
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.65;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      line-height: 1.7;
+      font-size: 15px;
     }
     main {
-      width: min(1040px, calc(100% - 32px));
+      width: min(960px, calc(100% - 32px));
       margin: 0 auto;
-      padding: 32px 0 56px;
+      padding: 28px 0 56px;
     }
     header {
+      border-bottom: 2px solid var(--text);
+      margin-bottom: 20px;
+      padding-bottom: 16px;
+    }
+    h1 { font-size: 26px; margin: 0 0 6px; letter-spacing: 0; }
+    h2 {
+      font-size: 20px;
+      margin: 32px 0 14px;
+      padding-bottom: 6px;
       border-bottom: 1px solid var(--line);
-      margin-bottom: 24px;
-      padding-bottom: 18px;
+      letter-spacing: 0;
     }
-    h1 { font-size: 28px; margin: 0 0 8px; letter-spacing: 0; }
-    h2 { font-size: 22px; margin: 30px 0 12px; letter-spacing: 0; }
-    h3 { font-size: 18px; margin: 20px 0 12px; letter-spacing: 0; }
-    h4 { font-size: 17px; line-height: 1.45; margin: 0 0 8px; }
-    .meta, .source, time, .confidence { color: var(--muted); font-size: 14px; }
+    h3 {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--accent-dark);
+      margin: 18px 0 10px;
+      letter-spacing: 0;
+    }
+    h4 {
+      font-size: 16px;
+      line-height: 1.45;
+      margin: 0 0 8px;
+    }
+    .meta, .source, time, .confidence { color: var(--muted); font-size: 13px; }
     .highlights {
-      background: var(--soft);
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      margin-bottom: 24px;
-      padding: 16px 18px;
+      background: var(--highlight);
+      border: 2px solid var(--highlight-border);
+      border-radius: 10px;
+      margin-bottom: 28px;
+      padding: 18px 22px;
     }
-    .highlights ol { margin: 8px 0 0; padding-left: 22px; }
+    .highlights .label {
+      font-size: 18px;
+      font-weight: 700;
+      color: #8b6914;
+      margin-bottom: 10px;
+      display: block;
+    }
+    .highlights ol { margin: 0; padding-left: 26px; }
+    .highlights li {
+      margin: 8px 0;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 1.5;
+    }
+    .highlights li::marker {
+      font-weight: 700;
+      color: #b45309;
+    }
     article {
       background: var(--paper);
       border: 1px solid var(--line);
       border-radius: 8px;
-      margin-bottom: 12px;
-      padding: 16px;
+      margin-bottom: 10px;
+      padding: 14px 18px;
     }
     a { color: var(--accent); text-decoration: none; }
     a:hover { text-decoration: underline; }
-    p { margin: 8px 0 10px; }
+    p { margin: 6px 0; }
     .item-meta {
       display: flex;
       flex-wrap: wrap;
-      gap: 8px 12px;
+      gap: 8px 14px;
       align-items: center;
       margin-bottom: 8px;
     }
     .label { color: var(--muted); font-weight: 600; }
     .empty {
-      background: var(--paper);
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      padding: 14px 16px;
+      color: var(--muted);
+      font-size: 14px;
+      padding: 8px 0;
+    }
+    .fact {
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 1.55;
+      margin-bottom: 8px;
+    }
+    .detail p {
+      font-size: 14px;
+      line-height: 1.65;
+    }
+    .detail .label {
+      display: inline-block;
+      min-width: 72px;
+    }
+    .source-refs {
+      font-size: 13px;
+      margin-top: 8px;
+      padding-top: 8px;
+      border-top: 1px dashed var(--line);
+    }
+    .source-refs a {
+      color: var(--muted);
     }
     @media (max-width: 560px) {
-      main { width: min(100% - 24px, 1040px); padding-top: 22px; }
-      h1 { font-size: 24px; }
-      article { padding: 14px; }
+      main { width: min(100% - 20px, 960px); padding-top: 16px; }
+      h1 { font-size: 22px; }
+      article { padding: 12px 14px; }
     }
   </style>
 </head>
@@ -82,13 +142,12 @@
     <header>
       <h1>{{ page_title }}</h1>
       <div class="meta">
-        覆盖 {{ digest.period.from }} 至 {{ digest.period.to }}，
-        生成于 {{ digest.generated_at }}
+        覆盖 {{ digest.period.from }} 至 {{ digest.period.to }} · 生成于 {{ digest.generated_at }}
       </div>
     </header>
 
     <section class="highlights">
-      <strong>重点速览</strong>
+      <span class="label">🔥 今日 5 件大事</span>
       {% if digest.top_highlights %}
       <ol>
         {% for item in digest.top_highlights %}
@@ -96,44 +155,52 @@
         {% endfor %}
       </ol>
       {% else %}
-      <p>暂无重点资讯。</p>
+      <p>暂无可整理的重要资讯。</p>
       {% endif %}
     </section>
 
     {% for region in regions %}
+    {% set ns = namespace(has_content=false) %}
+    {% for category in categories %}
+      {% set articles = digest.sections[region][category] %}
+      {% if articles %}{% set ns.has_content = true %}{% endif %}
+    {% endfor %}
+    {% if ns.has_content %}
     <section>
       <h2>{{ region_labels[region] }}</h2>
       {% for category in categories %}
+      {% set articles = digest.sections[region][category] %}
+      {% if articles %}
       <section>
         <h3>{{ category_labels[category] }}</h3>
-        {% set articles = digest.sections[region][category] %}
-        {% if articles %}
-          {% for article in articles %}
-          <article>
-            <h4><a href="{{ article.url }}" rel="noopener noreferrer">{{ article.title }}</a></h4>
-            <div class="item-meta">
-              <span class="source">{{ article.source }}</span>
-              {% if article.published_at %}<time>{{ article.published_at }}</time>{% endif %}
-              <span class="confidence">置信度 {{ "%.0f"|format(article.confidence * 100) }}%</span>
-            </div>
-            <p><span class="label">摘要：</span>{{ article.summary }}</p>
+        {% for article in articles %}
+        <article>
+          <h4><a href="{{ article.url }}" rel="noopener noreferrer">{{ article.title }}</a></h4>
+          <div class="item-meta">
+            <span class="source">{{ article.source }}</span>
+            {% if article.published_at %}<time>{{ article.published_at }}</time>{% endif %}
+            <span class="confidence">置信度 {{ "%.0f"|format(article.confidence * 100) }}%</span>
+          </div>
+          <div class="detail">
+            <p><span class="label">事实：</span>{{ article.summary }}</p>
             <p><span class="label">影响：</span>{{ article.impact }}</p>
-            <p><span class="label">值得关注：</span>{{ article.why_it_matters }}</p>
-            {% if article.references %}
-            <p><span class="label">来源：</span>
-              {% for ref in article.references %}
-              <a href="{{ ref.url }}" rel="noopener noreferrer">{{ ref.source or ref.title }}</a>{% if not loop.last %}、{% endif %}
-              {% endfor %}
-            </p>
-            {% endif %}
-          </article>
-          {% endfor %}
-        {% else %}
-        <p class="empty">暂无入选资讯。</p>
-        {% endif %}
+            <p><span class="label">为何重要：</span>{{ article.why_it_matters }}</p>
+          </div>
+          {% if article.references %}
+          <div class="source-refs">
+            <span class="label">来源：</span>
+            {% for ref in article.references %}
+            <a href="{{ ref.url }}" rel="noopener noreferrer">{{ ref.source or ref.title }}</a>{% if not loop.last %} · {% endif %}
+            {% endfor %}
+          </div>
+          {% endif %}
+        </article>
+        {% endfor %}
       </section>
+      {% endif %}
       {% endfor %}
     </section>
+    {% endif %}
     {% endfor %}
   </main>
 </body>

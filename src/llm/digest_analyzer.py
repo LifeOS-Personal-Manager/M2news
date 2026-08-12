@@ -12,6 +12,9 @@ from src.models import utc_now_iso
 logger = logging.getLogger(__name__)
 
 
+MAX_PER_CATEGORY = 5
+
+
 class DigestAnalyzer:
     def __init__(
         self,
@@ -85,11 +88,20 @@ def fallback_digest(
             ],
         }
         sections[item.region][category].append(article)
+    for region in REGIONS:
+        for category in CATEGORIES:
+            sections[region][category] = _dedupe_and_trim(sections[region][category])
+    all_titles = [
+        a["title"]
+        for r in REGIONS
+        for c in CATEGORIES
+        for a in sections[r][c]
+    ]
     return DailyDigest(
         date=target_date,
         period={"from": period_from, "to": period_to},
         sections=sections,
-        top_highlights=[item.title for item in items[:5]],
+        top_highlights=all_titles[:5],
         generated_at=utc_now_iso(),
     )
 
@@ -110,11 +122,12 @@ def normalize_digest(
             for category in CATEGORIES:
                 raw_items = raw_region.get(category, [])
                 if isinstance(raw_items, list):
-                    sections[region][category] = [
+                    articles = [
                         normalize_article(item, region, category)
                         for item in raw_items
                         if isinstance(item, dict)
                     ]
+                    sections[region][category] = _dedupe_and_trim(articles)
     highlights = payload.get("top_highlights", [])
     if not isinstance(highlights, list):
         highlights = []
@@ -122,7 +135,7 @@ def normalize_digest(
         date=str(payload.get("date") or target_date),
         period={"from": period_from, "to": period_to},
         sections=sections,
-        top_highlights=[str(item) for item in highlights[:8]],
+        top_highlights=[str(item) for item in highlights[:5]],
         generated_at=str(payload.get("generated_at") or utc_now_iso()),
     )
 
@@ -178,3 +191,15 @@ def guess_category(item: RawNewsItem) -> str:
         if any(marker in text for marker in markers):
             return category
     return "politics"
+
+
+def _dedupe_and_trim(articles: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    seen_titles: set[str] = set()
+    unique: list[dict[str, Any]] = []
+    for article in articles:
+        title = str(article.get("title", "")).strip()
+        if not title or title in seen_titles:
+            continue
+        seen_titles.add(title)
+        unique.append(article)
+    return unique[:MAX_PER_CATEGORY]
