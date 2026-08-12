@@ -2,7 +2,6 @@ name: Daily News Digest
 
 on:
   schedule:
-    # 08:00 Asia/Shanghai = 00:00 UTC
     - cron: "0 0 * * *"
   workflow_dispatch:
 
@@ -17,7 +16,7 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -35,8 +34,25 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Verify environment
+        env:
+          NEWS_SOURCES: ${{ vars.NEWS_SOURCES }}
+          ENABLE_LLM_ANALYSIS: ${{ vars.ENABLE_LLM_ANALYSIS }}
+        run: |
+          echo "=== Environment Check ==="
+          echo "NEWS_SOURCES length: ${#NEWS_SOURCES}"
+          if [ -z "$NEWS_SOURCES" ]; then
+            echo "NOTE: NEWS_SOURCES not set, using DEFAULT_SOURCES from code"
+          else
+            echo "NEWS_SOURCES configured (${#NEWS_SOURCES} chars)"
+          fi
+          echo "ENABLE_LLM_ANALYSIS: ${ENABLE_LLM_ANALYSIS:-true}"
+          echo "Python version: $(python --version)"
+          echo "Working directory: $(pwd)"
+          echo "========================"
+
       - name: Run tests
-        run: pytest
+        run: pytest -v
 
       - name: Generate digest
         env:
@@ -44,29 +60,47 @@ jobs:
           OUTPUT_DIR: public/news
           TIMEZONE: Asia/Shanghai
           USER_AGENT: PersonalNewsDigestBot/1.0
-          REQUEST_TIMEOUT: "15"
+          REQUEST_TIMEOUT: "20"
           MAX_ARTICLES_PER_SOURCE: "20"
           BASE_URL: ${{ vars.BASE_URL }}
-          ENABLE_LLM_ANALYSIS: "true"
+          ENABLE_LLM_ANALYSIS: ${{ vars.ENABLE_LLM_ANALYSIS }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_BASE_URL: ${{ vars.OPENAI_BASE_URL }}
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
-          OPENAI_TIMEOUT: "90"
+          OPENAI_TIMEOUT: "120"
           ENABLE_SUPABASE_BACKUP: ${{ vars.ENABLE_SUPABASE_BACKUP }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           SUPABASE_TABLE_DIGESTS: news_digests
           SUPABASE_TABLE_ARTICLES: news_articles
-        run: python -m src.main
+        run: |
+          echo "=== Starting digest generation ==="
+          python -m src.main 2>&1
+          EXIT_CODE=$?
+          echo "=== Pipeline exit code: $EXIT_CODE ==="
+          if [ $EXIT_CODE -ne 0 ]; then
+            echo "ERROR: Pipeline failed with exit code $EXIT_CODE"
+            echo "Contents of public/news/:"
+            ls -la public/news/ 2>/dev/null || echo "  (directory empty or missing)"
+            echo "Recent logs:"
+            ls -la logs/ 2>/dev/null || echo "  (no logs directory)"
+            exit $EXIT_CODE
+          fi
+          echo "=== Pipeline completed successfully ==="
+          echo "Generated files:"
+          ls -la public/news/
 
       - name: Setup Pages
+        if: success()
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
+        if: success()
         uses: actions/upload-pages-artifact@v3
         with:
           path: public
 
       - name: Deploy to GitHub Pages
+        if: success()
         id: deployment
         uses: actions/deploy-pages@v4
