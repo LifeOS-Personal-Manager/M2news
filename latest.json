@@ -1,8 +1,8 @@
 {
   "date": "2026-08-13",
-  "generated_at": "2026-08-13T16:01:48.776648+00:00",
+  "generated_at": "2026-08-13T19:07:25.857988+00:00",
   "total_sources": 16,
-  "total_items": 57,
+  "total_items": 58,
   "items": [
     {
       "title": "伊朗最高领袖顾问：若条件得不到满足 或升级冲突",
@@ -10,8 +10,8 @@
       "summary": "伊朗最高领袖顾问穆赫贝尔13日在社交媒体上发文说，如果伊朗提出的条件得不到满足，最高领袖已明确作出战略决策，将采取升级冲突的方式予以回应。",
       "source": "中新社",
       "pubdate": "2026-08-13T15:56:31+00:00",
-      "final_score": 0.3643,
-      "confidence": 36.4,
+      "final_score": 0.3385,
+      "confidence": 33.8,
       "category": "其他",
       "hit_keywords": [
         "伊朗"
@@ -23,8 +23,8 @@
       "summary": "8月12日，中央结算公司支持上海电气集团股份有限公司境外子公司上海电气环球资本有限公司成功发行15亿元人民币自贸离岸债，期限3年，票面利率1.8%。",
       "source": "中新社",
       "pubdate": "2026-08-13T15:03:32+00:00",
-      "final_score": 0.3569,
-      "confidence": 35.7,
+      "final_score": 0.3311,
+      "confidence": 33.1,
       "category": "财经",
       "hit_keywords": [
         "中央",
@@ -37,8 +37,8 @@
       "summary": "中新网8月13日电(吴家驹)近日，中国证监会海南监管局网站发布行政监管措施决定书，对齐家私募基金管理(海南)有限公司(简称“齐家私募基金公司”)、齐俊杰采取责令改正的行政监管措施，并记入资本市场诚信档案数据库，同时要求于2026年9月30日前提交整改报告。",
       "source": "中新社",
       "pubdate": "2026-08-13T15:22:35+00:00",
-      "final_score": 0.3446,
-      "confidence": 34.5,
+      "final_score": 0.3188,
+      "confidence": 31.9,
       "category": "其他",
       "hit_keywords": [
         "数据"
@@ -50,8 +50,8 @@
       "summary": "据美国方面当地时间13日消息，美官员称，美国正准备将“乔治·华盛顿”号航母部署到中东，以替换“亚伯拉罕·林肯”号航母。",
       "source": "中新社",
       "pubdate": "2026-08-13T15:55:11+00:00",
-      "final_score": 0.3341,
-      "confidence": 33.4,
+      "final_score": 0.3083,
+      "confidence": 30.8,
       "category": "国际",
       "hit_keywords": [
         "中东"
@@ -63,8 +63,8 @@
       "summary": "北京时间8月13日，京东集团【纳斯达克代码：JD，港交所代号：9618(港币柜台)及89618(人民币柜台)】发布了2026年二季度及半年业绩，AI等新生产要素激发了供应链和产品的创新潮，京东的超级供应链优势更加凸显，围绕居家、健康、出行等需求的多样化生活服务进一步带动了用户活跃度的提升。",
       "source": "中新社",
       "pubdate": "2026-08-13T14:06:39+00:00",
-      "final_score": 0.334,
-      "confidence": 33.4,
+      "final_score": 0.3082,
+      "confidence": 30.8,
       "category": "社会",
       "hit_keywords": [
         "AI"
@@ -76,12 +76,23 @@
       "summary": "中新网佛山8月13日电 (记者 程景伟)中共佛山市南海区委、佛山市南海区人民政府13日通报，近日，网传个别参赛球员在第二届全国青少年“班超”足球赛期间的不当言行，南海区委、区人民政府高度重视，第一时间进行核查处置。",
       "source": "中新社",
       "pubdate": "2026-08-13T14:05:14+00:00",
-      "final_score": 0.3188,
-      "confidence": 31.9,
+      "final_score": 0.293,
+      "confidence": 29.3,
       "category": "政治",
       "hit_keywords": [
         "南海"
       ]
+    },
+    {
+      "title": "周星驰新作《功夫女足》登陆香港院线",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-13/10677338.shtml",
+      "summary": "中新社香港8月13日电 (记者 戴小橦)由香港电影人周星驰自编自导的体育喜剧电影《功夫女足》于13日正式登陆香港各大院线。影片延续周星驰标志性的“无厘头”喜剧风格，上映首日便凭借超高人气掀起香港本地观影热潮。",
+      "source": "中新社",
+      "pubdate": "2026-08-13T15:59:05+00:00",
+      "final_score": 0.2788,
+      "confidence": 27.9,
+      "category": "其他",
+      "hit_keywords": []
     },
     {
       "title": "中国男篮广东佛山热身赛战胜乌拉圭男篮",
@@ -89,8 +100,8 @@
       "summary": "中新社佛山8月13日电 (记者 张璐)中国男篮13日晚在广东佛山举行的一场热身赛中以83:78战胜乌拉圭男篮。",
       "source": "中新社",
       "pubdate": "2026-08-13T15:44:02+00:00",
-      "final_score": 0.3025,
-      "confidence": 30.3,
+      "final_score": 0.2768,
+      "confidence": 27.7,
       "category": "其他",
       "hit_keywords": []
     },
@@ -100,8 +111,8 @@
       "summary": "中新社东京8月13日电 (记者 朱晨曦)受暖湿气流与冷空气影响，包括东京在内的日本关东地区13日遭遇强降雨。强降雨已导致千叶县出现人员伤亡，数万户居民停电。",
       "source": "中新社",
       "pubdate": "2026-08-13T15:43:36+00:00",
-      "final_score": 0.3025,
-      "confidence": 30.2,
+      "final_score": 0.2767,
+      "confidence": 27.7,
       "category": "国际",
       "hit_keywords": []
     },
@@ -111,8 +122,8 @@
       "summary": "中新网北京8月13日电(记者 刘星晨)13日晚，宇树科技发布首次公开发行股票并在科创板上市发行结果公告。",
       "source": "中新社",
       "pubdate": "2026-08-13T15:21:59+00:00",
-      "final_score": 0.2995,
-      "confidence": 29.9,
+      "final_score": 0.2737,
+      "confidence": 27.4,
       "category": "财经",
       "hit_keywords": []
     },
@@ -122,8 +133,8 @@
       "summary": "中新网北京8月13日电 2025-2026金漪湖·国际篮联少年三人篮球总决赛在浙江省金华市FIBA(国际篮联)篮球之家落幕。近百支青少年篮球队伍参与其中，在U6、U8、U10、U12混合组及U10、U12女子组共六个组别中展开较量。",
       "source": "中新社",
       "pubdate": "2026-08-13T15:21:23+00:00",
-      "final_score": 0.2994,
-      "confidence": 29.9,
+      "final_score": 0.2736,
+      "confidence": 27.4,
       "category": "其他",
       "hit_keywords": []
     },
@@ -133,8 +144,8 @@
       "summary": "中新网8月13日电 以“四季丽水、全域轮滑”为主题的2026丽水国际轮滑赛12日在浙江省丽水全民健身中心收官，来自24个国家和地区的2000多名运动员及随行人员参与其中。",
       "source": "中新社",
       "pubdate": "2026-08-13T14:51:43+00:00",
-      "final_score": 0.2953,
-      "confidence": 29.5,
+      "final_score": 0.2695,
+      "confidence": 26.9,
       "category": "其他",
       "hit_keywords": []
     },
@@ -144,8 +155,8 @@
       "summary": "据福安市消防救援局通报，8月13日13时09分，福安市甘棠镇华海船厂着火。接报后，福安市消防救援局调派力量前往处置。13时25分，辖区站到场展开灭火救援。14时10分，现场突然发生爆炸，造成10名消防救援人员和2名群众受伤，均已送医救治。18时50分，1名消防救援人员经抢救无效不幸牺牲。",
       "source": "中新社",
       "pubdate": "2026-08-13T14:47:15+00:00",
-      "final_score": 0.2946,
-      "confidence": 29.5,
+      "final_score": 0.2689,
+      "confidence": 26.9,
       "category": "社会",
       "hit_keywords": []
     },
@@ -155,8 +166,8 @@
       "summary": "中新网北京8月13日电 题：法律落地有声 让民族团结扎根结果",
       "source": "中新社",
       "pubdate": "2026-08-13T14:44:15+00:00",
-      "final_score": 0.2942,
-      "confidence": 29.4,
+      "final_score": 0.2684,
+      "confidence": 26.8,
       "category": "其他",
       "hit_keywords": []
     },
@@ -166,8 +177,8 @@
       "summary": "中新社香港8月13日电 (记者 邱兆翔)香港特区政府统计处13日公布的最新对外商品贸易货量及价格统计数字显示，2026年上半年，香港商品整体出口货量同比上升28.7%，进口货量同比上升30.4%；商品整体出口价格同比上涨7.9%，进口价格同比上涨7.6%。",
       "source": "中新社",
       "pubdate": "2026-08-13T14:42:57+00:00",
-      "final_score": 0.294,
-      "confidence": 29.4,
+      "final_score": 0.2683,
+      "confidence": 26.8,
       "category": "政治",
       "hit_keywords": []
     },
@@ -177,8 +188,8 @@
       "summary": "中新网杭州8月13日电(林波)8月12日，在崭新的浙江省博物馆首座分馆——仙居县博物馆里，一位观众在展柜前停下脚步。展柜中，是一条北宋金龙，出土自仙居括苍洞，历经千余年，依然金光熠熠。",
       "source": "中新社",
       "pubdate": "2026-08-13T14:33:58+00:00",
-      "final_score": 0.2928,
-      "confidence": 29.3,
+      "final_score": 0.267,
+      "confidence": 26.7,
       "category": "其他",
       "hit_keywords": []
     },
@@ -188,8 +199,8 @@
       "summary": "8月13日，民众在福州达明美食街品尝美食。连日来，福州持续高温天气，“昼伏夜出”的避暑出游模式，持续带火福州夜间文旅经济。中新社记者 吕明 摄 8月13日，游客在福州三坊七巷游览、旅拍。连日来，福州持续高温天气，“昼伏夜出”的避暑出游模式，持续带火福州夜间文旅经济。中新社记者 吕明 摄 8月13日，游客在福州三坊七巷的文创旅行商店挑选商品。连日来，福州持续高温天气，“昼伏夜出”的避暑出游模式，持续带火福州夜间文旅经济。中新社记者 吕明 摄 8月13日，游客在福州三坊七巷游览、拍照。连日来，福州持续高温天气，“昼伏夜出”的避暑出游模式，持续带火福州夜间文旅经济。中新社记者 吕明 摄 8月13日，游客在福州三坊七巷游览。连日来，福州持续高温天气，“昼伏夜出”的避暑出游模式，持续带火福州夜间文旅经济。中新社记者 吕明 摄 8月13日，游客在福州三坊七巷游览。连日来，福州持续高温天气，“昼伏夜出”的避暑出游模式，持续带火福州夜间文旅经济。中新社记者 吕明 摄 8月13日，游客在福州三坊七巷游览、拍照。连日来，福州持续高温天气，“昼伏夜出”的避暑出游模式，持续带火福州夜间文旅经济。中新社记者 吕明 摄 8月13日，游客在福州三坊七巷游览。连日来，福州持续高温天气，“昼伏夜出”的避暑出游模式，持续带火福州夜间文旅经济。中新社记者 吕明 摄",
       "source": "中新社",
       "pubdate": "2026-08-13T14:26:08+00:00",
-      "final_score": 0.2917,
-      "confidence": 29.2,
+      "final_score": 0.2659,
+      "confidence": 26.6,
       "category": "其他",
       "hit_keywords": []
     },
@@ -199,8 +210,8 @@
       "summary": "中新网海口8月13日电 (张茜翼 张芷懿)中共三亚市委常委、市政府副市长向义海13日在海南省新闻办公室举行的发布会上表示，到2030年，三亚全市年接待国内外游客不低于5000万人次，年游客总花费不低于1600亿元，年接待入境游客不低于200万人次，力争达到250万人次。",
       "source": "中新社",
       "pubdate": "2026-08-13T14:17:01+00:00",
-      "final_score": 0.2904,
-      "confidence": 29.0,
+      "final_score": 0.2647,
+      "confidence": 26.5,
       "category": "政治",
       "hit_keywords": []
     },
@@ -210,8 +221,8 @@
       "summary": "中新网哈尔滨8月13日电 (记者 王琳)8月12日晚的哈尔滨大雨滂沱，第七届成龙国际动作电影周星光闪烁。一代又一代电影人在雨中体会，何为英雄，何为江湖。",
       "source": "中新社",
       "pubdate": "2026-08-13T14:12:15+00:00",
-      "final_score": 0.2898,
-      "confidence": 29.0,
+      "final_score": 0.264,
+      "confidence": 26.4,
       "category": "其他",
       "hit_keywords": []
     },
@@ -221,8 +232,8 @@
       "summary": "中新社银川8月13日电 (记者 杨迪)记者13日从宁夏回族自治区政府新闻办新闻发布会上获悉，中国第二个省级全域旅游示范区——宁夏正推动五个下辖地级市特色发展，构建覆盖全域的康养旅居产品矩阵。",
       "source": "中新社",
       "pubdate": "2026-08-13T14:11:57+00:00",
-      "final_score": 0.2897,
-      "confidence": 29.0,
+      "final_score": 0.264,
+      "confidence": 26.4,
       "category": "政治",
       "hit_keywords": []
     },
@@ -232,8 +243,8 @@
       "summary": "中新网广西河池8月13日电(俞靖 黄开均)今年上半年，广西河池市以巴马国际长寿养生旅游胜地、深圳巴马大健康合作特别试验区(以下简称：深巴试验区)、东巴凤区域一体化发展三大核心任务为牵引，重塑发展格局，交出一份“世界长寿之乡”牵手粤港澳大湾区，共育康养文旅产业的发展答卷。",
       "source": "中新社",
       "pubdate": "2026-08-13T14:11:49+00:00",
-      "final_score": 0.2897,
-      "confidence": 29.0,
+      "final_score": 0.2639,
+      "confidence": 26.4,
       "category": "社会",
       "hit_keywords": []
     },
@@ -243,8 +254,8 @@
       "summary": "中新社石家庄8月13日电 (赵丹媚 张延宾)据河北省气象局消息，8月13日，为期4天的华北暴雨综合科学试验完成台风“白海豚”敏感区加密观测。",
       "source": "中新社",
       "pubdate": "2026-08-13T14:09:11+00:00",
-      "final_score": 0.2894,
-      "confidence": 28.9,
+      "final_score": 0.2636,
+      "confidence": 26.4,
       "category": "其他",
       "hit_keywords": []
     },
@@ -254,8 +265,8 @@
       "summary": "中新社香港8月13日电 香港特区政府8月13日在皇岗口岸港方口岸区举行首次大型演练，以测试口岸联检大楼和公共运输交汇处的人流及车流整体管理。此次演练动员约1000名来自超过20个部门的特区政府公务员参与。",
       "source": "中新社",
       "pubdate": "2026-08-13T14:04:42+00:00",
-      "final_score": 0.2887,
-      "confidence": 28.9,
+      "final_score": 0.263,
+      "confidence": 26.3,
       "category": "政治",
       "hit_keywords": []
     },
@@ -265,8 +276,8 @@
       "summary": "中新网青岛8月13日电 (张孝鹏)美国艾奥瓦州青少年代表团13日到访青岛西海岸中学，与当地学生共同开启文化交流之旅。活动通过传统文化深度体验、结对交流等形式，让美国青少年深入了解中国校园育人模式、沉浸式体验中华优秀传统文化独特魅力，并收获跨国友谊。",
       "source": "中新社",
       "pubdate": "2026-08-13T14:00:56+00:00",
-      "final_score": 0.2882,
-      "confidence": 28.8,
+      "final_score": 0.2624,
+      "confidence": 26.2,
       "category": "国际",
       "hit_keywords": []
     },
@@ -276,8 +287,8 @@
       "summary": "中新网深圳8月13日电 (记者 程景伟)爱达邮轮旗下首艘国产大型邮轮爱达·魔都号13日搭载近4600名宾客从深圳招商蛇口国际邮轮母港启航，开启5天4晚到访越南顺化(真美)的海上之旅。这是爱达·魔都号首次在粤港澳大湾区运营国际邮轮航线。",
       "source": "中新社",
       "pubdate": "2026-08-13T14:00:18+00:00",
-      "final_score": 0.2881,
-      "confidence": 28.8,
+      "final_score": 0.2623,
+      "confidence": 26.2,
       "category": "其他",
       "hit_keywords": []
     },
@@ -287,8 +298,8 @@
       "summary": "中新社上海8月13日电 总部设于上海的中远海运集团13日对外发布信息称，今年上半年钱凯港完成集装箱船舶作业137艘次，比去年同期增长35.64%；散杂货船舶作业50艘次，同比增长28.2%；滚装船作业14艘次，同比增长133.33%；装箱作业4349TEU(标准箱)，同比增长127.82%；拆箱作业1724TEU，同比增长168.54%。",
       "source": "中新社",
       "pubdate": "2026-08-13T13:59:30+00:00",
-      "final_score": 0.288,
-      "confidence": 28.8,
+      "final_score": 0.2622,
+      "confidence": 26.2,
       "category": "其他",
       "hit_keywords": []
     },
@@ -298,8 +309,8 @@
       "summary": "【东盟专线】东南亚水果经中老铁路输华今年已超20万吨",
       "source": "中新社",
       "pubdate": "2026-08-13T13:58:50+00:00",
-      "final_score": 0.2879,
-      "confidence": 28.8,
+      "final_score": 0.2621,
+      "confidence": 26.2,
       "category": "其他",
       "hit_keywords": []
     },
@@ -309,8 +320,8 @@
       "summary": "中新社北京8月13日电 题：追忆“两弹一星”元勋王希季：转行拓荒，铺就中国航天路",
       "source": "中新社",
       "pubdate": "2026-08-13T13:58:04+00:00",
-      "final_score": 0.2878,
-      "confidence": 28.8,
+      "final_score": 0.262,
+      "confidence": 26.2,
       "category": "科技",
       "hit_keywords": []
     },
@@ -320,8 +331,8 @@
       "summary": "中新社重庆8月13日电 (张旭 陈媛)重庆海关13日公布，据该关统计，2026年前7个月，重庆出口汽车353.3亿元人民币，同比增长57.1%。",
       "source": "中新社",
       "pubdate": "2026-08-13T13:56:01+00:00",
-      "final_score": 0.2875,
-      "confidence": 28.8,
+      "final_score": 0.2617,
+      "confidence": 26.2,
       "category": "其他",
       "hit_keywords": []
     },
@@ -331,21 +342,49 @@
       "summary": "中新社唐山8月13日电 (陈林 李鹏 安麒静)为期11天的“青春相约·逐梦燕赵”——第八届两岸未来媒体人河北长城文化采风暨台湾传媒学子河北实习营活动13日落幕，来自冀台两地10余所高校新闻、影视、视觉传达类专业的近40名大学生在唐山作别，各自踏上返程。",
       "source": "中新社",
       "pubdate": "2026-08-13T13:53:25+00:00",
-      "final_score": 0.2872,
-      "confidence": 28.7,
+      "final_score": 0.2614,
+      "confidence": 26.1,
       "category": "其他",
       "hit_keywords": []
     },
     {
-      "title": "174名攀岩好手江西赣州竞技亚洲青年杯",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-13/10677298.shtml",
-      "summary": "中新社江西赣州8月13日电 (记者 姜涛)2026年世界攀联亚洲青年杯(中国全南)13日在江西省赣州市全南县开赛。来自中国、新加坡、日本、泰国、马来西亚等亚洲8个国家和地区的174名选手同台竞技，演绎“岩壁芭蕾”的魅力。",
-      "source": "中新社",
-      "pubdate": "2026-08-13T13:52:23+00:00",
-      "final_score": 0.287,
-      "confidence": 28.7,
-      "category": "国际",
-      "hit_keywords": []
+      "title": "Conditions on US aircraft carrier at sea for more than 250 days raise alarms",
+      "url": "https://www.bbc.co.uk/news/articles/cyvl2d5j52lo?at_medium=RSS&at_campaign=rss",
+      "summary": "Thousands of sailors on the USS Abraham Lincoln have reportedly faced food shortages and broken plumbing, with some considering jumping overboard.",
+      "source": "BBC World",
+      "pubdate": "2026-08-13T18:36:02+00:00",
+      "final_score": 0.2406,
+      "confidence": 24.1,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Sandisk’s stock is flying higher. Here are the new targets that are exciting Wall Street.",
+      "url": "https://www.marketwatch.com/story/sandisks-stock-is-flying-higher-here-are-the-new-targets-that-are-exciting-wall-street-4eaab99d?mod=mw_rss_topstories",
+      "summary": "The memory-chip company just offered revenue-growth forecasts stretching to the end of the decade, and Sandisk expects to maintain its high profitability as the years go on.",
+      "source": "WSJ Markets",
+      "pubdate": "2026-08-13T16:58:00+00:00",
+      "final_score": 0.227,
+      "confidence": 22.7,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Air India to test all pilots for banned substances",
+      "url": "https://www.bbc.co.uk/news/articles/c2352jyvm5xo?at_medium=RSS&at_campaign=rss",
+      "summary": "It comes after one of its planes suddenly lost altitude last week, with a number of passengers injured.",
+      "source": "BBC World",
+      "pubdate": "2026-08-13T16:52:15+00:00",
+      "final_score": 0.2262,
+      "confidence": 22.6,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
     },
     {
       "title": "These nontech stocks can ride the AI build-out for years",
@@ -353,8 +392,8 @@
       "summary": "Massive spending on data centers and AI infrastructure can benefit “HALO” companies: hard assets, low obsolescence.",
       "source": "WSJ Markets",
       "pubdate": "2026-08-13T15:48:00+00:00",
-      "final_score": 0.2431,
-      "confidence": 24.3,
+      "final_score": 0.2173,
+      "confidence": 21.7,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -366,8 +405,8 @@
       "summary": "The cost of plane tickets has soared over the past year, but consumer demand has yet to slow down during this summer travel season.",
       "source": "WSJ Markets",
       "pubdate": "2026-08-13T15:08:00+00:00",
-      "final_score": 0.2375,
-      "confidence": 23.8,
+      "final_score": 0.2117,
+      "confidence": 21.2,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -379,8 +418,8 @@
       "summary": "In some Sun Belt areas, nearly 1 in 5 sellers are asking for less than what they paid.",
       "source": "WSJ Markets",
       "pubdate": "2026-08-13T14:57:00+00:00",
-      "final_score": 0.236,
-      "confidence": 23.6,
+      "final_score": 0.2102,
+      "confidence": 21.0,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -392,8 +431,8 @@
       "summary": "A fifth has been reinstated, though an appeals board found that the whole group broke Hockey Canada's code of conduct.",
       "source": "BBC World",
       "pubdate": "2026-08-13T14:51:44+00:00",
-      "final_score": 0.2353,
-      "confidence": 23.5,
+      "final_score": 0.2095,
+      "confidence": 20.9,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -405,8 +444,8 @@
       "summary": "Employers are looking for “coachability, curiosity, reliability and comfort asking for clarification.”",
       "source": "WSJ Markets",
       "pubdate": "2026-08-13T14:49:00+00:00",
-      "final_score": 0.2349,
-      "confidence": 23.5,
+      "final_score": 0.2091,
+      "confidence": 20.9,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -418,8 +457,8 @@
       "summary": "Hakainde Hichilema wants five more years but continued cost of living pressures have dented his appeal.",
       "source": "BBC World",
       "pubdate": "2026-08-13T14:29:11+00:00",
-      "final_score": 0.2321,
-      "confidence": 23.2,
+      "final_score": 0.2064,
+      "confidence": 20.6,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -431,34 +470,8 @@
       "summary": "Shares of Dell have roughly quadrupled in price this year, with Lenovo’s earnings report helping to drive the latest bout of momentum for the PC and server maker.",
       "source": "WSJ Markets",
       "pubdate": "2026-08-13T14:08:00+00:00",
-      "final_score": 0.2292,
-      "confidence": 22.9,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "‘I unexpectedly came into some money’: Is putting $20,000 into CDs a smart move?",
-      "url": "https://www.marketwatch.com/story/i-unexpectedly-came-into-some-money-is-putting-20-000-into-cds-a-smart-move-6c410458?mod=mw_rss_topstories",
-      "summary": "“I want to make the process as straightforward as possible for my beneficiaries to access the funds.”",
-      "source": "WSJ Markets",
-      "pubdate": "2026-08-13T14:01:00+00:00",
-      "final_score": 0.2282,
-      "confidence": 22.8,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "Can I claim 50% of my husband’s Social Security now — and switch to my higher benefit at 70?",
-      "url": "https://www.marketwatch.com/story/can-i-claim-50-of-my-husbands-social-security-now-and-switch-to-my-higher-benefit-at-70-5518700b?mod=mw_rss_topstories",
-      "summary": "“I would like to offer a piece of advice for women who are or have been married.”",
-      "source": "WSJ Markets",
-      "pubdate": "2026-08-13T14:00:00+00:00",
-      "final_score": 0.2281,
-      "confidence": 22.8,
+      "final_score": 0.2034,
+      "confidence": 20.3,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -470,33 +483,7 @@
       "summary": "The police-tech giant Flock is announcing today that it will change officers’ access to its nationwide network of license plate readers, in an apparent effort to quell a growing backlash and win back contracts lost amid concerns about mass surveillance and police abuse. Several changes aim directly at a problem that has made recent headlines:&#8230;",
       "source": "MIT Tech Review",
       "pubdate": "2026-08-13T13:41:10+00:00",
-      "final_score": 0.2255,
-      "confidence": 22.5,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "The Download: kids’ thoughts on AI, and female clones of male mice",
-      "url": "https://www.technologyreview.com/2026/08/13/1141896/the-download-kids-thoughts-on-ai-female-clones-male-mice/",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How kids feel about AI, in their own words —Jen Swetzoff and Keeley McNamara, the founding editors of Anyway, an independent print magazine for tweens and teens When we set out&#8230;",
-      "source": "MIT Tech Review",
-      "pubdate": "2026-08-13T12:10:00+00:00",
-      "final_score": 0.2128,
-      "confidence": 21.3,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "Twitch users outraged as Amazon uses their content to train AI in opt-out feature",
-      "url": "https://www.bbc.co.uk/news/articles/cp30pz8d09jo?at_medium=RSS&at_campaign=rss",
-      "summary": "Users of the popular streaming platform criticised allowing Amazon to use their data by dafault.",
-      "source": "BBC World",
-      "pubdate": "2026-08-13T10:39:02+00:00",
-      "final_score": 0.2002,
+      "final_score": 0.1997,
       "confidence": 20.0,
       "category": "其他",
       "hit_keywords": [
@@ -504,13 +491,48 @@
       ]
     },
     {
-      "title": "Presidential pardon for French alleged spy accused of plotting Mali coup",
-      "url": "https://www.bbc.co.uk/news/articles/c2el29e3m3xo?at_medium=RSS&at_campaign=rss",
-      "summary": "France is yet to comment on Yann Vezilier's pardon and previously called the accusations \"unfounded\".",
+      "title": "Mangione lawyers to meet federal prosecutors amid reports of plea deal",
+      "url": "https://www.bbc.co.uk/news/articles/c5yw71q9y00o?at_medium=RSS&at_campaign=rss",
+      "summary": "Mangione faces two federal charges of stalking resulting in death, each carrying a maximum sentence of life in prison.",
       "source": "BBC World",
-      "pubdate": "2026-08-13T15:50:49+00:00",
-      "final_score": 0.1985,
-      "confidence": 19.8,
+      "pubdate": "2026-08-13T18:45:51+00:00",
+      "final_score": 0.197,
+      "confidence": 19.7,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "Building a practical path to post-quantum cryptography",
+      "url": "https://www.technologyreview.com/2026/08/13/1141041/building-a-practical-path-to-post-quantum-cryptography/",
+      "summary": "Quantum computing has alternated between breakthrough darling and overhyped promise in technology circles. Its powerful new capabilities come with a threat to break current cryptography, but for business leaders navigating the noise, the signal should be clear: post-quantum cryptography (PQC) is a manageable evolution, not a crisis. The mathematics behind today&#8217;s encrypted digital transactions may&#8230;",
+      "source": "MIT Tech Review",
+      "pubdate": "2026-08-13T18:11:42+00:00",
+      "final_score": 0.1923,
+      "confidence": 19.2,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "The Download: kids’ thoughts on AI, and female clones of male mice",
+      "url": "https://www.technologyreview.com/2026/08/13/1141896/the-download-kids-thoughts-on-ai-female-clones-male-mice/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How kids feel about AI, in their own words —Jen Swetzoff and Keeley McNamara, the founding editors of Anyway, an independent print magazine for tweens and teens When we set out&#8230;",
+      "source": "MIT Tech Review",
+      "pubdate": "2026-08-13T12:10:00+00:00",
+      "final_score": 0.187,
+      "confidence": 18.7,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Why September is the worst month of the year for the stock market",
+      "url": "https://www.marketwatch.com/story/why-september-is-the-worst-month-of-the-year-for-the-stock-market-59285c78?mod=mw_rss_topstories",
+      "summary": "The introduction of pumpkin-spice lattes to menus means the end of summer is approaching, along with positive vibes",
+      "source": "WSJ Markets",
+      "pubdate": "2026-08-13T17:06:00+00:00",
+      "final_score": 0.1831,
+      "confidence": 18.3,
       "category": "其他",
       "hit_keywords": []
     },
@@ -519,9 +541,31 @@
       "url": "https://www.bbc.co.uk/news/articles/cj4kppdk2qwo?at_medium=RSS&at_campaign=rss",
       "summary": "The mayor of Qusra says Israeli troops have been telling families to leave their houses, using some as barracks.",
       "source": "BBC World",
-      "pubdate": "2026-08-13T15:40:31+00:00",
-      "final_score": 0.197,
-      "confidence": 19.7,
+      "pubdate": "2026-08-13T16:20:41+00:00",
+      "final_score": 0.1768,
+      "confidence": 17.7,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "Romania shuts only nuclear plant as heat causes huge drop in Danube River level",
+      "url": "https://www.bbc.co.uk/news/articles/cqlxpq5q799o?at_medium=RSS&at_campaign=rss",
+      "summary": "The Cernavodă plant, which produces 20% of Romania's electricity, is not expected to be restarted within the next 10 days.",
+      "source": "BBC World",
+      "pubdate": "2026-08-13T16:05:35+00:00",
+      "final_score": 0.1747,
+      "confidence": 17.5,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "Presidential pardon for French alleged spy accused of plotting Mali coup",
+      "url": "https://www.bbc.co.uk/news/articles/c2el29e3m3xo?at_medium=RSS&at_campaign=rss",
+      "summary": "France is yet to comment on Yann Vezilier's pardon and previously called the accusations \"unfounded\".",
+      "source": "BBC World",
+      "pubdate": "2026-08-13T15:50:49+00:00",
+      "final_score": 0.1727,
+      "confidence": 17.3,
       "category": "其他",
       "hit_keywords": []
     },
@@ -531,8 +575,8 @@
       "summary": "Under local regulations in the region, \"it is forbidden to needlessly disturb, attract or pursue a polar bear\".",
       "source": "BBC World",
       "pubdate": "2026-08-13T15:30:57+00:00",
-      "final_score": 0.1957,
-      "confidence": 19.6,
+      "final_score": 0.1699,
+      "confidence": 17.0,
       "category": "其他",
       "hit_keywords": []
     },
@@ -542,8 +586,8 @@
       "summary": "The UK government says it is \"disrupting and deterring shadow fleet vessels\" in accordance with the law.",
       "source": "BBC World",
       "pubdate": "2026-08-13T15:05:12+00:00",
-      "final_score": 0.1921,
-      "confidence": 19.2,
+      "final_score": 0.1664,
+      "confidence": 16.6,
       "category": "其他",
       "hit_keywords": []
     },
@@ -553,19 +597,19 @@
       "summary": "We will never make medicine affordable if how to tie a drug’s price to its value is solely determined by the companies creating the drugs.",
       "source": "WSJ Markets",
       "pubdate": "2026-08-13T15:01:00+00:00",
-      "final_score": 0.1916,
-      "confidence": 19.2,
+      "final_score": 0.1658,
+      "confidence": 16.6,
       "category": "其他",
       "hit_keywords": []
     },
     {
-      "title": "Who could potentially replace White House Press Secretary Karoline Leavitt?",
+      "title": "Who could replace White House Press Secretary Karoline Leavitt?",
       "url": "https://www.bbc.co.uk/news/articles/c0l5273xjnlo?at_medium=RSS&at_campaign=rss",
       "summary": "The job requires managing a complex relationship with the media - as well Trump's high expectations.",
       "source": "BBC World",
       "pubdate": "2026-08-13T14:56:19+00:00",
-      "final_score": 0.1909,
-      "confidence": 19.1,
+      "final_score": 0.1651,
+      "confidence": 16.5,
       "category": "其他",
       "hit_keywords": []
     },
@@ -575,8 +619,8 @@
       "summary": "“Some readers — and couples — would be grateful to retire on half that amount.”",
       "source": "WSJ Markets",
       "pubdate": "2026-08-13T14:30:00+00:00",
-      "final_score": 0.1872,
-      "confidence": 18.7,
+      "final_score": 0.1615,
+      "confidence": 16.1,
       "category": "其他",
       "hit_keywords": []
     },
@@ -586,8 +630,8 @@
       "summary": "When we set out to talk to kids about artificial intelligence, we thought we knew what we’d hear. We expected some to tell us they were using it to cheat a little, the way Millennials and Gen Xers opened up CliffsNotes or programmed formulas into their TI-82s, and others to share inspiring ways they were&#8230;",
       "source": "MIT Tech Review",
       "pubdate": "2026-08-13T09:00:00+00:00",
-      "final_score": 0.1864,
-      "confidence": 18.6,
+      "final_score": 0.1606,
+      "confidence": 16.1,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -599,8 +643,8 @@
       "summary": "“We have about $1.7 million invested but only around $20,000 in cash.”",
       "source": "WSJ Markets",
       "pubdate": "2026-08-13T14:15:00+00:00",
-      "final_score": 0.1852,
-      "confidence": 18.5,
+      "final_score": 0.1594,
+      "confidence": 15.9,
       "category": "其他",
       "hit_keywords": []
     },
@@ -610,8 +654,8 @@
       "summary": "Despite growing opposition to the death penalty, one state is behind the rising numbers.",
       "source": "BBC World",
       "pubdate": "2026-08-13T13:27:00+00:00",
-      "final_score": 0.1785,
-      "confidence": 17.8,
+      "final_score": 0.1527,
+      "confidence": 15.3,
       "category": "其他",
       "hit_keywords": []
     },
@@ -621,19 +665,8 @@
       "summary": "Hear from voters in Kingsport, home to a munitions plant supplying the US military, as tensions over the Iran war spark debate.",
       "source": "BBC World",
       "pubdate": "2026-08-13T13:20:55+00:00",
-      "final_score": 0.1777,
-      "confidence": 17.8,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "Eurovision Song Contest 2027 to be held in Burgas, Bulgaria",
-      "url": "https://www.bbc.co.uk/news/articles/cly8p8lpyvmo?at_medium=RSS&at_campaign=rss",
-      "summary": "The Black Sea location has been selected after Bulgarian singer Dara won this year's contest.",
-      "source": "BBC World",
-      "pubdate": "2026-08-13T11:10:31+00:00",
-      "final_score": 0.1595,
-      "confidence": 16.0,
+      "final_score": 0.1519,
+      "confidence": 15.2,
       "category": "其他",
       "hit_keywords": []
     },
@@ -643,36 +676,10 @@
       "summary": "This summer has been a scorcher for much of the Northern Hemisphere. June and July marked the hottest two-month stretch in Europe since record-keeping began. The contiguous US endured its hottest month on record in July. South Korea saw its highest-ever recorded temperature. The heat isn’t over yet, but some scientists are already looking ahead&#8230;",
       "source": "MIT Tech Review",
       "pubdate": "2026-08-13T10:00:00+00:00",
-      "final_score": 0.1497,
-      "confidence": 15.0,
+      "final_score": 0.124,
+      "confidence": 12.4,
       "category": "其他",
       "hit_keywords": []
-    },
-    {
-      "title": "Scientists just created female clones of male mice",
-      "url": "https://www.technologyreview.com/2026/08/12/1141768/scientists-just-created-female-clones-of-male-mice/",
-      "summary": "Scientists have deliberately turned male mouse embryos into females for the first time. A team based in Japan used a CRISPR-based approach to remove the Y chromosome from male cells and create female clones of male mice.&#160; “No one has done this before,” says Monika Ward, a reproductive biologist at the University of Hawaii, who&#8230;",
-      "source": "MIT Tech Review",
-      "pubdate": "2026-08-12T18:59:48+00:00",
-      "final_score": 0.0697,
-      "confidence": 7.0,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "Scaling AI agents with trustworthy data",
-      "url": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
-      "summary": "Business and technology leaders need no convincing that the time of agentic AI is here. Organizations are rapidly adopting agents, and few executives doubt the technology’s potential to transform work. But many organizations find that realizing the desired return on investment (ROI) from AI hinges on having the right foundation, with inadequate infrastructure and data&#8230;",
-      "source": "MIT Tech Review",
-      "pubdate": "2026-08-12T16:51:57+00:00",
-      "final_score": 0.052,
-      "confidence": 5.2,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
     }
   ]
 }
