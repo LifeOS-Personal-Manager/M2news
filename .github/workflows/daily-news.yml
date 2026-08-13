@@ -37,7 +37,6 @@ jobs:
 
       - name: Verify environment
         env:
-          NEWS_SOURCES: ${{ vars.NEWS_SOURCES }}
           ENABLE_LLM_ANALYSIS: ${{ vars.ENABLE_LLM_ANALYSIS }}
           PYTHONPATH: ${{ github.workspace }}
         run: |
@@ -46,9 +45,14 @@ jobs:
           echo "NEWS_SOURCES length: ${#NEWS_SOURCES}"
           python -c "import src; print('src module import OK')"
           if [ -z "$NEWS_SOURCES" ]; then
-            echo "NOTE: NEWS_SOURCES not set, using DEFAULT_SOURCES from code"
+            echo "NOTE: NEWS_SOURCES not set, loading from feeds.json"
+            if [ -f feeds.json ]; then
+              echo "feeds.json found: $(python -c "import json; d=json.load(open('feeds.json')); print(len(d.get('sources',[])), 'sources')")"
+            else
+              echo "WARNING: feeds.json not found, using DEFAULT_SOURCES from code"
+            fi
           else
-            echo "NEWS_SOURCES configured (${#NEWS_SOURCES} chars)"
+            echo "NEWS_SOURCES env var configured (${#NEWS_SOURCES} chars), overrides feeds.json"
           fi
           echo "ENABLE_LLM_ANALYSIS: ${ENABLE_LLM_ANALYSIS:-true}"
           echo "Python version: $(python --version)"
@@ -62,7 +66,6 @@ jobs:
 
       - name: Generate digest
         env:
-          NEWS_SOURCES: ${{ vars.NEWS_SOURCES }}
           OUTPUT_DIR: public/news
           TIMEZONE: Asia/Shanghai
           USER_AGENT: PersonalNewsDigestBot/1.0
