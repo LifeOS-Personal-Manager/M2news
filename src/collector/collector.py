@@ -38,11 +38,10 @@ class NewsCollector:
             if not source.enabled:
                 continue
             try:
-                collected.extend(
-                    self._collect_source(source, date)[
-                        : self.settings.max_articles_per_source
-                    ]
-                )
+                items = self._collect_source(source, date)
+                # Sort by published_at descending (newest first), then trim
+                items = _sort_by_date(items)
+                collected.extend(items[: self.settings.max_articles_per_source])
             except Exception:
                 logger.exception("Failed to collect source: %s", source.name)
         return _dedupe_items(collected)
@@ -94,3 +93,12 @@ def _dedupe_items(items: list[RawNewsItem]) -> list[RawNewsItem]:
         seen.add(item.hash)
         result.append(item)
     return result
+
+
+def _sort_by_date(items: list[RawNewsItem]) -> list[RawNewsItem]:
+    """Sort items by published_at descending (newest first).
+    Items without published_at are treated as newest.
+    """
+    def sort_key(item: RawNewsItem) -> str:
+        return item.published_at or "9999-12-31T23:59:59Z"
+    return sorted(items, key=sort_key, reverse=True)

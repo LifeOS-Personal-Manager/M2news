@@ -3,7 +3,7 @@ from __future__ import annotations
 import logging
 import re
 import time
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from typing import Any
 
@@ -15,13 +15,46 @@ from src.models import RawNewsItem
 
 logger = logging.getLogger(__name__)
 
+_TAG_RE = re.compile(r"<[^>]+>")
+_WS_RE = re.compile(r"\s+")
+
 
 def _strip_html(text: str) -> str:
     if not text:
         return ""
-    text = re.sub(r"<[^>]+>", "", text)
-    text = re.sub(r"\s+", " ", text)
+    text = _TAG_RE.sub("", text)
+    text = _WS_RE.sub(" ", text)
     return text.strip()
+
+
+def _entry_published_at(entry: Any) -> str | None:
+    for key in ("published", "updated", "created"):
+        value = entry.get(key)
+        if not value:
+            continue
+        try:
+            dt = parsedate_to_datetime(value)
+            return dt.isoformat()
+        except (TypeError, ValueError, IndexError):
+            try:
+                return datetime.fromisoformat(str(value)).isoformat()
+            except ValueError:
+                return str(value)
+    return None
+
+
+def _entry_datetime(entry: Any) -> datetime | None:
+    """Parse entry publication time as a timezone-aware datetime."""
+    iso = _entry_published_at(entry)
+    if not iso:
+        return None
+    try:
+        dt = datetime.fromisoformat(iso)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt
+    except ValueError:
+        return None
 
 
 class RssCollector:
@@ -37,11 +70,18 @@ class RssCollector:
         self.max_retries = max_retries
         self.backoff_base = backoff_base
 
-    def collect(self, source: NewsSource, date: str | None = None) -> list[RawNewsItem]:
+    def collect(
+        self,
+        source: NewsSource,
+        date: str | None = None,
+    ) -> list[RawNewsItem]:
         content = self._fetch(source.url)
         feed = feedparser.parse(content)
         if getattr(feed, "bozo", False):
             logger.warning("RSS parser reported a problem for %s", source.url)
+
+        now = datetime.now(timezone.utc)
+        cutoff = now - timedelta(hours=source.time_window_hours)
 
         items: list[RawNewsItem] = []
         for entry in feed.entries:
@@ -49,6 +89,18 @@ class RssCollector:
             title = _strip_html(str(entry.get("title", "")).strip())
             if not link or not title:
                 continue
+
+            published_at = _entry_published_at(entry)
+            entry_dt = _entry_datetime(entry)
+
+            # Time window filtering: skip entries older than the cutoff
+            if entry_dt and entry_dt < cutoff:
+                logger.debug(
+                    "Skipping old entry from %s: %s (published %s, cutoff %s)",
+                    source.name, title[:40], entry_dt.isoformat(), cutoff.isoformat(),
+                )
+                continue
+
             raw_summary = (
                 entry.get("summary")
                 or entry.get("description")
@@ -56,6 +108,7 @@ class RssCollector:
                 or ""
             )
             summary = _strip_html(str(raw_summary))[:500]
+
             items.append(
                 RawNewsItem.create(
                     title=title,
@@ -63,9 +116,14 @@ class RssCollector:
                     summary=summary,
                     source=source.name,
                     region=source.region,
-                    published_at=_entry_published_at(entry),
+                    published_at=published_at,
                 )
             )
+
+        logger.info(
+            "Collected %d items from %s (time_window=%dh, cutoff=%s)",
+            len(items), source.name, source.time_window_hours, cutoff.isoformat(),
+        )
         return items
 
     def _fetch(self, url: str) -> bytes:
@@ -85,18 +143,3 @@ class RssCollector:
                     break
                 time.sleep(self.backoff_base * (2 ** (attempt - 1)))
         raise RuntimeError(f"Failed to fetch RSS after retries: {url}") from last_error
-
-
-def _entry_published_at(entry: Any) -> str | None:
-    for key in ("published", "updated", "created"):
-        value = entry.get(key)
-        if not value:
-            continue
-        try:
-            return parsedate_to_datetime(value).isoformat()
-        except (TypeError, ValueError, IndexError):
-            try:
-                return datetime.fromisoformat(str(value)).isoformat()
-            except ValueError:
-                return str(value)
-    return None

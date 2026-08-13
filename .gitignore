@@ -14,6 +14,4 @@ data/*.html
 !data/.gitkeep
 .env
 logs/*.log
-public/news/*.json
-public/news/*.html
-!public/news/.gitkeep
+# public/news/*.json 和 public/news/*.html 由 CI 生成并提交到仓库，不忽略
