@@ -17,6 +17,10 @@ class NewsSource:
     type: str = "rss"
     enabled: bool = True
     fallback_url: str | None = None
+    weight: float = 0.5
+    time_window_hours: int = 24
+    parse_mode: str = "rss"
+    category: str = ""
 
 
 @dataclass(frozen=True)
@@ -53,139 +57,22 @@ class Settings:
 
 
 DEFAULT_SOURCES = [
-    {
-        "name": "中国政府网",
-        "region": "domestic",
-        "type": "rss",
-        "url": "http://www.gov.cn/rss/govall.xml",
-        "enabled": True,
-    },
-    {
-        "name": "新华网时政",
-        "region": "domestic",
-        "type": "rss",
-        "url": "http://www.xinhuanet.com/politics/news_politics.xml",
-        "enabled": True,
-    },
-    {
-        "name": "新华网国际",
-        "region": "international",
-        "type": "rss",
-        "url": "http://www.xinhuanet.com/world/news_world.xml",
-        "enabled": True,
-    },
-    {
-        "name": "新华网财经",
-        "region": "domestic",
-        "type": "rss",
-        "url": "http://www.xinhuanet.com/fortune/news_fortune.xml",
-        "enabled": True,
-    },
-    {
-        "name": "新华网金融",
-        "region": "domestic",
-        "type": "rss",
-        "url": "http://www.xinhuanet.com/finance/news_finance.xml",
-        "enabled": True,
-    },
-    {
-        "name": "央视网",
-        "region": "domestic",
-        "type": "rss",
-        "url": "http://news.cctv.com/rss/index.xml",
-        "enabled": True,
-    },
-    {
-        "name": "人民网时政",
-        "region": "domestic",
-        "type": "rss",
-        "url": "http://www.people.com.cn/rss/politics.xml",
-        "enabled": True,
-    },
-    {
-        "name": "第一财经",
-        "region": "domestic",
-        "type": "rss",
-        "url": "https://rsshub.app/yicai/news",
-        "enabled": True,
-    },
-    {
-        "name": "财联社电报",
-        "region": "domestic",
-        "type": "rss",
-        "url": "https://rsshub.app/cls/telegraph",
-        "enabled": True,
-    },
-    {
-        "name": "证券时报",
-        "region": "domestic",
-        "type": "rss",
-        "url": "https://rsshub.app/stcn/news",
-        "enabled": True,
-    },
-    {
-        "name": "36氪快讯",
-        "region": "domestic",
-        "type": "rss",
-        "url": "https://rsshub.app/36kr/newsflashes",
-        "enabled": True,
-    },
-    {
-        "name": "IT之家",
-        "region": "domestic",
-        "type": "rss",
-        "url": "https://www.ithome.com/rss/",
-        "enabled": True,
-    },
-    {
-        "name": "Reuters",
-        "region": "international",
-        "type": "rss",
-        "url": "https://www.reutersagency.com/feed/?best-topics=top-news",
-        "enabled": True,
-    },
-    {
-        "name": "AP News",
-        "region": "international",
-        "type": "rss",
-        "url": "https://rsshub.app/apnews/topics/apf-topnews",
-        "enabled": True,
-    },
-    {
-        "name": "BBC World",
-        "region": "international",
-        "type": "rss",
-        "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-        "enabled": True,
-    },
-    {
-        "name": "BBC Business",
-        "region": "international",
-        "type": "rss",
-        "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
-        "enabled": True,
-    },
-    {
-        "name": "SEC News",
-        "region": "international",
-        "type": "rss",
-        "url": "https://www.sec.gov/rss/news.xml",
-        "enabled": True,
-    },
-    {
-        "name": "TechCrunch",
-        "region": "international",
-        "type": "rss",
-        "url": "https://techcrunch.com/feed/",
-        "enabled": True,
-    },
-    {
-        "name": "The Verge",
-        "region": "international",
-        "type": "rss",
-        "url": "https://www.theverge.com/rss/index.xml",
-        "enabled": True,
-    },
+    {"name": "微博热搜", "region": "domestic", "type": "hotlist", "url": "https://rsshub.app/weibo/search/hot", "enabled": True, "weight": 1.0, "time_window_hours": 24, "parse_mode": "rsshub", "category": "热点"},
+    {"name": "知乎热榜", "region": "domestic", "type": "hotlist", "url": "https://rsshub.app/zhihu/hotlist", "enabled": True, "weight": 1.0, "time_window_hours": 24, "parse_mode": "rsshub", "category": "热点"},
+    {"name": "百度热点", "region": "domestic", "type": "hotlist", "url": "https://rsshub.app/baidu/bulletins", "enabled": True, "weight": 1.0, "time_window_hours": 24, "parse_mode": "rsshub", "category": "热点"},
+    {"name": "GitHub Trending", "region": "international", "type": "hotlist", "url": "https://rsshub.app/github/trending/daily/any", "enabled": True, "weight": 1.0, "time_window_hours": 24, "parse_mode": "rsshub", "category": "科技"},
+    {"name": "新华社最新", "region": "domestic", "type": "news", "url": "http://www.news.cn/politics/news_politics.xml", "enabled": True, "weight": 0.8, "time_window_hours": 12, "parse_mode": "rss", "category": "政治"},
+    {"name": "央视新闻", "region": "domestic", "type": "news", "url": "https://news.cctv.com/rss/index.xml", "enabled": True, "weight": 0.8, "time_window_hours": 12, "parse_mode": "rss", "category": "政治"},
+    {"name": "中新社", "region": "domestic", "type": "news", "url": "https://www.chinanews.com.cn/rss/scroll-news.xml", "enabled": True, "weight": 0.8, "time_window_hours": 12, "parse_mode": "rss", "category": "政治"},
+    {"name": "Reuters Asia", "region": "international", "type": "news", "url": "https://feeds.reuters.com/reuters/asiaNews", "enabled": True, "weight": 0.8, "time_window_hours": 12, "parse_mode": "rss", "category": "国际"},
+    {"name": "AP Top News", "region": "international", "type": "news", "url": "https://feeds.apnews.com/rss/apf-topnews", "enabled": True, "weight": 0.8, "time_window_hours": 12, "parse_mode": "rss", "category": "国际"},
+    {"name": "36氪最新", "region": "domestic", "type": "news", "url": "https://rsshub.app/36kr/news/latest", "enabled": True, "weight": 0.6, "time_window_hours": 24, "parse_mode": "rsshub", "category": "科技"},
+    {"name": "MIT Tech Review", "region": "international", "type": "news", "url": "https://www.technologyreview.com/feed/", "enabled": True, "weight": 0.6, "time_window_hours": 24, "parse_mode": "rss", "category": "科技"},
+    {"name": "财新最新", "region": "domestic", "type": "news", "url": "https://rsshub.app/caixin/latest", "enabled": True, "weight": 0.6, "time_window_hours": 24, "parse_mode": "rsshub", "category": "财经"},
+    {"name": "WSJ Markets", "region": "international", "type": "news", "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories", "enabled": True, "weight": 0.6, "time_window_hours": 24, "parse_mode": "rss", "category": "财经"},
+    {"name": "Foreign Affairs", "region": "international", "type": "news", "url": "https://rsshub.app/foreignaffairs/theater", "enabled": True, "weight": 0.6, "time_window_hours": 48, "parse_mode": "rsshub", "category": "地缘"},
+    {"name": "新华网国际", "region": "international", "type": "news", "url": "http://www.xinhuanet.com/world/news_world.xml", "enabled": True, "weight": 0.4, "time_window_hours": 6, "parse_mode": "rss", "category": "国际"},
+    {"name": "BBC World", "region": "international", "type": "news", "url": "https://feeds.bbci.co.uk/news/world/rss.xml", "enabled": True, "weight": 0.4, "time_window_hours": 6, "parse_mode": "rss", "category": "国际"},
 ]
 
 
@@ -201,31 +88,47 @@ def _env(name: str, default: str) -> str:
     return value if value not in {None, ""} else default
 
 
+def _load_feeds_json() -> list[dict[str, Any]] | None:
+    """Try to load feeds.json from the project root."""
+    candidates = [
+        Path.cwd() / "feeds.json",
+        Path(__file__).resolve().parent.parent / "feeds.json",
+    ]
+    for path in candidates:
+        if path.exists():
+            try:
+                data = json.loads(path.read_text(encoding="utf-8"))
+                sources = data.get("sources", data) if isinstance(data, dict) else data
+                if isinstance(sources, list):
+                    return sources
+            except (json.JSONDecodeError, OSError):
+                pass
+    return None
+
+
 def _parse_sources(raw_sources: str) -> list[NewsSource]:
-    if not raw_sources.strip():
-        parsed: Any = DEFAULT_SOURCES
-    else:
+    # Priority: NEWS_SOURCES env var > feeds.json > DEFAULT_SOURCES
+    if raw_sources.strip():
         try:
-            parsed = json.loads(raw_sources)
+            parsed: Any = json.loads(raw_sources)
         except json.JSONDecodeError as exc:
             raise ValueError("NEWS_SOURCES must be a JSON array") from exc
+    else:
+        feeds = _load_feeds_json()
+        parsed = feeds if feeds is not None else DEFAULT_SOURCES
 
     if not isinstance(parsed, list):
-        raise ValueError("NEWS_SOURCES must be a JSON array")
+        raise ValueError("News sources must be a JSON array")
 
     sources = []
     for item in parsed:
         if not isinstance(item, dict):
-            raise ValueError("Each NEWS_SOURCES item must be an object")
+            raise ValueError("Each news source item must be an object")
         name = str(item.get("name", "")).strip()
         source_type = str(item.get("type", "rss")).strip().lower()
         region = str(item.get("region", "domestic")).strip().lower()
         url = str(item.get("url", "")).strip()
         fallback_url = item.get("fallback_url")
-        if source_type not in {"rss", "html"}:
-            raise ValueError(f"Unsupported news source type: {source_type}")
-        if region not in {"domestic", "international"}:
-            raise ValueError(f"Unsupported news source region: {region}")
         if not name or not url:
             raise ValueError("Each source must include name and url")
         sources.append(
@@ -236,6 +139,10 @@ def _parse_sources(raw_sources: str) -> list[NewsSource]:
                 url=url,
                 enabled=bool(item.get("enabled", True)),
                 fallback_url=str(fallback_url).strip() if fallback_url else None,
+                weight=float(item.get("weight", 0.5)),
+                time_window_hours=int(item.get("time_window_hours", 24)),
+                parse_mode=str(item.get("parse_mode", "rss")).strip().lower(),
+                category=str(item.get("category", "")).strip(),
             )
         )
     return sources
