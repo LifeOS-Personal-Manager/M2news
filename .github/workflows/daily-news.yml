@@ -26,7 +26,7 @@ jobs:
           echo "=== Starting digest generation ==="
           python -m src.digest_pipeline 2>&1
           echo "=== Pipeline completed ==="
-          ls -la public/news/
+          ls -la latest.html latest.json
 
       - name: Commit and push changes
         run: |
