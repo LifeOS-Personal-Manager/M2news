@@ -1,1 +1,182 @@
-{"version":"2.0","updated":"2026-08-12","sources":[{"name":"微博热搜","url":"https://rsshub.app/weibo/search/hot","type":"hotlist","category":"热点","weight":1.0,"time_window_hours":24,"parse_mode":"rsshub","region":"domestic","enabled":true},{"name":"知乎热榜","url":"https://rsshub.app/zhihu/hotlist","type":"hotlist","category":"热点","weight":1.0,"time_window_hours":24,"parse_mode":"rsshub","region":"domestic","enabled":true},{"name":"百度热点","url":"https://rsshub.app/baidu/bulletins","type":"hotlist","category":"热点","weight":1.0,"time_window_hours":24,"parse_mode":"rsshub","region":"domestic","enabled":true},{"name":"GitHub Trending","url":"https://rsshub.app/github/trending/daily/any","type":"hotlist","category":"科技","weight":1.0,"time_window_hours":24,"parse_mode":"rsshub","region":"international","enabled":true},{"name":"新华社最新","url":"http://www.news.cn/politics/news_politics.xml","type":"news","category":"政治","weight":0.8,"time_window_hours":12,"parse_mode":"rss","region":"domestic","enabled":true},{"name":"央视新闻","url":"https://news.cctv.com/rss/index.xml","type":"news","category":"政治","weight":0.8,"time_window_hours":12,"parse_mode":"rss","region":"domestic","enabled":true},{"name":"中新社","url":"https://www.chinanews.com.cn/rss/scroll-news.xml","type":"news","category":"政治","weight":0.8,"time_window_hours":12,"parse_mode":"rss","region":"domestic","enabled":true},{"name":"Reuters Asia","url":"https://feeds.reuters.com/reuters/asiaNews","type":"news","category":"国际","weight":0.8,"time_window_hours":12,"parse_mode":"rss","region":"international","enabled":true},{"name":"AP Top News","url":"https://feeds.apnews.com/rss/apf-topnews","type":"news","category":"国际","weight":0.8,"time_window_hours":12,"parse_mode":"rss","region":"international","enabled":true},{"name":"36氪最新","url":"https://rsshub.app/36kr/news/latest","type":"news","category":"科技","weight":0.6,"time_window_hours":24,"parse_mode":"rsshub","region":"domestic","enabled":true},{"name":"MIT Tech Review","url":"https://www.technologyreview.com/feed/","type":"news","category":"科技","weight":0.6,"time_window_hours":24,"parse_mode":"rss","region":"international","enabled":true},{"name":"财新最新","url":"https://rsshub.app/caixin/latest","type":"news","category":"财经","weight":0.6,"time_window_hours":24,"parse_mode":"rsshub","region":"domestic","enabled":true},{"name":"WSJ Markets","url":"https://feeds.content.dowjones.io/public/rss/mw_topstories","type":"news","category":"财经","weight":0.6,"time_window_hours":24,"parse_mode":"rss","region":"international","enabled":true},{"name":"Foreign Affairs","url":"https://rsshub.app/foreignaffairs/theater","type":"news","category":"地缘","weight":0.6,"time_window_hours":48,"parse_mode":"rsshub","region":"international","enabled":true},{"name":"新华网国际","url":"http://www.xinhuanet.com/world/news_world.xml","type":"news","category":"国际","weight":0.4,"time_window_hours":6,"parse_mode":"rss","region":"international","enabled":true},{"name":"BBC World","url":"https://feeds.bbci.co.uk/news/world/rss.xml","type":"news","category":"国际","weight":0.4,"time_window_hours":6,"parse_mode":"rss","region":"international","enabled":true}]}
+{
+  "version": "2.0",
+  "updated": "2026-08-12",
+  "sources": [
+    {
+      "name": "微博热搜",
+      "url": "https://rsshub.app/weibo/search/hot",
+      "type": "hotlist",
+      "category": "热点",
+      "weight": 1.0,
+      "time_window_hours": 24,
+      "parse_mode": "rsshub",
+      "region": "domestic",
+      "enabled": true
+    },
+    {
+      "name": "知乎热榜",
+      "url": "https://rsshub.app/zhihu/hotlist",
+      "type": "hotlist",
+      "category": "热点",
+      "weight": 1.0,
+      "time_window_hours": 24,
+      "parse_mode": "rsshub",
+      "region": "domestic",
+      "enabled": true
+    },
+    {
+      "name": "百度热点",
+      "url": "https://rsshub.app/baidu/bulletins",
+      "type": "hotlist",
+      "category": "热点",
+      "weight": 1.0,
+      "time_window_hours": 24,
+      "parse_mode": "rsshub",
+      "region": "domestic",
+      "enabled": true
+    },
+    {
+      "name": "GitHub Trending",
+      "url": "https://rsshub.app/github/trending/daily/any",
+      "type": "hotlist",
+      "category": "科技",
+      "weight": 1.0,
+      "time_window_hours": 24,
+      "parse_mode": "rsshub",
+      "region": "international",
+      "enabled": true
+    },
+    {
+      "name": "新华社最新",
+      "url": "http://www.news.cn/politics/news_politics.xml",
+      "type": "news",
+      "category": "政治",
+      "weight": 0.8,
+      "time_window_hours": 12,
+      "parse_mode": "rss",
+      "region": "domestic",
+      "enabled": true
+    },
+    {
+      "name": "央视新闻",
+      "url": "https://news.cctv.com/rss/index.xml",
+      "type": "news",
+      "category": "政治",
+      "weight": 0.8,
+      "time_window_hours": 12,
+      "parse_mode": "rss",
+      "region": "domestic",
+      "enabled": true
+    },
+    {
+      "name": "中新社",
+      "url": "https://www.chinanews.com.cn/rss/scroll-news.xml",
+      "type": "news",
+      "category": "政治",
+      "weight": 0.8,
+      "time_window_hours": 12,
+      "parse_mode": "rss",
+      "region": "domestic",
+      "enabled": true
+    },
+    {
+      "name": "Reuters Asia",
+      "url": "https://feeds.reuters.com/reuters/asiaNews",
+      "type": "news",
+      "category": "国际",
+      "weight": 0.8,
+      "time_window_hours": 12,
+      "parse_mode": "rss",
+      "region": "international",
+      "enabled": true
+    },
+    {
+      "name": "AP Top News",
+      "url": "https://feeds.apnews.com/rss/apf-topnews",
+      "type": "news",
+      "category": "国际",
+      "weight": 0.8,
+      "time_window_hours": 12,
+      "parse_mode": "rss",
+      "region": "international",
+      "enabled": true
+    },
+    {
+      "name": "36氪最新",
+      "url": "https://rsshub.app/36kr/news/latest",
+      "type": "news",
+      "category": "科技",
+      "weight": 0.6,
+      "time_window_hours": 24,
+      "parse_mode": "rsshub",
+      "region": "domestic",
+      "enabled": true
+    },
+    {
+      "name": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/feed/",
+      "type": "news",
+      "category": "科技",
+      "weight": 0.6,
+      "time_window_hours": 24,
+      "parse_mode": "rss",
+      "region": "international",
+      "enabled": true
+    },
+    {
+      "name": "财新最新",
+      "url": "https://rsshub.app/caixin/latest",
+      "type": "news",
+      "category": "财经",
+      "weight": 0.6,
+      "time_window_hours": 24,
+      "parse_mode": "rsshub",
+      "region": "domestic",
+      "enabled": true
+    },
+    {
+      "name": "WSJ Markets",
+      "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
+      "type": "news",
+      "category": "财经",
+      "weight": 0.6,
+      "time_window_hours": 24,
+      "parse_mode": "rss",
+      "region": "international",
+      "enabled": true
+    },
+    {
+      "name": "Foreign Affairs",
+      "url": "https://rsshub.app/foreignaffairs/theater",
+      "type": "news",
+      "category": "地缘",
+      "weight": 0.6,
+      "time_window_hours": 48,
+      "parse_mode": "rsshub",
+      "region": "international",
+      "enabled": true
+    },
+    {
+      "name": "新华网国际",
+      "url": "http://www.xinhuanet.com/world/news_world.xml",
+      "type": "news",
+      "category": "国际",
+      "weight": 0.4,
+      "time_window_hours": 6,
+      "parse_mode": "rss",
+      "region": "international",
+      "enabled": true
+    },
+    {
+      "name": "BBC World",
+      "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "type": "news",
+      "category": "国际",
+      "weight": 0.4,
+      "time_window_hours": 6,
+      "parse_mode": "rss",
+      "region": "international",
+      "enabled": true
+    }
+  ]
+}
