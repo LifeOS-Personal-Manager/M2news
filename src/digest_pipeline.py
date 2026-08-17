@@ -538,6 +538,134 @@ def classify_category(title: str, summary: str) -> str:
     return "其他"
 
 
+def classify_top_story_category(
+    title: str, summary: str, source_category: str = "", source_name: str = ""
+) -> str:
+    """Classify items into the five homepage slots requested by the user."""
+    text = f"{title} {summary} {source_category} {source_name}".lower()
+    categories = {
+        "政治": [
+            "主席",
+            "总理",
+            "政治局",
+            "国务院",
+            "人大",
+            "政协",
+            "政策",
+            "立法",
+            "选举",
+            "政府",
+            "外交",
+            "politics",
+            "policy",
+        ],
+        "经济": [
+            "经济",
+            "财经",
+            "金融",
+            "股市",
+            "汇率",
+            "利率",
+            "GDP",
+            "CPI",
+            "财报",
+            "上市",
+            "融资",
+            "通胀",
+            "央行",
+            "business",
+            "markets",
+        ],
+        "文化": [
+            "文化",
+            "文旅",
+            "艺术",
+            "博物馆",
+            "非遗",
+            "出版",
+            "文学",
+            "展览",
+            "戏剧",
+            "culture",
+        ],
+        "民生": [
+            "民生",
+            "社会",
+            "社保",
+            "保障",
+            "医疗",
+            "教育",
+            "就业",
+            "住房",
+            "养老",
+            "健康",
+            "交通",
+            "救援",
+            "health",
+        ],
+        "娱乐": [
+            "娱乐",
+            "文娱",
+            "电影",
+            "电视剧",
+            "音乐",
+            "综艺",
+            "明星",
+            "票房",
+            "演唱会",
+            "游戏",
+            "体育",
+            "sports",
+            "sport",
+        ],
+    }
+    for cat, kws in categories.items():
+        if any(kw.lower() in text for kw in kws):
+            return cat
+    return "其他"
+
+
+def select_top_stories_by_category(
+    scored: list[dict], source_map: dict[str, dict]
+) -> list[dict]:
+    """Pick one high-scoring story for each homepage category."""
+    wanted = ["政治", "经济", "文化", "民生", "娱乐"]
+    selected: list[dict] = []
+    used_urls: set[str] = set()
+
+    for category in wanted:
+        candidates = []
+        for item in scored:
+            source = source_map.get(item["source_name"], {})
+            display_category = classify_top_story_category(
+                item["title"],
+                item["summary"],
+                source.get("category", ""),
+                item["source_name"],
+            )
+            item["display_category"] = display_category
+            if display_category == category and item["url"] not in used_urls:
+                candidates.append(item)
+
+        if candidates:
+            best = max(candidates, key=lambda x: x["final_score"])
+            best["top_story_category"] = category
+            selected.append(best)
+            used_urls.add(best["url"])
+
+    if len(selected) < len(wanted):
+        for item in scored:
+            if item["url"] in used_urls:
+                continue
+            item["top_story_category"] = item.get("display_category", "其他")
+            selected.append(item)
+            used_urls.add(item["url"])
+            if len(selected) == len(wanted):
+                break
+
+    return selected
+
+
 # ---------------------------------------------------------------------------
 # 9. 输出结构生成
 # ---------------------------------------------------------------------------
@@ -624,13 +752,16 @@ def generate_html(
     # 按综合分降序排序
     scored.sort(key=lambda x: x["final_score"], reverse=True)
 
-    # Top 5
-    top5 = scored[:5]
+    # Top 5: one story from each requested homepage category.
+    top5 = select_top_stories_by_category(scored, source_map)
 
     # 剩余条目按栏目分类
     categories_order = ["政治", "财经", "科技", "国际", "社会", "其他"]
     by_category: dict[str, list[dict]] = {c: [] for c in categories_order}
-    for item in scored[5:]:
+    top5_urls = {item["url"] for item in top5}
+    for item in scored:
+        if item["url"] in top5_urls:
+            continue
         cat = classify_category(item["title"], item["summary"])
         if cat not in by_category:
             cat = "其他"
@@ -654,7 +785,6 @@ def generate_html(
     # 构建 Top 5 的 HTML
     top5_html = ""
     for i, item in enumerate(top5, 1):
-        kw_str = " ".join(item["hit_keywords"]) if item["hit_keywords"] else ""
         kw_tags = ""
         for kw in item["hit_keywords"][:3]:
             kw_tags += f'<span class="kw-tag">{_escape_html(kw)}</span>'
@@ -662,12 +792,14 @@ def generate_html(
         relative_time = _format_relative_time(item["pubdate"], now)
         badge_color = _get_source_badge_color(item["source_name"])
         multi_source = item.get("multiple_sources", 1)
+        story_category = item.get("top_story_category", "其他")
 
         score_pct = int(item["final_score"] * 100)
         top5_html += f"""
 <div class="top-card">
   <div class="top-card-header">
     <span class="rank-badge rank-{i}">{i}</span>
+    <span class="category-badge">{_escape_html(story_category)}</span>
     <span class="source-badge" style="background: {badge_color}">{_escape_html(item['source_name'])}</span>
     <span class="relative-time">{relative_time}</span>
   </div>
@@ -845,6 +977,17 @@ def generate_html(
     .rank-2 {{ background: linear-gradient(135deg, #c0c0c0 0%, #a8a8a8 100%); }}
     .rank-3 {{ background: linear-gradient(135deg, #cd7f32 0%, #b87333 100%); }}
     .rank-4, .rank-5 {{ background: var(--accent); }}
+
+    .category-badge {{
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 600;
+      color: #dff7ff;
+      background: rgba(0, 216, 255, 0.14);
+      border: 1px solid rgba(0, 216, 255, 0.35);
+    }}
 
     .source-badge {{
       display: inline-block;

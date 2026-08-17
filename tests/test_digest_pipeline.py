@@ -21,6 +21,7 @@ from src.digest_pipeline import (
     compute_final_score,
     classify_category,
     load_interests,
+    select_top_stories_by_category,
 )
 
 
@@ -48,6 +49,47 @@ def test_enabled_feeds_have_diverse_sources():
     assert len(names - {"中新社"}) >= 20
     assert {"domestic", "international"}.issubset(regions)
     assert {"政治", "财经", "社会", "科技", "文体", "国际"}.issubset(categories)
+
+
+def test_select_top_stories_uses_one_item_per_homepage_category():
+    """Homepage top stories should cover politics, economy, culture, livelihood, entertainment."""
+    now = datetime.now(timezone.utc)
+    items = [
+        ("政治局会议部署重点工作", "国务院发布政策", "新华社最新", 0.95),
+        ("央行谈经济金融运行", "股市汇率稳定", "央视财经", 0.9),
+        ("博物馆新展推动文化交流", "非遗艺术展览开幕", "央视文娱", 0.7),
+        ("多地完善医疗就业保障", "民生服务继续优化", "人民网社会", 0.85),
+        ("电影票房刷新纪录", "音乐综艺演唱会热度上升", "央视文娱", 0.8),
+        ("政治高分重复项", "政府政策", "新华社最新", 0.99),
+    ]
+    scored = [
+        {
+            "title": title,
+            "summary": summary,
+            "url": f"https://example.com/{index}",
+            "source_name": source,
+            "final_score": score,
+            "pubdate": now,
+        }
+        for index, (title, summary, source, score) in enumerate(items)
+    ]
+    source_map = {
+        "新华社最新": {"category": "政治"},
+        "央视财经": {"category": "财经"},
+        "央视文娱": {"category": "文体"},
+        "人民网社会": {"category": "社会"},
+    }
+
+    selected = select_top_stories_by_category(scored, source_map)
+
+    assert [item["top_story_category"] for item in selected] == [
+        "政治",
+        "经济",
+        "文化",
+        "民生",
+        "娱乐",
+    ]
+    assert len({item["url"] for item in selected}) == 5
 
 
 def test_1_time_window_filter():
