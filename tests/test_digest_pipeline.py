@@ -22,6 +22,7 @@ from src.digest_pipeline import (
     classify_category,
     load_interests,
     select_top_stories_by_category,
+    _format_china_timestamp,
 )
 
 
@@ -90,6 +91,13 @@ def test_select_top_stories_uses_one_item_per_homepage_category():
         "娱乐",
     ]
     assert len({item["url"] for item in selected}) == 5
+
+
+def test_format_china_timestamp_uses_utc_plus_8():
+    """The homepage update time should be displayed in China time."""
+    utc_dt = datetime(2026, 8, 17, 6, 21, 47, tzinfo=timezone.utc)
+
+    assert _format_china_timestamp(utc_dt) == "2026-08-17 14:21:47 CST"
 
 
 def test_1_time_window_filter():

@@ -47,6 +47,7 @@ DEFAULT_USER_AGENT = "M2newsDigest/1.0 (+mailto:your-email@example.com)"
 REQUEST_TIMEOUT = 10
 MAX_WORKERS = 10
 MAX_ITEMS_PER_SOURCE = 50  # 每个源最多保留的条目数
+CHINA_TZ = timezone(timedelta(hours=8), name="Asia/Shanghai")
 AUTHORITATIVE_SOURCES = {
     "新华社最新",
     "新华网国际",
@@ -680,7 +681,12 @@ def _format_relative_time(pubdate: datetime, now: datetime) -> str:
     elif seconds < 86400:
         return f"{seconds // 3600}小时前"
     else:
-        return pubdate.strftime("%m-%d %H:%M")
+        return pubdate.astimezone(CHINA_TZ).strftime("%m-%d %H:%M")
+
+
+def _format_china_timestamp(dt: datetime) -> str:
+    """Format timestamps for the page in China time."""
+    return dt.astimezone(CHINA_TZ).strftime("%Y-%m-%d %H:%M:%S CST")
 
 
 def _get_source_badge_color(source_name: str) -> str:
@@ -772,8 +778,9 @@ def generate_html(
         by_category[cat].sort(key=lambda x: x["final_score"], reverse=True)
 
     # 基础信息
-    date_str = now.astimezone().strftime("%Y年%m月%d日")
-    generated_at = now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    china_now = now.astimezone(CHINA_TZ)
+    date_str = china_now.strftime("%Y年%m月%d日")
+    generated_at = _format_china_timestamp(now)
     total_sources = len(sources)
     total_items = len(all_items)
 
@@ -1378,8 +1385,8 @@ def run() -> None:
     # 同时生成 JSON 输出
     json_path = OUTPUT_DIR / "latest.json"
     json_output = {
-        "date": now.strftime("%Y-%m-%d"),
-        "generated_at": now.isoformat(),
+        "date": now.astimezone(CHINA_TZ).strftime("%Y-%m-%d"),
+        "generated_at": now.astimezone(CHINA_TZ).isoformat(),
         "total_sources": len(sources),
         "total_items": len(deduped),
         "items": [
