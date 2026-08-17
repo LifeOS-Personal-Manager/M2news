@@ -47,7 +47,28 @@ DEFAULT_USER_AGENT = "M2newsDigest/1.0 (+mailto:your-email@example.com)"
 REQUEST_TIMEOUT = 10
 MAX_WORKERS = 10
 MAX_ITEMS_PER_SOURCE = 50  # 每个源最多保留的条目数
-AUTHORITATIVE_SOURCES = {"新华社最新", "央视新闻", "中新社", "Reuters Asia", "AP Top News"}
+AUTHORITATIVE_SOURCES = {
+    "新华社最新",
+    "新华网国际",
+    "新华网金融",
+    "新华网财经",
+    "新华网科技",
+    "人民网时政",
+    "人民网社会",
+    "人民网国际",
+    "央视新闻",
+    "央视国内",
+    "央视国际",
+    "央视财经",
+    "央视社会",
+    "中新社",
+    "Reuters Asia",
+    "AP Top News",
+    "BBC World",
+    "Guardian World",
+    "Al Jazeera",
+}
+
 
 # ---------------------------------------------------------------------------
 # 配置加载
@@ -61,8 +82,12 @@ def load_feeds() -> list[dict]:
     if not isinstance(sources, list):
         raise ValueError("feeds.json must contain a list of sources")
     enabled = [s for s in sources if s.get("enabled", True)]
-    logger.info("Loaded %d sources from feeds.json (%d enabled, %d disabled)",
-                len(sources), len(enabled), len(sources) - len(enabled))
+    logger.info(
+        "Loaded %d sources from feeds.json (%d enabled, %d disabled)",
+        len(sources),
+        len(enabled),
+        len(sources) - len(enabled),
+    )
     return enabled
 
 
@@ -132,10 +157,14 @@ def _parse_pubdate(entry: dict, fetch_time: datetime) -> datetime | None:
 
     # 策略 3: 从 URL 提取日期
     link = entry.get("link", "")
-    date_match = re.search(r'/(\d{4})[-/](\d{1,2})[-/](\d{1,2})/', link)
+    date_match = re.search(r"/(\d{4})[-/](\d{1,2})[-/](\d{1,2})/", link)
     if date_match:
         try:
-            y, m, d = int(date_match.group(1)), int(date_match.group(2)), int(date_match.group(3))
+            y, m, d = (
+                int(date_match.group(1)),
+                int(date_match.group(2)),
+                int(date_match.group(3)),
+            )
             if 2000 <= y <= 2030:
                 return datetime(y, m, d, tzinfo=timezone.utc)
         except (ValueError, OverflowError):
@@ -169,8 +198,9 @@ def fetch_source(source: dict) -> list[dict]:
     cutoff = fetch_time - timedelta(hours=time_window_hours)
 
     try:
-        resp = requests.get(url, timeout=REQUEST_TIMEOUT,
-                            headers={"User-Agent": DEFAULT_USER_AGENT})
+        resp = requests.get(
+            url, timeout=REQUEST_TIMEOUT, headers={"User-Agent": DEFAULT_USER_AGENT}
+        )
         resp.raise_for_status()
     except requests.RequestException as e:
         logger.warning("Fetch failed for %s: %s", name, e)
@@ -183,7 +213,9 @@ def fetch_source(source: dict) -> list[dict]:
         for entry in feed.entries:
             title = _strip_html(entry.get("title", ""))
             link = entry.get("link", "")
-            summary = _strip_html(entry.get("summary", "") or entry.get("description", ""))
+            summary = _strip_html(
+                entry.get("summary", "") or entry.get("description", "")
+            )
             if not title:
                 continue
 
@@ -195,29 +227,38 @@ def fetch_source(source: dict) -> list[dict]:
 
             # 未来时间丢弃
             if actual_pubdate > fetch_time + timedelta(hours=1):
-                logger.debug("Discard future-dated entry from %s: %s (%s)",
-                             name, title[:40], actual_pubdate.isoformat())
+                logger.debug(
+                    "Discard future-dated entry from %s: %s (%s)",
+                    name,
+                    title[:40],
+                    actual_pubdate.isoformat(),
+                )
                 continue
 
             # 过期条目丢弃
             if actual_pubdate < cutoff:
-                logger.debug("Discard expired entry from %s: %s (age %.1fh > window %dh)",
-                             name, title[:40],
-                             (fetch_time - actual_pubdate).total_seconds() / 3600,
-                             time_window_hours)
+                logger.debug(
+                    "Discard expired entry from %s: %s (age %.1fh > window %dh)",
+                    name,
+                    title[:40],
+                    (fetch_time - actual_pubdate).total_seconds() / 3600,
+                    time_window_hours,
+                )
                 continue
 
-            items.append({
-                "title": title,
-                "url": link,
-                "summary": summary,
-                "source_name": name,
-                "source_weight": weight,
-                "source_type": source_type,
-                "region": region,
-                "pubdate": actual_pubdate,
-                "multiple_sources": 1,
-            })
+            items.append(
+                {
+                    "title": title,
+                    "url": link,
+                    "summary": summary,
+                    "source_name": name,
+                    "source_weight": weight,
+                    "source_type": source_type,
+                    "region": region,
+                    "pubdate": actual_pubdate,
+                    "multiple_sources": 1,
+                }
+            )
 
         # 按发布时间降序排序，然后截断到 MAX_ITEMS_PER_SOURCE
         items.sort(key=lambda x: x["pubdate"], reverse=True)
@@ -225,12 +266,20 @@ def fetch_source(source: dict) -> list[dict]:
 
     elif parse_mode == "json":
         try:
-            data = resp.json() if isinstance(resp.content, bytes) else json.loads(resp.content)
+            data = (
+                resp.json()
+                if isinstance(resp.content, bytes)
+                else json.loads(resp.content)
+            )
         except (json.JSONDecodeError, ValueError) as e:
             logger.warning("JSON parse failed for %s: %s", name, e)
             return []
 
-        records = data if isinstance(data, list) else data.get("items", data.get("articles", []))
+        records = (
+            data
+            if isinstance(data, list)
+            else data.get("items", data.get("articles", []))
+        )
         for rec in records:
             title = _strip_html(rec.get("title", ""))
             link = rec.get("url") or rec.get("link", "")
@@ -246,19 +295,23 @@ def fetch_source(source: dict) -> list[dict]:
             if actual_pubdate < cutoff:
                 continue
 
-            items.append({
-                "title": title,
-                "url": link,
-                "summary": summary,
-                "source_name": name,
-                "source_weight": weight,
-                "source_type": source_type,
-                "region": region,
-                "pubdate": actual_pubdate,
-                "multiple_sources": 1,
-            })
+            items.append(
+                {
+                    "title": title,
+                    "url": link,
+                    "summary": summary,
+                    "source_name": name,
+                    "source_weight": weight,
+                    "source_type": source_type,
+                    "region": region,
+                    "pubdate": actual_pubdate,
+                    "multiple_sources": 1,
+                }
+            )
 
-    logger.info("Fetched %d items from %s (window=%dh)", len(items), name, time_window_hours)
+    logger.info(
+        "Fetched %d items from %s (window=%dh)", len(items), name, time_window_hours
+    )
     return items
 
 
@@ -375,7 +428,9 @@ def freshness_score(pubdate: datetime, now: datetime) -> float:
 # ---------------------------------------------------------------------------
 # 7. 综合排序
 # ---------------------------------------------------------------------------
-def compute_final_score(item: dict, source: dict, interests: dict, now: datetime) -> dict:
+def compute_final_score(
+    item: dict, source: dict, interests: dict, now: datetime
+) -> dict:
     """计算条目综合得分并附加元数据。"""
     rel = relevance_score(item["title"], item["summary"], interests)
     hot = hotness_score(item, source)
@@ -409,11 +464,73 @@ def classify_category(title: str, summary: str) -> str:
     """基于关键词对条目进行语义分类。"""
     text = f"{title} {summary}".lower()
     categories = {
-        "政治": ["主席", "总理", "政治局", "国务院", "人大", "政协", "政策", "宣言", "立法", "选举", "政府", "外交"],
-        "财经": ["股市", "汇率", "利率", "GDP", "CPI", "财报", "上市", "融资", "通胀", "降息", "加息", "原油", "黄金"],
-        "科技": ["AI", "芯片", "量子", "航天", "卫星", "机器人", "自动驾驶", "大模型", "GPT", "LLM", "人工智能"],
-        "国际": ["美国", "俄罗斯", "乌克兰", "欧盟", "日本", "韩国", "中东", "北约", "制裁", "联合国", "地缘"],
-        "社会": ["事故", "救援", "疫情", "教育", "医疗", "民生", "环保", "健康", "交通", "建设"],
+        "政治": [
+            "主席",
+            "总理",
+            "政治局",
+            "国务院",
+            "人大",
+            "政协",
+            "政策",
+            "宣言",
+            "立法",
+            "选举",
+            "政府",
+            "外交",
+        ],
+        "财经": [
+            "股市",
+            "汇率",
+            "利率",
+            "GDP",
+            "CPI",
+            "财报",
+            "上市",
+            "融资",
+            "通胀",
+            "降息",
+            "加息",
+            "原油",
+            "黄金",
+        ],
+        "科技": [
+            "AI",
+            "芯片",
+            "量子",
+            "航天",
+            "卫星",
+            "机器人",
+            "自动驾驶",
+            "大模型",
+            "GPT",
+            "LLM",
+            "人工智能",
+        ],
+        "国际": [
+            "美国",
+            "俄罗斯",
+            "乌克兰",
+            "欧盟",
+            "日本",
+            "韩国",
+            "中东",
+            "北约",
+            "制裁",
+            "联合国",
+            "地缘",
+        ],
+        "社会": [
+            "事故",
+            "救援",
+            "疫情",
+            "教育",
+            "医疗",
+            "民生",
+            "环保",
+            "健康",
+            "交通",
+            "建设",
+        ],
     }
     for cat, kws in categories.items():
         if any(kw in text for kw in kws):
@@ -442,13 +559,49 @@ def _get_source_badge_color(source_name: str) -> str:
     """根据来源名称返回徽章背景色。"""
     if source_name in ["微博热搜", "知乎热榜", "百度热点", "GitHub Trending"]:
         return "#00d8ff"  # 蓝青色 - 热点榜
-    elif source_name in ["新华社最新", "央视新闻", "中新社"]:
+    elif source_name in [
+        "新华社最新",
+        "新华网国际",
+        "新华网金融",
+        "新华网财经",
+        "新华网科技",
+        "新华网健康",
+        "新华网体育",
+        "人民网时政",
+        "人民网社会",
+        "人民网国际",
+        "央视新闻",
+        "央视国内",
+        "央视国际",
+        "央视财经",
+        "央视社会",
+        "央视文娱",
+        "央视体育",
+        "中新社",
+    ]:
         return "#00ff88"  # 绿色 - 权威来源
-    elif source_name in ["Reuters Asia", "AP Top News", "BBC World"]:
+    elif source_name in [
+        "Reuters Asia",
+        "AP Top News",
+        "BBC World",
+        "Guardian World",
+        "Al Jazeera",
+        "NPR News",
+    ]:
         return "#ff5e62"  # 橙色 - 国际
-    elif source_name in ["36氪最新", "MIT Tech Review"]:
+    elif source_name in [
+        "36氪最新",
+        "MIT Tech Review",
+        "BBC Technology",
+        "Guardian Technology",
+    ]:
         return "#a855f7"  # 紫色 - 科技
-    elif source_name in ["财新最新", "WSJ Markets"]:
+    elif source_name in [
+        "财新最新",
+        "WSJ Markets",
+        "BBC Business",
+        "Guardian Business",
+    ]:
         return "#fbbf24"  # 黄色 - 财经
     else:
         return "#6b7280"  # 灰色 - 默认
@@ -494,7 +647,9 @@ def generate_html(
     total_items = len(all_items)
 
     # 计算覆盖时间窗
-    max_window_hours = max(s.get("time_window_hours", 24) for s in sources) if sources else 24
+    max_window_hours = (
+        max(s.get("time_window_hours", 24) for s in sources) if sources else 24
+    )
 
     # 构建 Top 5 的 HTML
     top5_html = ""
@@ -547,7 +702,12 @@ def generate_html(
             relative_time = _format_relative_time(item["pubdate"], now)
             badge_color = _get_source_badge_color(item["source_name"])
             multi_source = item.get("multiple_sources", 1)
-            kw_str = " ".join([f'<span class="kw-tag mini">{kw}</span>' for kw in item["hit_keywords"][:2]])
+            kw_str = " ".join(
+                [
+                    f'<span class="kw-tag mini">{kw}</span>'
+                    for kw in item["hit_keywords"][:2]
+                ]
+            )
             items_html += f"""
 <article class="list-item">
   <a href="{_escape_html(item['url'])}" class="item-title" target="_blank" rel="noopener">{_escape_html(item['title'])}</a>
@@ -1030,12 +1190,13 @@ def generate_html(
 
 def _escape_html(text: str) -> str:
     """转义 HTML 特殊字符。"""
-    return (text
-            .replace("&", "&amp;")
-            .replace("<", "&lt;")
-            .replace(">", "&gt;")
-            .replace('"', "&quot;")
-            .replace("'", "&#39;"))
+    return (
+        text.replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+        .replace('"', "&quot;")
+        .replace("'", "&#39;")
+    )
 
 
 # ---------------------------------------------------------------------------
@@ -1090,10 +1251,14 @@ def run() -> None:
                 "category": classify_category(item["title"], item["summary"]),
                 "hit_keywords": item.get("hit_keywords", []),
             }
-            for item in sorted(deduped, key=lambda x: x.get("final_score", 0), reverse=True)
+            for item in sorted(
+                deduped, key=lambda x: x.get("final_score", 0), reverse=True
+            )
         ],
     }
-    json_path.write_text(json.dumps(json_output, ensure_ascii=False, indent=2), encoding="utf-8")
+    json_path.write_text(
+        json.dumps(json_output, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
     logger.info("JSON 已生成: %s", json_path)
 
     elapsed = time.time() - start

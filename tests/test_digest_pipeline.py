@@ -5,6 +5,7 @@
 
 import sys
 import os
+import json
 from datetime import datetime, timezone, timedelta
 
 # 添加项目根目录到路径
@@ -31,6 +32,24 @@ def print_test(name: str, passed: bool, message: str = ""):
         print(f"    {message}")
 
 
+def test_enabled_feeds_have_diverse_sources():
+    """feeds.json should not regress to a single-source digest."""
+    feeds_path = os.path.join(PROJECT_ROOT, "feeds.json")
+    with open(feeds_path, encoding="utf-8") as fh:
+        raw = json.load(fh)
+
+    sources = raw.get("sources", raw)
+    enabled = [source for source in sources if source.get("enabled", True)]
+    names = {source["name"] for source in enabled}
+    regions = {source.get("region") for source in enabled}
+    categories = {source.get("category") for source in enabled}
+
+    assert len(enabled) >= 25
+    assert len(names - {"中新社"}) >= 20
+    assert {"domestic", "international"}.issubset(regions)
+    assert {"政治", "财经", "社会", "科技", "文体", "国际"}.issubset(categories)
+
+
 def test_1_time_window_filter():
     """测试 1: 时间窗过滤 - 3 天前的假数据应该被过滤掉。"""
     now = datetime.now(timezone.utc)
@@ -49,7 +68,11 @@ def test_1_time_window_filter():
 
     # 判断是否在窗口内
     is_expired = item["pubdate"] < cutoff
-    print_test("时间窗过滤（3天前）", is_expired, f"3天前日期 {three_days_ago.isoformat()} < 截止 {cutoff.isoformat()} → 应该被过滤")
+    print_test(
+        "时间窗过滤（3天前）",
+        is_expired,
+        f"3天前日期 {three_days_ago.isoformat()} < 截止 {cutoff.isoformat()} → 应该被过滤",
+    )
     return is_expired
 
 
@@ -70,7 +93,11 @@ def test_2_future_date_filter():
 
     # 未来时间应该丢弃
     is_future = item["pubdate"] > now + timedelta(hours=1)
-    print_test("未来日期过滤（明天）", is_future, f"明天日期 {tomorrow.isoformat()} > 当前时间 → 应该被过滤")
+    print_test(
+        "未来日期过滤（明天）",
+        is_future,
+        f"明天日期 {tomorrow.isoformat()} > 当前时间 → 应该被过滤",
+    )
     return is_future
 
 
@@ -84,7 +111,9 @@ def test_3_relevance_score_ai():
     expected_min = 0.2  # 至少 0.2+ 分
     passed = score >= expected_min
 
-    print_test("相关性打分（AI/科技）", passed, f"得分: {score:.4f} (期望 >= {expected_min})")
+    print_test(
+        "相关性打分（AI/科技）", passed, f"得分: {score:.4f} (期望 >= {expected_min})"
+    )
     return passed
 
 
@@ -98,7 +127,9 @@ def test_3b_relevance_score_finance():
     expected_min = 0.15
     passed = score >= expected_min
 
-    print_test("相关性打分（财经）", passed, f"得分: {score:.4f} (期望 >= {expected_min})")
+    print_test(
+        "相关性打分（财经）", passed, f"得分: {score:.4f} (期望 >= {expected_min})"
+    )
     return passed
 
 
@@ -131,7 +162,11 @@ def test_4_deduplication():
     multi_source_ok = result[0].get("multiple_sources", 1) == 2
     passed = merged_count and multi_source_ok
 
-    print_test("去重（相似标题）", passed, f"输入 {len(items)} 条 → 输出 {len(result)} 条, multiple_sources = {result[0].get('multiple_sources', 0) if result else 0}")
+    print_test(
+        "去重（相似标题）",
+        passed,
+        f"输入 {len(items)} 条 → 输出 {len(result)} 条, multiple_sources = {result[0].get('multiple_sources', 0) if result else 0}",
+    )
     return passed
 
 
@@ -164,7 +199,11 @@ def test_4b_exact_duplicate():
     if result:
         passed = passed and result[0]["source_name"] == "高权源"
 
-    print_test("精确去重（相同标题保留高权重）", passed, f"保留来源: {result[0]['source_name'] if result else 'None'} (期望: 高权源)")
+    print_test(
+        "精确去重（相同标题保留高权重）",
+        passed,
+        f"保留来源: {result[0]['source_name'] if result else 'None'} (期望: 高权源)",
+    )
     return passed
 
 
@@ -176,12 +215,29 @@ def test_5_comprehensive_ranking():
 
     # 构造 10 条混合数据，不同得分
     items = [
-        {"title": f"测试{i} {kw}", "summary": "", "url": f"https://example.com/{i}",
-         "source_name": "测试", "source_weight": 0.5, "pubdate": now - timedelta(hours=i*2),
-         "multiple_sources": 1}
-        for i, kw in enumerate(["AI 大模型 芯片", "美联储加息", "乌克兰 冲突",
-                               "政治局 会议", "CPI 通胀", "普通新闻", "随便",
-                               "机器人 自动驾驶", "中东 局势", "股市 下跌"])
+        {
+            "title": f"测试{i} {kw}",
+            "summary": "",
+            "url": f"https://example.com/{i}",
+            "source_name": "测试",
+            "source_weight": 0.5,
+            "pubdate": now - timedelta(hours=i * 2),
+            "multiple_sources": 1,
+        }
+        for i, kw in enumerate(
+            [
+                "AI 大模型 芯片",
+                "美联储加息",
+                "乌克兰 冲突",
+                "政治局 会议",
+                "CPI 通胀",
+                "普通新闻",
+                "随便",
+                "机器人 自动驾驶",
+                "中东 局势",
+                "股市 下跌",
+            ]
+        )
     ]
 
     # 计算所有得分
@@ -196,14 +252,20 @@ def test_5_comprehensive_ranking():
     top5_titles = [item["title"] for item in scored[:5]]
     print(f"    Top 5 排序结果:")
     for i, item in enumerate(scored[:5], 1):
-        print(f"      {i}. {item['title']} → 综合分={item['final_score']:.4f}, 置信度={item['confidence']:.1f}%")
+        print(
+            f"      {i}. {item['title']} → 综合分={item['final_score']:.4f}, 置信度={item['confidence']:.1f}%"
+        )
 
     # 验证：前几名得分确实高于后几名
     top_avg = sum(item["final_score"] for item in scored[:5]) / 5
     bottom_avg = sum(item["final_score"] for item in scored[5:]) / 5
     passed = top_avg > bottom_avg
 
-    print_test("综合排序（Top 5 得分更高）", passed, f"Top5 平均分={top_avg:.4f}, 后5名平均分={bottom_avg:.4f}")
+    print_test(
+        "综合排序（Top 5 得分更高）",
+        passed,
+        f"Top5 平均分={top_avg:.4f}, 后5名平均分={bottom_avg:.4f}",
+    )
     return passed
 
 
