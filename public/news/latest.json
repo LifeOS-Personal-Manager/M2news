@@ -1,16 +1,127 @@
 {
   "date": "2026-08-31",
-  "generated_at": "2026-08-31T12:41:29.996614+08:00",
+  "generated_at": "2026-08-31T21:09:46.394446+08:00",
   "total_sources": 38,
-  "total_items": 137,
+  "total_items": 154,
   "items": [
     {
-      "title": "Australia news live: NSW will not appeal ruling that found anti-Israel vandalism was not antisemitic; Rowland says no plans to ban import of smart glasses",
-      "url": "https://www.theguardian.com/australia-news/live/2026/aug/31/nepal-floods-penny-wong-labor-anthony-albanese-one-nation-pauline-hanson-angus-taylor-liberal-party-ntwnfb",
-      "summary": "Australians ‘increasingly concerned about how their data is being collected, used, and shared,’ attorney general says. Follow the day’s news liveGet our breaking news email, free app or daily news podcastThe Australian government is working with Russian officials in a bid to secure the release of Australian Oscar Jenkins, Matt Thistlethwaite says. Speaking to ABC news breakfast, the assistant minister for foreign affairs declined to answer whether a prisoner swap was on the table.Obviously, we try and negotiate as best we can on behalf of all Australians who find themselves in difficulties such as this. We obviously have to abide by international laws and we always uphold them. But the Australian officials on the ground will work with their counterparts to ensure that, hopefully he’s returned to Australia safely. Continue reading...",
+      "title": "South African airline defends low-altitude aerial stunt over packed stadium",
+      "url": "https://www.bbc.co.uk/news/articles/c3rew8jqny5o?at_medium=RSS&at_campaign=rss",
+      "summary": "Airlink says the manoeuvre with two planes in close formation involved careful and precise planning.",
+      "source": "BBC World",
+      "pubdate": "2026-08-31T10:18:07+00:00",
+      "final_score": 0.4312,
+      "confidence": 43.1,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Venus Williams bows out of US Open with straight-sets defeat to Sofia Kenin",
+      "url": "https://www.aljazeera.com/sports/2026/8/31/venus-williams-bows-out-of-us-open-with-straight-sets-defeat-to-sofia-kenin?traffic_source=rss",
+      "summary": "The 46-year-old US veteran loses to wildcard compatriot but will play in women&#039;s doubles with sister Serena Williams.",
+      "source": "Al Jazeera",
+      "pubdate": "2026-08-31T09:20:38+00:00",
+      "final_score": 0.4232,
+      "confidence": 42.3,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "特朗普称“伊朗已死”，又发AI视频宣称炸毁哈尔克岛，伊朗官员：可笑",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-31/10687474.shtml",
+      "summary": "中新网8月31日电 综合外媒报道，当地时间8月31日，美国总统特朗普在社交媒体平台发文称，“伊朗已正式成为一个失败国家。它已经死了！他们没有海军，没有空军，没有货币，不给士兵和警察发工资，通胀率达到300%。”",
+      "source": "中新社",
+      "pubdate": "2026-08-31T12:54:15+00:00",
+      "final_score": 0.4153,
+      "confidence": 41.5,
+      "category": "财经",
+      "hit_keywords": [
+        "AI",
+        "伊朗",
+        "通胀"
+      ]
+    },
+    {
+      "title": "Ministers consider closing social mobility watchdog as part of planned shake-up",
+      "url": "https://www.theguardian.com/society/2026/aug/31/ministers-consider-closing-social-mobility-watchdog-as-part-of-planned-shake-up",
+      "summary": "Exclusive: Labour MPs believe SMC has become ineffective and its work ‘should be a core function of government’Ministers are considering a shake-up of the government’s social mobility watchdog that could range from giving it more teeth to abolishing it outright.The move comes amid concerns that the Social Mobility Commission (SMC) – originally conceived under Gordon Brown’s government in 2010 – has become ineffective. Continue reading...",
       "source": "Guardian World",
-      "pubdate": "2026-08-31T04:23:35+00:00",
-      "final_score": 0.3475,
+      "pubdate": "2026-08-31T12:23:02+00:00",
+      "final_score": 0.4035,
+      "confidence": 40.4,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "Fire breaks out after unidentified explosions at oil refinery in Baghdad",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/31/fire-breaks-out-after-unidentified-explosions-at-oil-refinery-in-baghdad-2?traffic_source=rss",
+      "summary": "A fire broke out following unidentified explosions at the Al-Dora power plant south of the Iraqi capital, Baghdad.",
+      "source": "Al Jazeera",
+      "pubdate": "2026-08-31T11:58:57+00:00",
+      "final_score": 0.4002,
+      "confidence": 40.0,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "Turkiye, Saudi Arabia, Pakistan hold first Mecca defence pact meeting",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/31/turkiye-saudi-arabia-pakistan-hold-first-mecca-defence-pact-meeting?traffic_source=rss",
+      "summary": "Turkiye, Saudi Arabia, Pakistan hold first Mecca defence pact meeting",
+      "source": "Al Jazeera",
+      "pubdate": "2026-08-31T11:49:03+00:00",
+      "final_score": 0.3988,
+      "confidence": 39.9,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "Man arrested after Swiss rave shooting that killed woman",
+      "url": "https://www.bbc.co.uk/news/articles/cddv92n194vo?at_medium=RSS&at_campaign=rss",
+      "summary": "A 22-year-old Italian woman was killed and several injured at a techno rave in Aarau.",
+      "source": "BBC World",
+      "pubdate": "2026-08-31T11:41:40+00:00",
+      "final_score": 0.3978,
+      "confidence": 39.8,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "Iran’s economy in crisis as US launches new sanctions campaign",
+      "url": "https://www.theguardian.com/world/2026/aug/31/iran-economy-crisis-usa-launches-sanctions-inflation-trump",
+      "summary": "Trump’s Operation Economic Outcast is expected to push many Iranians into deeper poverty as food inflation soarsFor many Iranians, the new US sanctions campaign, called Operation Economic Outcast, seems superfluous given the grim economic situation in their country.Iranians are facing runaway food inflation, closed petrol stations and a seemingly never-ending depreciation of the nation’s currency caused by a lack of foreign exchange reserves. Continue reading...",
+      "source": "Guardian World",
+      "pubdate": "2026-08-31T13:00:26+00:00",
+      "final_score": 0.3487,
+      "confidence": 34.9,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Smelling test: children need education in sniffing aromas, scientist says",
+      "url": "https://www.theguardian.com/science/2026/aug/31/children-education-sniffing-aromas-scientist",
+      "summary": "Exclusive: Dr Will Tullett says better understanding of scents can improve wellbeing and perception of the worldChildren need a better education in sniffing aromas, a leading historian of smells has said, noting it may improve their wellbeing and help them understand the world around them.Dr Will Tullett, of the University of York, said pollution had been found to impair people’s olfactory abilities, while many objects and substances today – from margarines to car interiors and even our own homes – were stripped of their original smells and “reodourised” with synthetic scents. Continue reading...",
+      "source": "Guardian World",
+      "pubdate": "2026-08-31T13:00:25+00:00",
+      "final_score": 0.3487,
+      "confidence": 34.9,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "House Democrat to launch challenge to Trump’s ‘Lake America’ order – US politics live",
+      "url": "https://www.theguardian.com/us-news/live/2026/aug/31/donald-trump-lake-america-ontario-canada-trade-war-tariffs-jd-vance-g20-latest-news-updates",
+      "summary": "Debbie Dingell plans to introduce her ‘Hands Off Our Great Lakes Act’ today following president’s latest escalation in US-Canada trade warSign up for US Breaking News emailsDonald Trump has claimed that Iran is a “Failed Nation” and that the regime is “DEAD” in a post on Truth Social today.This comes as Washington and Tehran exchange their first strikes in a month, after the US struck Larak Island in the strait of Hormuz, and Iran retaliated by targeting Jordanian airbases. Continue reading...",
+      "source": "Guardian World",
+      "pubdate": "2026-08-31T12:53:23+00:00",
+      "final_score": 0.3477,
       "confidence": 34.8,
       "category": "其他",
       "hit_keywords": [
@@ -18,12 +129,12 @@
       ]
     },
     {
-      "title": "Russia, China leaders to meet at Shanghai Cooperation Organisation summit",
-      "url": "https://www.aljazeera.com/news/2026/8/31/russia-china-leaders-to-meet-at-shanghai-cooperation-organisation-summit?traffic_source=rss",
-      "summary": "The organisation is not officially anti-West, but Russian and Chinese leaders have used it to amplify their worldview.",
-      "source": "Al Jazeera",
-      "pubdate": "2026-08-31T04:18:23+00:00",
-      "final_score": 0.3468,
+      "title": "Iranian president says he still wants diplomatic end to war after US strikes on Hormuz – Middle East crisis live",
+      "url": "https://www.theguardian.com/world/live/2026/aug/31/us-iran-israel-hormuz-oil-donald-trump-larak-kharg-island-uae-jordan-latest-news-updates",
+      "summary": "US targets Iran’s Larak Island in first exchange of fire in more than a month as Masoud Pezeshkian says America ‘has not fulfilled its commitments’First US military attacks on Iran in a month prompt retaliationCoinciding with this week’s G20 meeting, the EU has issued a statement saying it will work with the US and other allied countries to maintain economic pressure against Iran.“The ‌EU welcomes efforts at ensuring that Iran ceases its destabilising activities and engages in peace negotiations with good ‌faith, also through additional economic pressure, including through ​the US-led Operation Economic Outcast,” it said in reference to the pressure strategy the White House describes as “an unprecedented campaign to sever every remaining economic lifeline sustaining” the Islamic republic. Continue reading...",
+      "source": "Guardian World",
+      "pubdate": "2026-08-31T12:47:30+00:00",
+      "final_score": 0.3469,
       "confidence": 34.7,
       "category": "其他",
       "hit_keywords": [
@@ -31,24 +142,11 @@
       ]
     },
     {
-      "title": "从“舞台动起来”到“干活用起来” 如何让机器人更有“力”",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-31/10687150.shtml",
-      "summary": "中新网北京8月31日电 题：从“舞台动起来”到“干活用起来” 如何让机器人更有“力”",
-      "source": "中新社",
-      "pubdate": "2026-08-31T04:12:36+00:00",
-      "final_score": 0.346,
-      "confidence": 34.6,
-      "category": "科技",
-      "hit_keywords": [
-        "机器人"
-      ]
-    },
-    {
-      "title": "Jason Arday accuser given three-month teaching ban but can continue research",
-      "url": "https://www.theguardian.com/uk-news/2026/aug/30/nathan-cofnas-jason-arday-accuser-teaching-ban-research",
-      "summary": "Nathan Cofnas told by Ghent University to work remotely as US ambassador claims credit for lifting of suspension Prof Jason Arday’s accuser Nathan Cofnas has been barred from teaching on Ghent University campus for three months but has been allowed to continue his research position.Cofnas, an American academic, was suspended from his postdoctoral research position at the Belgian institution earlier this month pending a “preliminary investigation” launched after Arday’s death. Continue reading...",
-      "source": "Guardian World",
-      "pubdate": "2026-08-30T15:35:11+00:00",
+      "title": "More value in Cairo’s trash, but less for those who collect it",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/31/more-value-in-cairos-trash-but-less-for-those-who-collect-it?traffic_source=rss",
+      "summary": "War on Iran disrupts imports, driving demand for Cairo’s recycled waste, but rising costs squeeze recyclers.",
+      "source": "Al Jazeera",
+      "pubdate": "2026-08-31T12:39:53+00:00",
       "final_score": 0.3458,
       "confidence": 34.6,
       "category": "其他",
@@ -57,90 +155,51 @@
       ]
     },
     {
-      "title": "Man who murdered Molly Ticehurst will not face life in jail, judge says",
-      "url": "https://www.theguardian.com/australia-news/2026/aug/31/molly-ticehurst-domestic-violence-murder-daniel-billings-sentence-ntwnfb",
-      "summary": "Justice Natalie Adams says she is troubled by expert evidence about rape allegations in slain woman’s police statementFollow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastMolly Ticehurst’s ex-boyfriend will not face a life sentence for her domestic violence murder, a crime which galvanised a national movement against gendered abuse.Ticehurst, a 28-year-old childcare educator, was found dead in her home at Forbes, in the New South Wales central-west, in the early hours of 22 April 2024. Continue reading...",
+      "title": "Badenoch appoints Andrew Griffith shadow chancellor in sweeping reshuffle",
+      "url": "https://www.theguardian.com/politics/2026/aug/31/kemi-badenoch-reshuffle-shadow-cabinet-patel-cleverly-resignations",
+      "summary": "Tory leader expected to install Tom Tugendhat as shadow foreign secretary after sacking Mel Stride and Priti PatelKemi Badenoch sacked her shadow chancellor, Mel Stride, and shadow foreign secretary, Priti Patel, in a sweeping Conservative reshuffle on Monday, replacing Stride with Andrew Griffith, and is expected to install Tom Tugendhat as Patel’s replacement.Stride, who has been the shadow chancellor since Badenoch became leader, was widely seen among Tories as failing to make an impression at a time when Labour has been under pressure over the economy. Continue reading...",
       "source": "Guardian World",
-      "pubdate": "2026-08-31T04:00:29+00:00",
-      "final_score": 0.3443,
-      "confidence": 34.4,
+      "pubdate": "2026-08-31T12:36:28+00:00",
+      "final_score": 0.3454,
+      "confidence": 34.5,
       "category": "其他",
       "hit_keywords": [
         "AI"
       ]
     },
     {
-      "title": "‘Everything’s smashed to bits’: Ukrainians turn anger on those storing weapons near their villages",
-      "url": "https://www.theguardian.com/world/2026/aug/31/ukraine-anger-weapons-storage-russian-bombing-myla",
-      "summary": "As Russia hits another ammunition warehouse, killing at least 38, locals put blame on poorly placed depotsIt is a day and a half since a Russian jet-powered drone smashed into an ammunition dump in Myla, a village 15 miles outside central Kyiv. Volodymyr, 61, a security guard, leads visitors from his family’s badly damaged home, its roof blown off, back windows shattered, through the garden towards the impact site 300 metres away.The garden, like so many in Ukraine’s villages and suburbs, is a sizeable allotment. But today the greenhouse is shattered, a vegetable patch is blackened and crisp underfoot. Several metres of grapevine have been destroyed. Even so, Volodymyr finds two surviving bunches to hand to the Guardian. Continue reading...",
-      "source": "Guardian World",
-      "pubdate": "2026-08-31T04:00:17+00:00",
+      "title": "中国化工行业首个大模型发布最新版本 从知识问答向智能执行跨越",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-31/10687400.shtml",
+      "summary": "中新网北京8月31日电 (记者 孙自法)记者8月31日从中国科学院获悉，中国化工行业首个大模型的最新迭代版本——智能化工大模型3.0 Pro当天正式发布，实现了从“专业知识问答模型”向“化工任务智能执行系统”的重要跨越。",
+      "source": "中新社",
+      "pubdate": "2026-08-31T12:28:53+00:00",
       "final_score": 0.3443,
       "confidence": 34.4,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "Properties in UK national parks command 24% premium, study finds",
-      "url": "https://www.theguardian.com/business/2026/aug/31/properties-uk-national-parks-premium-nationwide",
-      "summary": "Nationwide research also shows average 14% premium for housing in national landscapes of England and WalesHousebuyers are paying a premium of almost a quarter to own a property located within a UK national park, with the New Forest the most expensive national park to live in, according to Britain’s biggest building society.Nationwide found that a property located within a national park cost 24% more on average than a similar property elsewhere, while buyers were also stumping up a 6% premium for homes within three miles of a national park. Continue reading...",
-      "source": "Guardian World",
-      "pubdate": "2026-08-31T04:00:16+00:00",
-      "final_score": 0.3443,
-      "confidence": 34.4,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "7月份全国贸促系统优惠原产地证书签证金额同比增长24.77%",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-31/10687147.shtml",
-      "summary": "今天上午，中国贸促会举办新闻发布会。发布会上，中国贸促会公布了7月份全国贸促系统签发的原产地证书和商事证明书等数据情况。",
-      "source": "中新社",
-      "pubdate": "2026-08-31T03:51:33+00:00",
-      "final_score": 0.3431,
-      "confidence": 34.3,
-      "category": "其他",
-      "hit_keywords": [
-        "数据"
-      ]
-    },
-    {
-      "title": "沪市半年报披露收官 近八成公司实现盈利",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-31/10687142.shtml",
-      "summary": "中新网上海8月31日电 (高志苗)上海证券交易所30日晚间发布消息称，沪市上市公司完成2026年半年报披露。数据显示，沪市公司加快推进科技创新和产业升级，营收净利实现双增长，呈现出动能向新、结构向优的稳健发展态势。",
-      "source": "中新社",
-      "pubdate": "2026-08-31T03:51:21+00:00",
-      "final_score": 0.343,
-      "confidence": 34.3,
-      "category": "财经",
-      "hit_keywords": [
-        "数据"
-      ]
-    },
-    {
-      "title": "新疆克拉玛依市第二届人工智能应用大赛决赛举行",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-31/10687141.shtml",
-      "summary": "中新网新疆克拉玛依8月31日电 (张家伟)新疆克拉玛依市第二届人工智能应用大赛决赛30日举行。",
-      "source": "中新社",
-      "pubdate": "2026-08-31T03:50:05+00:00",
-      "final_score": 0.3429,
-      "confidence": 34.3,
       "category": "科技",
       "hit_keywords": [
-        "人工智能"
+        "大模型"
       ]
     },
     {
-      "title": "At least eight dead and 18 missing after ferry capsizes off northern Cyprus",
-      "url": "https://www.theguardian.com/world/2026/aug/30/ferry-capsizes-northern-cyprus",
-      "summary": "Authorities say 237 people rescued and search under way for those who remain unaccounted forAt least eight people have died and 18 people are missing after a ferry carrying nearly 270 passengers and crew capsized off the coast of Turkish-occupied northern Cyprus, local authorities said.The territory’s prime minister, Ünal Üstel, told the state-run TRT news channel on Sunday that 237 people had been rescued. A search was under way for those who remained unaccounted for. Continue reading...",
+      "title": "Grand Canyon braces for more storms after flash flood leaves one person dead",
+      "url": "https://www.theguardian.com/us-news/2026/aug/31/grand-canyon-storms-flash-flood",
+      "summary": "National park officials say body of a man, 46, was recovered and about 15 others remain missing or unaccounted forThe Grand Canyon area braced for more rain and thunderstorms on Monday after a flash flood that left one person dead and about 15 others missing or unaccounted for – with scores of visitors evacuated and the only water pipeline for tourists and residents destroyed.Emergency water restrictions that began on Monday prevented tourists from staying overnight at lodges and hotels within the park. Year-round residents were asked to conserve water. Continue reading...",
       "source": "Guardian World",
-      "pubdate": "2026-08-30T15:12:02+00:00",
-      "final_score": 0.3426,
+      "pubdate": "2026-08-31T12:26:22+00:00",
+      "final_score": 0.344,
+      "confidence": 34.4,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Can Reform UK recover from its summer horribilis?",
+      "url": "https://www.theguardian.com/politics/2026/aug/31/can-reform-uk-recover-from-its-summer-horribilis",
+      "summary": "Clacton, funding, internal divisions – party prepares for annual conference next week after a season of misstepsSenior Reform UK figures like to boast that the summer time – and parliament’s longest recess – is when the party makes hay.Supposedly, it is when Nigel Farage and co can muscle in on the news cycle with provocative statements and new policies, painting “establishment” opponents as workshy layabouts. Continue reading...",
+      "source": "Guardian World",
+      "pubdate": "2026-08-31T12:22:53+00:00",
+      "final_score": 0.3435,
       "confidence": 34.3,
       "category": "其他",
       "hit_keywords": [
@@ -148,24 +207,37 @@
       ]
     },
     {
-      "title": "暑期档总票房连续两年增长 电影“流量”带来文旅消费增量",
-      "url": "https://www.chinanews.com.cn/cul/2026/08-31/10687138.shtml",
-      "summary": "网络平台数据显示，截至今天零时，2026年暑期档总票房(含预售)突破124.41亿元，超过2025年暑期档收官总票房，实现暑期档票房连续两年增长。",
+      "title": "广州海关八年监管往返粤港两地马匹超5万匹次",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-31/10687428.shtml",
+      "summary": "中新社广州8月31日电 (记者 郭军 许青青)据广州海关8月31日发布的统计数据，今年前8月，广州海关共监管进出境马匹超6950匹次，同比增长约15%；自2018年8月粤港跨境马匹常态化运输启动以来，广州海关共监管保障超5万匹次马匹安全顺畅往返粤港两地。",
       "source": "中新社",
-      "pubdate": "2026-08-31T03:37:04+00:00",
-      "final_score": 0.3411,
-      "confidence": 34.1,
+      "pubdate": "2026-08-31T12:10:32+00:00",
+      "final_score": 0.3418,
+      "confidence": 34.2,
       "category": "其他",
       "hit_keywords": [
         "数据"
       ]
     },
     {
-      "title": "US strikes Iranian launchers in strait of Hormuz, sparking reprisal attack on airbases in Jordan",
-      "url": "https://www.theguardian.com/world/2026/aug/30/us-strikes-iranian-launchers-on-larak-island-amid-strait-of-hormuz-tensions",
-      "summary": "US says it attacked sites in Larak Island to prevent launch of sea mines, prompting Iran’s ⁠Revolutionary Guard to strike airbases in Jordan used by US forcesIran has launched retaliatory strikes on airbases in Jordan after the United States attacked Iranian rocket launchers on an island in the strait of Hormuz, the first such strikes in a month.“I can confirm that earlier today US forces struck two Iranian launchers on Larak island,” a US official said on Sunday. “Islamic ⁠Revolutionary Guard Corps forces were observed preparing to launch rockets with sea mines into the strait of Hormuz.” Continue reading...",
-      "source": "Guardian World",
-      "pubdate": "2026-08-31T03:31:42+00:00",
+      "title": "Who are the economic winners and losers of the US-Israel war on Iran?",
+      "url": "https://www.aljazeera.com/economy/2026/8/31/who-are-the-economic-winners-and-losers-of-the-us-israel-war-on-iran?traffic_source=rss",
+      "summary": "Airlines and automakers have taken a hit, while banks and energy firms have raked in big profits.",
+      "source": "Al Jazeera",
+      "pubdate": "2026-08-31T12:01:18+00:00",
+      "final_score": 0.3405,
+      "confidence": 34.0,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Rescuers search for 18 missing after boat capsizes off Northern Cyprus",
+      "url": "https://www.aljazeera.com/news/2026/8/31/rescue-teams-continue-search-for-missing-after-north-cyprus-ferry-sinking?traffic_source=rss",
+      "summary": "The captain and crew of the ferry have been brought before a judge and placed under formal arrest.",
+      "source": "Al Jazeera",
+      "pubdate": "2026-08-31T11:59:37+00:00",
       "final_score": 0.3403,
       "confidence": 34.0,
       "category": "其他",
@@ -174,164 +246,103 @@
       ]
     },
     {
-      "title": "Two Palestinians reported dead as Israeli forces raid Nablus",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/31/two-palestinians-reported-dead-as-israeli-forces-raid-nablus?traffic_source=rss",
-      "summary": "Footage shows Israeli military vehicles and personnel deployed across Nablus city in the occupied West Bank.",
-      "source": "Al Jazeera",
-      "pubdate": "2026-08-31T03:08:35+00:00",
-      "final_score": 0.3371,
-      "confidence": 33.7,
+      "title": "Countries legally obliged to consider slavery reparations, says UN committee",
+      "url": "https://www.theguardian.com/world/2026/aug/31/countries-legally-obliged-consider-slavery-reparations-un-committee",
+      "summary": "Guidance says states must implement ‘comprehensive measures’ to address legacy of racial discriminationA UN committee has said countries are legally obliged to consider reparations for the transatlantic slave trade and take other ⁠measures to address the enduring ⁠legacy of racial ​discrimination.Guidance published on Monday by the committee on the elimination of racial discrimination (CERD) said the obligations arose from ⁠a legally binding 1965 convention on racial discrimination, not from the legal standards that existed when the slave trade took place. Continue reading...",
+      "source": "Guardian World",
+      "pubdate": "2026-08-31T11:54:16+00:00",
+      "final_score": 0.3395,
+      "confidence": 34.0,
       "category": "其他",
       "hit_keywords": [
         "AI"
       ]
     },
     {
-      "title": "Niger mutiny puts Russia’s expanding role in the Sahel to the test",
-      "url": "https://www.aljazeera.com/news/2026/8/31/niger-mutiny-puts-russias-expanding-role-in-the-sahel-to-the-test?traffic_source=rss",
-      "summary": "Failed uprising in Niamey exposed tensions in Niger’s military, and the role of the Africa Corps in suppressing unrest.",
+      "title": "UAE intercepts drone after US and Iran exchange attacks",
+      "url": "https://www.aljazeera.com/news/2026/8/31/uae-intercepts-drone-after-us-and-iran-exchange-attacks?traffic_source=rss",
+      "summary": "The UAE says it intercepted a drone coming from Iran and rejected &#039;false&#039; reports of an attack on its Al Menhad airbase.",
       "source": "Al Jazeera",
-      "pubdate": "2026-08-31T02:15:35+00:00",
-      "final_score": 0.3297,
-      "confidence": 33.0,
+      "pubdate": "2026-08-31T11:25:43+00:00",
+      "final_score": 0.3355,
+      "confidence": 33.6,
       "category": "其他",
       "hit_keywords": [
         "AI"
       ]
     },
     {
-      "title": "Tunisia swelters as power cuts disrupt water supplies",
-      "url": "https://www.aljazeera.com/news/2026/8/31/tunisia-swelters-as-power-cuts-disrupt-water-supplies?traffic_source=rss",
-      "summary": "Near 50C temperatures are driving record electricity demand, disrupting water supplies and straining health services.",
-      "source": "Al Jazeera",
-      "pubdate": "2026-08-31T02:11:35+00:00",
-      "final_score": 0.3292,
-      "confidence": 32.9,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "'A giant leap forward': Nasa launches powerful new space telescope",
-      "url": "https://www.bbc.co.uk/news/articles/ce87e55vgpjo?at_medium=RSS&at_campaign=rss",
-      "summary": "The US space agency's telescope is starting a multi-year mission to create a new map of the universe and learn more about dark energy and dark matter.",
+      "title": "Passengers stranded as strike disrupts flights at Kenya's main airport",
+      "url": "https://www.bbc.co.uk/news/articles/c783x05nnlko?at_medium=RSS&at_campaign=rss",
+      "summary": "Kenya Airways says the strike has caused delays of more than six hours, with some flights cancelled.",
       "source": "BBC World",
-      "pubdate": "2026-08-30T18:53:53+00:00",
-      "final_score": 0.3284,
-      "confidence": 32.8,
+      "pubdate": "2026-08-31T10:54:01+00:00",
+      "final_score": 0.3311,
+      "confidence": 33.1,
       "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "第十九届欧洽会将于10月在成都举办",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-31/10687146.shtml",
-      "summary": "记者在今天举办的贸促会新闻发布会上获悉，第十九届中国—欧盟投资贸易科技合作洽谈会(简称“欧洽会”)，将于10月21日至23日在成都中国—欧洲中心举办。",
-      "source": "中新社",
-      "pubdate": "2026-08-31T03:49:53+00:00",
-      "final_score": 0.3278,
-      "confidence": 32.8,
-      "category": "国际",
       "hit_keywords": [
-        "欧盟"
+        "AI"
       ]
     },
     {
-      "title": "“沙德尔”残涡已移入南海北部 将再次加强",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-31/10687134.shtml",
-      "summary": "中新网海口8月31日电 (云蓓 郭冬艳)海南省气象台31日上午透露，今年第18号台风“沙德尔”残涡已移入南海北部，预计今天白天可能再次发展为热带低压，并有可能进一步加强为热带风暴级。",
-      "source": "中新社",
-      "pubdate": "2026-08-31T03:47:08+00:00",
-      "final_score": 0.3274,
-      "confidence": 32.7,
+      "title": "Desperate rescue attempts continue in Nepal to reach people thought to be trapped | First Thing",
+      "url": "https://www.theguardian.com/us-news/2026/aug/31/first-thing-rescue-nepal-missing-people-trapped",
+      "summary": "Death toll from unprecedented deluge of ice, rock, mud ​and debris now stands at more than 900. Plus, was it a mistake to take away Pluto’s planet status?Don’t already get First Thing in your inbox? Sign up hereGood morning. Rescue teams are working to reach hundreds of people feared trapped in the tunnels and underground areas of half a dozen hydropower projects in Nepal as more than 900 workers were reported missing after the devastating flash floods.The death toll from the ⁠unprecedented deluge of ice, rock, mud ​and debris that crashed through valleys of Nepal on Wednesday last week has risen to 903 people, with 16 reported dead on the Tibet side of the border. More than 4,000 are missing in Nepal, with another 500 in Tibet. Hundreds of bodies, many unidentified, have been buried in shallow graves.How large is the rescue operation? Nepal’s prime minister, Balendra Shah, said almost 21,000 security personnel were involved in the rescue operations, besides civilian workers and volunteers. China’s state-run CCTV reported that Beijing had mobilised more than 2,100 rescue workers. The Red Cross has ‌estimated that more than 90,000 people are likely to have been affected by the disaster, which China and some experts linked to the effects of the climate crisis.Why has the disaster sparked a racism row in Australia? A slew of racist social media comments have been made towards missing Australians. Most of them were on pilgrimages, including to Mount Kailash in Tibet. Mainstream media outlets including News Corp, Channel 7, Channel 10 and Nine have been hit with highly offensive and discriminatory comments on Facebook articles identifying the missing Australians.What has Donald Trump claimed US forces are doing? Hours after the attacks, the US president, Donald Trump, claimed in a social media post that Iran’s energy hub of Kharg Island was being “blown to smithereens” but gave no further details. The White House and ⁠the US defense department did not immediately respond to requests for comment. Attacking Kharg, which handled 90% of ⁠Iran’s oil exports before the war, would severely disrupt the Islamic republic’s energy trade and put huge pressure on its economy. Continue reading...",
+      "source": "Guardian World",
+      "pubdate": "2026-08-31T10:34:40+00:00",
+      "final_score": 0.3285,
+      "confidence": 32.8,
       "category": "其他",
       "hit_keywords": [
-        "南海"
+        "AI"
       ]
     },
     {
-      "title": "美军打击伊朗拉腊克岛 伊朗发动反击",
-      "url": "https://www.chinanews.com.cn/gj/2026/08-31/10687110.shtml",
-      "summary": "中新社北京8月31日电 综合消息：美军当地时间8月30日对伊朗拉腊克岛发动打击，伊朗此后对位于约旦的美军基地发动反击。",
+      "title": "美军袭击伊朗拉腊克岛致2死多人伤，岛上接连传出爆炸声",
+      "url": "https://www.chinanews.com.cn/gj/2026/08-31/10687441.shtml",
+      "summary": "中新网8月31日电 据法新社援引伊朗国家媒体当地时间31日消息，美军对伊朗拉腊克岛的袭击已致2人死亡、多人受伤。",
       "source": "中新社",
-      "pubdate": "2026-08-31T03:41:10+00:00",
-      "final_score": 0.3266,
-      "confidence": 32.7,
+      "pubdate": "2026-08-31T12:07:24+00:00",
+      "final_score": 0.3263,
+      "confidence": 32.6,
       "category": "其他",
       "hit_keywords": [
         "伊朗"
       ]
     },
     {
-      "title": "Nepal-Tibet deaths from flash flooding rise amid race to free workers in tunnel",
-      "url": "https://www.theguardian.com/world/2026/aug/30/nepal-tibet-floods-china-search-rescue-operations-looking-for-survivors",
-      "summary": "Total of 804 confirmed dead and more than 3,000 missing amid threat of fresh inundation‘Their whole village has disappeared’: frantic hunt for survivors in Kathmandu hospitalRescuers in Nepal and Tibet have battled through leg-sucking mud amid the threat of fresh flooding to search for thousands of people still missing after a deadly wall of water swept through the Himalayan border zone, engulfing entire villages.The latest updates on Sunday put the number of missing at 3,048, including hundreds of foreigners. There was a total of 804 confirmed deaths across Nepal and Tibet, and reports of some bodies swept downstream possibly as far as India. Continue reading...",
-      "source": "Guardian World",
-      "pubdate": "2026-08-30T18:34:21+00:00",
-      "final_score": 0.3257,
+      "title": "The looming failure of Operation Economic Outcast",
+      "url": "https://www.aljazeera.com/opinions/2026/8/31/the-looming-failure-of-operation-economic-outcast?traffic_source=rss",
+      "summary": "The latest package of US sanctions on Iran is unlikely to achieve Washington’s objectives.",
+      "source": "Al Jazeera",
+      "pubdate": "2026-08-31T10:18:40+00:00",
+      "final_score": 0.3262,
       "confidence": 32.6,
       "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "国家主席习近平同吉尔吉斯斯坦总统扎帕罗夫举行会谈",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-31/10687157.shtml",
-      "summary": "新华社快讯：当地时间8月31日上午，国家主席习近平同吉尔吉斯斯坦总统扎帕罗夫举行会谈。",
-      "source": "中新社",
-      "pubdate": "2026-08-31T04:17:41+00:00",
-      "final_score": 0.3242,
-      "confidence": 32.4,
-      "category": "政治",
       "hit_keywords": [
-        "主席"
+        "AI"
       ]
     },
     {
-      "title": "国家主席习近平出席吉尔吉斯斯坦总统扎帕罗夫举行的欢迎仪式",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-31/10687149.shtml",
-      "summary": "新华社快讯：当地时间8月31日上午，国家主席习近平出席吉尔吉斯斯坦总统扎帕罗夫举行的欢迎仪式。",
-      "source": "中新社",
-      "pubdate": "2026-08-31T04:05:46+00:00",
-      "final_score": 0.3225,
+      "title": "Spain’s Sanchez says Russia, Israel spread disinformation on Ceuta crisis",
+      "url": "https://www.aljazeera.com/news/2026/8/31/spains-sanchez-condemns-russia-israel-disinformation-during-ceuta-crisis?traffic_source=rss",
+      "summary": "Sanchez cited EU research which had found that Russia ⁠and ⁠Israel both spread disinformation during the crisis.",
+      "source": "Al Jazeera",
+      "pubdate": "2026-08-31T09:56:34+00:00",
+      "final_score": 0.3232,
       "confidence": 32.3,
-      "category": "政治",
+      "category": "其他",
       "hit_keywords": [
-        "主席"
+        "AI"
       ]
     },
     {
-      "title": "时政快讯丨习近平抵达比什凯克和谐宫 出席欢迎仪式",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-31/10687148.shtml",
-      "summary": "当地时间8月31日上午，国家主席习近平乘车抵达比什凯克和谐宫，出席吉尔吉斯斯坦总统扎帕罗夫举行的欢迎仪式。",
-      "source": "中新社",
-      "pubdate": "2026-08-31T03:59:37+00:00",
-      "final_score": 0.3217,
-      "confidence": 32.2,
-      "category": "政治",
-      "hit_keywords": [
-        "主席"
-      ]
-    },
-    {
-      "title": "游艇自由行政策红利持续释放 16艘港澳游艇齐聚珠海东澳岛",
-      "url": "https://www.chinanews.com.cn/dwq/2026/08-31/10687133.shtml",
-      "summary": "中新网珠海8月31日电 (郭军 张帅)粤港澳游艇自由行政策今年6月正式落地以来，政策红利不断释放。8月29日至30日，“悦游东澳山海间 同心扬帆大湾区”粤港澳游艇珠海海岛行活动在珠海东澳岛举行，来自港澳的16艘游艇、180余名船东及行业代表登岛参与交流。",
-      "source": "中新社",
-      "pubdate": "2026-08-31T03:46:24+00:00",
-      "final_score": 0.3198,
-      "confidence": 32.0,
-      "category": "政治",
-      "hit_keywords": [
-        "政策"
-      ]
-    },
-    {
-      "title": "Victorian prisoners to be sent out to repair roads under Labor’s pothole plan",
-      "url": "https://www.theguardian.com/australia-news/2026/aug/31/victorian-prisoners-to-be-sent-out-to-repair-roads-under-labors-pothole-plan",
-      "summary": "Inmates would take over ‘basic’ road maintenance duties, allowing skilled crews to focus on fixing 500,000 potholesFollow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastVictorian prisoners will be put to work on road maintenance as part of Labor’s plan to fix the state’s potholes if re-elected.The state’s premier, Ben Carroll, outlined the plan on Monday off the back of an announcement on Sunday that the government would be increasing the road maintenance budget by $352m to fix 500,000 potholes by the end of January. Continue reading...",
+      "title": "First US military attacks on Iran in a month prompt retaliation",
+      "url": "https://www.theguardian.com/world/2026/aug/30/us-strikes-iranian-launchers-on-larak-island-amid-strait-of-hormuz-tensions",
+      "summary": "US attacks Iranian rocket launchers on island in strait of Hormuz and Tehran targets US bases in Jordan and UAEThe US has reverted to military attacks on Iran for the first time in a month, firing missiles and drones at Iranian rocket launchers on an island in the strait of Hormuz, prompting the Iranian military to attack US military bases in Jordan and the United Arab Emirates.US Central Command said it acted late on Sunday after it detected the Iranians planning to fire fresh mines into the strait. Last week Donald Trump claimed the US navy had cleared the strait of mines for the first time since the conflict started on 28 February, a claim the Iranians rejected as lies. Continue reading...",
       "source": "Guardian World",
-      "pubdate": "2026-08-31T01:04:00+00:00",
-      "final_score": 0.3198,
+      "pubdate": "2026-08-31T09:37:19+00:00",
+      "final_score": 0.3205,
       "confidence": 32.0,
       "category": "其他",
       "hit_keywords": [
@@ -339,42 +350,764 @@
       ]
     },
     {
-      "title": "时政快讯丨习近平将出席吉尔吉斯斯坦总统扎帕罗夫举行的欢迎仪式",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-31/10687144.shtml",
-      "summary": "当地时间8月31日上午，国家主席习近平将在比什凯克和谐宫出席吉尔吉斯斯坦总统扎帕罗夫举行的欢迎仪式。",
+      "title": "故宫博物院推重磅书画展 《洛神赋图》《步辇图》等亮相",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-31/10687432.shtml",
+      "summary": "中新社北京8月31日电 (记者 应妮)故宫博物院“典则：唐宋书画展”8月31日在北京举行开幕式，9月1日将在文华殿向公众正式开放。现场重点展品包括东晋顾恺之《洛神赋图》卷(宋摹本)、隋展子虔《游春图》卷、唐阎立本《步辇图》卷、唐杜牧《行书张好好诗》卷、五代董源《潇湘图》卷等，其中《步辇图》《行书张好好诗卷》刚刚度过三年的休眠周期。",
       "source": "中新社",
-      "pubdate": "2026-08-31T03:45:18+00:00",
-      "final_score": 0.3197,
+      "pubdate": "2026-08-31T12:13:13+00:00",
+      "final_score": 0.3196,
       "confidence": 32.0,
-      "category": "政治",
+      "category": "其他",
       "hit_keywords": [
-        "主席"
+        "开放"
       ]
     },
     {
-      "title": "（经济观察）业界看好粤港澳游艇自由行政策红利激活海上文旅经济",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-31/10687109.shtml",
-      "summary": "中新社珠海8月31日电 (记者 郭军)粤港澳游艇自由行政策今年6月正式落地以来，政策红利不断释放，为大湾区文旅融合、跨境消费升级带来利好。",
+      "title": "Dolly Parton laid to rest alongside husband in Nashville",
+      "url": "https://www.bbc.co.uk/news/articles/cew95ke74l7o?at_medium=RSS&at_campaign=rss",
+      "summary": "A private family funeral is held for the singer who died on Tuesday at the age of 80.",
+      "source": "BBC World",
+      "pubdate": "2026-08-31T09:24:50+00:00",
+      "final_score": 0.3188,
+      "confidence": 31.9,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "江苏省委常委、组织部部长刘建洋接受审查调查",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-31/10687437.shtml",
+      "summary": "中新网8月31日电 据中央纪委国家监委网站消息，江苏省委常委、组织部部长刘建洋涉嫌严重违纪违法，目前正接受中央纪委国家监委纪律审查和监察调查。",
       "source": "中新社",
-      "pubdate": "2026-08-31T03:23:29+00:00",
-      "final_score": 0.3167,
+      "pubdate": "2026-08-31T12:01:56+00:00",
+      "final_score": 0.3181,
+      "confidence": 31.8,
+      "category": "其他",
+      "hit_keywords": [
+        "中央"
+      ]
+    },
+    {
+      "title": "Iran attacks Jordan, UAE after US bombs Larak Island: What’s the latest?",
+      "url": "https://www.aljazeera.com/news/2026/8/31/iran-attacks-jordan-uae-after-us-bombs-larak-island-whats-the-latest?traffic_source=rss",
+      "summary": "The retaliatory attacks came after the US targeted two Iranian launchers on Larak Island in the Strait of Hormuz.",
+      "source": "Al Jazeera",
+      "pubdate": "2026-08-31T09:19:40+00:00",
+      "final_score": 0.318,
+      "confidence": 31.8,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "China is concealing scale of flood disaster, say Tibet campaigners",
+      "url": "https://www.theguardian.com/world/2026/aug/31/china-concealing-scale-nepal-flood-disaster-say-tibet-campaigners",
+      "summary": "Rights group claims 300 homes were destroyed in Tibet and number of missing people is ‘far higher’ than Beijing admitsA Tibetan advocacy group says hundreds of homes were destroyed on the Tibetan side of the border in last week’s deadly floods, raising questions about Beijing’s official account of the scale of the disaster.Public discussion about the flash floods has been restricted, with security officials in Tibet announcing on Sunday that it had penalised at least 10 people for sharing “false disaster information”. There was no further information on the nature of the penalties. Continue reading...",
+      "source": "Guardian World",
+      "pubdate": "2026-08-31T09:18:28+00:00",
+      "final_score": 0.3179,
+      "confidence": 31.8,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "李强主持召开国务院常务会议",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-31/10687427.shtml",
+      "summary": "李强主持召开国务院常务会议",
+      "source": "中新社",
+      "pubdate": "2026-08-31T11:54:31+00:00",
+      "final_score": 0.317,
       "confidence": 31.7,
       "category": "政治",
       "hit_keywords": [
-        "政策"
+        "国务院"
       ]
     },
     {
-      "title": "从“接诉即办”到“未诉先办”——一场12345热线改革背后的民生答卷",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-31/10687105.shtml",
-      "summary": "8月26日，12345政务服务便民热线改革试点座谈会暨“热线里的民生温度”全国优秀作品分享活动在陕西宝鸡举行。来自陕甘川宁毗邻地区城市代表、陕西省内各地主管部门负责人、征文获奖作者以及宝鸡各县区、市级部门相关人员齐聚一堂，以座谈研讨、作品分享、成果发布等形式，共同探寻政务热线高质量发展的实践路径。",
-      "source": "中新社",
-      "pubdate": "2026-08-31T03:17:59+00:00",
-      "final_score": 0.3159,
+      "title": "Kazakhstan’s Tokayev appoints longtime adviser as vice president",
+      "url": "https://www.aljazeera.com/news/2026/8/31/kazakhstans-president-taps-longtime-adviser-for-vice-president-role?traffic_source=rss",
+      "summary": "Erlan Karin has served as a top ⁠⁠aide to Tokayev since he took over the presidency in 2019.",
+      "source": "Al Jazeera",
+      "pubdate": "2026-08-31T09:07:15+00:00",
+      "final_score": 0.3163,
       "confidence": 31.6,
-      "category": "社会",
+      "category": "其他",
       "hit_keywords": [
-        "改革"
+        "AI"
+      ]
+    },
+    {
+      "title": "Xi, Modi and Putin attend SCO summit: What’s on the agenda?",
+      "url": "https://www.aljazeera.com/news/2026/8/31/xi-modi-and-putin-set-to-meet-for-sco-summit-whats-on-the-agenda?traffic_source=rss",
+      "summary": "The two-day summit aims to promote a vision of a multipolar world and mutual trade ties amid Trump&#039;s unilateralism.",
+      "source": "Al Jazeera",
+      "pubdate": "2026-08-31T08:47:03+00:00",
+      "final_score": 0.3135,
+      "confidence": 31.4,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "US and Iran trade strikes for first time in weeks",
+      "url": "https://www.bbc.co.uk/news/articles/cx2z72x5z1po?at_medium=RSS&at_campaign=rss",
+      "summary": "The attack on Larak Island in the Strait of Hormuz - the first known US strike since late July - has killed two people and injured two others.",
+      "source": "BBC World",
+      "pubdate": "2026-08-31T08:34:25+00:00",
+      "final_score": 0.3118,
+      "confidence": 31.2,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Nord Stream bombings put Ukraine’s ties with Germany under pressure",
+      "url": "https://www.aljazeera.com/news/2026/8/31/why-the-2022-nord-stream-bombings-muddle-berlin-kyiv-ties?traffic_source=rss",
+      "summary": "The blasts strain ties with Ukraine and have exposed the risks of relying on Russian gas, analysts say.",
+      "source": "Al Jazeera",
+      "pubdate": "2026-08-31T08:03:48+00:00",
+      "final_score": 0.3075,
+      "confidence": 30.8,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "‘An act of resistance’: Raja Shehadeh’s Palestinian diaries find a new home",
+      "url": "https://www.aljazeera.com/news/2026/8/31/an-act-of-resistance-raja-shehadehs-palestinian-diaries-find-a-new-home?traffic_source=rss",
+      "summary": "Al Jazeera interviews the leading writer and lawyer, 75, in Edinburgh, where his daily documentation is being archived.",
+      "source": "Al Jazeera",
+      "pubdate": "2026-08-31T08:03:31+00:00",
+      "final_score": 0.3075,
+      "confidence": 30.7,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Weather tracker: Warm Yellow Sea strengthens storms in South Korea",
+      "url": "https://www.theguardian.com/environment/2026/aug/31/weather-tracker-warm-yellow-sea-storms-south-korea",
+      "summary": "More than 200mm of rain forecast in parts of South Korea, while parts of southern Europe to be 10C above averageSouth Korea’s prime minister, Han Seong-sook, met officials to prepare for heavy rain expected this week, with rainfall totals across central and northern parts of the country forecast to exceed 200mm in some areas.South Korea was battered by heavy rainfall earlier this month and some areas were particularly hard hit. Over the weekend further thunderstorms pushed into the region and these are expected to cause disruption through Monday. This heavy rain is caused by a series of severe thunderstorms that developed over the Yellow Sea, on the western side of South Korea, and will slowly push eastwards on Monday before easing on Tuesday. These storms have been strengthened by the very warm Yellow Sea, which now has a surface temperature of 29C, 4C above the climatological average. Continue reading...",
+      "source": "Guardian World",
+      "pubdate": "2026-08-31T07:57:24+00:00",
+      "final_score": 0.3066,
+      "confidence": 30.7,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Qantas ground crews vote for right to strike amid pay dispute – as it happened",
+      "url": "https://www.theguardian.com/australia-news/live/2026/aug/31/nepal-floods-penny-wong-labor-anthony-albanese-one-nation-pauline-hanson-angus-taylor-liberal-party-ntwnfb",
+      "summary": "This blog is now closedGet our breaking news email, free app or daily news podcastThe Australian government is working with Russian officials in a bid to secure the release of Australian Oscar Jenkins, Matt Thistlethwaite says. Speaking to ABC news breakfast, the assistant minister for foreign affairs declined to answer whether a prisoner swap was on the table.Obviously, we try and negotiate as best we can on behalf of all Australians who find themselves in difficulties such as this. We obviously have to abide by international laws and we always uphold them. But the Australian officials on the ground will work with their counterparts to ensure that, hopefully he’s returned to Australia safely. Continue reading...",
+      "source": "Guardian World",
+      "pubdate": "2026-08-31T07:48:10+00:00",
+      "final_score": 0.3053,
+      "confidence": 30.5,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Newborn baby’s body found in Sydney rubbish bin as police hold ‘serious concerns’ for mother",
+      "url": "https://www.theguardian.com/australia-news/2026/aug/31/baby-body-found-garbage-rubbish-bin-harrow-road-auburn-sydney-ntwnfb",
+      "summary": "Police urge mother to attend hospital after baby’s body discovered in Harrow Road in AuburnFollow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastNew South Wales police have appealed for information to find the mother of a newborn baby boy, whose body was discovered in a rubbish bin in Auburn in Sydney’s west on Monday morning.Police said emergency services responded to reports of the body of a baby located in a rubbish bin at a unit block along Harrow Road in Auburn at 11.20am, with officers from the Auburn police area command finding the body of a newborn boy. Continue reading...",
+      "source": "Guardian World",
+      "pubdate": "2026-08-31T07:35:20+00:00",
+      "final_score": 0.3036,
+      "confidence": 30.4,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Pakistan, Saudi Arabia, Turkiye meet: What’s next for their defence pact?",
+      "url": "https://www.aljazeera.com/news/2026/8/31/pakistan-saudi-arabia-turkiye-meet-whats-next-for-their-defence-pact?traffic_source=rss",
+      "summary": "As US-Iran strikes resume, Pakistan, Saudi Arabia and Turkiye test their pact&#039;s substance, and who might join next.",
+      "source": "Al Jazeera",
+      "pubdate": "2026-08-31T12:57:49+00:00",
+      "final_score": 0.3033,
+      "confidence": 30.3,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "One dead and more than a dozen missing after 'terrifying' flash flood hits Grand Canyon",
+      "url": "https://www.bbc.co.uk/news/articles/clylkjyez1do?at_medium=RSS&at_campaign=rss",
+      "summary": "\"It was a beautiful day - and then people were screaming,\" one hiker tells the BBC, as 15 people are missing.",
+      "source": "BBC World",
+      "pubdate": "2026-08-31T12:55:25+00:00",
+      "final_score": 0.303,
+      "confidence": 30.3,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "蓝皮书指2026年广州经济有望继续保持稳定增长",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-31/10687457.shtml",
+      "summary": "中新网广州8月31日电 (记者 程景伟)广州市社会科学院、社会科学文献出版社31日在广州联合发布《广州蓝皮书：广州经济发展报告(2026)》。蓝皮书显示，2026年广州经济有望继续保持稳定增长，同比增速预计处于5.0%至6.2%区间。",
+      "source": "中新社",
+      "pubdate": "2026-08-31T12:54:31+00:00",
+      "final_score": 0.3029,
+      "confidence": 30.3,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "国家防总、应急管理部针对福建启动防汛防台风四级应急响应",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-31/10687473.shtml",
+      "summary": "受今年第18号台风“沙德尔”的残余涡旋影响，未来三天福建省部分地区将有暴雨到大暴雨，局地特大暴雨，部分中小河流可能发生超警洪水，防汛防台风形势严峻。",
+      "source": "中新社",
+      "pubdate": "2026-08-31T12:53:51+00:00",
+      "final_score": 0.3028,
+      "confidence": 30.3,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "舞台表达再进阶 北京人艺《迷幻》回归",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-31/10687459.shtml",
+      "summary": "中新网北京8月31日电 (记者 高凯)时隔一年，北京人艺制作话剧《迷幻》日前再度回到北京国际戏剧中心·曹禺剧场的舞台，开启第三轮演出。该剧由徐昂导演，冯远征、闫楠主演，在独特的舞台叙事和紧凑的表演节奏下，把观众卷入一场别样的情感悬疑大戏。",
+      "source": "中新社",
+      "pubdate": "2026-08-31T12:53:17+00:00",
+      "final_score": 0.3027,
+      "confidence": 30.3,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "十五五·同心聚力自贸港：“发挥优势，助力海南热带农业‘走出去’”",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-31/10687464.shtml",
+      "summary": "中新网海口8月31日电 题：十五五·同心聚力自贸港：“发挥优势，助力海南热带农业‘走出去’”",
+      "source": "中新社",
+      "pubdate": "2026-08-31T12:48:15+00:00",
+      "final_score": 0.302,
+      "confidence": 30.2,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "How the US-Canada trade war is being felt on both sides of the border",
+      "url": "https://www.bbc.co.uk/news/articles/c4g4r4lxx25o?at_medium=RSS&at_campaign=rss",
+      "summary": "The US-Canada trade war is being felt on both sides of the border.",
+      "source": "BBC World",
+      "pubdate": "2026-08-31T00:05:22+00:00",
+      "final_score": 0.3011,
+      "confidence": 30.1,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "陈东任芜湖市代市长",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-31/10687452.shtml",
+      "summary": "中新网芜湖8月31日电 (记者 赵强)安徽省芜湖市第十七届人民代表大会常务委员会8月31日举行第三十八次会议，决定芜湖市人民政府副市长陈东代理市长职务。",
+      "source": "中新社",
+      "pubdate": "2026-08-31T12:38:58+00:00",
+      "final_score": 0.3007,
+      "confidence": 30.1,
+      "category": "政治",
+      "hit_keywords": []
+    },
+    {
+      "title": "戈壁边境“飞天警队”：用空中视角探解地广人稀巡逻难题",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-31/10687444.shtml",
+      "summary": "中新网兰州8月31日电 (记者 冯志军 高莹)“不同于在地面上驱车巡逻时的满目荒凉感，空中视角下的戈壁滩，反而如同一幅风景独特的水墨画。”每当驾驶着警用旋翼机在数百米高空中执勤时，甘肃酒泉边境管理支队“飞天警队”飞行员武威，时常被尽收眼底的“边境山川”所折服。",
+      "source": "中新社",
+      "pubdate": "2026-08-31T12:38:34+00:00",
+      "final_score": 0.3007,
+      "confidence": 30.1,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "（申城风景线）在全球咖啡馆最多的城市感受“慈善温度”",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-31/10687435.shtml",
+      "summary": "中新社上海8月31日电 题：在全球咖啡馆最多的城市感受“慈善温度”",
+      "source": "中新社",
+      "pubdate": "2026-08-31T12:37:48+00:00",
+      "final_score": 0.3006,
+      "confidence": 30.1,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "山东纵深推进城市治理 绘就宜居新画卷",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-31/10687434.shtml",
+      "summary": "中新网济南8月31日电 (刘驰原)基层社会治理关乎民众福祉，是城市发展的底色所在。作为人口大省，山东近年来深入推进城市治理提质增效，从小区环境的精细化管护到智慧化手段引入，再到河道生态的系统性治理，多措并举提升人居品质，让“好生态”持续转化为百姓触手可及的“好生活”。",
+      "source": "中新社",
+      "pubdate": "2026-08-31T12:37:22+00:00",
+      "final_score": 0.3005,
+      "confidence": 30.0,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "香港瓦解一楼宇维修贪污围标集团 拘捕50人、案值近5亿港元",
+      "url": "https://www.chinanews.com.cn/dwq/2026/08-31/10687391.shtml",
+      "summary": "中新社香港8月31日电 据香港廉政公署(简称“廉署”)8月31日消息，廉署与香港特区政府警务处(下称“香港警方”)及香港竞争事务委员会(下称“竞委会”)近日采取联合行动，瓦解一个楼宇维修贪污围标集团，涉及香港27个屋苑和大厦，工程合约初步估计总值近5亿港元，共拘捕50人。",
+      "source": "中新社",
+      "pubdate": "2026-08-31T12:36:16+00:00",
+      "final_score": 0.3003,
+      "confidence": 30.0,
+      "category": "政治",
+      "hit_keywords": []
+    },
+    {
+      "title": "以童趣讲述文脉 多媒体舞台剧《嗨！小石狮》在京演出",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-31/10687448.shtml",
+      "summary": "中新网北京8月31日电 (记者 应妮)8月29日至30日，由中国福利会儿童艺术剧院打造的原创多媒体舞台剧《嗨！小石狮》，作为第十五届中国儿童戏剧节线下演出压轴节目登上北京中国儿童剧场。这部浸润中华优秀传统文化底色的原创作品，受到首都大小观众的欢迎。",
+      "source": "中新社",
+      "pubdate": "2026-08-31T12:35:46+00:00",
+      "final_score": 0.3003,
+      "confidence": 30.0,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "Man who murdered Molly Ticehurst unlikely to face life in jail, court hears",
+      "url": "https://www.theguardian.com/australia-news/2026/aug/31/molly-ticehurst-domestic-violence-murder-daniel-billings-sentence-ntwnfb",
+      "summary": "Justice Natalie Adams says she is troubled by expert evidence about rape allegations in slain woman’s police statementFollow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastMolly Ticehurst’s ex-boyfriend is unlikely to face a life sentence for her domestic violence murder, a crime which galvanised a national movement against gendered abuse.Ticehurst, a 28-year-old childcare educator, was found dead in her home at Forbes, in the New South Wales central-west, in the early hours of 22 April 2024. Continue reading...",
+      "source": "Guardian World",
+      "pubdate": "2026-08-31T07:11:07+00:00",
+      "final_score": 0.3002,
+      "confidence": 30.0,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "'Moonies' church leader jailed for two years over bribery offences",
+      "url": "https://www.bbc.co.uk/news/articles/c8xkqjdk142o?at_medium=RSS&at_campaign=rss",
+      "summary": "Han Hak-ja, 83, gave South Korea's former first lady two Chanel bags and a diamond necklace, a court found.",
+      "source": "BBC World",
+      "pubdate": "2026-08-31T06:56:40+00:00",
+      "final_score": 0.2982,
+      "confidence": 29.8,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "辽宁全面激活振兴发展“蓝色引擎”",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-31/10687439.shtml",
+      "summary": "辽宁正在深耕海洋、向海图强。",
+      "source": "中新社",
+      "pubdate": "2026-08-31T12:12:01+00:00",
+      "final_score": 0.297,
+      "confidence": 29.7,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "第23届东博会首批入境展品运抵南宁 来自马来西亚、泰国",
+      "url": "https://www.chinanews.com.cn/aseaninfo/2026/08-31/10687396.shtml",
+      "summary": "中新网南宁8月31日电(黄令妍 宋金蔚)第23届中国—东盟博览会(简称“东博会”)首批入境展品31日由广西钦州港口岸入境，经南宁海关监管验放后运抵南宁国际会展中心。该批展品来自马来西亚、泰国两个国家，包含特色食品、家居用品、皮具箱包等，共计1945件、16.33吨，涉及境外展商共59家。",
+      "source": "中新社",
+      "pubdate": "2026-08-31T12:11:47+00:00",
+      "final_score": 0.2969,
+      "confidence": 29.7,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "第24届哈尔滨国际啤酒节累计接待游客188万人次",
+      "url": "https://www.chinanews.com.cn/sh/2026/08-31/10687390.shtml",
+      "summary": "中新网哈尔滨8月31日电 (记者 史轶夫)8月30日晚，第24届哈尔滨国际啤酒节在哈尔滨冰雪大世界园区落下帷幕。本届啤酒节历时59天，累计接待游客188万人次，全平台可统计曝光量达39亿次，相关话题22次登上新媒体平台热搜榜单，为哈尔滨夏日文旅经济注入了澎湃活力。",
+      "source": "中新社",
+      "pubdate": "2026-08-31T12:09:12+00:00",
+      "final_score": 0.2966,
+      "confidence": 29.7,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "截至7月底香港外汇基金总资产为44037亿港元",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-31/10687392.shtml",
+      "summary": "中新社香港8月31日电 香港金融管理局(简称“金管局”)8月31日公布，截至今年7月31日，外汇基金总资产为44037亿港元，较2026年6月底减少599亿港元，其中港元资产减少772亿港元，外币资产增加173亿港元。",
+      "source": "中新社",
+      "pubdate": "2026-08-31T12:07:08+00:00",
+      "final_score": 0.2963,
+      "confidence": 29.6,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "纪录电影《八卦楼》专家研讨会在京举办",
+      "url": "https://www.chinanews.com.cn/cul/2026/08-31/10687433.shtml",
+      "summary": "中新网北京8月31日电 (记者 高凯)由中国电影艺术研究中心(中国电影资料馆)主办的纪录电影《八卦楼》专家研讨会日前在京举办。",
+      "source": "中新社",
+      "pubdate": "2026-08-31T12:07:02+00:00",
+      "final_score": 0.2963,
+      "confidence": 29.6,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "海南各民主党派、无党派人士共同倡议为十五五 “谋实招”",
+      "url": "https://www.chinanews.com.cn/txy/2026/08-31/10687389.shtml",
+      "summary": "中新网海口8月31日电 (符宇群 林蓁蓁)8月31日在海口举行的2026“十五五·同心聚力自贸港”首期沙龙活动上，民革、民盟、民建、民进、农工党、致公党、九三学社、台盟等八个民主党派海南省委会代表与海南省党外知识分子联谊会代表共同宣读《我为十五五“谋实招”倡议书》，向全省各民主党派成员、无党派人士发出“为十五五‘谋实招’集智聚力、议政建言”的倡议。",
+      "source": "中新社",
+      "pubdate": "2026-08-31T12:06:18+00:00",
+      "final_score": 0.2962,
+      "confidence": 29.6,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "王沪宁会见奥地利国民议会议长罗森克兰茨",
+      "url": "http://www.chinanews.com.cn/tp/hd2011/2026/08-31/1202711.shtml",
+      "summary": "",
+      "source": "中新社",
+      "pubdate": "2026-08-31T12:05:14+00:00",
+      "final_score": 0.296,
+      "confidence": 29.6,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "中国提出到2030年社会消费品零售总额达60万亿元左右",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-31/10687376.shtml",
+      "summary": "中新社北京8月31日电 (记者 尹倩芸)中国商务部等7部门近日印发的《关于推动商品消费扩容升级的实施意见》于8月31日对外发布。",
+      "source": "中新社",
+      "pubdate": "2026-08-31T12:03:56+00:00",
+      "final_score": 0.2959,
+      "confidence": 29.6,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "“东北超”淘汰赛开赛在即 足球热带动暑期文旅消费升温",
+      "url": "https://www.chinanews.com.cn/ty/2026/08-31/10687430.shtml",
+      "summary": "中新网沈阳8月31日电(杨茜茜)随着暑期进入尾声，2026东北地区城市足球联赛(简称“东北超”)常规赛也于日前全部收官，这场席卷东北的民间足球热潮，正跳出赛场边界，成为拉动东北地区暑期文旅市场的鲜活动力。",
+      "source": "中新社",
+      "pubdate": "2026-08-31T12:01:58+00:00",
+      "final_score": 0.2956,
+      "confidence": 29.6,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "访武警雅安支队执勤四中队：“谋创新”是提升能力的突破口",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-31/10687402.shtml",
+      "summary": "中新网雅安8月31日电 (李纯 刘梦青)91年前，大渡河见证了中国工农红军在枪林弹雨中强渡天险，于绝境中闯出一条生路。91年后的今天，武警四川总队雅安支队执勤四中队驻守在大渡河畔，守护着下游的万家灯火。",
+      "source": "中新社",
+      "pubdate": "2026-08-31T12:00:24+00:00",
+      "final_score": 0.2954,
+      "confidence": 29.5,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "中注协惩戒一批会计师事务所和注册会计师",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-31/10687369.shtml",
+      "summary": "中新社北京8月31日电 (记者 赵建华)中国注册会计师协会(下称中注协)8月31日发布会计师事务所执业质量检查通告。通告说，2025年，中注协与地方注协共对2053家会计师事务所开展执业质量检查。截至目前，中注协及地方注协共对存在违规问题的377家会计师事务所和711名注册会计师实施了行业惩戒及自律监管措施。",
+      "source": "中新社",
+      "pubdate": "2026-08-31T12:00:18+00:00",
+      "final_score": 0.2954,
+      "confidence": 29.5,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "The London office, the empty boxes and the £1bn tax loophole",
+      "url": "https://www.theguardian.com/business/2026/aug/31/the-london-office-the-empty-boxes-and-the-1bn-tax-loophole",
+      "summary": "Exclusive: How a court case over an unoccupied office block could end a widely used tax avoidance schemeFrom the outside, the seven-storey building at 2 America Square looks like any other office block in the heart of London’s financial district.Located about half a mile from Tower Bridge, one might expect it to be a hive of commercial activity, teeming with employees holding important meetings. However, much of the property is home not to staff vying for their next bonus, but to stacks of nondescript black boxes arranged in neat lines. Continue reading...",
+      "source": "Guardian World",
+      "pubdate": "2026-08-31T12:00:25+00:00",
+      "final_score": 0.2954,
+      "confidence": 29.5,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "山东观赏鱼年产值超20亿元 “好鲤”跃出富民新路径",
+      "url": "https://www.chinanews.com.cn/cj/2026/08-31/10687415.shtml",
+      "summary": "中新网济南8月31日电 (记者 孙婷婷)山东锚定农业强省建设目标，将观赏鱼产业作为乡村富民特色产业、休闲渔业核心增长极重点培育，探索走出一条“产业规模化、品牌特色化、融合多元化”的创新发展道路。目前，该省观赏鱼年产量超7亿尾，年产值超20亿元(人民币，下同)，产业综合实力稳居全国前列。",
+      "source": "中新社",
+      "pubdate": "2026-08-31T11:59:05+00:00",
+      "final_score": 0.2952,
+      "confidence": 29.5,
+      "category": "社会",
+      "hit_keywords": []
+    },
+    {
+      "title": "Australians missing in Nepal targeted by ‘heartbreaking’ and ‘abhorrent’ racist slurs",
+      "url": "https://www.theguardian.com/australia-news/2026/aug/31/australians-missing-in-nepal-targeted-by-heartbreaking-and-abhorrent-racist-slurs",
+      "summary": "As families await news after the catastrophe, community members appeal for compassion in the face of hateful rhetoricFollow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastA slew of racist social media comments have been made towards Australians missing in the catastrophic Nepal-Tibet floods, prompting calls for greater accountability of major platforms to remove hateful rhetoric.On Monday, the total number of Australians missing after flash floods triggered by a massive glacier collapse in the Himalayas rose to 43, and the overall death toll was at least 810 people. Continue reading...",
+      "source": "Guardian World",
+      "pubdate": "2026-08-31T06:32:15+00:00",
+      "final_score": 0.2948,
+      "confidence": 29.5,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "The jury's options in Lindsay Clancy's murder trial",
+      "url": "https://www.bbc.co.uk/news/articles/c93vgv4kr49o?at_medium=RSS&at_campaign=rss",
+      "summary": "Jurors have five options before them as they decide the fate of the former nurse charged with killing her three children.",
+      "source": "BBC World",
+      "pubdate": "2026-08-31T11:53:21+00:00",
+      "final_score": 0.2944,
+      "confidence": 29.4,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "多部门依法查处两起涉中医药网络违规营销宣传问题",
+      "url": "https://www.chinanews.com.cn/gn/2026/08-31/10687418.shtml",
+      "summary": "中新网8月31日电 据国家中医药管理局网站消息，近期，在中医医疗违法违规行为专项治理工作中，国家中医药管理局会同有关部门，依法查处了两起涉中医药网络违规营销宣传问题，现将有关情况通报如下。",
+      "source": "中新社",
+      "pubdate": "2026-08-31T11:52:03+00:00",
+      "final_score": 0.2942,
+      "confidence": 29.4,
+      "category": "社会",
+      "hit_keywords": []
+    },
+    {
+      "title": "Search continues for 18 passengers after ferry capsized in northern Cyprus",
+      "url": "https://www.bbc.co.uk/news/articles/c1mv5ggg1l8o?at_medium=RSS&at_campaign=rss",
+      "summary": "Eight people have died after the ferry started taking on water shortly after setting off for Turkey.",
+      "source": "BBC World",
+      "pubdate": "2026-08-31T11:41:05+00:00",
+      "final_score": 0.2927,
+      "confidence": 29.3,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "Goodbye to Babylon Berlin, the 1920s TV drama that has eerily foreshadowed real-life politics",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/aug/31/goodbye-to-babylon-berlin-the-1920s-tv-drama-that-has-eerily-foreshadowed-real-life-politics",
+      "summary": "The long-running drama reaches Hitler’s rise to power in its final season as its creators reflect on the unsettling parallels between Weimar Germany and the present dayIt’s the global hit TV series that pulled audiences straight into the chaotic hedonism of 1920s Germany, dramatising the brilliance and brittleness of a newly built democratic system with unprecedented ambition.But in the 13 years that the German makers of Babylon Berlin have worked on the show, modern democracies from the US to Hungary to South Korea have come under pressure in ways the creators say they could never have imagined when they started. Continue reading...",
+      "source": "Guardian World",
+      "pubdate": "2026-08-31T06:00:18+00:00",
+      "final_score": 0.2904,
+      "confidence": 29.0,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Icac lawyer tells Charles Perrottet the key to lying is ‘you have to be really good at remembering it’",
+      "url": "https://www.theguardian.com/australia-news/2026/aug/31/icac-charles-perrottet-lawyer-ntwnfb",
+      "summary": "Perrottet disagrees when counsel assisting Peggy Dwyer SC claims brother of former NSW premier is not truthful and ‘constructing evidence’Follow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastA brother of former New South Wales premier Dominic Perrottet has told Icac he would lie to a property developer about delivering political outcomes “to keep him on side”, but Charles Perrottet has denied lying to the state’s anti-corruption watchdog.Charles Perrottet, who is among three Liberal figures alleged to have anticipated receiving $2m in prohibited political donations from Jean Nassif, told the Independent Commission Against Corruption (Icac) on Monday that he “made up” updates for the property developer. Continue reading...",
+      "source": "Guardian World",
+      "pubdate": "2026-08-31T05:49:18+00:00",
+      "final_score": 0.2888,
+      "confidence": 28.9,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Monday briefing: Nepal and Tibet’s floods are a warning for the future",
+      "url": "https://www.theguardian.com/world/2026/aug/30/monday-briefing-nepal-and-tibets-floods-are-a-warning-for-the-future",
+      "summary": "In today’s newsletter: As rescuers search for survivors after catastrophic floods, the disaster offers a stark warning about the climate risks facing the region, and the worldGood morning. Over the weekend, rescue workers in Nepal and Tibet raced to find people who are still trapped in villages affected by catastrophic flash floods. As of this morning, the death toll stands at 903, and more than 4,000 people are missing.For those of you reading this in a place where life continues as usual, the scale of devastation is hard to fathom. In a matter of minutes, a torrent of mud and debris engulfed entire villages, snapped bridges and swept away people’s homes and families. Some survivors are marooned on top of buildings that rescue workers can’t reach. Others are trapped in tunnels beneath the ground. Many have no idea if their loved ones are still alive.UK politics | PC Andrew Harper’s killers will remain in prison after Andy Burnham announced changes to the early release scheme that will see anyone convicted of unlawful killing, including all forms of manslaughter, excluded from the scheme.Milo Yiannopoulos | Far-right British media provocateur Milo Yiannopoulos has been deported from the US back to the UK by Immigration and Customs Enforcement (ICE) in connection with what the agency said was expired authorisation to be in the country.US-Iran | Iran has launched retaliatory strikes on airbases in Jordan after the United States attacked Iranian rocket launchers on an island in the strait of Hormuz, the first such strikes in a month.Iceland | In a blow to Brussels, Iceland has held a referendum that has narrowly ⁠rejected ⁠the government’s proposal ​to hold ⁠accession talks with ⁠the ​EU.Nepal-Tibet disaster | A headteacher in Nepal evacuated 900 children from a school moments before a deadly wall of water struck their town amid the devastating flash floods that have killed almost 800 people and left thousands missing.Tuesday | Justice secretary Alex Norris is due to present the government’s revised plans for the prisoner early release scheme, which includes a headroom review aimed at freeing up more space in the system.Thursday | In the first UK visit by an EU leader of Andy Burnham’s tenure, the prime minister is will host talks with French president Emmanuel Macron.Saturday | Officials from Jamaica will visit the UK to lodge a petition with King Charles to seek legal guidance from the privy council on the country’s request for reparations over Britain’s involvement in the slave trade, on the anniversary of the 1781 Zong slave ship departure from West Africa. Continue reading...",
+      "source": "Guardian World",
+      "pubdate": "2026-08-31T05:44:13+00:00",
+      "final_score": 0.2881,
+      "confidence": 28.8,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "In a town in the heart of the US, Israeli settler violence in West Bank hits close to home",
+      "url": "https://www.theguardian.com/us-news/2026/aug/31/ohio-fallout-israeli-settler-violence-west-bank",
+      "summary": "War on Gaza and violence in West Bank is playing out in the streets of Toledo, Ohio, where the Arab American community has flourishedFrom his office outside Toledo, Ohio, Thamin Tim Ridi opens his phone to livestream the scene outside the besieged house of his brother, Loui, thousands of miles away in the occupied West Bank.This month, with his property at risk of being destroyed by Israeli settlers, Loui traveled from Ohio to his ancestral home in Qusra, south of Nablus, where his mother and other family members have been living in constant fear of attack. Continue reading...",
+      "source": "Guardian World",
+      "pubdate": "2026-08-31T11:00:24+00:00",
+      "final_score": 0.287,
+      "confidence": 28.7,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "Tennis great Djokovic exits US Open in first round amid tears and pain",
+      "url": "https://www.aljazeera.com/sports/2026/8/31/tennis-great-djokovic-exits-us-open-in-first-round-amid-tears-and-pain?traffic_source=rss",
+      "summary": "Novak Djokovic&#039;s pursuit of a 25th Grand Slam ends in a five-set defeat to unseeded Argentinian player Mariano Navone.",
+      "source": "Al Jazeera",
+      "pubdate": "2026-08-31T05:31:25+00:00",
+      "final_score": 0.2863,
+      "confidence": 28.6,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "French high schools rush to put Macron’s phone ban into force",
+      "url": "https://www.theguardian.com/world/2026/aug/31/french-high-schools-phone-ban-macron",
+      "summary": "Unions say ban will take time to enact, while president also wants under-15s social media ban as key legacyFrench high schools are rushing to put in place a ban on mobile phones this week as Emmanuel Macron pushes for children to spend less time in front of screens.Education unions warned that banning mobile phone use in lycées – where children are aged 15 to 18 – would be hard to implement quickly. Continue reading...",
+      "source": "Guardian World",
+      "pubdate": "2026-08-31T10:41:39+00:00",
+      "final_score": 0.2844,
+      "confidence": 28.4,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "Nepal tunnel traps hinder flood rescue: How many are dead or missing?",
+      "url": "https://www.aljazeera.com/news/2026/8/31/nepal-tunnel-traps-hinder-flood-rescue-how-many-are-dead-or-missing?traffic_source=rss",
+      "summary": "Flash floods on the Nepal-Tibet border have left nearly 5,000 people missing, many trapped in hydropower tunnels.",
+      "source": "Al Jazeera",
+      "pubdate": "2026-08-31T10:17:22+00:00",
+      "final_score": 0.2811,
+      "confidence": 28.1,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "After the flash flood disaster, here is what Nepal really needs",
+      "url": "https://www.aljazeera.com/opinions/2026/8/31/after-the-flash-flood-disaster-here-is-what-nepal-really-needs?traffic_source=rss",
+      "summary": "The country urgently needs to set up early warning systems, monitoring and safe shelters.",
+      "source": "Al Jazeera",
+      "pubdate": "2026-08-31T10:12:38+00:00",
+      "final_score": 0.2804,
+      "confidence": 28.0,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "US man says ‘hold tight’ to loved ones after wife and toddler killed by lightning",
+      "url": "https://www.theguardian.com/us-news/2026/aug/31/florida-man-wife-daughter-killed-lightning",
+      "summary": "Kameron Glasgow of Florida honors wife Kenya and daughter Kennedi at local vigil after last week’s tragedyA Florida man whose wife and toddler daughter were killed by a lightning strike while he was near them recently has implored people to “hold … tight” to their loved ones.Kameron Glasgow made that arresting remark to local media at a weekend gathering honoring the memories of his wife, Kenya, and two-year-old daughter Kennedi after they died on 23 August from an exceedingly rare cause. Continue reading...",
+      "source": "Guardian World",
+      "pubdate": "2026-08-31T10:00:24+00:00",
+      "final_score": 0.2787,
+      "confidence": 27.9,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "Nearly 20 people still missing after ferry capsizes ⁠off northern Cyprus",
+      "url": "https://www.theguardian.com/world/2026/aug/31/missing-ferry-capsizes-cyprus",
+      "summary": "Divers join search teams scouring deep waters for ⁠any survivors, with eight people so far confirmed to have diedNearly 20 people are still missing after a ferry capsized ⁠off northern Cyprus, killing at least eight, as divers join search teams scouring deep waters for ⁠any survivors.The double-hulled ⁠ferry ​with 267 people onboard took in water and flipped over on Sunday just off the port city ⁠of Kyrenia, leaving survivors clinging to the upturned hull. They were rescued by passing vessels and members of the coastguard. Continue reading...",
+      "source": "Guardian World",
+      "pubdate": "2026-08-31T09:49:15+00:00",
+      "final_score": 0.2771,
+      "confidence": 27.7,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "‘Everything’s smashed to bits’: Ukrainians turn anger on those storing weapons near their villages",
+      "url": "https://www.theguardian.com/world/2026/aug/31/ukraine-anger-weapons-storage-russian-bombing-myla",
+      "summary": "As Russia hits another ammunition warehouse, killing at least 38, locals put blame on poorly placed depotsIt is a day and a half since a Russian jet-powered drone smashed into an ammunition dump in Myla, a village 15 miles outside central Kyiv. Volodymyr, 61, a security guard, leads visitors from his family’s badly damaged home, its roof blown off, back windows shattered, through the garden towards the impact site 300 metres away.The garden, like so many in Ukraine’s villages and suburbs, is a sizeable allotment. But today the greenhouse is shattered, a vegetable patch is blackened and crisp underfoot. Several metres of grapevine have been destroyed. Even so, Volodymyr finds two surviving bunches to hand to the Guardian. Continue reading...",
+      "source": "Guardian World",
+      "pubdate": "2026-08-31T04:00:17+00:00",
+      "final_score": 0.2737,
+      "confidence": 27.4,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Bhutan hosts first ‘conscious food summit’ amid threats to global supplies",
+      "url": "https://www.theguardian.com/environment/2026/aug/31/bhutan-first-conscious-food-summit-climate",
+      "summary": "Organisers say people must revive spiritual relationship with food amid double threat of climate crisis and conflictMending the broken food system under the threat of climate-driven weather extremes will require more than economic fixes and intensive agriculture, according to the organisers of a pioneering summit this week, who say the world must revive its spiritual relationship with food.Delegates from more than 60 countries and the UN will gather for the next five days in Paro in the tiny Himalayan nation of Bhutan for the world’s first “conscious food summit”, which will bring together governments and farmers, mindfulness experts and yoga therapists. Continue reading...",
+      "source": "Guardian World",
+      "pubdate": "2026-08-31T08:38:18+00:00",
+      "final_score": 0.2673,
+      "confidence": 26.7,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "Algeria president seeks death penalty for arsonists after deadly forest fires",
+      "url": "https://www.bbc.co.uk/news/articles/cvgy41lwe0jo?at_medium=RSS&at_campaign=rss",
+      "summary": "President Abdelmadjid Tebboune says he is not ruling out foul play after 100 wildfires were recorded.",
+      "source": "BBC World",
+      "pubdate": "2026-08-31T08:13:40+00:00",
+      "final_score": 0.2639,
+      "confidence": 26.4,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "England vs Pakistan second Test: Three talking points from cricket series",
+      "url": "https://www.aljazeera.com/sports/2026/8/31/england-vs-pakistan-second-test-three-talking-points-from-cricket-series?traffic_source=rss",
+      "summary": "Pakistan’s batting collapses, concerns over the Lord’s pitch and Ollie Robinson’s rampant form highlight the series.",
+      "source": "Al Jazeera",
+      "pubdate": "2026-08-31T08:12:54+00:00",
+      "final_score": 0.2638,
+      "confidence": 26.4,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "Syria is choosing diplomacy with Israel, but can its approach last?",
+      "url": "https://www.aljazeera.com/features/2026/8/31/syria-is-choosing-diplomacy-with-israel-but-can-its-approach-last?traffic_source=rss",
+      "summary": "Israel has attacked Syria, occupied its south since the al-Assad regime&#039;s ouster, testing Syria&#039;s diplomatic outreach.",
+      "source": "Al Jazeera",
+      "pubdate": "2026-08-31T08:05:52+00:00",
+      "final_score": 0.2628,
+      "confidence": 26.3,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "Nepal races to rescue trapped workers, as flood death toll surpasses 900",
+      "url": "https://www.aljazeera.com/news/2026/8/31/nepal-races-to-rescue-hydropower-workers-as-flood-death-toll-reaches-903?traffic_source=rss",
+      "summary": "Nepal officials say rescuers focusing on reaching workers in hydropower project tunnels in flood-stricken region.",
+      "source": "Al Jazeera",
+      "pubdate": "2026-08-31T07:34:14+00:00",
+      "final_score": 0.2584,
+      "confidence": 25.8,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "Monza memories - Italian GP in pictures through the years",
+      "url": "https://www.bbc.co.uk/sport/formula1/articles/ckg8w8qj5z9o?at_medium=RSS&at_campaign=rss",
+      "summary": "A selection of images from the Italian Grand Prix at Monza, which has hosted more Formula 1 races than any other circuit.",
+      "source": "BBC World",
+      "pubdate": "2026-08-31T07:06:17+00:00",
+      "final_score": 0.2545,
+      "confidence": 25.5,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "FIFA president Infantino ‘must go’, says former UEFA boss Platini",
+      "url": "https://www.aljazeera.com/sports/2026/8/31/fifa-president-infantino-must-go-says-former-uefa-boss-platini?traffic_source=rss",
+      "summary": "In a scathing interview, French great Michel Platini accuses Infantino of always loving &#039;money and power&#039;.",
+      "source": "Al Jazeera",
+      "pubdate": "2026-08-31T06:33:06+00:00",
+      "final_score": 0.2499,
+      "confidence": 25.0,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "Football transfer deadline day looms: Liverpool sign Barcola, Chelsea target Koné, and more – live",
+      "url": "https://www.theguardian.com/football/live/2026/aug/31/football-transfer-deadline-day-looms-latest-news-on-gakpo-sarr-and-more-live",
+      "summary": "Men’s transfer interactive | Women’s transfer interactiveGet in touch: email Dom and follow us on BlueskySome slightly lower-key deals for you:Rotherham United have confirmed the signing of Manchester United youngster Jayce Fitzgerald on loan for the rest of the season.Barcelona have signed 16-year-old prodigy Mikael Baza from Hamburg – he will join their youth ranks.Jaden Heskey is to return to Sheffield Wednesday from Manchester City on loan after impressing last season. Continue reading...",
+      "source": "Guardian Sport",
+      "pubdate": "2026-08-31T13:08:02+00:00",
+      "final_score": 0.2448,
+      "confidence": 24.5,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
       ]
     },
     {
@@ -383,34 +1116,136 @@
       "summary": "Rajendra Dawadi ordered students to higher ground with moments to spare after receiving warnings from upstreamA headteacher in Nepal evacuated 900 children from a school moments before a deadly wall of water struck their town amid the devastating flash floods that have killed almost 800 people and left thousands missing.Rajendra Dawadi decided to halt classes and order children to higher ground after receiving warnings about the scale of the flooding heading their way. Continue reading...",
       "source": "Guardian World",
       "pubdate": "2026-08-30T17:15:01+00:00",
-      "final_score": 0.3147,
-      "confidence": 31.5,
+      "final_score": 0.2441,
+      "confidence": 24.4,
       "category": "其他",
       "hit_keywords": []
     },
     {
-      "title": "15 hikers feared missing after 'terrifying' flash flooding hits Grand Canyon",
-      "url": "https://www.bbc.co.uk/news/articles/clylkjyez1do?at_medium=RSS&at_campaign=rss",
-      "summary": "\"It was a beautiful day - and then people were screaming,\" one hiker who was airlifted to safety tells the BBC.",
-      "source": "BBC World",
-      "pubdate": "2026-08-30T23:52:27+00:00",
-      "final_score": 0.3099,
-      "confidence": 31.0,
+      "title": "Liverpool confirm Bradley Barcola signing from PSG in £123m deal",
+      "url": "https://www.theguardian.com/football/2026/aug/31/liverpool-confirm-bradley-barcola-signing-psg",
+      "summary": "France international has signed five-year contractHe is second winger to join, after Victor MuñozLiverpool have completed the signing of Bradley Barcola from Paris Saint-Germain for an initial £106m fee, which could rise to £123m. The France international has signed a five-year deal.Andoni Iraola has prioritised signing wingers this summer after replacing Arne Slot. Barcola follows the arrival of Victor Muñoz as the former Bournemouth head coach aims to rebuild the front line. Continue reading...",
+      "source": "Guardian Sport",
+      "pubdate": "2026-08-31T13:02:48+00:00",
+      "final_score": 0.244,
+      "confidence": 24.4,
       "category": "其他",
       "hit_keywords": [
         "AI"
       ]
     },
     {
-      "title": "People return to their flood-ravaged homes in Nepal",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/31/08-31-26-nepal-aftermath-clip?traffic_source=rss",
-      "summary": "Survivors in Nepal’s Nuwakot district are digging through mud and debris for belongings left behind by flash floods.",
+      "title": "Aston Villa vs Arsenal: Premier League – prediction, team news, lineups",
+      "url": "https://www.aljazeera.com/sports/2026/8/31/aston-villa-vs-arsenal-premier-league-prediction-team-news-lineups?traffic_source=rss",
+      "summary": "Declan Rice continues to star for Arsenal, who may add Julian Alvarez to ranks, but hosts Villa are sore from sales.",
       "source": "Al Jazeera",
-      "pubdate": "2026-08-31T04:19:22+00:00",
-      "final_score": 0.3019,
-      "confidence": 30.2,
+      "pubdate": "2026-08-31T05:37:23+00:00",
+      "final_score": 0.2422,
+      "confidence": 24.2,
       "category": "其他",
       "hit_keywords": []
+    },
+    {
+      "title": "Anthropic sued over alleged theft of ‘tens of thousands’ of songs",
+      "url": "https://www.theguardian.com/business/2026/aug/31/aanthropic-sued-alleged-theft-songs-ai-train-claude",
+      "summary": "AI company faces multi-billion dollar lawsuit over misuse of copyrighted songs to train Claude models All AI wants for Christmas is a vast back catalogue of songs without paying for it, according to a multibillion-dollar lawsuit against the startup behind the Claude chatbot.Sony Music Publishing and Warner Chappell, music publishers who manage the copyright of songs on behalf of songwriters and composers, are seeking damages for alleged misuse of “tens of thousands” of copyrighted works by Anthropic. Continue reading...",
+      "source": "Guardian Technology",
+      "pubdate": "2026-08-31T12:42:05+00:00",
+      "final_score": 0.2412,
+      "confidence": 24.1,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Global coral reef coverage risks irreversible decline, new report warns",
+      "url": "https://www.aljazeera.com/news/2026/8/31/global-coral-reef-coverage-risks-irreversible-decline-new-report-warns?traffic_source=rss",
+      "summary": "Coral reefs make up just 1 percent of ocean coverage, but host a quarter of all life in the sea.",
+      "source": "Al Jazeera",
+      "pubdate": "2026-08-31T05:19:05+00:00",
+      "final_score": 0.2396,
+      "confidence": 24.0,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "Transfer latest: Juventus in Woltemade loan talks, Everton pushing for Balogun",
+      "url": "https://www.theguardian.com/football/2026/aug/31/transfer-latest-nick-woltemade-newcastle-juventus-everton-folarin-balogun",
+      "summary": "Manchester City confirm Allan signing for initial £32.1mPalace sell Muñoz to Forest and poised to sign AhanorNick Woltemade is close to a loan move from Newcastle to Juventus, a year after arriving at Newcastle in a club record £69m deal from Stuttgart.The gifted Germany forward has struggled to impose himself amid the high-intensity gameplans choreographed first by Eddie Howe and now Matthias Jaissle at St James’ Park. Continue reading...",
+      "source": "Guardian Sport",
+      "pubdate": "2026-08-31T12:01:33+00:00",
+      "final_score": 0.2355,
+      "confidence": 23.6,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Rise of Chicken Shop Date highlights how YouTube turned the tables on TV",
+      "url": "https://www.theguardian.com/technology/2026/aug/31/amelia-dimoldenberg-chicken-shop-date-youtube-tv",
+      "summary": "Amelia Dimoldenberg says publicists ignored her interview show for years but she can now be picky over A-list guestsJust a decade ago, Amelia Dimoldenberg found it impossible to drum up any mainstream celebrities to come on her mock date YouTube show, in which she chats awkwardly with guests over chicken and chips.Even persuading a local actor connected with her London youth club to come on took years of prodding. Managers of A-listers with movies or albums to push instead battled to claim a spot on the hallowed cushions of the primetime TV chatshow sofa. Continue reading...",
+      "source": "Guardian Technology",
+      "pubdate": "2026-08-31T12:00:25+00:00",
+      "final_score": 0.2354,
+      "confidence": 23.5,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Here’s what’s worth streaming in September 2026 on Netflix, Hulu, HBO Max and more",
+      "url": "https://www.marketwatch.com/story/heres-whats-worth-streaming-in-september-2026-on-netflix-hulu-hbo-max-and-more-a702e7dd?mod=mw_rss_topstories",
+      "summary": "Prices are rising again, but a slew of fan-favorite shows — including Apple’s ‘Slow Horses,’ Netflix’s ‘The Gentlemen’ and Paramount’s ‘MobLand’ — are returning for new seasons",
+      "source": "WSJ Markets",
+      "pubdate": "2026-08-31T12:00:00+00:00",
+      "final_score": 0.2353,
+      "confidence": 23.5,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Elversberg and ‘miracle village’ prove that Bundesliga fairytales still exist | Andy Brassell",
+      "url": "https://www.theguardian.com/football/2026/aug/31/elversberg-miracle-village-prove-bundesliga-fairytales-still-exist",
+      "summary": "German football has long insisted there is more to their elite league than a title race. Now they have a story that shows the world that surprise and wonder does live here tooFriday night was no first day fun for VfB Stuttgart as they got first-hand proof of what the rest of the Bundesliga feared: that Bayern Munich are perhaps mightier than ever. The curtain-raiser, though, didn’t actually set the tone for the the weekend. German football has long insisted there is more to their elite league than a title race, and now they have a story that shows the world that surprise and wonder does indeed live here too.Bayer Leverkusen arrived into their opening fixture of the campaign thinking their season might contain greater certainty than the last one, a more tranquil voyage after being blown off course by almost €300m of player sales and the ill-fated appointment of Erik ten Hag. Enter SV Elversberg, Bundesliga first-timers and representatives of – a “miracle village” as Bild put it – Spiesen-Elversberg, a town with a population of just over 13,000, situated 15km north-east of Saarbrücken, 30 minutes’ drive from the French border. Continue reading...",
+      "source": "Guardian Sport",
+      "pubdate": "2026-08-31T11:52:41+00:00",
+      "final_score": 0.2343,
+      "confidence": 23.4,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "‘I’m leaving money on the table’: I’m 64 and my husband is 70. Should I take spousal benefits or wait for my own?",
+      "url": "https://www.marketwatch.com/story/im-leaving-money-on-the-table-im-64-and-my-husband-is-70-should-i-take-spousal-benefits-or-wait-for-my-own-2490f5cd?mod=mw_rss_topstories",
+      "summary": "“I paid a significant amount into Social Security.”",
+      "source": "WSJ Markets",
+      "pubdate": "2026-08-31T11:45:00+00:00",
+      "final_score": 0.2332,
+      "confidence": 23.3,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "America is asking the wrong question about its $40 trillion in debt, this MIT expert warns",
+      "url": "https://www.marketwatch.com/story/america-is-asking-the-wrong-question-about-its-40-trillion-in-debt-this-mit-expert-warns-0fbda60e?mod=mw_rss_topstories",
+      "summary": "The federal debt may be sustainable, but rising burdens may still be troublesome to the U.S. economy, says one expert.",
+      "source": "WSJ Markets",
+      "pubdate": "2026-08-31T11:21:00+00:00",
+      "final_score": 0.2299,
+      "confidence": 23.0,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
     },
     {
       "title": "Rejoining the EU, Burnham’s donors and the bedroom tax: Politics Weekly answers your questions – podcast",
@@ -418,411 +1253,184 @@
       "summary": "Will the UK ever rejoin the EU? Who is funding Andy Burnham? And will the bedroom tax be scrapped? In a special episode, Kiran Stacey and Peter Walker answer some of your questionsPlease keep sending your comments and questions to Pippa and Kiran at politicsweeklyuk@theguardian.com Continue reading...",
       "source": "Guardian World",
       "pubdate": "2026-08-31T04:00:15+00:00",
-      "final_score": 0.2993,
-      "confidence": 29.9,
+      "final_score": 0.2287,
+      "confidence": 22.9,
       "category": "其他",
       "hit_keywords": []
     },
     {
-      "title": "个人首杆、两个亚军 F4中锦赛最年轻分站冠军成都收获成长",
-      "url": "https://www.chinanews.com.cn/ty/2026/08-31/10687137.shtml",
-      "summary": "中新网成都8月31日电 近日，国际汽联F4方程式中国锦标赛2026年度第四站赛事成都站在成都举行了第13轮至第16轮的比赛。15岁中国小将赵子竣夺得个人首个F4方程式中国锦标赛杆位，并斩获两个亚军。",
-      "source": "中新社",
-      "pubdate": "2026-08-31T03:48:18+00:00",
-      "final_score": 0.2976,
-      "confidence": 29.8,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "东吕高速山西榆社段：两辆货车碰撞起火被塑料燃烧物“粘连” 多部门联动救援",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-31/10687136.shtml",
-      "summary": "中新网晋中8月31日电 (陆祁国 孙春旺) 一辆钢材运输车碰撞另一辆拉运塑料颗粒的货车致两车起火，塑料颗粒燃烧后形成的结块把两辆货车“粘连”在一起，导致被结块遮挡的阴燃火难以扑灭。",
-      "source": "中新社",
-      "pubdate": "2026-08-31T03:47:36+00:00",
-      "final_score": 0.2975,
-      "confidence": 29.8,
-      "category": "社会",
-      "hit_keywords": []
-    },
-    {
-      "title": "新疆特色林果迎丰收 产业升级助农增收",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-31/10687129.shtml",
-      "summary": "中新网乌鲁木齐8月31日电 (胡嘉琛)眼下新疆瓜果飘香，各地特色林果迎来集中上市期。从英吉沙县的新梅园到阿图什市的无花果加工基地，一颗颗色泽饱满的果实通过日益完善的产业链条，成为带动民众增收的“致富果”。",
-      "source": "中新社",
-      "pubdate": "2026-08-31T03:45:42+00:00",
-      "final_score": 0.2973,
-      "confidence": 29.7,
-      "category": "财经",
-      "hit_keywords": []
-    },
-    {
-      "title": "这8类人要少喝咖啡！快看看是不是你",
-      "url": "https://www.chinanews.com.cn/jk/2026/08-31/10687052.shtml",
-      "summary": "真的建议：这8类人要少喝咖啡！",
-      "source": "中新社",
-      "pubdate": "2026-08-31T03:45:32+00:00",
-      "final_score": 0.2972,
-      "confidence": 29.7,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "徒步翻山挺进吉隆 一线救援人员解析任务难点",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-31/10687143.shtml",
-      "summary": "8月29日，西藏吉隆泥石流灾害发生后的第四天，记者跟随应急管理部调派的中国安能工程队伍，抵达吉隆镇受灾核心区。由于G216国道通往吉隆口岸的最后几公里道路被完全冲毁，各方救援力量正集结在这里展开抢通作业。与此同时，一部分救援人员已经徒步翻山，进入吉隆口岸受灾核心区域。",
-      "source": "中新社",
-      "pubdate": "2026-08-31T03:45:24+00:00",
-      "final_score": 0.2972,
-      "confidence": 29.7,
-      "category": "社会",
-      "hit_keywords": []
-    },
-    {
-      "title": "四川大渡河双江口水电站第三台机组投产发电 预计年底实现全容量并网发电",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-31/10687128.shtml",
-      "summary": "中新网阿坝8月31日电 (习心艳)8月31日，由中国能建葛洲坝机电公司承建的四川大渡河双江口水电站第三台(4号)机组投产发电。",
-      "source": "中新社",
-      "pubdate": "2026-08-31T03:45:18+00:00",
-      "final_score": 0.2972,
-      "confidence": 29.7,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "“悲鸿风度·第三届油画双年展”在江苏省美术馆展出",
-      "url": "https://www.chinanews.com.cn/tp/2026/08-31/10687135.shtml",
-      "summary": "8月30日，江苏南京，观众在江苏省美术馆参观“悲鸿风度·第三届油画双年展”。中新社记者 泱波 摄 8月30日，江苏南京，观众在江苏省美术馆参观“悲鸿风度·第三届油画双年展”。中新社记者 泱波 摄 8月30日，江苏南京，观众在江苏省美术馆参观“悲鸿风度·第三届油画双年展”。中新社记者 泱波 摄 8月30日，江苏南京，观众在江苏省美术馆参观“悲鸿风度·第三届油画双年展”。中新社记者 泱波 摄 8月30日，江苏南京，观众在江苏省美术馆参观“悲鸿风度·第三届油画双年展”。中新社记者 泱波 摄 8月30日，江苏南京，观众在江苏省美术馆参观“悲鸿风度·第三届油画双年展”。中新社记者 泱波 摄 8月30日，江苏南京，观众在江苏省美术馆参观“悲鸿风度·第三届油画双年展”。中新社记者 泱波 摄",
-      "source": "中新社",
-      "pubdate": "2026-08-31T03:44:52+00:00",
-      "final_score": 0.2971,
-      "confidence": 29.7,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "三台机组全部投产发电 世界第一高坝水电站最新进展→",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-31/10687140.shtml",
-      "summary": "记者31日从国家能源集团了解到，位于四川阿坝州的世界第一高坝——大渡河双江口水电站一期三台机组全部投产发电。",
-      "source": "中新社",
-      "pubdate": "2026-08-31T03:41:18+00:00",
-      "final_score": 0.2966,
-      "confidence": 29.7,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "吉隆泥石流灾害转移安置群众心理支持同步展开",
-      "url": "https://www.chinanews.com.cn/gn/2026/08-31/10687139.shtml",
-      "summary": "西藏日喀则吉隆县泥石流灾害发生后，转移安置群众的生活逐步安定下来，心理上的支持和疏导也在同步展开。",
-      "source": "中新社",
-      "pubdate": "2026-08-31T03:39:40+00:00",
-      "final_score": 0.2964,
-      "confidence": 29.6,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "（活力中国调研行）黑龙江“五良”融合筑牢“大粮仓”粮食产能稳步提升",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-31/10687125.shtml",
-      "summary": "中新网哈尔滨8月31日电(赵宇航 贾亦夫 李梦 姜禹帆)31日，黑龙江省农业农村厅副厅长朱华生在“活力中国调研行”黑龙江主题采访活动情况介绍会上透露，作为国家重要商品粮生产基地和粮食战略后备基地，黑龙江省深入实施千万吨粮食增产计划，以“五良”融合为抓手，全力稳面积、提单产，国家粮食安全“压舱石”地位更加稳固。",
-      "source": "中新社",
-      "pubdate": "2026-08-31T03:35:32+00:00",
-      "final_score": 0.2958,
-      "confidence": 29.6,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "（长江十年行）奔流不息的万里长江，藏着南通七旬老人的三个梦想",
-      "url": "https://www.chinanews.com.cn/sh/2026/08-31/10687122.shtml",
-      "summary": "中新网南通8月31日电(唐娟 常慕城 葛勇)“万里昆仑谁凿破，无边波浪拍天来。”江苏南通是万里长江入海前的最后一站，奔腾不息的江水，见证着城市的发展变迁，也承载着当地七旬老人吴湛跨越半生的三个梦想。",
-      "source": "中新社",
-      "pubdate": "2026-08-31T03:31:14+00:00",
-      "final_score": 0.2952,
-      "confidence": 29.5,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "US strikes Iranian launchers on Larak Island in first known attack in weeks",
-      "url": "https://www.bbc.co.uk/news/articles/cx2z72x5z1po?at_medium=RSS&at_campaign=rss",
-      "summary": "Iran says the attack killed two people and injured two others, in the first known US strike on Iran since late July.",
-      "source": "BBC World",
-      "pubdate": "2026-08-31T03:25:36+00:00",
-      "final_score": 0.2945,
-      "confidence": 29.4,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "山东济宁：工程机械“抱团”闯海外",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-31/10687116.shtml",
-      "summary": "山东济宁：工程机械“抱团”闯海外｜活力中国调研行",
-      "source": "中新社",
-      "pubdate": "2026-08-31T03:24:21+00:00",
-      "final_score": 0.2943,
-      "confidence": 29.4,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "中疾控发布开学季传染病防护提示 一文了解→",
-      "url": "https://www.chinanews.com.cn/jk/2026/08-31/10687114.shtml",
-      "summary": "暑假接近尾声，熟悉的校园生活即将重新开启，原本分散在不同家庭、城市的学生，在短时间内重新聚集到教室、宿舍、食堂和运动场。",
-      "source": "中新社",
-      "pubdate": "2026-08-31T03:22:51+00:00",
-      "final_score": 0.2941,
-      "confidence": 29.4,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "8月中国制造业PMI升至49.8%",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-31/10687108.shtml",
-      "summary": "中新社北京8月31日电 (记者 王恩博)中国国家统计局8月31日公布，8月份，中国制造业采购经理指数(PMI)为49.8%，比上月上升0.6个百分点。在调查的21个行业中有16个行业PMI较上月上升，制造业行业景气度明显改善。",
-      "source": "中新社",
-      "pubdate": "2026-08-31T03:20:51+00:00",
-      "final_score": 0.2938,
-      "confidence": 29.4,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "华夏银行发布2026半年报，营收破500亿实现高质量增长",
-      "url": "https://www.chinanews.com.cn/cj/2026/08-31/10687101.shtml",
-      "summary": "28日，华夏银行正式发布2026年半年度报告。2026年上半年，华夏银行深刻把握金融工作的政治性、人民性，紧扣高质量发展主题，以“十大行动”为牵引，坚持经营回归本源、管理回归本质、定位回归本色，以更高站位、更实举措、更优服务，深耕国家战略、服务实体经济、提升管理效能、筑牢风控防线，在2025年优异业绩的基础上，乘势而上、接续奋斗，生动描绘了“讲政治、创价值、担责任”的崭新形象。",
-      "source": "中新社",
-      "pubdate": "2026-08-31T03:18:09+00:00",
-      "final_score": 0.2934,
-      "confidence": 29.3,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "Mamdani lookalike contest draws hundreds of hopefuls in New York",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/31/08-31-26-mamdani-nyc-lookalike-sv?traffic_source=rss",
-      "summary": "Hundreds gathered for a Zohran Mamdani lookalike contest in New York, with nine contestants vying for votes.",
-      "source": "Al Jazeera",
-      "pubdate": "2026-08-31T03:11:56+00:00",
-      "final_score": 0.2926,
-      "confidence": 29.3,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "Iran targets Jordan after first US attack in a month",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/31/iran-targets-jordan-after-first-us-attack-in-a-month?traffic_source=rss",
-      "summary": "The US has launched its first strikes on Iran in a month, hitting sites on Larak Island. Iran hit back targeting bases h",
-      "source": "Al Jazeera",
-      "pubdate": "2026-08-31T03:06:56+00:00",
-      "final_score": 0.2919,
-      "confidence": 29.2,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "Lamine Yamal getting back to ‘top level’, Barcelona coach Flick says",
-      "url": "https://www.aljazeera.com/sports/2026/8/30/lamine-yamal-getting-back-to-top-level-barcelona-coach-flick-says?traffic_source=rss",
-      "summary": "Teenager struggled in Barca&#039;s La Liga start at Elche but improves against Athletic Bilbao, according to Hansi Flick.",
-      "source": "Al Jazeera",
-      "pubdate": "2026-08-30T21:28:16+00:00",
-      "final_score": 0.2898,
-      "confidence": 29.0,
+      "title": "‘Revenge of the Rust belt’: Starbucks film-maker on Baristas vs Billionaires",
+      "url": "https://www.theguardian.com/business/2026/aug/31/starbucks-documentary-baristas-billionaires",
+      "summary": "Director Mark Mori followed coffee chain workers’ struggle to unionize: ‘These young kids are so inspirational’As the food service industry was pushed on to the frontlines of the Covid-19 pandemic in 2021, workers at Starbucks stores in the Buffalo region of New York went public to announce their union-organizing campaign.Their efforts, and Starbucks’ responses, have culminated in one of the most expansive union-organizing campaigns – and one of the most aggressive union-busting campaigns – in modern US history. Continue reading...",
+      "source": "Guardian Business",
+      "pubdate": "2026-08-31T11:00:24+00:00",
+      "final_score": 0.227,
+      "confidence": 22.7,
       "category": "其他",
       "hit_keywords": [
         "AI"
       ]
     },
     {
-      "title": "US plans to sanction another bank to keep economic pressure on Iran",
-      "url": "https://www.aljazeera.com/news/2026/8/31/us-plans-to-sanction-another-bank-to-keep-economic-pressure-on-iran?traffic_source=rss",
-      "summary": "Washington has recently stepped up efforts to economically pressure Tehran amid the deadlocked truce talks.",
-      "source": "Al Jazeera",
-      "pubdate": "2026-08-31T02:08:46+00:00",
-      "final_score": 0.2838,
-      "confidence": 28.4,
+      "title": "Arsenal trying to lure Julián Álvarez after agreeing deals to sell Martinelli and Jesus",
+      "url": "https://www.theguardian.com/football/2026/aug/31/arsenal-julian-alvarez-gabriel-martinelli-jesus-transfers",
+      "summary": "Atlético say they will not allow Barcelona to buy Álvarez Jesus poised for Barça and Martinelli for Al-HilalArsenal are running out of time to persuade Julián Álvarez to join them from Atlético Madrid after agreeing to sell Gabriel Martinelli, Gabriel Jesus and Fábio Vieira in deals collectively worth more than £70m.Álvarez has his heart set on Barcelona despite Atlético’s insistence they will not sell to their La Liga rivals and returned to training on Sunday after being left out of their squad for the win over Sevilla. Arsenal manager Mikel Arteta is understood to have spoken to Álvarez last week in an effort to persuade the former Manchester City forward to return to the Premier League and to have been informed the Argentina international wants only Barcelona. Continue reading...",
+      "source": "Guardian Sport",
+      "pubdate": "2026-08-31T10:45:18+00:00",
+      "final_score": 0.2249,
+      "confidence": 22.5,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Russia's jet-powered drones bring empty Kyiv supermarket shelves and rattle Ukrainians",
+      "url": "https://www.npr.org/2026/08/31/g-s1-141181/russia-ukraine-war",
+      "summary": "Russian forces relentlessly battered Kyiv and cities in the region around the Ukrainian capital for a fifth straight day, leaving some supermarket shelves bare after repeated strikes on warehouses.",
+      "source": "NPR News",
+      "pubdate": "2026-08-31T10:24:25+00:00",
+      "final_score": 0.222,
+      "confidence": 22.2,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Attacks flare between the U.S. and Iran after a monthlong pause",
+      "url": "https://www.npr.org/2026/08/31/g-s1-141175/attacks-flare-us-iran",
+      "summary": "U.S. threats erupt into attacks in the Strait of Hormuz, and Iran retaliates against U.S. targets in the United Arab Emirates and Jordan in the first exchange of fire since July 29.",
+      "source": "NPR News",
+      "pubdate": "2026-08-31T10:04:30+00:00",
+      "final_score": 0.2193,
+      "confidence": 21.9,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "It’s time to get shirty about the short life of the football top",
+      "url": "https://www.theguardian.com/sport/2026/aug/31/get-shirty-about-short-life-of-football-top-the-hotspot",
+      "summary": "With millions of club shirts going to waste every season, a radical recycling rethink is neededWhen Joanna Czutkowna buried a Manchester United jersey, a cotton T-shirt and a wool-cotton jumper in her Lancashire farm and dug it up a year later, the video went viral. The T-shirt had disappeared, apart from the seams (sewn with polyester thread), the jumper was 80% gone, but the United shirt remained – grubby but indestructible. (Insert joke here)The big reveal was not a surprise, certainly not to Czutkowna, who has worked in textiles and sustainability for 20 years, but it was a reminder: a football jersey is not just for Christmas, or even the next hundred Christmases. Continue reading...",
+      "source": "Guardian Sport",
+      "pubdate": "2026-08-31T10:00:23+00:00",
+      "final_score": 0.2187,
+      "confidence": 21.9,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Watkins faces Toney clash as strikers push for Saudi supremacy and Tuchel’s attention",
+      "url": "https://www.theguardian.com/football/2026/aug/31/ollie-watkins-ivan-toney-saudi-arabia-thomas-tuchel-england",
+      "summary": "Al-Hilal’s signing from Villa is thrown straight into big game against Al-Ahli and faces the highest of expectationsOllie Watkins and Ivan Toney spent 33 minutes on the pitch together a few weeks ago in Miami as England beat France 6-4 in a game for third place at the World Cup. They will be reunited on Tuesday in Riyadh for Al-Hilal v Al-Ahli, the first big clash between title hopefuls in the Saudi Pro League season.Aston Villa fans will be hoping that, starting against Arsenal on Monday, Nicolas Jackson can quickly help them forget their departed talisman. That’s what Toney did at Brentford back in 2020 when he replaced Watkins. It may not only be supporters in the West Midlands and west London who will be curious to see how their alumni get on in west Asia. England’s heach coach, Thomas Tuchel, will surely tune in (or even turn up?) to get a look at the two forwards battling to become the clear understudy to Harry Kane as a new international cycle starts. Continue reading...",
+      "source": "Guardian Sport",
+      "pubdate": "2026-08-31T09:01:39+00:00",
+      "final_score": 0.2105,
+      "confidence": 21.1,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "AI could cause global economic downturn, Bank of England governor tells G20",
+      "url": "https://www.theguardian.com/business/2026/aug/31/advanced-frontier-ai-financial-stability-andrew-bailey-g20",
+      "summary": "Andrew Bailey, in role as financial stability watchdog chief, warns advanced models risk destabilising systemThe Bank of England’s governor, Andrew Bailey, has joined the throng of figures warning about the global risks posed by the most advanced artificial intelligence technology.In a two-page letter sent to international finance ministers and central bank governors as part of his role as chair of the international Financial Stability Board (FSB), Bailey said “frontier” AI models were “showing increasingly sophisticated autonomy and problem-solving abilities, as well as threat capabilities”. Continue reading...",
+      "source": "Guardian Technology",
+      "pubdate": "2026-08-31T09:00:47+00:00",
+      "final_score": 0.2104,
+      "confidence": 21.0,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Here’s what Prince Harry and Meghan Markle’s California mansion could really be worth, and how much it costs to keep it up",
+      "url": "https://www.marketwatch.com/story/heres-what-prince-harry-and-meghan-markles-california-mansion-could-really-be-worth-and-how-much-it-costs-to-keep-it-up-93a3c5fa?mod=mw_rss_topstories",
+      "summary": "The couple’s decision to move back to the U.K. has raised a host of questions about what they plan to do with the opulent home in California, where they have been residing for the past six years.",
+      "source": "WSJ Markets",
+      "pubdate": "2026-08-31T08:59:00+00:00",
+      "final_score": 0.2102,
+      "confidence": 21.0,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Football transfer rumours: Liverpool to sign Estêvão? Christian Pulisic to Spurs?",
+      "url": "https://www.theguardian.com/football/2026/aug/31/football-transfer-rumours-liverpool-to-sign-estevao-christian-pulisic-to-spurs",
+      "summary": "Today’s chatter is talking about its dreams againElite football clubs splash out millions on their scouting efforts these days, gather reams of data and spend countless meticulous hours assembling their recruitment plans, yet somehow the final days of the transfer window remain a desperate scrap, for some, to recruit players.After an underwhelming start to the season and with a slightly threadbare frontline, Liverpool certainly find themselves in that bracket and, despite the fact Bradley Barcola is en route from PSG, the Reds want more wide forwards. Much seems to depend on Cody Gakpo’s future – with Manchester City and Tottenham in pursuit – but Andoni Iraola’s side have been linked with Chelsea’s Estêvão, as well as Yankuba Minteh and Ismaïla Sarr. What on earth Iraola’s forward options will look like in a couple of days is anyone’s guess. Continue reading...",
+      "source": "Guardian Sport",
+      "pubdate": "2026-08-31T08:22:50+00:00",
+      "final_score": 0.2051,
+      "confidence": 20.5,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "AFL star Darcy Moore’s partner to boycott Brownlows in wake of Sydney Swans scandal",
+      "url": "https://www.theguardian.com/sport/2026/aug/31/dee-salmin-darcy-moore-girlfriend-boycott-brownlows-sydney-swans-scandal-ntwnfb",
+      "summary": "Podcast host expresses discomfort at attending medal ceremonyAFL’s attitude towards women needs to change, she saysThe partner of one of the AFL’s most prominent players has boycotted next month’s Brownlow medal ceremony, describing the event as one that “doesn’t align” with her values in the wake of the sector’s response to the alleged sexual assault at the Sydney Swans’ team hotel.Writer Dee Salmin, who also hosts a popular podcast and is the partner of Collingwood’s captain, Darcy Moore, posted to her newsletter on Sunday explaining her decision. Continue reading...",
+      "source": "Guardian Sport",
+      "pubdate": "2026-08-31T08:10:44+00:00",
+      "final_score": 0.2035,
+      "confidence": 20.3,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "‘Her life was very challenging before we got custody’: At 62, how can we afford to put our granddaughter through college?",
+      "url": "https://www.marketwatch.com/story/her-life-was-very-challenging-before-we-got-custody-at-62-how-can-we-afford-to-put-our-granddaughter-through-college-b9d550bb?mod=mw_rss_topstories",
+      "summary": "“Neither of us attended college, even though we have done well for ourselves, so we have no experience with this process.”",
+      "source": "WSJ Markets",
+      "pubdate": "2026-08-31T12:55:00+00:00",
+      "final_score": 0.1979,
+      "confidence": 19.8,
       "category": "其他",
       "hit_keywords": []
     },
     {
-      "title": "All-time great Aaron Donald comes out of retirement to rejoin stacked LA Rams",
-      "url": "https://www.theguardian.com/sport/2026/aug/30/all-time-great-aaron-donald-comes-out-of-retirement-to-rejoin-stacked-la-rams",
-      "summary": "Los Angeles were already Super Bowl favoritesDefensive tackle was 10-time Pro Bowler with Rams35-year-old aiming to win second Super Bowl in LAAaron Donald, one of the greatest defensive players in NFL history, is coming out of retirement to rejoin his only professional team, the Los Angeles Rams.During a 10-season career with the Rams, who drafted him with the 13th overall pick in 2014, Donald was a three-time defensive player of the year and an eight-time first team All-Pro. He won a Super Bowl with the Rams at the end of the 2021 season before announcing his retirement in March 2024 at the age of 32. Continue reading...",
-      "source": "Guardian World",
-      "pubdate": "2026-08-30T20:42:36+00:00",
-      "final_score": 0.2835,
-      "confidence": 28.3,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "Video: Raging floodwaters sweep away lorry in the Philippines",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/30/video-raging-floodwaters-sweep-away-lorry-in-the-philippines?traffic_source=rss",
-      "summary": "Video shows a lorry being swept away by raging floodwaters in Rodriguez as torrential rains batter the Philippines.",
-      "source": "Al Jazeera",
-      "pubdate": "2026-08-30T20:31:34+00:00",
-      "final_score": 0.282,
-      "confidence": 28.2,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "Venezuela’s Maduro shares first photos from US detention",
-      "url": "https://www.aljazeera.com/news/2026/8/31/venezuelas-maduro-shares-first-photos-from-us-detention?traffic_source=rss",
-      "summary": "Abducted Venezuelan leader&#039;s post appears to show him in US detention, published two days after US-Venezuela oil deal.",
-      "source": "Al Jazeera",
-      "pubdate": "2026-08-31T01:54:58+00:00",
-      "final_score": 0.2819,
-      "confidence": 28.2,
+      "title": "Fed up with bitcoin? That’s exactly why you should buy.",
+      "url": "https://www.marketwatch.com/story/fed-up-with-bitcoin-thats-exactly-why-you-should-buy-da852499?mod=mw_rss_topstories",
+      "summary": "The best time to buy bitcoin is when everyone hates it, and that time appears to be now.",
+      "source": "WSJ Markets",
+      "pubdate": "2026-08-31T12:41:00+00:00",
+      "final_score": 0.196,
+      "confidence": 19.6,
       "category": "其他",
       "hit_keywords": []
     },
     {
-      "title": "‘Sad day in Australian sport’: tributes flow for trailblazing boxing great Tony Mundine",
-      "url": "https://www.theguardian.com/sport/2026/aug/31/australian-boxing-great-tony-mundine-dies-aged-75-ntwnfb",
-      "summary": "Fellow boxers, sporting figures, politicians and celebrities have paid tribute to the champion boxer and community leader, who died aged 75Warning: Aboriginal and Torres Strait Islander readers are advised that this article contains images and names of Indigenous Australians who have diedFollow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastTributes are pouring in for Indigenous Australia boxing great, Tony Mundine, who has died aged 75.The Guardian understands that the Bundjalung man and father of former world champion boxer and NRL star Anthony Mundine had a heart attack on Sunday, and was in hospital surrounded by family when he passed. Continue reading...",
-      "source": "Guardian World",
-      "pubdate": "2026-08-30T20:25:15+00:00",
-      "final_score": 0.2811,
-      "confidence": 28.1,
+      "title": "Premier League: 10 talking points from the weekend’s action",
+      "url": "https://www.theguardian.com/football/2026/aug/31/premier-league-10-talking-points-from-the-weekend-action",
+      "summary": "Newcastle players look revitalised, Liverpool’s curious transfer strategy and a worrying start for PalaceAmid the concerns at Manchester United, one player unquestioned is Senne Lammens. The goalkeeper produced some important first-half saves against Ipswich to keep his side in the game in difficult circumstances. A relaxed character, the Belgian is a calming influence in an emotional environment, especially with a panicked defence. When Julio Enciso was through on goal, Lammens had to decide when to come and how far, getting his distance and angles perfect to ensure the Paraguay attacker was repelled. His distribution was also excellent, instigating rapid attacks and bringing the dynamism demanded from the modern goalkeeper. Will UnwinMatch report: Manchester United 5-2 Ipswich TownReaction: Carrick hails United’s grit after rout of IpswichWill Unwin: Rashford return feels like marriage of convenienceMatch report: Liverpool 2-2 Nottingham ForestReaction: Iraola angered by substitution delayMatch report: Chelsea 4-3 Brighton Continue reading...",
+      "source": "Guardian Sport",
+      "pubdate": "2026-08-31T07:00:19+00:00",
+      "final_score": 0.1937,
+      "confidence": 19.4,
       "category": "其他",
       "hit_keywords": [
         "AI"
       ]
     },
     {
-      "title": "Butcher of Bosnia Ratko Mladic still hailed as a hero by some Serbs",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/30/30-08-sv-mladic-serbs-tributes-bosnia-fm?traffic_source=rss",
-      "summary": "Hundreds of Bosnian Serbs gathered to pay tribute to former Bosnian Serb commander Ratko Mladić.",
-      "source": "Al Jazeera",
-      "pubdate": "2026-08-30T20:12:36+00:00",
-      "final_score": 0.2793,
-      "confidence": 27.9,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "Real Madrid cruise past Malaga 4-0 to maintain Mourinho’s perfect start",
-      "url": "https://www.aljazeera.com/sports/2026/8/30/real-madrid-cruise-past-malaga-4-0-to-maintain-mourinhos-perfect-start?traffic_source=rss",
-      "summary": "Jude Bellingham and Kylian Mbappe on the scoresheet as Jose Mourinho&#039;s Real Madrid continues to move at pace in La Liga.",
-      "source": "Al Jazeera",
-      "pubdate": "2026-08-30T19:50:15+00:00",
-      "final_score": 0.2762,
-      "confidence": 27.6,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "Trump ‘border czar’ denies Milo Yiannopoulos was deported quickly to spare him from ICE detention",
-      "url": "https://www.theguardian.com/us-news/2026/aug/30/trump-border-czar-tom-homan-milo-yiannopoulos-arrest-deportation",
-      "summary": "Tom Homan denies British far-right commentator, who was deported one day after arrest, got preferential treatmentThe White House “border czar,” Tom Homan, denied on Sunday that deporting British far-right commentator Milo Yiannopoulos just a day after being arrested by US Immigration and Customs Enforcement (ICE) amounted to preferential treatment.Homan said it was his understanding that Yiannopoulos, 41, had overstayed what he believed to be a visitor visa, had not appeared at an immigration hearing and was issued a final order of removal on 22 July. Continue reading...",
-      "source": "Guardian World",
-      "pubdate": "2026-08-30T19:36:57+00:00",
-      "final_score": 0.2744,
-      "confidence": 27.4,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "Captain and crew arrested after at least eight die in northern Cyprus ferry disaster – as it happened",
-      "url": "https://www.theguardian.com/world/live/2026/aug/30/northern-cyprus-ferry-capsizes-latest-news-updates",
-      "summary": "An estimated 237 people have been rescued but 18 are missing after accident off the coast of northern CyprusFatalities after ferry carrying nearly 270 capsizes off northern CyprusRepublican Turkish party MP Sami Ozuslu told the Guardian late on Sunday that the death toll had risen. “Sadly we are now hearing that there are nine or ten dead,” he said.The families of passengers were converging on hospitals in Nicosia, Kyrenia and elsewhere, desperate for news of loved ones, he added. Continue reading...",
-      "source": "Guardian World",
-      "pubdate": "2026-08-30T19:18:02+00:00",
-      "final_score": 0.2717,
-      "confidence": 27.2,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "What are the implications of the US-Venezuela oil deal?",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/8/31/what-are-the-implications-of-the-us-venezuela-oil-deal?traffic_source=rss",
-      "summary": "Opposition in Venezuela as interim leader insists the deal with Washington will help with the country&#039;s recovery.",
-      "source": "Al Jazeera",
-      "pubdate": "2026-08-31T00:41:12+00:00",
-      "final_score": 0.2716,
-      "confidence": 27.2,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "Dozens evacuated and about 15 missing after Grand Canyon flash flood",
-      "url": "https://www.aljazeera.com/news/2026/8/31/dozens-evacuated-and-about-15-missing-after-grand-canyon-flash-flood?traffic_source=rss",
-      "summary": "More than 60 people have been evacuated after flooding swept large boulders and other debris into the Colorado River.",
-      "source": "Al Jazeera",
-      "pubdate": "2026-08-31T00:31:51+00:00",
-      "final_score": 0.2703,
-      "confidence": 27.0,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "Flash flooding in Grand Canyon leaves more than 20 people missing",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/31/08-31-26-arizona-flash-floods-sv?traffic_source=rss",
-      "summary": "A search is under way for more than 20 people who may be missing after flash floods tore through Arizona’s Grand Canyon.",
-      "source": "Al Jazeera",
-      "pubdate": "2026-08-31T00:19:04+00:00",
-      "final_score": 0.2686,
-      "confidence": 26.9,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "Prisons ‘one major event from disaster’ after U-turn on early release scheme",
-      "url": "https://www.theguardian.com/society/2026/aug/30/pc-harper-killers-prison-early-release-scheme",
-      "summary": "Critics say the move, which will keep PC Harper’s killers in jail, leaves number of prison spaces ‘too close to the bone’PC Andrew Harper’s killers will remain behind bars after a critical intervention by Andy Burnham, but the move has led to warnings that overcrowded prisons will be left “one major event away from disaster”.Announcing a U-turn on the early release scheme after weeks of intense pressure, Burnham said he understood “how strongly people feel about this issue”. Continue reading...",
-      "source": "Guardian World",
-      "pubdate": "2026-08-30T18:50:27+00:00",
-      "final_score": 0.2679,
-      "confidence": 26.8,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "At least 15 people may be missing after flash flood in Arizona’s Grand Canyon",
-      "url": "https://www.theguardian.com/us-news/2026/aug/30/grand-canyon-flash-flood-arizona-people-missing-evacuated",
-      "summary": "Dozens evacuated after flash-flood event near Bright Angel Canyon and Phantom Ranch, officials sayAt least 15 people may be missing or unaccounted for after a major flash flood swept through the Grand Canyon national park in Arizona on Saturday afternoon, according to the National Park Service.The flash-flood event occurred in the area of Bright Angel Canyon and the Phantom Ranch, where park staff and the Arizona department of public safety have evacuated more than 60 people as of Sunday morning. Continue reading...",
-      "source": "Guardian World",
-      "pubdate": "2026-08-31T00:01:41+00:00",
-      "final_score": 0.2661,
-      "confidence": 26.6,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "Iran war live: Tehran says attacked bases in Jordan and UAE after US strike",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/8/31/iran-war-live-irgc-attacks-us-bases-in-jordan-after-us-bombs-larak-island?traffic_source=rss",
-      "summary": "US Central Command says its forces bombed two rocket launchers of the IRGC on Larak Island.",
-      "source": "Al Jazeera",
-      "pubdate": "2026-08-31T00:00:00+00:00",
-      "final_score": 0.2659,
-      "confidence": 26.6,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "What is Notting Hill Carnival’s Jab Jab parade?",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/30/what-is-notting-hill-carnivals-jab-jab-parade?traffic_source=rss",
-      "summary": "The Jab Jab parade sees hundreds don devil horns and cover their skin in motor oil for London’s Notting Hill Carnival.",
-      "source": "Al Jazeera",
-      "pubdate": "2026-08-30T23:29:21+00:00",
-      "final_score": 0.2616,
-      "confidence": 26.2,
+      "title": "Brent oil tops $90 after first U.S. and Iran fighting in a month",
+      "url": "https://www.marketwatch.com/story/brent-oil-tops-90-after-first-u-s-and-iran-fighting-in-a-month-3b818e19?mod=mw_rss_topstories",
+      "summary": "Oil prices jumped on Monday after the U.S. and Iran exchanged fire for the first time in a month.",
+      "source": "WSJ Markets",
+      "pubdate": "2026-08-31T12:21:00+00:00",
+      "final_score": 0.1932,
+      "confidence": 19.3,
       "category": "其他",
       "hit_keywords": []
     },
@@ -832,73 +1440,67 @@
       "summary": "So-called financial favouritism can cause jealousy and resentment long into adulthood. Here is how experts say you can avoid it",
       "source": "BBC Business",
       "pubdate": "2026-08-30T23:22:24+00:00",
-      "final_score": 0.2607,
-      "confidence": 26.1,
+      "final_score": 0.1901,
+      "confidence": 19.0,
       "category": "其他",
       "hit_keywords": []
     },
     {
-      "title": "‘GB News wouldn’t touch him’: Milo Yiannopoulos will struggle to fit in with UK right wing",
-      "url": "https://www.theguardian.com/us-news/2026/aug/30/milo-yiannopoulos-struggle-fit-uk-right-wing",
-      "summary": "‘Alt-right’ agitator and former Trump backer deported from US is said also to be too extreme for ReformAs he arrives back in the UK after being deported from the US by the Trump administration, the far-right provocateur Milo Yiannopoulos may be wondering what lies ahead for him in his native country.The “alt-right” agitator, 41, made his name in the US by promoting Donald Trump and associating with his allies before the 2016 election. Continue reading...",
-      "source": "Guardian World",
-      "pubdate": "2026-08-30T17:50:02+00:00",
-      "final_score": 0.2595,
-      "confidence": 26.0,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "Vote count starts in Guinea-Bissau referendum on strengthening presidency",
-      "url": "https://www.aljazeera.com/news/2026/8/30/vote-count-starts-in-guinea-bissau-referendum-on-strengthening-presidency?traffic_source=rss",
-      "summary": "Ten months after a coup, military leaders say the referendum is designed to stabilise future civilian governments.",
-      "source": "Al Jazeera",
-      "pubdate": "2026-08-30T23:08:01+00:00",
-      "final_score": 0.2587,
-      "confidence": 25.9,
+      "title": "Business groups urge Swinney to scrap 'ineffective' food price cap plan",
+      "url": "https://www.bbc.co.uk/news/articles/c2l80j2rdlxo?at_medium=RSS&at_campaign=rss",
+      "summary": "More than 20 organisations have written a joint letter to John Swinney urging him to scrap his plan for a legal cap on some food and drink prices.",
+      "source": "BBC Business",
+      "pubdate": "2026-08-31T11:56:50+00:00",
+      "final_score": 0.1899,
+      "confidence": 19.0,
       "category": "其他",
       "hit_keywords": []
     },
     {
-      "title": "Trump says NBC’s Kristen ‌Welker should face ‘punishment’ from FCC",
-      "url": "https://www.theguardian.com/us-news/2026/aug/30/trump-nbc-kristen-welker-fcc",
-      "summary": "Trump’s threat comes after host described success record of candidates whom president had endorsed as ‘mixed’Donald Trump ⁠on Sunday said NBC’s Kristen ‌Welker – host of Meet the Press – should face “rebuke or punishment” from the Federal Communications Commission (FCC).Welker, during a live segment for a local Washington, DC, affiliate, described the success record of political candidates whom the president had endorsed as “mixed”. The segment aired prior to Sunday’s edition of Meet the Press. Continue reading...",
-      "source": "Guardian World",
-      "pubdate": "2026-08-30T17:16:52+00:00",
-      "final_score": 0.2549,
-      "confidence": 25.5,
+      "title": "Doctors’ AI scribes get names of drugs and diagnoses wrong, NHS watchdog warns",
+      "url": "https://www.theguardian.com/society/2026/aug/31/doctors-ai-scribes-get-names-of-drugs-and-diagnoses-wrong-nhs-watchdog-warns",
+      "summary": "Exclusive: Patients identify errors in consultation transcripts that are missed by GPs, Healthwatch England findsAI technology that listens to and transcribes patients’ consultations with doctors can put them at risk by getting the names of drugs and illnesses wrong, an NHS watchdog has warned.In one case a woman was left badly shaken when the AI scribe’s summary of her conversation wrongly said she had demyelination – serious nerve damage that can lead to multiple sclerosis. Continue reading...",
+      "source": "Guardian Technology",
+      "pubdate": "2026-08-31T06:00:19+00:00",
+      "final_score": 0.1854,
+      "confidence": 18.5,
       "category": "其他",
       "hit_keywords": [
         "AI"
       ]
     },
     {
-      "title": "Devastated by floods and overwhelmed by bodies, Nepalis weep for what remains of their homes",
-      "url": "https://www.theguardian.com/world/2026/aug/30/people-return-remains-homes-nepal-floods-devighat-trishuli-river",
-      "summary": "Relatives of those missing have been given PowerPoint slideshows of recovered bodies in effort to speed up identification of the deadThe bodies continue to wash up. But the morgues have already run out of room.Since the deadly floods coursed through the Himalayan valleys of Nepal and Tibet, the numbers of people killed have continued to rise. The bodies have surfaced in their hundreds and continue to be pulled from the thick, tar-like mud that engulfed everything after the flood waters receded. By Sunday, the death toll stood at 804 in Nepal and Tibet. Continue reading...",
-      "source": "Guardian World",
-      "pubdate": "2026-08-30T16:39:38+00:00",
-      "final_score": 0.2497,
-      "confidence": 25.0,
+      "title": "U.S., Venezuela strike oil deal. And, the staggering hidden toll of U.S. heat deaths",
+      "url": "https://www.npr.org/2026/08/31/g-s1-141187/up-first-newsletter-venezuela-oil-iran-war-house-government-funding-grand-canyon-flash-flooding",
+      "summary": "The U.S. and Venezuela have entered into an oil deal. And, NPR spent two years tracking heat-related deaths and found that people in the U.S. are dying from heat more than the official counts show.",
+      "source": "NPR News",
+      "pubdate": "2026-08-31T11:20:15+00:00",
+      "final_score": 0.1848,
+      "confidence": 18.5,
       "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
+      "hit_keywords": []
     },
     {
-      "title": "Cleverly avoids culture war issues in pitch to be next London mayor",
-      "url": "https://www.theguardian.com/politics/2026/aug/30/james-cleverly-london-mayor-classically-conservative-campaign",
-      "summary": "Conservative hopeful says Sadiq Khan has ‘lost passion for the job’ and Andy Burnham is ‘very anti-London’ James Cleverly has pledged to run a “classically Conservative” campaign to become the mayor of London, insisting that his victory in the capital would be a stepping stone for Kemi Badenoch to become prime minister.The former home and foreign secretary denied he had resigned from the shadow cabinet to run for mayor following a shift to the right under Badenoch’s leadership. Continue reading...",
-      "source": "Guardian World",
-      "pubdate": "2026-08-30T16:25:02+00:00",
-      "final_score": 0.2477,
-      "confidence": 24.8,
+      "title": "‘I feel shoehorned’: My father funded my $800,000 Roth IRA. Does that give him the right to say how I invest it?",
+      "url": "https://www.marketwatch.com/story/i-feel-shoehorned-my-father-funded-my-800-000-roth-ira-does-that-give-him-the-right-to-say-how-i-invest-it-7b1e3ab3?mod=mw_rss_topstories",
+      "summary": "“His argument is essentially that, since my parents provided the money for the Roth, they have a say in how I invest it.”",
+      "source": "WSJ Markets",
+      "pubdate": "2026-08-31T11:00:00+00:00",
+      "final_score": 0.182,
+      "confidence": 18.2,
       "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
+      "hit_keywords": []
+    },
+    {
+      "title": "England ‘not going to ease off the gas’ with 3-0 Pakistan series sweep in sight",
+      "url": "https://www.theguardian.com/sport/2026/aug/31/marcus-trescothick-england-3-0-test-series-sweep-in-sight-pakistan-cricket",
+      "summary": "Interim coach Trescothick hopes for unchanged lineupEngland secured series win over Pakistan on SundayMarcus Trescothick is determined to sign off as England’s interim head coach with a 100% record and has no plans to meddle with a winning formula in next week’s final Test of the summer, despite securing the series win by beating Pakistan at Lord’s.Two successful games into a series, the most likely cause of a lineup change would be fatigue, but Pakistan have not forced England to toil unduly over their two wins – last summer the average India innings lasted 107.5 overs; this summer Pakistan’s figure is 43.3. Meanwhile winning the second Test on day four means the players have nine clear days before action resumes at Edgbaston. Continue reading...",
+      "source": "Guardian Sport",
+      "pubdate": "2026-08-31T11:00:23+00:00",
+      "final_score": 0.182,
+      "confidence": 18.2,
+      "category": "其他",
+      "hit_keywords": []
     },
     {
       "title": "British woman killed in stabbing at German railway station",
@@ -906,8 +1508,8 @@
       "summary": "A 27-year-old German man was arrested immediately after the incident in Rosenheim, Bavaria.",
       "source": "BBC World",
       "pubdate": "2026-08-30T16:11:46+00:00",
-      "final_score": 0.2459,
-      "confidence": 24.6,
+      "final_score": 0.1753,
+      "confidence": 17.5,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -919,43 +1521,34 @@
       "summary": "Broadcaster RUV reports that 52.8% of voters rejected the government's proposal to resume accession talks.",
       "source": "BBC World",
       "pubdate": "2026-08-30T16:11:44+00:00",
-      "final_score": 0.2459,
-      "confidence": 24.6,
+      "final_score": 0.1753,
+      "confidence": 17.5,
       "category": "其他",
       "hit_keywords": [
         "AI"
       ]
     },
     {
-      "title": "USDA reportedly shelves cyclospora research amid relocations and fund cuts",
-      "url": "https://www.theguardian.com/us-news/2026/aug/30/usda-cyclospora-research-projects-shelved",
-      "summary": "Trump officials shuttering three projects on foodborne parasite, two defunded by Congress, Politico reportsThe Trump administration is shuttering ⁠two of the three US Department of Agriculture research projects studying cyclospora after the foodborne parasite has ⁠sickened tens of thousands of Americans during the summer, Politico reported on Sunday.The two projects were defunded by Congress earlier in the year, while the third is ⁠due to be moved in coming months from Maryland to Iowa as part of a broader USDA reorganization, according to the ⁠report. Continue reading...",
-      "source": "Guardian World",
-      "pubdate": "2026-08-30T21:10:56+00:00",
-      "final_score": 0.2424,
-      "confidence": 24.2,
+      "title": "Ailing Novak Djokovic falls in US Open first round for earliest grand slam exit in 20 years",
+      "url": "https://www.theguardian.com/sport/2026/aug/31/novak-djokovic-defeated-mariano-navone-us-open-first-round-earliest-exit-in-20-years",
+      "summary": "Mariano Navone wins 7-6 (7-5), 5-7, 4-6, 6-2, 6-1Djokovic vomits numerous times and endures crampsThe first night session of the US Open this year was approaching the three-hour mark when Novak Djokovic walked briskly to the corner of the vast Arthur Ashe Stadium court, bent down and vomited the contents of his stomach straight into the towel bin.This was neither the first nor the last time that Djokovic threw up during an excruciating four hours and 36 minutes of suffering, and his miserable night ended around midnight with the 24-time grand slam champion in tears as he was defeated 7-6 (5), 5-7, 4-6, 6-2, 6-1 by Mariano Navone in the first round. Continue reading...",
+      "source": "Guardian Sport",
+      "pubdate": "2026-08-31T04:43:29+00:00",
+      "final_score": 0.1747,
+      "confidence": 17.5,
       "category": "其他",
-      "hit_keywords": []
+      "hit_keywords": [
+        "AI"
+      ]
     },
     {
-      "title": "Israeli strike kills 3-year-old child in Gaza",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/30/israeli-strike-kills-3-year-old-child-in-gaza?traffic_source=rss",
-      "summary": "A deadly Israeli strike on Deir el-Balah killed two Palestinians including a 3-year-old child.",
-      "source": "Al Jazeera",
-      "pubdate": "2026-08-30T21:02:45+00:00",
-      "final_score": 0.2413,
-      "confidence": 24.1,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "Jose Andres renews call for investigation into WCK Gaza staff killings",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/30/jose-andres-renews-call-for-investigation-into-wck-gaza-staff-killings?traffic_source=rss",
-      "summary": "World Central Kitchen founder José Andrés is renewing his call for an independent investigation into Israeli strikes.",
-      "source": "Al Jazeera",
-      "pubdate": "2026-08-30T20:50:04+00:00",
-      "final_score": 0.2395,
-      "confidence": 24.0,
+      "title": "As US-Canada tensions flare, who’s calling the shots in Trump’s trade team?",
+      "url": "https://www.theguardian.com/us-news/2026/aug/31/trump-trade-officials-tariffs-canada",
+      "summary": "US trade representative Jamieson Greer has a level-headed reputation but commerce secretary Howard Lutnick and White House adviser Peter Navarro also have key rolesHaving reportedly read Victor Hugo’s Les Misérables, in French, during a military tour of duty in Iraq, Jamieson Greer considered himself an unlikely target for accusations of francophobia.But Donald Trump’s US trade representative, hitherto one of the president’s less high-profile cabinet members, found himself in that uncomfortable position amid the acrimonious collapse of bilateral trade talks with Canada that now threatens to degenerate into an all-out trade war between the two close trading partners whose economies are tightly intertwined. Continue reading...",
+      "source": "Guardian Business",
+      "pubdate": "2026-08-31T10:00:23+00:00",
+      "final_score": 0.1737,
+      "confidence": 17.4,
       "category": "其他",
       "hit_keywords": []
     },
@@ -965,23 +1558,12 @@
       "summary": "There are juggernauts and indie gems aplenty for when the nights draw in, from an ingenious puzzle game to blockbusters such as Marvel’s Wolverine and Call of Duty• See all of our unmissable autumn arts recommendations hereAfter 20 years away, Capcom’s hyper kinetic action adventure returns, pitting skilled samurai Miyamoto Musashi against hordes of warriors and demons in Edo-period Kyoto. Master the complex combat then prepare for flashing blades, disembodied limbs and geysers of spraying blood. • 4 September; PC, PS5, Switch 2, Xbox Continue reading...",
       "source": "Guardian Technology",
       "pubdate": "2026-08-31T04:00:14+00:00",
-      "final_score": 0.2393,
-      "confidence": 23.9,
+      "final_score": 0.1687,
+      "confidence": 16.9,
       "category": "其他",
       "hit_keywords": [
         "AI"
       ]
-    },
-    {
-      "title": "‘Opening a new chapter’: Syria reopens embassy in Libya after talks",
-      "url": "https://www.aljazeera.com/news/2026/8/30/opening-a-new-chapter-syria-to-reopen-embassy-in-libya-after-talks?traffic_source=rss",
-      "summary": "Syrian foreign minister and Libyan PM agree to cooperation committee and reopening of diplomatic missions.",
-      "source": "Al Jazeera",
-      "pubdate": "2026-08-30T20:38:56+00:00",
-      "final_score": 0.238,
-      "confidence": 23.8,
-      "category": "其他",
-      "hit_keywords": []
     },
     {
       "title": "Venezuela’s Delcy Rodríguez defends ‘endless’ benefits of her oil deal with Trump",
@@ -989,21 +1571,87 @@
       "summary": "Deal that will reportedly see US take control of 65bn barrels of Venezuelan oil has provoked outrage in her countryVenezuela’s interim president, Delcy Rodríguez, has defended her government’s highly controversial energy deal with Donald Trump, insisting the South American country will maintain ownership and sovereignty over its massive oil reserves.Rodríguez, who assumed power in January after Trump ordered the abduction of the president, Nicolás Maduro, took to the airwaves on Saturday to push back against criticism of what the US president has called “the biggest oil deal in world history”. Continue reading...",
       "source": "Guardian World",
       "pubdate": "2026-08-30T15:08:33+00:00",
-      "final_score": 0.2371,
-      "confidence": 23.7,
+      "final_score": 0.1665,
+      "confidence": 16.6,
       "category": "其他",
       "hit_keywords": [
         "AI"
       ]
     },
     {
-      "title": "Iran attacks US bases in Jordan after US strikes Larak Island",
-      "url": "https://www.aljazeera.com/news/2026/8/30/us-strikes-irans-lark-island-in-first-attack-in-weeks?traffic_source=rss",
-      "summary": "The exchange of attacks is the first flare-up in violence between the two sides since late July.",
-      "source": "Al Jazeera",
-      "pubdate": "2026-08-30T20:15:47+00:00",
-      "final_score": 0.2348,
-      "confidence": 23.5,
+      "title": "Historic $7.5 million L.A. home restored by ‘Rocky Horror’ actor Tim Curry finds a buyer just hours after his death",
+      "url": "https://www.marketwatch.com/story/historic-7-5-million-l-a-home-restored-by-rocky-horror-actor-tim-curry-finds-a-buyer-just-hours-after-his-death-4934687a?mod=mw_rss_topstories",
+      "summary": "The late actor’s former Los Feliz home was later owned by a host of other famous faces, including “Twilight” star Robert Pattinson, “The Pitt” actor Noah Wyle, and “The Big Bang Theory” comedian Jim Parsons.",
+      "source": "WSJ Markets",
+      "pubdate": "2026-08-31T09:02:00+00:00",
+      "final_score": 0.1656,
+      "confidence": 16.6,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "Hit shows from Edinburgh's Fringe festival are coming to America. Here are our top picks",
+      "url": "https://www.npr.org/2026/08/31/nx-s1-5949346/edinburgh-fringe-scotland-best-shows-coming-to-america",
+      "summary": "The annual \"anything goes\" performing arts festival featured more than 4,200 performances this year. These are the ones we're still talking about.",
+      "source": "NPR News",
+      "pubdate": "2026-08-31T09:00:00+00:00",
+      "final_score": 0.1653,
+      "confidence": 16.5,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "Why too many women are prescribed antibiotics for UTIs they don't have",
+      "url": "https://www.npr.org/2026/08/31/nx-s1-5947249/infection-uti-bladder-antibiotics-hormone-menopause",
+      "summary": "A recent study found that many women treated for recurrent UTIs didn't have UTIs at all. Instead, their symptoms were caused by hormonally driven inflammation and pelvic floor dysfunction.",
+      "source": "NPR News",
+      "pubdate": "2026-08-31T09:00:00+00:00",
+      "final_score": 0.1653,
+      "confidence": 16.5,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "NPR spent 2 years tracking deaths from heat. We found a staggering hidden toll",
+      "url": "https://www.npr.org/2026/08/31/nx-s1-5724225/heat-wave-death-toll-tracker",
+      "summary": "An NPR investigation found that people in the U.S. are dying from heat much more often than official counts show. We explore the reasons why — and how lives can be saved.",
+      "source": "NPR News",
+      "pubdate": "2026-08-31T09:00:00+00:00",
+      "final_score": 0.1653,
+      "confidence": 16.5,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "The U.S. Venezuela oil deal won't lower your gas prices. Here's what you need to know",
+      "url": "https://www.npr.org/2026/08/31/nx-s1-5949407/us-venezuelan-oil-deal",
+      "summary": "The Trump administration announced a deal Friday to develop a vast amount of Venezuela's oil reserves, with the U.S. taking a majority stake. Energy experts say there are many reasons to be skeptical.",
+      "source": "NPR News",
+      "pubdate": "2026-08-31T09:00:00+00:00",
+      "final_score": 0.1653,
+      "confidence": 16.5,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "Singapore is scrambling to stabilize birth rates. Experts see lessons for the U.S.",
+      "url": "https://www.npr.org/2026/08/31/nx-s1-5944260/singapore-initiative-declining-birthrates",
+      "summary": "Singapore has unveiled a national initiative built entirely around its collapsing birth rate. Some demographers say the plan includes policy ideas that could help American parents.",
+      "source": "NPR News",
+      "pubdate": "2026-08-31T09:00:00+00:00",
+      "final_score": 0.1653,
+      "confidence": 16.5,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "Morning news brief",
+      "url": "https://www.npr.org/2026/08/31/nx-s1-5946754/morning-news-brief",
+      "summary": "Trump says U.S. struck a deal to take control of 65 billion barrels of Venezuelan oil, U.S. and Iran resume exchanging strikes, funding at the top of the agenda as House reconvenes.",
+      "source": "NPR News",
+      "pubdate": "2026-08-31T08:49:20+00:00",
+      "final_score": 0.1638,
+      "confidence": 16.4,
       "category": "其他",
       "hit_keywords": []
     },
@@ -1013,23 +1661,12 @@
       "summary": "Basketball Australia refers proposed rule changes to FibaIdea aimed at delivering more highlights met with mixed reactionsThe slam dunk has long been a staple of basketball, its biggest billboard, showcasing the athleticism and ferocity of its athletes. Now, some within the game want more.The Australian men’s professional league, the NBL, has lodged a request with the sport’s rule-makers about trialling a way to deliver more of these highlights in a proposal that threatens to alter the game’s fine balance. Continue reading...",
       "source": "Guardian Sport",
       "pubdate": "2026-08-31T02:58:44+00:00",
-      "final_score": 0.2307,
-      "confidence": 23.1,
+      "final_score": 0.1601,
+      "confidence": 16.0,
       "category": "其他",
       "hit_keywords": [
         "AI"
       ]
-    },
-    {
-      "title": "Israeli settler rabbi says Palestinians should leave the occupied West Bank",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/30/israeli-settler-rabbi-says-palestinians-should-leave-the-occupied-west-bank?traffic_source=rss",
-      "summary": "Video shows an Israeli settler rabbi telling peace activists that non-Jews in Israel have no national rights.",
-      "source": "Al Jazeera",
-      "pubdate": "2026-08-30T19:33:18+00:00",
-      "final_score": 0.2289,
-      "confidence": 22.9,
-      "category": "其他",
-      "hit_keywords": []
     },
     {
       "title": "Big business has shown small firms what to do – and what not to do – with AI | Gene Marks",
@@ -1037,23 +1674,12 @@
       "summary": "Small business owners have watched large companies fumble – and sometimes succeed – with AI, and then use what worksOne thing I’ve learned about corporate America is that what it succeeds at ultimately trickles down to benefit small businesses. Bleeding-edge technologies such as the internet, mobile transactions and the cloud were first perfected by large organizations – government and corporations – and now they’re available to the masses at a much lower cost and with better reliability.The good news is that it’s also the same for what they fail at. Continue reading...",
       "source": "Guardian Business",
       "pubdate": "2026-08-30T14:00:57+00:00",
-      "final_score": 0.2277,
-      "confidence": 22.8,
+      "final_score": 0.1571,
+      "confidence": 15.7,
       "category": "其他",
       "hit_keywords": [
         "AI"
       ]
-    },
-    {
-      "title": "Former Israeli soldiers pose as Pro-Palestinian supporters in the US",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/8/30/former-israeli-soldiers-pose-as-pro-palestinian-supporters-in-the-us?traffic_source=rss",
-      "summary": "Former Israeli soldiers posed as pro-Palestinian supporters in New York City to deceive people into engaging with them.",
-      "source": "Al Jazeera",
-      "pubdate": "2026-08-30T19:06:11+00:00",
-      "final_score": 0.2251,
-      "confidence": 22.5,
-      "category": "其他",
-      "hit_keywords": []
     },
     {
       "title": "Canada erects giant ‘Lake Ontario’ sign as spat with Trump over name escalates",
@@ -1061,30 +1687,19 @@
       "summary": "Meanwhile, Trump posts video of himself kicking over a Lake Ontario sign and replacing it with Lake America signDonald Trump and Canada continued a verbal duel on Saturday over the US government’s administrative renaming of Lake Ontario, with the Ontario premier erecting a giant sign saying “Lake Ontario. Now and Always” – and the American president posting a video of him tearing down an avatar of that sign, erecting a replacement saying Lake America, and dancing to YMCA.Rhetoric over the naming of Lake Ontario is the public face of an escalating trade dispute between the US and its northern neighbor involving a 50% US tariff on Canadian steel and retaliatory tariffs from Ottawa. Continue reading...",
       "source": "Guardian World",
       "pubdate": "2026-08-30T18:57:22+00:00",
-      "final_score": 0.2239,
-      "confidence": 22.4,
+      "final_score": 0.1533,
+      "confidence": 15.3,
       "category": "其他",
       "hit_keywords": []
     },
     {
-      "title": "Man killed by falling sign at Christian festival named as church pays tribute",
-      "url": "https://www.theguardian.com/uk-news/2026/aug/30/man-killed-christian-festival-named-church-tribute",
-      "summary": "Robert Guanco, 41, a pastor at Jesus Living Water church in Eastbourne, described as having ‘touched many lives’A 41-year-old man who died after a large wooden sign fell at a Christian festival on Friday has been named as Robert Guanco, a pastor at a church in Eastbourne, East Sussex.A tribute from his church on Sunday described him as a respected pastor who was a “loving husband” and “a devoted and caring father”. Continue reading...",
-      "source": "Guardian World",
-      "pubdate": "2026-08-30T18:42:34+00:00",
-      "final_score": 0.2218,
-      "confidence": 22.2,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "Manhunt after shooting at Swiss rave kills woman, 22, and injures five",
-      "url": "https://www.bbc.co.uk/news/articles/c9qr750je1go?at_medium=RSS&at_campaign=rss",
-      "summary": "Five others in their twenties were injured after shots were fired at a techno event near Zurich.",
+      "title": "'A giant leap forward': Nasa launches powerful new space telescope",
+      "url": "https://www.bbc.co.uk/news/articles/ce87e55vgpjo?at_medium=RSS&at_campaign=rss",
+      "summary": "The US space agency's telescope is starting a multi-year mission to create a new map of the universe and learn more about dark energy and dark matter.",
       "source": "BBC World",
-      "pubdate": "2026-08-30T17:49:31+00:00",
-      "final_score": 0.2144,
-      "confidence": 21.4,
+      "pubdate": "2026-08-30T18:53:53+00:00",
+      "final_score": 0.1528,
+      "confidence": 15.3,
       "category": "其他",
       "hit_keywords": []
     },
@@ -1094,8 +1709,8 @@
       "summary": "Martínez and Jackson latest duo to move between clubsGoretzka and Suzuki could make debuts against ArsenalUnai Emery has said Aston Villa and Chelsea are enemies rather than friends, insisting the clubs want to “kill” each other despite regularly doing business in recent years.Emiliano Martínez became the latest player to move between the teams, after Chelsea paid £117m to sign Morgan Rogers from Villa this summer. Nicolas Jackson, who could become Villa’s record signing after joining in a deal worth up to £65m, and Alejandro Garnacho both joined Villa from Chelsea in this window, the latter on a loan deal with a conditional obligation to buy. Continue reading...",
       "source": "Guardian Sport",
       "pubdate": "2026-08-31T01:00:11+00:00",
-      "final_score": 0.2143,
-      "confidence": 21.4,
+      "final_score": 0.1437,
+      "confidence": 14.4,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -1107,8 +1722,8 @@
       "summary": "Total number of missing Britons between Tibet and Nepal at 48 as Beijing mobilises more than 2,100 rescue workersFifteen British nationals are reported to be missing in China as the search continues for survivors of the devastating flooding in Nepal and Tibet.Nepali and Chinese authorities confirmed an updated death toll of at least 810 on Sunday. More than 3,000 people are believed missing after flash floods triggered by a massive glacier collapse in the Himalayas on Wednesday engulfed Gyirong port on the Nepal-China border. Continue reading...",
       "source": "Guardian World",
       "pubdate": "2026-08-30T17:13:57+00:00",
-      "final_score": 0.2095,
-      "confidence": 21.0,
+      "final_score": 0.1389,
+      "confidence": 13.9,
       "category": "其他",
       "hit_keywords": []
     },
@@ -1118,8 +1733,19 @@
       "summary": "Mundubile had previously gone into hiding at a United Nations building in Zambia's capital.",
       "source": "BBC World",
       "pubdate": "2026-08-30T17:06:15+00:00",
-      "final_score": 0.2084,
-      "confidence": 20.8,
+      "final_score": 0.1378,
+      "confidence": 13.8,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "Head teacher evacuated 900 children minutes before Nepal floods hit school",
+      "url": "https://www.bbc.co.uk/news/articles/c5ymvdm5520o?at_medium=RSS&at_campaign=rss",
+      "summary": "Rajendra Dawadi leapt into action after receiving warnings over waters heading towards his school.",
+      "source": "BBC World",
+      "pubdate": "2026-08-30T16:48:13+00:00",
+      "final_score": 0.1353,
+      "confidence": 13.5,
       "category": "其他",
       "hit_keywords": []
     },
@@ -1129,8 +1755,8 @@
       "summary": "Jessica Pegula, the American third seed, began her campaign at Flushing Meadows with a straight-sets winKrejcikova gets in a muddle after squandering a 40-0 lead on serve. Deuce. She fights back though. Wins the game with a lovely serve down the T. All square at 2-2.Paolini delivers a dominant effort on serve to change ends at 3-2 up. Continue reading...",
       "source": "Guardian Sport",
       "pubdate": "2026-08-30T23:47:42+00:00",
-      "final_score": 0.2042,
-      "confidence": 20.4,
+      "final_score": 0.1336,
+      "confidence": 13.4,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -1142,8 +1768,8 @@
       "summary": "Soldiers tried to attack a key military base early on Saturday morning, authorities say, but were thwarted.",
       "source": "BBC World",
       "pubdate": "2026-08-30T16:33:17+00:00",
-      "final_score": 0.2039,
-      "confidence": 20.4,
+      "final_score": 0.1333,
+      "confidence": 13.3,
       "category": "其他",
       "hit_keywords": []
     },
@@ -1153,45 +1779,8 @@
       "summary": "Ballon d’Or winner Putellas leads influx of superstar names at independent club aiming to bridge gap to very bestGuardian writers’ predicted position: 4th (NB: this is not necessarily Suzanne Wrack’s prediction but the average of our writers’ tips)Last season’s position: 6th Continue reading...",
       "source": "Guardian Sport",
       "pubdate": "2026-08-30T23:01:08+00:00",
-      "final_score": 0.1977,
-      "confidence": 19.8,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "Arizona's taps won't run dry, but water bills will go up under federal plan for Colorado River",
-      "url": "https://www.npr.org/2026/08/31/nx-s1-5945480/arizonas-taps-wont-run-dry-but-water-bills-will-go-up-under-federal-plan-for-colorado-river",
-      "summary": "New federal rules mean Arizona will be getting a lot less water from the Colorado river. City leaders say they've been planning for years and no one will run out, but keeping taps flowing is expensive.",
-      "source": "NPR News",
-      "pubdate": "2026-08-31T04:01:00+00:00",
-      "final_score": 0.1944,
-      "confidence": 19.4,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "‘It’s the ultimate regifting’: My mom gave me a house. Should I transfer it back to her to reduce capital gains?",
-      "url": "https://www.marketwatch.com/story/its-the-ultimate-regifting-my-mom-gave-me-a-house-should-i-transfer-it-back-to-her-to-reduce-capital-gains-e357f49c?mod=mw_rss_topstories",
-      "summary": "“The property is very old and requires significant ongoing maintenance.”",
-      "source": "WSJ Markets",
-      "pubdate": "2026-08-30T22:31:00+00:00",
-      "final_score": 0.1935,
-      "confidence": 19.4,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "‘My main goal is to help people’: I’m single, 74, with $10 million burning a hole in my pocket. What should I do?",
-      "url": "https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1?mod=mw_rss_topstories",
-      "summary": "“I also own my home and an SUV outright, with no outstanding debt.”",
-      "source": "WSJ Markets",
-      "pubdate": "2026-08-30T22:15:00+00:00",
-      "final_score": 0.1913,
-      "confidence": 19.1,
+      "final_score": 0.1271,
+      "confidence": 12.7,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -1203,8 +1792,8 @@
       "summary": "U.S. stock-index futures declined on Sunday, as investors ponder the likelihood of a fresh interest-rate hike and as new fighting between the U.S. and Iran threatens to reignite the conflict.",
       "source": "WSJ Markets",
       "pubdate": "2026-08-31T03:03:00+00:00",
-      "final_score": 0.1863,
-      "confidence": 18.6,
+      "final_score": 0.1157,
+      "confidence": 11.6,
       "category": "其他",
       "hit_keywords": []
     },
@@ -1214,8 +1803,8 @@
       "summary": "Slovenian awaiting surgery on collarbone after fallMas extends overall lead by winning ninth stageTadej Pogacar, who was dramatically forced to withdraw from the Vuelta a España on Saturday after a heavy fall, has shared a photo of himself from hospital accompanied by the Bee Gees’ song Stayin’ Alive.Pogacar, the clear leader of the Vuelta until his crash, greeted followers on his Instagram account with a photo showing him in a hospital bed wearing a neck brace. The Slovenian five-time Tour de France winner could also be seen with a plaster near his right eyebrow, as well as on his right hand, which he held in his usual gesture of raising his index finger and little finger. Continue reading...",
       "source": "Guardian Sport",
       "pubdate": "2026-08-30T16:13:41+00:00",
-      "final_score": 0.1861,
-      "confidence": 18.6,
+      "final_score": 0.1155,
+      "confidence": 11.6,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -1227,73 +1816,25 @@
       "summary": "Arsenal manager says dropping players ‘affects wellbeing’Serie A allows 25-player matchday squads and La Liga 23Arsenal have asked the Premier League to increase the size of matchday squads, with Mikel Arteta saying the current system is detrimental to player welfare. Top‑flight clubs can name 20 players for games, including a minimum of three homegrown players. In Spain’s La Liga, clubs can name a matchday squad of 23, while Italy’s Serie A allows 25.Arsenal have competed on multiple fronts in recent seasons. Last year, as well as winning the Premier League, they reached the finals of the Champions League and Carabao Cup, as well as the quarter-finals of the FA Cup. With pressure increasing on the football calendar and players facing more matches, Arteta sees no reason why English teams should operate with smaller squads than those from other European leagues. Continue reading...",
       "source": "Guardian Sport",
       "pubdate": "2026-08-30T21:30:06+00:00",
-      "final_score": 0.1851,
-      "confidence": 18.5,
+      "final_score": 0.1145,
+      "confidence": 11.4,
       "category": "其他",
       "hit_keywords": [
         "AI"
       ]
     },
     {
-      "title": "European football: Bellingham sparks Real Madrid’s cruise to maintain perfect start",
-      "url": "https://www.theguardian.com/football/2026/aug/30/european-football-real-madrid-malaga-napoli-como-inter",
-      "summary": "Promoted Málaga slump to 4-0 defeat at the BernabéuComo defeat Napoli; Jones makes Inter debut in winReal Madrid maintained their perfect start to the season in La Liga with a comfortable 4-0 home ⁠win over promoted Málaga on Sunday, scoring three times inside 30 minutes before adding a late fourth.Jude Bellingham’s brilliant solo opener, an own ⁠goal by the Málaga goalkeeper, ⁠Alfonso Herrero, and ​a sharp Kylian Mbappé volley in effect settled the contest before half-time, with the substitute Arda Guler wrapping up the victory in added time at ⁠the Bernabéu. Continue reading...",
+      "title": "All-time great Aaron Donald comes out of retirement to rejoin stacked LA Rams",
+      "url": "https://www.theguardian.com/sport/2026/aug/30/all-time-great-aaron-donald-comes-out-of-retirement-to-rejoin-stacked-la-rams",
+      "summary": "Los Angeles were already Super Bowl favoritesDefensive tackle was 10-time Pro Bowler with Rams35-year-old aiming to win second Super Bowl in LAAaron Donald, one of the greatest defensive players in NFL history, is coming out of retirement to rejoin his only professional team, the Los Angeles Rams.During a 10-season career with the Rams, who drafted him with the 13th overall pick in 2014, Donald was a three-time defensive player of the year and an eight-time first team All-Pro. He won a Super Bowl with the Rams at the end of the 2021 season before announcing his retirement in March 2024 at the age of 32. Continue reading...",
       "source": "Guardian Sport",
-      "pubdate": "2026-08-30T21:19:56+00:00",
-      "final_score": 0.1837,
-      "confidence": 18.4,
+      "pubdate": "2026-08-30T20:42:36+00:00",
+      "final_score": 0.1079,
+      "confidence": 10.8,
       "category": "其他",
       "hit_keywords": [
         "AI"
       ]
-    },
-    {
-      "title": "What Argentina gets right about youth soccer — and what the U.S. gets wrong",
-      "url": "https://www.npr.org/2026/08/30/nx-s1-5924666/what-argentina-gets-right-about-youth-soccer-and-what-the-u-s-gets-wrong",
-      "summary": "Argentina has produced some of the world's greatest soccer players. Could its youth system offer lessons for the United States?",
-      "source": "NPR News",
-      "pubdate": "2026-08-31T02:27:49+00:00",
-      "final_score": 0.1814,
-      "confidence": 18.1,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "Michael Carrick hails Manchester United’s grit after rout of Ipswich",
-      "url": "https://www.theguardian.com/football/2026/aug/30/michael-carrick-manchester-united-ipswich-premier-league",
-      "summary": "Fernandes fires hat-trick as United enjoy home win‘The way they bounced back, that’s the biggest thing’A delighted Michael Carrick praised how Manchester United bounced back from the opening-weekend defeat at Hull with their 5-2 rout of Ipswich.Bruno Fernandes’s hat-trick, scored in the 40th, 61st and 68th minutes, ensured United’s comeback win after Leif Davis’s opener. A Jacob Greaves own goal after 56 minutes and Bryan Mbeumo’s 82nd-minute strike completed the home scoring, Chuka Akpom’s added-time finish giving Ipswich their second. Continue reading...",
-      "source": "Guardian Sport",
-      "pubdate": "2026-08-30T20:25:19+00:00",
-      "final_score": 0.1761,
-      "confidence": 17.6,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "Joe Root urges England to celebrate Pakistan series win in ‘sensible, grown-up way’",
-      "url": "https://www.theguardian.com/sport/2026/aug/30/joe-root-england-pakistan-lords-test-series",
-      "summary": "Team have faced off-field scandals over the last yearRoot: ‘It’s hard to win Test series so enjoy it’Joe Root has called on his players to “celebrate in a sensible, grown‑up way” after they secured a first multi‑game series win since 2024 by beating Pakistan at Lord’s to take a 2-0 lead with one to play.England’s recent opportunities for celebration have often resulted in scandal and Root intends to end the scandals rather than the celebra­tions. “It’s important we’re not ­talking about [off-field matters], absolutely,” he said. “But it’s hard to win Test matches, it’s hard to win Test series, so enjoy it and celebrate it, but in a sensible, grown-up way. It’s been a really good start to, I don’t know what you want to call it, this new team.” Continue reading...",
-      "source": "Guardian Sport",
-      "pubdate": "2026-08-30T20:05:44+00:00",
-      "final_score": 0.1734,
-      "confidence": 17.3,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "How the US-Canada trade war is being felt on both sides of the border",
-      "url": "https://www.bbc.co.uk/news/articles/c4g4r4lxx25o?at_medium=RSS&at_campaign=rss",
-      "summary": "The US-Canada trade war is being felt on both sides of the border.",
-      "source": "BBC Business",
-      "pubdate": "2026-08-31T00:05:22+00:00",
-      "final_score": 0.1616,
-      "confidence": 16.2,
-      "category": "其他",
-      "hit_keywords": []
     },
     {
       "title": "Lionel Messi’s ‘footballing beauty’ hailed as Miami crush Montreal; MLS roundup",
@@ -1301,71 +1842,8 @@
       "summary": "Messi nets four goals, adds assist in 7-1 Miami winDejan Joveljić scores twice on Sounders debutMinnesota United score three times in four minutesInter Miami interim coach Guillermo Hoyos ran out of superlatives for Lionel Messi after the ⁠Argentine playmaker scored four goals in a Major League Soccer match for the first time in his career to ⁠inspire a 7-1 thrashing ⁠of CF ​Montreal on Saturday.Messi’s four-goal haul and an assist came at a crucial time for Miami, helping them snap a ⁠five-game winless run across all competitions. Continue reading...",
       "source": "Guardian Sport",
       "pubdate": "2026-08-30T18:09:56+00:00",
-      "final_score": 0.1573,
-      "confidence": 15.7,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "Manchester United 5-2 Ipswich Town: Premier League –as it happened",
-      "url": "https://www.theguardian.com/football/live/2026/aug/30/manchester-united-v-ipswich-town-premier-league-live",
-      "summary": "Premier League updates from the 4.30pm (BST) kick-offLive scoreboard | Mail Tim and follow us over on BlueskyOut come the players, some of them holding babes in arms – including Marcus Rashford, who has a big smile on his face.The first email of the afternoon comes from Dave. “Hi Tim, loving the MBM.” Thanks! “Just wondered if there’s any insight into why Sesko seems to find it so hard to get a start.” Continue reading...",
-      "source": "Guardian Sport",
-      "pubdate": "2026-08-30T17:55:52+00:00",
-      "final_score": 0.1553,
-      "confidence": 15.5,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "WhatsApp chat used to launder cash for crime and extremism",
-      "url": "https://www.bbc.co.uk/news/articles/cgk57lg7566o?at_medium=RSS&at_campaign=rss",
-      "summary": "The WhatsApp money launderers arranged cash transfers in the UK and around the world with no paper trail.",
-      "source": "BBC World",
-      "pubdate": "2026-08-30T04:59:56+00:00",
-      "final_score": 0.1526,
-      "confidence": 15.3,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "England beat Pakistan by 194 runs: second men’s cricket Test, day four – as it happened",
-      "url": "https://www.theguardian.com/sport/live/2026/aug/30/england-v-pakistan-second-cricket-test-day-four-live",
-      "summary": "Ollie Robinson picks up eight wickets in the match at Lord’s and England take an unassailable 2-0 lead in the series48th over: England 182-7 (Lawrence 54, Robinson 3) Mohammad Abbas, who has performed well here and remains a fine bowler to watch, starts us off at the Pavilion End. After four dots, Robinson nudges one off his hips for the day’s first single. It brings Lawrence to the strike and he promptly crunches a square cut to the ropes at the Grandstand for four.47th over: England 177-7 (Lawrence 50, Robinson 2) Mohammad Ali bowls the remaining ball of his over to Lawrence, who plays an orthodox forward defensive. No run. Continue reading...",
-      "source": "Guardian Sport",
-      "pubdate": "2026-08-30T17:33:34+00:00",
-      "final_score": 0.1522,
-      "confidence": 15.2,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "‘I feel shoehorned’: My father funded my $800,000 Roth IRA. Does that give him the right to say how I invest it?",
-      "url": "https://www.marketwatch.com/story/i-feel-shoehorned-my-father-funded-my-800-000-roth-ira-does-that-give-him-the-right-to-say-how-i-invest-it-7b1e3ab3?mod=mw_rss_topstories",
-      "summary": "“His argument is essentially that, since my parents provided the money for the Roth, they have a say in how I invest it.”",
-      "source": "WSJ Markets",
-      "pubdate": "2026-08-30T22:15:00+00:00",
-      "final_score": 0.1463,
-      "confidence": 14.6,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "Transfer roundup: Ollie Watkins completes move to Al-Hilal from Aston Villa",
-      "url": "https://www.theguardian.com/football/2026/aug/30/transfer-roundup-ollie-watkins-al-hilal-aston-villa",
-      "summary": "England forward’s exit continues busy summer for VillaNews follows Emiliano Martínez moving to ChelseaAl-Hilal have signed Ollie Watkins from Aston Villa, ⁠the two clubs announced on Sunday, as the 30-year-old striker ended a successful ⁠six-year spell with ⁠the ​Midlands club where he became their top scorer in the Premier League. The England international, who had ​two years left on ‌his Villa contract, has moved for a reported £51m.Watkins ‌signed a three-year contract as Al-Hilal acquired ‌a proven goalscorer after he scored 21 goals in all competitions last season, including five goals in the Europa League as he helped deliver a European trophy to Unai Emery’s side. Continue reading...",
-      "source": "Guardian Sport",
-      "pubdate": "2026-08-30T16:46:29+00:00",
-      "final_score": 0.1457,
-      "confidence": 14.6,
+      "final_score": 0.0867,
+      "confidence": 8.7,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -1377,283 +1855,12 @@
       "summary": "The movement against datacenters is uniting Americans because they perfectly illustrate how a few individuals hold all the power to control decisions that affect our livesBryce Gustafson has been knocking on doors in Indiana for more than a decade. The lead organizer with Citizens Action Coalition (CAC), a consumer and environmental organization, he usually encounters a mix of reactions when he’s out canvassing; whatever issue he’s talking about, there’s always at least a few people on the other side. But at a recent festival in the rural town of Monrovia, Indiana, he was struck by an unusual spirit of unity.He was there about a proposed datacenter, a 550-acre (222-hectare) Google project in this small town of 1,600 people. “I had 50 people I talked to,” Gustafson told me. “Nobody wanted that datacenter in their community. And at least a half a dozen people came up to me to say, ‘Hey, I voted for Trump. What the heck’s he doing, supporting these things?’” Continue reading...",
       "source": "Guardian Technology",
       "pubdate": "2026-08-30T16:08:17+00:00",
-      "final_score": 0.1404,
-      "confidence": 14.0,
+      "final_score": 0.0698,
+      "confidence": 7.0,
       "category": "其他",
       "hit_keywords": [
         "AI"
       ]
-    },
-    {
-      "title": "Chelsea hold off Brighton in 4-3 win but remain chaotic under Xabi Alonso",
-      "url": "https://www.theguardian.com/football/2026/aug/30/chelsea-brighton-premier-league-match-report",
-      "summary": "In the fullness of time Chelsea’s surrender against Brighton in April may be seen as the turning point. The humiliation accelerated Liam ­Rosenior’s demise and forced the Stamford Bridge hierarchy into a ­reckoning leading to the appointment of Xabi Alonso, a shift in ­transfer ­strategy, the birth of the JP&nbsp;Morgan front three and the end of ­Robert&nbsp;Sánchez’s time in goal.For now, though, the argument that Emiliano Martínez is the final piece in the jigsaw seems a touch ­premature. With seven goals scored and five conceded while winning their first two league games, it is not hard to see where Chelsea need to improve in order to sustain a title challenge. They have to be savvier when ahead, and although the good has so far outweighed the bad Alonso could do with his side not dropping their guard when they have the ­opposition on the ropes. Continue reading...",
-      "source": "Guardian Sport",
-      "pubdate": "2026-08-30T15:15:25+00:00",
-      "final_score": 0.133,
-      "confidence": 13.3,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "Calvert-Lewin cancels out Schade’s opener as Leeds salvage point against Brentford",
-      "url": "https://www.theguardian.com/football/2026/aug/30/leeds-brentford-premier-league-match-report",
-      "summary": "These nascent moments of the new season can often provide false hope but, as both sets of players shook hands after what was indisputably the correct result at Elland Road, it was difficult not to imagine we had just witnessed a contest between two sides that should have lofty ­ambitions for the months ahead.Leeds and Brentford were vic­torious on the opening weekend in differing circumstances. Leeds crafted a hard-earned but ultimately deserved win at Nottingham Forest, while Brentford Tottenham. Time will tell what the ceiling of both these sides is but, as they each continued their unbeaten starts here, hopes should be high. Continue reading...",
-      "source": "Guardian Sport",
-      "pubdate": "2026-08-30T15:03:46+00:00",
-      "final_score": 0.1314,
-      "confidence": 13.1,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "Durham finish off Gloucestershire on sixth ball of day; Surrey frustrate Essex: county cricket, day four – as it happened",
-      "url": "https://www.theguardian.com/sport/live/2026/aug/30/durham-v-gloucestershire-essex-v-surrey-and-more-county-cricket-day-four-live",
-      "summary": "Durham completed a 10-wicket win over Gloucestershire to cement their place at the top of Division TwoIn a round for bowlers, Clarke has stood tall. Notts 321-7 and searching for batting points.Ha, I missed that Gloucestershire opened with Ollie Price’s loopy loops. Silly season a month early. Continue reading...",
-      "source": "Guardian Sport",
-      "pubdate": "2026-08-30T20:19:49+00:00",
-      "final_score": 0.1303,
-      "confidence": 13.0,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "Canada claps back at Trump's efforts to rename Lake Ontario as 'Lake America'",
-      "url": "https://www.npr.org/2026/08/30/nx-s1-5949254/lake-ontario-america-doug-ford-trump-sign-google",
-      "summary": "Ontario Premier Doug Ford has unveiled a giant billboard reading: \"Lake Ontario — Now and Always.\" But tech giant Google has said it is renaming the lake for U.S. users, as President Trump demanded.",
-      "source": "NPR News",
-      "pubdate": "2026-08-30T14:36:44+00:00",
-      "final_score": 0.1277,
-      "confidence": 12.8,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "Marcus Rashford’s Manchester United return feels like a marriage of convenience | Will Unwin",
-      "url": "https://www.theguardian.com/football/2026/aug/30/marcus-rashford-manchester-united-return-old-trafford",
-      "summary": "A lack of offers and problems in finding a replacement may be behind the move, but that does not mean it cannot workThe first chant of the match was for Marcus&nbsp;Rashford, Manchester United’s returning rogue son, the one banished for 18&nbsp;months, first to the Midlands and then Catalonia. Every football fan loves an academy product who has risen up the ranks, from scrawny child to getting 76,000 off their seats. Rashford is one of these, living out the dream of everyone inside Old Trafford and they are willing to forgive but want something in return.Not since 7 December 2024 has Rashford been seen in red at Old Trafford. Then it was as a substitute forlornly trying to turn things around in an eventual 3-2 defeat by Nottingham Forest. His relationship with Ruben Amorim was already deteriorating, the second head coach to have become irritated with Rashford. After loans with Aston Villa and Barcelona, everyone is surprised to see him back; it feels like a marriage of convenience because of a lack of offers and securing a replacement was deemed complex. Continue reading...",
-      "source": "Guardian Sport",
-      "pubdate": "2026-08-30T19:45:41+00:00",
-      "final_score": 0.1256,
-      "confidence": 12.6,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "People fleeing Sudan civil war face ‘dire and deteriorating’ conditions in refuge city",
-      "url": "https://www.theguardian.com/world/2026/aug/30/humanitarian-crisis-worsening-refuge-civilians-sudan-el-obeid",
-      "summary": "More traumatised civilians are arriving every day at ‘shockingly overcrowded’ El Obeid and camps on its outskirtsHumanitarian conditions in the Sudanese city of El Obeid and two camps on its outskirts are dire and deteriorating, according to people on the ground, as civilians displaced by fighting between the Sudanese Armed Forces and Rapid Support Forces (RSF) militia continue to pour in from the surrounding countryside.The UN says more than 15,000 families have arrived since mid-July, joining more than 200,000 people who arrived in the first half of the year, according to government figures cited by Save the Children. Continue reading...",
-      "source": "Guardian World",
-      "pubdate": "2026-08-30T06:00:48+00:00",
-      "final_score": 0.116,
-      "confidence": 11.6,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "These charts show how leverage-happy investors are transforming the stock market",
-      "url": "https://www.marketwatch.com/story/these-charts-show-how-leverage-happy-investors-are-transforming-the-stock-market-d4e350c3?mod=mw_rss_topstories",
-      "summary": "A rush of retail investors and quant funds has caused a shift toward more borrowed money and more short-term trading.",
-      "source": "WSJ Markets",
-      "pubdate": "2026-08-30T13:00:00+00:00",
-      "final_score": 0.1142,
-      "confidence": 11.4,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "Hospitality boom and $100 chicken nuggets: how the US Open became obscenely expensive",
-      "url": "https://www.theguardian.com/sport/2026/aug/30/us-open-ticket-prices-usta-resale-affordability",
-      "summary": "Record crowds, premium seats and an unchecked resale market are transforming the self-styled people’s slam – and leaving ordinary fans fighting to get through the gatesIt takes a truly exceptional affordability crisis to put Bill Ackman and Zohran Mamdani on the same side of the barricade. Yet this month the billionaire hedge fund manager and New York’s democratic socialist mayor found common cause over an unlikely grievance: the cost of getting into the US Open.Ackman took objection to the cost of a grounds pass listed for $363. Mamdani responded to the broader uproar by securing 1,000 tickets for New York residents at $100 apiece, prompting more than 336,000 people to apply for them. Somewhere between the two sits the uneasy economics of the modern US Open, where a $65 ticket with no guaranteed seat on any court can fetch more than five times that amount on the tournament’s resale marketplace. Continue reading...",
-      "source": "Guardian Sport",
-      "pubdate": "2026-08-30T12:14:27+00:00",
-      "final_score": 0.1079,
-      "confidence": 10.8,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "Politics chat: more tariffs, mail-in voting order, Kushner-Jeffries meeting",
-      "url": "https://www.npr.org/2026/08/30/nx-s1-5948115/politics-chat-more-tariffs-mail-in-voting-order-kushner-jeffries-meeting",
-      "summary": "Real economic sanctions on Canada and economic threats to countries trading with Iran may work against Republicans in the midterm elections.",
-      "source": "NPR News",
-      "pubdate": "2026-08-30T12:02:26+00:00",
-      "final_score": 0.1062,
-      "confidence": 10.6,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "ProCook outdoor pizza oven review: a budget-friendly model that brings the pizzeria home",
-      "url": "https://www.theguardian.com/thefilter/2026/aug/30/procook-outdoor-pizza-oven-review",
-      "summary": "This no-frills pizza oven gets the basics right and is more than good enough for most people• The best pizza ovens – tested • Ooni Koda 2 reviewThe market for pizza ovens tends to be dominated by a handful of specialist brands, so it can feel like a gamble to buy from a lesser-known manufacturer or a retailer that offers a wider range of goods.The ProCook outdoor pizza oven is no gamble, though. It’s every inch a capable, compact and versatile pizza oven, despite being just one product in an offering that includes pretty much everything from storage jars to squeegees. Continue reading...",
-      "source": "Guardian Technology",
-      "pubdate": "2026-08-30T12:00:55+00:00",
-      "final_score": 0.106,
-      "confidence": 10.6,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "School uniform swap shop 'saves money and tackles second hand clothes stigma'",
-      "url": "https://www.bbc.co.uk/news/articles/crr452d45nyo?at_medium=RSS&at_campaign=rss",
-      "summary": "A free initiative which started with one school four years ago now has more than 200 involved.",
-      "source": "BBC Business",
-      "pubdate": "2026-08-30T17:16:18+00:00",
-      "final_score": 0.1048,
-      "confidence": 10.5,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "Are you sure that Kimmel clip was real? Late-night AI deepfakes are spreading online",
-      "url": "https://www.npr.org/2026/08/30/nx-s1-5943190/jimmy-kimmel-deepfake-jon-stewart-abc-ai",
-      "summary": "While social media is rife with AI celebrity deepfakes, videos featuring late night TV hosts like Jimmy Kimmel and Jon Stewart are are easier to create than other kinds of deepfakes and potentially more disruptive.",
-      "source": "NPR News",
-      "pubdate": "2026-08-30T11:00:00+00:00",
-      "final_score": 0.0976,
-      "confidence": 9.8,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "My mother, 91, has dementia. Every bank says I need her signature to unlock her $100,000 stock certificate. What can I do?",
-      "url": "https://www.marketwatch.com/story/my-mother-91-has-dementia-every-bank-says-i-need-her-signature-to-unlock-her-100-000-stock-certificate-what-can-i-do-4a2b702f?mod=mw_rss_topstories",
-      "summary": "“These shares are the only assets in her estate without designated beneficiaries.”",
-      "source": "WSJ Markets",
-      "pubdate": "2026-08-30T14:30:00+00:00",
-      "final_score": 0.0817,
-      "confidence": 8.2,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "My contractor handed my $42,000 pool upgrade to a subcontractor I had already rejected. What can I do?",
-      "url": "https://www.marketwatch.com/story/my-contractor-handed-my-42-000-pool-upgrade-to-a-subcontractor-i-had-already-rejected-what-can-i-do-dce41b2b?mod=mw_rss_topstories",
-      "summary": "“I specifically rejected Contractor A because of his reputation.”",
-      "source": "WSJ Markets",
-      "pubdate": "2026-08-30T14:00:00+00:00",
-      "final_score": 0.0776,
-      "confidence": 7.8,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "Does a 2% beneficiary inherit 100% if the 98% beneficiary dies in a car accident? Asking for a friend.",
-      "url": "https://www.marketwatch.com/story/does-a-2-beneficiary-inherit-100-if-the-98-beneficiary-dies-in-a-car-accident-asking-for-a-friend-67aacc06?mod=mw_rss_topstories",
-      "summary": "“I’m curious what would happen if the account owner were to die suddenly at the same time as the 98% beneficiary.”",
-      "source": "WSJ Markets",
-      "pubdate": "2026-08-30T13:30:00+00:00",
-      "final_score": 0.0734,
-      "confidence": 7.3,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "Am I too old for Roth conversions? I’m 84 and my wife is 77. We have $8 million saved.",
-      "url": "https://www.marketwatch.com/story/am-i-too-old-for-roth-conversions-im-84-and-my-wife-is-77-we-have-8-million-saved-fb08fccd?mod=mw_rss_topstories",
-      "summary": "“We are reluctant to pay a financial adviser 2% of assets — roughly $160,000 per year.”",
-      "source": "WSJ Markets",
-      "pubdate": "2026-08-30T13:01:00+00:00",
-      "final_score": 0.0694,
-      "confidence": 6.9,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "Exclusive: Meet the inaugural winner of Fat Marmot Week",
-      "url": "https://www.npr.org/2026/08/30/nx-s1-5945683/exclusive-meet-the-inaugural-winner-of-fat-marmot-week",
-      "summary": "Dawn was crowned fattest marmot by popular vote.",
-      "source": "NPR News",
-      "pubdate": "2026-08-30T12:45:00+00:00",
-      "final_score": 0.0672,
-      "confidence": 6.7,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "Party balloons could become a ‘luxury’ as the Iran war spurs a helium shortage",
-      "url": "https://www.marketwatch.com/story/party-balloons-could-become-a-luxury-as-the-iran-war-spurs-a-helium-shortage-89e3f86e?mod=mw_rss_topstories",
-      "summary": "Dollar Tree says a helium squeeze has hit sales of balloons and party supplies. Researchers note this could foreshadow higher costs for other industries that depend on the gas.",
-      "source": "WSJ Markets",
-      "pubdate": "2026-08-30T12:30:00+00:00",
-      "final_score": 0.0651,
-      "confidence": 6.5,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "‘I’ve had a very hectic career’: Mario Balotelli on Italian football’s troubles and his future",
-      "url": "https://www.theguardian.com/football/2026/aug/30/mario-balotelli-interview-italy-saudi-arabia-maturity",
-      "summary": "Striker talks life in the UAE, problems with the Azzurri and ‘special feeling’ of playing for Manchester CityWhenever the name Mario Balotelli is brought up, particularly in Italy, the conversation is almost inevitably laced with a sense of regret. There is that lingering “What if?”, a collective sigh over a player who possessed the raw, undeniable potential to be one of the best in the world, if only things had been different.Yet being in front of him, with a smile on his face, it becomes clear the 36-year-old striker has reached an unexpected level of wisdom and maturity, traits that shine through in his lucid analysis of Italian football’s current struggles and the vanishing street culture of the sport. As Balotelli reflects on what he would tell his adolescent self, there is also a distinct feeling that he has finally made peace with his own turbulent narrative, that he isn’t chasing the ghosts of unfulfilled expectations. Continue reading...",
-      "source": "Guardian Sport",
-      "pubdate": "2026-08-30T07:00:50+00:00",
-      "final_score": 0.0644,
-      "confidence": 6.4,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "Meet the gen Zers finding job opportunities teaching English abroad",
-      "url": "https://www.theguardian.com/money/2026/aug/30/young-americans-teaching-abroad",
-      "summary": "Some young people are teaching in countries like South Korea as education funding is gutted and recent grads face a tough job market in their own countriesA year ago, Arianna Marie, 25, was struggling to control the students in her Florida elementary school classroom.She was living with her parents to save on rent and quickly feeling her passion for teaching dry up, even though it was her first job since graduation. Continue reading...",
-      "source": "Guardian Business",
-      "pubdate": "2026-08-30T11:00:56+00:00",
-      "final_score": 0.0527,
-      "confidence": 5.3,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "How a comic book store got swept into the tariff storm",
-      "url": "https://www.npr.org/2026/08/30/nx-s1-5939521/tariff-refunds-canada-trade-war",
-      "summary": "Tariffs continue to rile all kinds of American businesses more than a year after Trump unveiled his first set of tariffs — including a comic book store owner in Ohio.",
-      "source": "NPR News",
-      "pubdate": "2026-08-30T10:00:00+00:00",
-      "final_score": 0.0442,
-      "confidence": 4.4,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "From Appalachia to Africa: Why Dolly Parton was beloved across the continent",
-      "url": "https://www.npr.org/2026/08/30/nx-s1-5946399/africa-dolly-parton-fans",
-      "summary": "Dolly Parton's songs traveled far beyond Nashville. Across Africa, musicians embraced her stories of hardship, heartbreak and humble beginnings — and made them their own.",
-      "source": "NPR News",
-      "pubdate": "2026-08-30T10:00:00+00:00",
-      "final_score": 0.0442,
-      "confidence": 4.4,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "Women in UK arts feel they do not have equal opportunities for roles, says report",
-      "url": "https://www.theguardian.com/money/2026/aug/30/women-uk-arts-no-equal-opportunities-roles-report-sexism-discrimination",
-      "summary": "Exclusive: Research says sector is fixated with young talent, with most women experiencing unconscious bias or sexismWomen working in the arts believe they do not have equal opportunities for roles, especially as they get older, according to a report saying that the industry is fixated with “young and emerging” talent.Nearly all (95%) women working in the arts thought gender inequality persisted, while three-quarters (75%) reported experiencing unconscious bias or sexism, according to a survey of 76 arts professionals. More than two-thirds (69%) felt that age negatively affected their career success – a figure that rose to 100% among those working in artistic rather than managerial roles. Continue reading...",
-      "source": "Guardian Technology",
-      "pubdate": "2026-08-30T09:00:52+00:00",
-      "final_score": 0.036,
-      "confidence": 3.6,
-      "category": "其他",
-      "hit_keywords": []
     }
   ]
 }
