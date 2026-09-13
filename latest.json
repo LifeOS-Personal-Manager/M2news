@@ -1,8 +1,8 @@
 {
   "date": "2026-09-14",
-  "generated_at": "2026-09-14T04:32:01.582364+08:00",
+  "generated_at": "2026-09-14T07:01:14.982881+08:00",
   "total_sources": 38,
-  "total_items": 144,
+  "total_items": 148,
   "items": [
     {
       "title": "Trump downplays warnings of AI risks, citing rivalry with China",
@@ -10,8 +10,8 @@
       "summary": "The US President said \"negative forces\" were airing concerns about \"things that won't happen\".",
       "source": "BBC World",
       "pubdate": "2026-09-13T18:49:37+00:00",
-      "final_score": 0.4408,
-      "confidence": 44.1,
+      "final_score": 0.4201,
+      "confidence": 42.0,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -23,36 +23,12 @@
       "summary": "While pacing AI development might sound like a quick fix, it is far from an easy solution.",
       "source": "BBC World",
       "pubdate": "2026-09-13T18:20:22+00:00",
-      "final_score": 0.4367,
-      "confidence": 43.7,
+      "final_score": 0.416,
+      "confidence": 41.6,
       "category": "其他",
       "hit_keywords": [
         "AI"
       ]
-    },
-    {
-      "title": "Ukrainian drone evades Russian helicopter fire to strike oil tanker",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/09-12-ukraine-drone-russian-tanker-sv?traffic_source=rss",
-      "summary": "Ukraine has released footage showing a drone evading fire from a Russian helicopter before striking a Russian oil tanker",
-      "source": "Al Jazeera",
-      "pubdate": "2026-09-13T16:11:43+00:00",
-      "final_score": 0.4188,
-      "confidence": 41.9,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "Swedes vote in election that could see far-right in government",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/swedes-vote-in-election-that-could-see-far-right-in-government?traffic_source=rss",
-      "summary": "Voting is under way in Sweden in a closely fought election that could see the far-right enter government.",
-      "source": "Al Jazeera",
-      "pubdate": "2026-09-13T19:58:11+00:00",
-      "final_score": 0.4053,
-      "confidence": 40.5,
-      "category": "其他",
-      "hit_keywords": []
     },
     {
       "title": "Ronaldo calls for life bans of Saudi Pro League fans after Jota chants",
@@ -60,10 +36,35 @@
       "summary": "Fans at Al-Taawoun and Al-Hilal game seem to taunt Ruben Neves by chanting name of deceased teammate, Diogo Jota.",
       "source": "Al Jazeera",
       "pubdate": "2026-09-13T19:55:49+00:00",
-      "final_score": 0.405,
-      "confidence": 40.5,
+      "final_score": 0.3842,
+      "confidence": 38.4,
       "category": "其他",
       "hit_keywords": []
+    },
+    {
+      "title": "Trump says he will remove all Irish whiskey tariffs as he ends two-day visit",
+      "url": "https://www.bbc.co.uk/news/articles/cx2z79n0eeno?at_medium=RSS&at_campaign=rss",
+      "summary": "Whiskey distilled in the Republic of Ireland faces the standard 15% tariff which applies to EU goods entering the US.",
+      "source": "BBC World",
+      "pubdate": "2026-09-13T19:34:36+00:00",
+      "final_score": 0.3813,
+      "confidence": 38.1,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "‘Sweat the asset’: new development minister plots path to make UK aid count",
+      "url": "https://www.theguardian.com/politics/2026/sep/13/sweat-the-asset-new-development-minister-plots-path-to-make-uk-aid-count",
+      "summary": "Kirsty McNeill reaffirms Labour’s 0.7% of GDP pledge and promises value for money to allay voter concernsThe development minister, Kirsty McNeill, has declared herself “a huge believer in aid”, as she reaffirmed Labour’s manifesto pledge to return to a target of 0.7% of national income spending.McNeill, a former adviser to Gordon Brown and senior executive at Save the Children, declined to give any timetable, repeating the formula that the government would work towards the target “when fiscal circumstances allow”. Continue reading...",
+      "source": "Guardian World",
+      "pubdate": "2026-09-13T21:30:14+00:00",
+      "final_score": 0.3749,
+      "confidence": 37.5,
+      "category": "其他",
+      "hit_keywords": [
+        "AI",
+        "GDP"
+      ]
     },
     {
       "title": "At least six dead and 130 missing after Indonesian ferry capsizes, officials say",
@@ -71,8 +72,8 @@
       "summary": "Search and rescue agency says 107 people brought to safety from vessel hit by bad weather in Java SeaRescue workers in Indonesia said at least six people had died and 130 others were missing on Sunday after a ferry sailing between the islands of Java and Borneo capsized in bad weather.Basarnas, Indonesia’s national search and rescue agency, said 107 people had been rescued from the Virgo ⁠Transport 8 vessel, which set sail on Saturday with 243 ​people onboard, including 30 crew members, ​from ‌the East Java ‌city of Surabaya. Continue reading...",
       "source": "Guardian World",
       "pubdate": "2026-09-13T12:18:49+00:00",
-      "final_score": 0.3865,
-      "confidence": 38.6,
+      "final_score": 0.3658,
+      "confidence": 36.6,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -84,11 +85,37 @@
       "summary": "中新社北京9月13日电 9月13日晚，中国国家主席习近平圆满结束出席金砖国家领导人第十八次会晤回到北京。",
       "source": "中新社",
       "pubdate": "2026-09-13T14:04:13+00:00",
-      "final_score": 0.3786,
-      "confidence": 37.9,
+      "final_score": 0.3579,
+      "confidence": 35.8,
       "category": "政治",
       "hit_keywords": [
         "主席"
+      ]
+    },
+    {
+      "title": "Politics live: Joyce backs Hanson on comments about Albanese’s mother; electrifying push for Australians to save $5,000 a year",
+      "url": "https://www.theguardian.com/australia-news/live/2026/sep/14/australia-politics-live-question-time-electric-vehicles-auction-rates-housing-crisis-albanese-labor-coalition-one-nation-ntwnfb",
+      "summary": "Follow the day’s news liveGet our new political email, free app or daily news podcastHanson’s comments on Albanese’s mother ‘gratuitous and unnecessary’: HumeJane Hume has joined the pile on, blasting Pauline Hanson for her comments about Anthony Albanese’s mother.I think that these comments were gratuitous and unnecessary. And the idea that you would disparage people that have grown up in social housing, I think, is a little distasteful. I mean, it doubles down on the fact that Senator Hanson has also disrespected our veteran community with her atrocious comments about Andrew Hastie in that cartoon. Calling a veteran a traitor, I think, is possibly the worst thing you can do.But this does seem to be a common theme in One Nation now, that sort of unnecessarily provocative rhetoric. Continue reading...",
+      "source": "Guardian World",
+      "pubdate": "2026-09-13T22:38:51+00:00",
+      "final_score": 0.3469,
+      "confidence": 34.7,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Zverev defeats Shelton in four sets to win his first US Open title",
+      "url": "https://www.aljazeera.com/sports/2026/9/13/zverev-beats-shelton-in-four-sets-to-win-us-open-title?traffic_source=rss",
+      "summary": "Germany&#039;s Alexander Zverev beats Ben Shelton of USA 6-3 7-6(2) ​5-7 6-2 to claim the men&#039;s singles trophy in New York.",
+      "source": "Al Jazeera",
+      "pubdate": "2026-09-13T22:33:34+00:00",
+      "final_score": 0.3462,
+      "confidence": 34.6,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
       ]
     },
     {
@@ -97,23 +124,181 @@
       "summary": "From the Trump administration to AI experts, plans by the Anthropic boss to boost safety have spawned a largely negative responseOpenAI boss and Elon Musk back slowdown on ‘reckless’ AI developmentEditorial: controlling AI – humanity cannot outsource its survivalThe safety debate that ignited when whistleblowers last week warned that the most advanced AI poses an existential threat to humanity should come with a health warning: side effects include whiplash. It was only seven days ago that AI enthusiasts were cheerily toying with OpenAI’s newest model GPT-6 Astra which was marketed in part as a lifestyle tool to help people book tennis courts, run fashion companies and order takeaways.By Wednesday, cutting-edge AI started to look a lot less appealing when the resigning Anthropic researcher Jacob Coxon warned “the people building AI earnestly believe that it could kill us all by the end of the decade”. Yes, he was talking about artificial superintelligence – an as-yet-nonexistent version of the technology that outcompetes humans in most domains – but his comments, and the chorus of experts that echoed him, jangled plenty of nerves. Continue reading...",
       "source": "Guardian Business",
       "pubdate": "2026-09-13T16:54:58+00:00",
-      "final_score": 0.3649,
-      "confidence": 36.5,
+      "final_score": 0.3441,
+      "confidence": 34.4,
       "category": "其他",
       "hit_keywords": [
         "AI"
       ]
     },
     {
-      "title": "US Open men’s final live: Alexander Zverev vs Ben Shelton",
-      "url": "https://www.aljazeera.com/sports/liveblog/2026/9/13/us-open-mens-singles-final-live-alexander-zverev-vs-ben-shelton?traffic_source=rss",
-      "summary": "Follow our live build-up, predictions, score, match photos and text commentary stream of the men&#039;s final in New York.",
+      "title": "Could AI really kill us within a decade?",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/ai-apocalypse-warnings-benefit-ai-companies?traffic_source=rss",
+      "summary": "AI companies are warning that their technology could wipe out humanity.",
       "source": "Al Jazeera",
-      "pubdate": "2026-09-13T14:35:21+00:00",
-      "final_score": 0.3605,
-      "confidence": 36.0,
+      "pubdate": "2026-09-13T22:17:15+00:00",
+      "final_score": 0.3439,
+      "confidence": 34.4,
       "category": "其他",
-      "hit_keywords": []
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "“词元贷”给人工智能企业“贷”来什么？",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-14/10695874.shtml",
+      "summary": "广东率先探索以词元消耗等数字化指标授信——",
+      "source": "中新社",
+      "pubdate": "2026-09-13T22:12:04+00:00",
+      "final_score": 0.3432,
+      "confidence": 34.3,
+      "category": "科技",
+      "hit_keywords": [
+        "人工智能"
+      ]
+    },
+    {
+      "title": "Barcelona beat Levante as Yamal scores twice to maintain perfect start",
+      "url": "https://www.aljazeera.com/sports/2026/9/13/barcelona-beat-levante-as-yamal-scores-twice-to-maintain-perfect-start?traffic_source=rss",
+      "summary": "Barcelona have won all six games this season and sit top of La Liga with five wins from five after victory at Levante.",
+      "source": "Al Jazeera",
+      "pubdate": "2026-09-13T22:10:04+00:00",
+      "final_score": 0.3429,
+      "confidence": 34.3,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Manchester City wrongly awarded Haaland goal by VAR at United: Refs’ body",
+      "url": "https://www.aljazeera.com/sports/2026/9/13/manchester-city-wrongly-awarded-haaland-goal-by-var-at-united-refs-body?traffic_source=rss",
+      "summary": "Erling Haaland&#039;s derby winner against Manchester United should not have stood, Premier League referees&#039; body admits.",
+      "source": "Al Jazeera",
+      "pubdate": "2026-09-13T21:58:17+00:00",
+      "final_score": 0.3413,
+      "confidence": 34.1,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Tehran and Muscat delay talks, citing regional consensus need",
+      "url": "https://www.aljazeera.com/news/2026/9/13/tehran-and-muscat-delay-talks-citing-regional-consensus-need?traffic_source=rss",
+      "summary": "Tehran and Muscat agree to delay dialogue to prioritise regional consensus amid tensions in the Strait of Hormuz.",
+      "source": "Al Jazeera",
+      "pubdate": "2026-09-13T21:50:50+00:00",
+      "final_score": 0.3402,
+      "confidence": 34.0,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Dramatic insider warnings over AI fall flat with some in Silicon Valley",
+      "url": "https://www.bbc.co.uk/news/articles/cq635037g18o?at_medium=RSS&at_campaign=rss",
+      "summary": "A recent spate of stark warnings about the dangers of AI has been met with scepticism by executives and investors.",
+      "source": "BBC World",
+      "pubdate": "2026-09-13T09:05:10+00:00",
+      "final_score": 0.3389,
+      "confidence": 33.9,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Andy Burnham to host entrepreneurs and local mayors at No 10 on Monday",
+      "url": "https://www.theguardian.com/politics/2026/sep/13/andy-burnham-host-business-leaders-local-mayors-no-10",
+      "summary": "Prime minister vows to ‘reindustrialise Britain’ through new partnership with business The prime minister is to host business leaders, entrepreneurs and local mayors at Downing Street on Monday to pitch his government as a “partner for growth” that can offer a stable platform for investment and jobs in the UK.Ahead of the event, Andy Burnham said the country had “everything it needs to succeed”, including talented people and world-class universities, but requires “a culture shift in how Britain does business” if it is to unlock its full potential. Continue reading...",
+      "source": "Guardian World",
+      "pubdate": "2026-09-13T21:30:13+00:00",
+      "final_score": 0.3374,
+      "confidence": 33.7,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Poland, Ukraine accuse Russia of ‘escalation’ after strikes near border",
+      "url": "https://www.aljazeera.com/news/2026/9/13/poland-ukraine-accuse-russia-of-escalation-after-strikes-near-border?traffic_source=rss",
+      "summary": "Western officials including ex-UK PM Boris Johnson were nearby when Russia hit a train at the Poland-Ukraine border.",
+      "source": "Al Jazeera",
+      "pubdate": "2026-09-13T21:10:07+00:00",
+      "final_score": 0.3346,
+      "confidence": 33.5,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Donald Trump doubles down on support for united Ireland",
+      "url": "https://www.theguardian.com/uk-news/2026/sep/13/donald-trump-doubles-down-on-support-for-united-ireland",
+      "summary": "US president brushes off Andy Burnham’s opposition to referendum and says he will remove Irish whiskey tariff Donald Trump has reiterated his support for Irish unification and brushed off Andy Burnham’s opposition to a referendum.“Everybody says that. Then things happen,” the US president said on Sunday of the British prime minister’s response. Continue reading...",
+      "source": "Guardian World",
+      "pubdate": "2026-09-13T21:09:01+00:00",
+      "final_score": 0.3344,
+      "confidence": 33.4,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "New Charlie Kirk statue vandalized at Turning Point USA headquarters",
+      "url": "https://www.theguardian.com/us-news/2026/sep/13/charlie-kirk-statue-vandalized-tpusa-arizona",
+      "summary": "The 8ft statue, installed in Phoenix last week to mark one year since Kirk’s killing, was found painted redA newly unveiled statue of the rightwing activist Charlie Kirk was vandalized at the Turning Point USA headquarters in Phoenix, Arizona.The statue was found with red spray-paint. A nearby poster memorial in front of the statue was vandalized with red paint as well. Continue reading...",
+      "source": "Guardian World",
+      "pubdate": "2026-09-13T20:51:48+00:00",
+      "final_score": 0.332,
+      "confidence": 33.2,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Jerusalem Daily: Pregnant woman killed in Gaza",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/jerusalem-daily-pregnant-woman-killed-in-gaza?traffic_source=rss",
+      "summary": "Israeli forces kill a pregnant Palestinian woman in Gaza and settler pogroms intensify across the occupied West Bank.",
+      "source": "Al Jazeera",
+      "pubdate": "2026-09-13T20:46:34+00:00",
+      "final_score": 0.3313,
+      "confidence": 33.1,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Can a warming Arctic become an important commercial highway?",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/9/13/can-a-warming-arctic-become-an-important-commercial-highway?traffic_source=rss",
+      "summary": "The conflict in the Middle East raises security concerns about traditional shipping routes.",
+      "source": "Al Jazeera",
+      "pubdate": "2026-09-13T20:44:51+00:00",
+      "final_score": 0.3311,
+      "confidence": 33.1,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "US Envoy Jared Kushner says Doha attack left Israel ‘globally isolated’",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/09-13-kushner-doha-attack-comments-clip?traffic_source=rss",
+      "summary": "Jared Kushner, says Israel’s failed attack on Hamas leadership in Doha was ‘terrible’ and left the country ‘isolated&#039;",
+      "source": "Al Jazeera",
+      "pubdate": "2026-09-13T20:33:28+00:00",
+      "final_score": 0.3295,
+      "confidence": 32.9,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
     },
     {
       "title": "Israeli raid targets Palestinian journalist Ali al-Samoudi’s home",
@@ -121,8 +306,8 @@
       "summary": "Israeli forces reportedly raided the Jenin home of Palestinian journalist Ali al-Samoudi and beat his son.",
       "source": "Al Jazeera",
       "pubdate": "2026-09-13T19:41:01+00:00",
-      "final_score": 0.3429,
-      "confidence": 34.3,
+      "final_score": 0.3222,
+      "confidence": 32.2,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -134,8 +319,21 @@
       "summary": "Disturbing and AI-generated versions of Dr Seuss character have been used to threaten schools and communitiesSchools and law enforcement authorities in the US are issuing warnings against a viral “Cat in the Hat” social media trend in which disturbing or AI-generated versions of the Dr Seuss character are used to threaten students, schools and communities.The latest warnings come as safety concerns increase and several teenagers have been arrested or charged over posts connected to the trend. Continue reading...",
       "source": "Guardian World",
       "pubdate": "2026-09-13T19:15:57+00:00",
-      "final_score": 0.3394,
-      "confidence": 33.9,
+      "final_score": 0.3187,
+      "confidence": 31.9,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
+      "url": "https://www.bbc.co.uk/news/articles/cy5zg41dkqwo?at_medium=RSS&at_campaign=rss",
+      "summary": "The former UK PM said \"I don't know what warped logic drove Putin to blow up a stationary Ukrainian locomotive on the Polish border this morning\".",
+      "source": "BBC World",
+      "pubdate": "2026-09-13T19:14:21+00:00",
+      "final_score": 0.3185,
+      "confidence": 31.8,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -147,24 +345,11 @@
       "summary": "2026年9月12日至13日，国家主席习近平应邀赴印度出席金砖国家领导人第十八次会晤。行程结束之际，中共中央政治局委员、外交部长王毅向随行记者介绍此访情况。",
       "source": "中新社",
       "pubdate": "2026-09-13T16:24:32+00:00",
-      "final_score": 0.3381,
-      "confidence": 33.8,
+      "final_score": 0.3174,
+      "confidence": 31.7,
       "category": "政治",
       "hit_keywords": [
         "政治局"
-      ]
-    },
-    {
-      "title": "Villagers in India tie technician to cell tower over 5G failure",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/villagers-in-india-tie-technician-to-cell-tower-over-5g-failure?traffic_source=rss",
-      "summary": "Villagers in India tie technician to cell tower over 5G failure",
-      "source": "Al Jazeera",
-      "pubdate": "2026-09-13T13:34:42+00:00",
-      "final_score": 0.337,
-      "confidence": 33.7,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
       ]
     },
     {
@@ -173,8 +358,8 @@
       "summary": "Vice-president wears religion on his sleeve but winding spiritual path could alienate evangelicals and CatholicsUS vice-president JD Vance has worn his religion on his sleeve since converting to Catholicism in 2019. He recently published a book, Communion: Finding My Way Back to Faith, and memorably met the late Pope Francis at the Vatican on Easter Sunday in 2025, a day before the pontiff died.But his religious identity could take on new weight as he positions himself for a presidential run in 2028, in which a successful campaign would make him only the third Catholic president in US history. Vance’s winding spiritual path – combined with his avowed evangelical roots – have the potential to stymie him, as he seeks to retain the Christian nationalist voters that have sustained Donald Trump’s Make America Great Again (Maga) movement while wooing fellow Catholics. Continue reading...",
       "source": "Guardian World",
       "pubdate": "2026-09-13T18:56:09+00:00",
-      "final_score": 0.3367,
-      "confidence": 33.7,
+      "final_score": 0.316,
+      "confidence": 31.6,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -186,8 +371,8 @@
       "summary": "It&#039;s a milestone of the self-determination fight in this region of the Philippines. It must be kept peaceful and fair.",
       "source": "Al Jazeera",
       "pubdate": "2026-09-13T18:39:28+00:00",
-      "final_score": 0.3344,
-      "confidence": 33.4,
+      "final_score": 0.3136,
+      "confidence": 31.4,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -199,8 +384,8 @@
       "summary": "The US president says Ukraine&#039;s attacks on Russian diesel infrastructure are contributing to global fuel shortages.",
       "source": "Al Jazeera",
       "pubdate": "2026-09-13T18:15:12+00:00",
-      "final_score": 0.331,
-      "confidence": 33.1,
+      "final_score": 0.3103,
+      "confidence": 31.0,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -212,8 +397,8 @@
       "summary": "PM has so far declined to insert curbs on UK-based donors, despite £72m donations from billionaires to Reform UKTrade unions, MPs and donors have urged the government to look again at party funding rules, after Reform UK insisted £72m in donations from two crypto billionaires was within the law.Andy Burnham, a previous backer of caps on domestic donations, has so far declined to insert any curbs in the elections bill that would apply to UK-based donors. Continue reading...",
       "source": "Guardian World",
       "pubdate": "2026-09-13T17:50:08+00:00",
-      "final_score": 0.3275,
-      "confidence": 32.8,
+      "final_score": 0.3068,
+      "confidence": 30.7,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -225,38 +410,67 @@
       "summary": "Ukrainian Railways says former British PM and David Petraeus crossed into Poland shortly before drone attack near borderA train carrying Boris Johnson and the former CIA chief David Petraeus may have been the target of a Russian drone strike that hit a train engine near the Poland-Ukraine border, according to Ukrainian Railways.Ukraine’s foreign minister, Andrii Sybiha, described the attack as “Putin’s terror knocking directly on the doors of the EU and Nato”. Continue reading...",
       "source": "Guardian World",
       "pubdate": "2026-09-13T17:43:03+00:00",
-      "final_score": 0.3265,
-      "confidence": 32.7,
+      "final_score": 0.3058,
+      "confidence": 30.6,
       "category": "其他",
       "hit_keywords": [
         "AI"
       ]
     },
     {
-      "title": "First H5 bird flu death of endangered Australian sea lion recorded amid fears for small population",
-      "url": "https://www.theguardian.com/australia-news/2026/sep/13/first-h5-bird-flu-death-of-endangered-australian-sea-lion-kangaroo-island",
-      "summary": "South Australian authorities say case discovered on Kangaroo Island is first for species of which less than 12,000 animals remainGet our breaking news email, free app or daily news podcastSouth Australia has recorded the first death of an endangered Australian sea lion from H5 bird flu.Experts say about 12,000 Australian sea lions remain – though a more recent estimate put the figure at less than 10,000. Most of the population are found in South Australia, with the remainder in Western Australia. Continue reading...",
-      "source": "Guardian World",
-      "pubdate": "2026-09-13T05:04:52+00:00",
-      "final_score": 0.3262,
-      "confidence": 32.6,
+      "title": "9月14日新闻早报",
+      "url": "https://www.chinanews.com.cn/iframe/2026/09-14/10695876.shtml",
+      "summary": "",
+      "source": "中新社",
+      "pubdate": "2026-09-13T22:50:44+00:00",
+      "final_score": 0.3035,
+      "confidence": 30.4,
       "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
+      "hit_keywords": []
     },
     {
-      "title": "Donald Trump doubles down on support for united Ireland",
-      "url": "https://www.theguardian.com/uk-news/2026/sep/13/donald-trump-doubles-down-on-support-for-united-ireland",
-      "summary": "US president says ‘many people agree’ with his view on unification, brushing off Andy Burnham’s opposition to referendumDonald Trump has reiterated his support for Irish unification and brushed off Andy Burnham’s opposition to a referendum.“Everybody says that. Then things happen,” the US president said on Sunday of the British prime minister’s response. Continue reading...",
+      "title": "Sweden election live: ‘If this result stands, Sweden will get a new government’, opposition leader says",
+      "url": "https://www.theguardian.com/world/live/2026/sep/13/sweden-general-election-social-democrats-magdalena-sweden-democrats-ulf-kristersson-andersson-far-right-europe-latest-news-updates",
+      "summary": "Latest projection has centre-left bloc leading government parties 175-174 as deputy PM says vote could be undecided until WednesdaySwedish election – full reportIf you’re looking just for a single story to quickly catch up on the story of tonight, let’s cross to our Nordic correspondent, Miranda Bryant, for her preview.The prospect of far-right anti-immigration Sweden Democrats entering the government has understandably attracted a lot of international attention, particularly coming just days after the Alternative für Deutschland won the regional elections in Saxony Anhalt in Germany. Continue reading...",
       "source": "Guardian World",
-      "pubdate": "2026-09-13T16:59:06+00:00",
-      "final_score": 0.3204,
-      "confidence": 32.0,
+      "pubdate": "2026-09-13T22:42:46+00:00",
+      "final_score": 0.3024,
+      "confidence": 30.2,
       "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
+      "hit_keywords": []
+    },
+    {
+      "title": "Swedish party blocs tied after Sunday vote, projections say",
+      "url": "https://www.bbc.co.uk/news/articles/c0qx5d79kdeo?at_medium=RSS&at_campaign=rss",
+      "summary": "A partial count by Sweden's election authority projected that left-wing opposition bloc would win a one-seat majority.",
+      "source": "BBC World",
+      "pubdate": "2026-09-13T22:27:54+00:00",
+      "final_score": 0.3004,
+      "confidence": 30.0,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "求职背调，不可越界失序",
+      "url": "https://www.chinanews.com.cn/sh/2026/09-14/10695875.shtml",
+      "summary": "“找工作，先过背调关。”如今，背景调查成了不少求职者的共同经历。",
+      "source": "中新社",
+      "pubdate": "2026-09-13T22:18:31+00:00",
+      "final_score": 0.2991,
+      "confidence": 29.9,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "词元出海怎么实现？服贸会上有答案",
+      "url": "https://www.chinanews.com.cn/cj/2026/09-14/10695873.shtml",
+      "summary": "词元出海怎么实现？服贸会上有答案(财米油盐)",
+      "source": "中新社",
+      "pubdate": "2026-09-13T22:09:58+00:00",
+      "final_score": 0.2979,
+      "confidence": 29.8,
+      "category": "其他",
+      "hit_keywords": []
     },
     {
       "title": "Leaders at Celtic summit to affirm right to seek independence from UK",
@@ -264,12 +478,111 @@
       "summary": "Call for constitutional change in Northern Ireland, Scotland and Wales likely to challenge Burnham’s devolution agendaThe first ministers of Wales, Scotland and Northern Ireland are to affirm their countries’ right to seek independence from the UK at a summit that is likely to challenge Andy Burnham’s devolution agenda.The Plaid Cymru leader, Rhun ap Iorwerth, the Scottish National party leader, John Swinney, and the Sinn Féin vice-president, Michelle O’Neill, are expected to sign a memorandum of understanding at a landmark conference in Cardiff on Monday that will call on Westminster “to prepare, plan and facilitate constitutional change in Wales, Scotland and Northern Ireland”. Continue reading...",
       "source": "Guardian World",
       "pubdate": "2026-09-13T16:41:58+00:00",
-      "final_score": 0.318,
-      "confidence": 31.8,
+      "final_score": 0.2973,
+      "confidence": 29.7,
       "category": "其他",
       "hit_keywords": [
         "AI"
       ]
+    },
+    {
+      "title": "Jefferson-Wooden, Bednarek complete Ultimate Championship sprint doubles",
+      "url": "https://www.aljazeera.com/sports/2026/9/13/jefferson-wooden-bednarek-complete-ultimate-championship-sprint-doubles?traffic_source=rss",
+      "summary": "The Americans won the 100m and 200m at the Ultimate Championship that saw elite athletes win $150,000 each.",
+      "source": "Al Jazeera",
+      "pubdate": "2026-09-13T22:02:10+00:00",
+      "final_score": 0.2968,
+      "confidence": 29.7,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "日本自民党支持的候选人当选冲绳县知事",
+      "url": "https://www.chinanews.com.cn/gj/2026/09-14/10695872.shtml",
+      "summary": "据日本方面消息，在13日举行的日本冲绳县知事选举中，受自民党等政党支持的冲绳首府那霸市前副市长古谢玄太确定当选。",
+      "source": "中新社",
+      "pubdate": "2026-09-13T22:00:04+00:00",
+      "final_score": 0.2965,
+      "confidence": 29.7,
+      "category": "政治",
+      "hit_keywords": []
+    },
+    {
+      "title": "克罗地亚布拉奇岛发生山火 近700人被疏散",
+      "url": "https://www.chinanews.com.cn/gj/2026/09-14/10695871.shtml",
+      "summary": "近日，克罗地亚布拉奇岛发生大规模山火。当地时间12日夜间，火势向该岛的米尔纳镇及附近海湾蔓延，近700名当地居民和游客被紧急疏散。当地消防部门出动了4架消防飞机参与灭火。13日，山火仍未被完全扑灭，目前过火面积已达到3500公顷。",
+      "source": "中新社",
+      "pubdate": "2026-09-13T21:58:53+00:00",
+      "final_score": 0.2963,
+      "confidence": 29.6,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "无视英国反对 特朗普再挺“爱尔兰统一”",
+      "url": "https://www.chinanews.com.cn/gj/2026/09-14/10695870.shtml",
+      "summary": "据相关消息，美国总统特朗普13日再次表示，他支持北爱尔兰脱离英国，“与爱尔兰统一”。此前一天，特朗普发表类似言论，已引发英国政界强烈反对。",
+      "source": "中新社",
+      "pubdate": "2026-09-13T21:57:55+00:00",
+      "final_score": 0.2962,
+      "confidence": 29.6,
+      "category": "国际",
+      "hit_keywords": []
+    },
+    {
+      "title": "英国中区侨界庆祝新中国成立77周年",
+      "url": "https://www.chinanews.com.cn/txy/2026/09-14/10695869.shtml",
+      "summary": "中新社伯明翰9月13日电 (记者 欧阳开宇)当地时间9月13日，英国中区各界华侨华人齐聚伯明翰，举办庆祝中华人民共和国成立77周年主题庆典活动。",
+      "source": "中新社",
+      "pubdate": "2026-09-13T21:44:58+00:00",
+      "final_score": 0.2944,
+      "confidence": 29.4,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "攀岩世界杯贵阳站收官战：中国选手夺2金1银破世界纪录",
+      "url": "https://www.chinanews.com.cn/ty/2026/09-14/10695868.shtml",
+      "summary": "中新社贵阳9月14日电 (记者 张伟)2026年世界攀联攀岩世界杯(中国贵阳)13日晚在贵州·彩湖国际攀岩中心迎来收官战。中国选手包揽男、女速度接力的2块金牌，并拿下男子项目银牌。中国选手赵一程、零勇志还以9.58秒的成绩创造男子速度接力新世界纪录。",
+      "source": "中新社",
+      "pubdate": "2026-09-13T21:44:22+00:00",
+      "final_score": 0.2943,
+      "confidence": 29.4,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "双人组赛亮相，斯巴达勇士赛成都站亮点多",
+      "url": "https://www.chinanews.com.cn/ty/2026/09-14/10695867.shtml",
+      "summary": "中新网9月14日电 过去的周末，2026斯巴达勇士赛成都站在郫都区三道堰青杠树景区举行，这是斯巴达勇士赛连续第二年落地成都。",
+      "source": "中新社",
+      "pubdate": "2026-09-13T21:43:50+00:00",
+      "final_score": 0.2942,
+      "confidence": 29.4,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "Swedish election: left and right parties appear to be heading for deadlock",
+      "url": "https://www.theguardian.com/world/2026/sep/13/voting-under-way-in-sweden-with-far-right-eyeing-first-role-in-government",
+      "summary": "Though early exit polls suggested a new left-leaning government, later forecasts suggest an incredibly close raceSweden general election – live updatesSweden’s left-wing parties held a lead of just one mandate on Sunday night with most of the votes counted.Earlier in the night, exit polls suggested that the country was on course for a brand new left-leaning government. But as the votes were counted, it became apparent that the race was too close to call and may take days to become clear. Continue reading...",
+      "source": "Guardian World",
+      "pubdate": "2026-09-13T21:28:56+00:00",
+      "final_score": 0.2922,
+      "confidence": 29.2,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "A third person has died of measles in the US, health officials say",
+      "url": "https://www.aljazeera.com/news/2026/9/13/a-third-person-has-died-of-measles-in-the-us-health-officials-say?traffic_source=rss",
+      "summary": "Pennsylvania reports that a 40-year-old woman died from the disease, which was declared eliminated in the US in 2000.",
+      "source": "Al Jazeera",
+      "pubdate": "2026-09-13T21:21:32+00:00",
+      "final_score": 0.2912,
+      "confidence": 29.1,
+      "category": "其他",
+      "hit_keywords": []
     },
     {
       "title": "Who better to defend Reform’s latest millions than Honest Bob Jenrick? | John Crace",
@@ -277,8 +590,8 @@
       "summary": "The man who once helped Richard ‘Dirty’ Desmond save a load of tax was wheeled out to face Laura KuenssbergYou wait years for one party donation of £36m and then two come along at once. Reform can hardly believe its luck. All hail the crypto billionaires. Tacky pale turquoise suits all round. And Nigel Farage won’t have to worry about spending any of his own money – if you can call the £5m freebie his own money – on his security. Nor do those champagne and oyster lunches to discuss loose change donations of £500k from people living overseas pay for themselves. From now on Reform won’t need to bother getting out of bed for anything less than eight figures.Fair to say that if it had been Labour or the Tories trousering £72m from Christopher Harborne and Ben Delo then Reform would be on full outrage rampage. How the political system was rigged against it and how the two main parties are hotwired cash machines. In bed with the super-rich. But since the money is heading towards its own bank account, everyone in the party is totally chilled. This is just the way life ought to be. Who wouldn’t want a country where two billionaires can attempt to buy the democratic process? Continue reading...",
       "source": "Guardian World",
       "pubdate": "2026-09-13T15:51:44+00:00",
-      "final_score": 0.3111,
-      "confidence": 31.1,
+      "final_score": 0.2903,
+      "confidence": 29.0,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -290,90 +603,56 @@
       "summary": "Woman’s family says she died of injuries after being shot in the head while sitting inside a tent near Khan YounisA pregnant Palestinian woman died on Saturday from injuries sustained after being shot in the head by Israeli forces south of Khan Younis, according to her family and medical workers, as strikes across Gaza killed at least 10 people in 48 hours.The woman, named as Iman Shalouf, 27, who was nearly eight months pregnant, was sitting inside her family’s tent in the al-Mawasi area when Israeli gunfire struck her, according to paramedics and witnesses. Continue reading...",
       "source": "Guardian World",
       "pubdate": "2026-09-13T15:51:33+00:00",
-      "final_score": 0.311,
-      "confidence": 31.1,
+      "final_score": 0.2903,
+      "confidence": 29.0,
       "category": "其他",
       "hit_keywords": [
         "AI"
       ]
     },
     {
-      "title": "Six killed, 130 missing after Indonesian passenger ship capsizes",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/six-killed-130-missing-after-indonesian-passenger-ship-capsizes?traffic_source=rss",
-      "summary": "Six people have been killed and 130 remain missing after a passenger ship capsized in the Java Sea off Indonesia.",
+      "title": "USA defeat France to win 12th FIBA Women’s Basketball World Cup",
+      "url": "https://www.aljazeera.com/sports/2026/9/13/usa-defeat-france-to-win-12th-fiba-womens-basketball-world-cup?traffic_source=rss",
+      "summary": "Breanna Stewart leads comeback win for the record champions despite France&#039;s early lead in the Berlin final.",
       "source": "Al Jazeera",
-      "pubdate": "2026-09-13T15:50:46+00:00",
-      "final_score": 0.3109,
-      "confidence": 31.1,
+      "pubdate": "2026-09-13T21:12:11+00:00",
+      "final_score": 0.2899,
+      "confidence": 29.0,
       "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
+      "hit_keywords": []
     },
     {
-      "title": "World leaders gather in New Delhi for final day of BRICS summit",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/world-leaders-gather-in-new-delhi-for-final-day-of-brics-summit?traffic_source=rss",
-      "summary": "BRICS leaders gathered in New Delhi for the final day of the summit amid divisions over the wars in Iran and Ukraine.",
+      "title": "Pro-Palestine protest demands Australia increases pressure on Israel",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/pro-palestine-protest-demands-australia-increases-pressure-on-israel?traffic_source=rss",
+      "summary": "A pro-Palestine protest in Sydney demanded that the Australian government take further action and implement on Israel.",
       "source": "Al Jazeera",
-      "pubdate": "2026-09-13T15:40:24+00:00",
-      "final_score": 0.3095,
-      "confidence": 30.9,
+      "pubdate": "2026-09-13T21:02:14+00:00",
+      "final_score": 0.2885,
+      "confidence": 28.8,
       "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
+      "hit_keywords": []
     },
     {
-      "title": "As Chavez and Maduro images disappear, is Venezuela entering a new chapter?",
-      "url": "https://www.aljazeera.com/features/longform/2026/9/13/as-chavez-and-maduro-images-disappear-is-venezuela-entering-a-new-chapter?traffic_source=rss",
-      "summary": "As part of Delcy Rodriguez&#039;s &#039;Venezuela reborn&#039; campaign, murals of leaders like Hugo Chavez are being removed.",
+      "title": "India win Women’s Asia Cup but do not accept trophy",
+      "url": "https://www.aljazeera.com/sports/2026/9/13/india-win-womens-asia-cup-but-do-not-accept-trophy?traffic_source=rss",
+      "summary": "India were not present at the trophy ceremony, which was led by Pakistani Interior Minister and ACC President Naqvi.",
       "source": "Al Jazeera",
-      "pubdate": "2026-09-13T15:22:59+00:00",
-      "final_score": 0.3071,
-      "confidence": 30.7,
+      "pubdate": "2026-09-13T20:41:12+00:00",
+      "final_score": 0.2855,
+      "confidence": 28.6,
       "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
+      "hit_keywords": []
     },
     {
-      "title": "How could Reform UK spend its £72m of new billionaire donations?",
-      "url": "https://www.theguardian.com/politics/2026/sep/13/how-could-reform-uk-spend-its-72m-of-new-billionaire-donations",
-      "summary": "Harborne and Delo’s cash could buy a massive head start in an election, but spending big has possible pitfalls Nigel Farage once said he could spend his £5m gift from Christopher Harborne on Ferraris if he wanted to, given its unconditional nature.With the new donations to his party from Harborne and his fellow crypto billionaire Ben Delo of £72m over the past weekend alone, Farage’s party now has nearly enough cash to buy a Reform UK branded Ferrari for a party organiser in each of Britain’s 632 constituencies (though that would certainly be a waste and a bit of a tax headache). Continue reading...",
-      "source": "Guardian World",
-      "pubdate": "2026-09-13T15:17:38+00:00",
-      "final_score": 0.3063,
-      "confidence": 30.6,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "What are the five pros and cons of artificial intelligence?",
-      "url": "https://www.aljazeera.com/news/2026/9/13/what-are-the-five-pros-and-cons-of-artificial-intelligence?traffic_source=rss",
-      "summary": "AI creates new opportunities in programming and automation, but experts warn of risks to early-career workers.",
+      "title": "US will scrap Irish whisky tariff, Trump says",
+      "url": "https://www.aljazeera.com/news/2026/9/13/trump-says-he-plans-to-remove-a-15-tariff-on-irish-whisky?traffic_source=rss",
+      "summary": "The announcement comes several months after the US decreased the tariff by 5 percent.",
       "source": "Al Jazeera",
-      "pubdate": "2026-09-13T15:03:48+00:00",
-      "final_score": 0.3044,
-      "confidence": 30.4,
+      "pubdate": "2026-09-13T20:29:57+00:00",
+      "final_score": 0.284,
+      "confidence": 28.4,
       "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "Red Sea nations watch as Houthis seize Bab al-Mandeb strait",
-      "url": "https://www.aljazeera.com/economy/2026/9/13/red-sea-nations-watch-as-houthis-seize-bab-al-mandeb-strait?traffic_source=rss",
-      "summary": "Houthi control of Bab al-Mandeb chokes Suez Canal revenues, triggers refugee flows, and exposes regional security gaps.",
-      "source": "Al Jazeera",
-      "pubdate": "2026-09-13T15:00:47+00:00",
-      "final_score": 0.304,
-      "confidence": 30.4,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
+      "hit_keywords": []
     },
     {
       "title": "As Japan’s yen peaks, is the era of budget-friendly trips coming to an end for Australian travellers?",
@@ -381,8 +660,8 @@
       "summary": "The currency has now reached its highest level against the US and Australian dollars in six monthsGet our breaking news email, free app or daily news podcastIn the unpredictable world of global currency markets, there has been one safe bet: that the Japanese yen would continue its relentless decline.In recent weeks, that trade has started to unravel after Tokyo and Washington intervened to support the longsuffering Japanese currency. Continue reading...",
       "source": "Guardian World",
       "pubdate": "2026-09-13T15:00:09+00:00",
-      "final_score": 0.3039,
-      "confidence": 30.4,
+      "final_score": 0.2832,
+      "confidence": 28.3,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -394,8 +673,8 @@
       "summary": "‘Red lines’ legislation would forbid defence equipment technology or services being used, includes parts for F-35 fighter jetsGet our breaking news email, free app or daily news podcastCrossbench MPs including David Pocock and Sophie Scamps will put pressure on the Albanese government to ban Australian goods from being used by the Israeli military – including for F-35 fighter jets – by introducing a bill designed to force it to adhere to international obligations.The group’s “red lines” legislation, to be presented on Monday, would outlaw defence equipment, technology or services being used where they could breach Australia’s international human rights obligations. Continue reading...",
       "source": "Guardian World",
       "pubdate": "2026-09-13T15:00:09+00:00",
-      "final_score": 0.3039,
-      "confidence": 30.4,
+      "final_score": 0.2832,
+      "confidence": 28.3,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -407,8 +686,8 @@
       "summary": "Exclusive: New details underscoring depth of relationship between billionaire and party revealed in first episode of Guardian podcast The PopulistListen to the Guardian’s podcast The Populist hereGet our new political email, free app or daily news podcastPauline Hanson and Barnaby Joyce stayed overnight at Gina Rinehart’s $20m Brisbane mansion after fundraising events held for One Nation, Guardian Australia can reveal.On one occasion, Joyce conducted a live television interview with Channel Seven’s Sunrise program from a room that appears to be a bedroom in Rinehart’s home.Sign up for Guardian Australia’s Politics, really newsletter here Continue reading...",
       "source": "Guardian World",
       "pubdate": "2026-09-13T15:00:07+00:00",
-      "final_score": 0.3039,
-      "confidence": 30.4,
+      "final_score": 0.2832,
+      "confidence": 28.3,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -418,25 +697,14 @@
       "title": "AI staff 'genuinely frightened' for humanity's future, ex-Anthropic researcher tells BBC",
       "url": "https://www.bbc.co.uk/news/articles/c1kx0gyje9wo?at_medium=RSS&at_campaign=rss",
       "summary": "It comes as the AI firm's boss has called for the technology's development to be slowed down, citing \"serious\" risks.",
-      "source": "BBC Business",
+      "source": "BBC Technology",
       "pubdate": "2026-09-13T14:53:40+00:00",
-      "final_score": 0.303,
-      "confidence": 30.3,
+      "final_score": 0.2823,
+      "confidence": 28.2,
       "category": "其他",
       "hit_keywords": [
         "AI"
       ]
-    },
-    {
-      "title": "Sweden election live: results too close to call, with projections narrowing as more votes are counted",
-      "url": "https://www.theguardian.com/world/live/2026/sep/13/sweden-general-election-social-democrats-magdalena-sweden-democrats-ulf-kristersson-andersson-far-right-europe-latest-news-updates",
-      "summary": "Projection taking in latest results has opposition bloc on 175 seats and the government parties on 174Swedish election – full reportIf you’re looking just for a single story to quickly catch up on the story of tonight, let’s cross to our Nordic correspondent, Miranda Bryant, for her preview.The prospect of far-right anti-immigration Sweden Democrats entering the government has understandably attracted a lot of international attention, particularly coming just days after the Alternative für Deutschland won the regional elections in Saxony Anhalt in Germany. Continue reading...",
-      "source": "Guardian World",
-      "pubdate": "2026-09-13T20:14:22+00:00",
-      "final_score": 0.3025,
-      "confidence": 30.3,
-      "category": "其他",
-      "hit_keywords": []
     },
     {
       "title": "特朗普重申伊朗战事将在中期选举后结束",
@@ -444,8 +712,8 @@
       "summary": "消息称，美国总统特朗普13日在访问爱尔兰时重申，伊朗战事将在中期选举后结束。",
       "source": "中新社",
       "pubdate": "2026-09-13T16:37:29+00:00",
-      "final_score": 0.3024,
-      "confidence": 30.2,
+      "final_score": 0.2817,
+      "confidence": 28.2,
       "category": "政治",
       "hit_keywords": [
         "伊朗"
@@ -457,8 +725,19 @@
       "summary": "Police officer shared location of a woman with his relative who is accused of abusing womanA San Jose police officer was fired for using his department’s Flock license plate tracking system to share the location of a woman with the suspect accused of abusing her, Chief Paul Joseph told NBC Bay Area on Friday.The firing marks another in a growing number of cases of misuse of a controversial surveillance technology that has expanded rapidly over the last several years. Continue reading...",
       "source": "Guardian World",
       "pubdate": "2026-09-13T20:05:22+00:00",
-      "final_score": 0.3013,
-      "confidence": 30.1,
+      "final_score": 0.2806,
+      "confidence": 28.1,
+      "category": "其他",
+      "hit_keywords": []
+    },
+    {
+      "title": "Swedes vote in election that could see far-right in government",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/swedes-vote-in-election-that-could-see-far-right-in-government?traffic_source=rss",
+      "summary": "Voting is under way in Sweden in a closely fought election that could see the far-right enter government.",
+      "source": "Al Jazeera",
+      "pubdate": "2026-09-13T19:58:11+00:00",
+      "final_score": 0.2796,
+      "confidence": 28.0,
       "category": "其他",
       "hit_keywords": []
     },
@@ -468,8 +747,8 @@
       "summary": "Guyana’s president says his country has seen an increase in oil revenue as the Iran conflict reshapes global markets.",
       "source": "Al Jazeera",
       "pubdate": "2026-09-13T19:55:00+00:00",
-      "final_score": 0.2999,
-      "confidence": 30.0,
+      "final_score": 0.2791,
+      "confidence": 27.9,
       "category": "其他",
       "hit_keywords": []
     },
@@ -479,23 +758,12 @@
       "summary": "Human rights groups in Turkey have accused the government of using a family- values campaign to target the LGBTQ+ community.",
       "source": "BBC World",
       "pubdate": "2026-09-13T14:25:56+00:00",
-      "final_score": 0.2992,
-      "confidence": 29.9,
+      "final_score": 0.2784,
+      "confidence": 27.8,
       "category": "其他",
       "hit_keywords": [
         "AI"
       ]
-    },
-    {
-      "title": "Trump says he will remove all Irish whiskey tariffs as he ends two-day visit",
-      "url": "https://www.bbc.co.uk/news/articles/cx2z79n0eeno?at_medium=RSS&at_campaign=rss",
-      "summary": "Whiskey distilled in the Republic of Ireland faces the standard 15% tariff which applies to EU goods entering the US.",
-      "source": "BBC World",
-      "pubdate": "2026-09-13T19:34:36+00:00",
-      "final_score": 0.297,
-      "confidence": 29.7,
-      "category": "其他",
-      "hit_keywords": []
     },
     {
       "title": "OpenAI boss and Elon Musk back calls to put brakes on ‘reckless’ AI development",
@@ -503,8 +771,8 @@
       "summary": "Rare show of unity from rival developers after safety warnings from Anthropic boss and AI researchersAnalysis: critics perplexed and suspicious of call for a slowdownThe Guardian view: humanity cannot outsource its survivalSam Altman and Elon Musk have backed a call from the head of Anthropic, Dario Amodei, to “slow the pace” of AI development after he warned that an AI swarm could otherwise become capable of “taking over the entire internet” within a year.In a rare show of unity, the rival technology leaders threw their weight behind the appeal from the founder and chief executive of the artificial intelligence company Anthropic, which came after a series of warnings from AI researchers last week. Amodei also called for safety coordination with China. Continue reading...",
       "source": "Guardian Business",
       "pubdate": "2026-09-13T14:02:24+00:00",
-      "final_score": 0.2959,
-      "confidence": 29.6,
+      "final_score": 0.2752,
+      "confidence": 27.5,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -516,36 +784,10 @@
       "summary": "Exit polls show Sweden&#039;s centre-left parties with an early ⁠lead of 51.3 percent in general election.",
       "source": "Al Jazeera",
       "pubdate": "2026-09-13T19:25:59+00:00",
-      "final_score": 0.2958,
-      "confidence": 29.6,
+      "final_score": 0.2751,
+      "confidence": 27.5,
       "category": "其他",
       "hit_keywords": []
-    },
-    {
-      "title": "My 87-year-old mother wants to pay for my brother’s kids’ education. I don’t have children. How is that fair?",
-      "url": "https://www.marketwatch.com/story/my-87-year-old-mother-wants-to-pay-for-my-brothers-kids-education-i-dont-have-children-is-that-fair-b647a4bd?mod=mw_rss_topstories",
-      "summary": "“Over the years, my mother and I have supplemented his income.”",
-      "source": "WSJ Markets",
-      "pubdate": "2026-09-13T14:00:00+00:00",
-      "final_score": 0.2956,
-      "confidence": 29.6,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "Iran-GCC summit: What’s behind the meeting, why is Bahrain not attending?",
-      "url": "https://www.aljazeera.com/news/2026/9/13/iran-gcc-summit-whats-behind-the-meeting-why-is-bahrain-not-attending?traffic_source=rss",
-      "summary": "Iran says it plans to hold talks with Iraq and Gulf nations in Oman to help strengthen shared regional security.",
-      "source": "Al Jazeera",
-      "pubdate": "2026-09-13T13:59:27+00:00",
-      "final_score": 0.2955,
-      "confidence": 29.5,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
     },
     {
       "title": "Haaland goal sees 10-man City beat United in controversial Manchester derby",
@@ -553,8 +795,8 @@
       "summary": "Phil Foden is sent off for City, but Erling Haaland&#039;s controversial goal settles Manchester derby 1-0 at United.",
       "source": "Al Jazeera",
       "pubdate": "2026-09-13T18:39:24+00:00",
-      "final_score": 0.2894,
-      "confidence": 28.9,
+      "final_score": 0.2686,
+      "confidence": 26.9,
       "category": "其他",
       "hit_keywords": []
     },
@@ -564,8 +806,8 @@
       "summary": "中新社北京9月13日电 华沙消息：当地时间9月13日，一列开往华沙的列车在波兰、乌克兰边境乌克兰一侧遭到无人机撞击。由于列车提前收到预警，此次事件没有造成人员伤亡。",
       "source": "中新社",
       "pubdate": "2026-09-13T15:00:07+00:00",
-      "final_score": 0.2889,
-      "confidence": 28.9,
+      "final_score": 0.2682,
+      "confidence": 26.8,
       "category": "国际",
       "hit_keywords": [
         "乌克兰"
@@ -577,32 +819,8 @@
       "summary": "A child has been killed after an explosive object detonated when he touched it near Damascus.",
       "source": "Al Jazeera",
       "pubdate": "2026-09-13T18:30:29+00:00",
-      "final_score": 0.2881,
-      "confidence": 28.8,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "Ukraine drone strikes kill four as Russia attacks close to Poland border",
-      "url": "https://www.aljazeera.com/news/2026/9/13/ukraine-drone-strikes-kill-four-as-russia-attacks-close-to-poland-border?traffic_source=rss",
-      "summary": "Russia says four people killed in Ukrainian strikes as both sides continue to attack each other with waves of drones.",
-      "source": "Al Jazeera",
-      "pubdate": "2026-09-13T13:05:40+00:00",
-      "final_score": 0.288,
-      "confidence": 28.8,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "Swedish election: centre-left bloc looks set to take power, exit polls show",
-      "url": "https://www.theguardian.com/world/2026/sep/13/voting-under-way-in-sweden-with-far-right-eyeing-first-role-in-government",
-      "summary": "Result would deliver a new left-leaning government and be a strong rejection of current centre-right coalitionSweden general election – live updatesSweden’s centre-left bloc looks set to take power after a high-stakes election, according to exit polls.If the results hold, it is likely to lead to a brand new left-leaning Swedish government led by the Social Democrats, supported by the Left party (Vänsterpartiet), the Centre party and the Green party. Continue reading...",
-      "source": "Guardian World",
-      "pubdate": "2026-09-13T18:26:27+00:00",
-      "final_score": 0.2876,
-      "confidence": 28.8,
+      "final_score": 0.2674,
+      "confidence": 26.7,
       "category": "其他",
       "hit_keywords": []
     },
@@ -612,8 +830,8 @@
       "summary": "中新网9月13日电(戴悦)一家中国公司在中东做了五年生意。销售跑起来了，服务也跑起来了，总部觉得这块业务稳了，于是派了个新经理去接手。",
       "source": "中新社",
       "pubdate": "2026-09-13T14:27:17+00:00",
-      "final_score": 0.2843,
-      "confidence": 28.4,
+      "final_score": 0.2636,
+      "confidence": 26.4,
       "category": "国际",
       "hit_keywords": [
         "中东"
@@ -625,8 +843,8 @@
       "summary": "Jefferson county coroner says 40-year-old woman died on Saturday, while two infants died with disease in AugustA coroner in Pennsylvania announced the death of a 40-year-old woman associated with the state’s ongoing measles outbreak. The death appears to mark the third in the US state’s ongoing outbreak.Two previous deaths in the state were in infant children. In one case, the infant was born with a genetic defect that made her vulnerable to infection. The second infant child was infected with measles, and died of a ruptured spleen. Continue reading...",
       "source": "Guardian World",
       "pubdate": "2026-09-13T17:46:12+00:00",
-      "final_score": 0.282,
-      "confidence": 28.2,
+      "final_score": 0.2612,
+      "confidence": 26.1,
       "category": "其他",
       "hit_keywords": []
     },
@@ -636,8 +854,8 @@
       "summary": "Key government meeting this month will consider US bid to try James ‘Fergie’ Chambers over alleged support for HamasAttorneys for James “Fergie” Chambers, the US citizen and wealthy donor to leftwing and humanitarian projects worldwide who is currently imprisoned in Madrid and sought in extradition, have submitted a brief ahead of a decisive government meeting on the case.Meanwhile, Chambers’ partner, the actor and activist Stella Schnabel, met last week with multiple members of the Spanish parliament to assert his innocence. Continue reading...",
       "source": "Guardian World",
       "pubdate": "2026-09-13T12:00:03+00:00",
-      "final_score": 0.2789,
-      "confidence": 27.9,
+      "final_score": 0.2582,
+      "confidence": 25.8,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -649,8 +867,8 @@
       "summary": "France Televisions has removed the replay of a programme after actress Adèle Haenel denounced the Gaza genocide.",
       "source": "Al Jazeera",
       "pubdate": "2026-09-13T17:15:36+00:00",
-      "final_score": 0.2777,
-      "confidence": 27.8,
+      "final_score": 0.257,
+      "confidence": 25.7,
       "category": "其他",
       "hit_keywords": []
     },
@@ -660,45 +878,25 @@
       "summary": "Iran-allied Houthis say drones and missiles used in attack that targeted ‘weapons depots and command and control centres’ in southern Saudi ArabiaHouthi fighters have said they used drones and missiles to attack a military base in southern Saudi Arabia, as Yemen’s Riyadh-backed government described the rebels’ swift advance along the Red Sea coast as a “painful” development in a new front in the Iran war.The UN said on Sunday that nearly 86,000 people had fled Yemen, most of them since early September when the Iran-backed Houthi rebels launched a large-scale offensive that last week resulted in the capture of a key port city and an island on the Bab al-Mandab strait, a crucial shipping alternative to the strait of Hormuz. Continue reading...",
       "source": "Guardian World",
       "pubdate": "2026-09-13T11:26:06+00:00",
-      "final_score": 0.2742,
-      "confidence": 27.4,
+      "final_score": 0.2535,
+      "confidence": 25.3,
       "category": "其他",
       "hit_keywords": [
         "AI"
       ]
     },
     {
-      "title": "Four dead in Louisiana stabbing spree as police arrest person of interest",
-      "url": "https://www.theguardian.com/us-news/2026/sep/13/louisiana-stabbing-spree-deaths",
-      "summary": "Kaegan Jude Solet, 47, taken into custody after stabbings in Houma leave four dead and one wounded, authorities sayPolice arrested a person of interest after a series of stabbings in Houma, Louisiana, left at least four people dead and another person in critical condition in hospital.The Terrebonne parish sheriff’s office confirmed Kaegan Jude Solet, 47, had been taken into custody after deputies were initially called to the Ashland Drive area of Houma and located a juvenile with apparent stab wounds. Continue reading...",
-      "source": "Guardian World",
-      "pubdate": "2026-09-13T16:34:35+00:00",
-      "final_score": 0.272,
-      "confidence": 27.2,
+      "title": "European football: Kane helps Bayern edge Elversberg, Sassuolo stun Juventus",
+      "url": "https://www.theguardian.com/football/2026/sep/13/european-football-barcelona-bayern-munich-napoli-juventus",
+      "summary": "Elversberg 1-2 Bayern; Sassuolo 3-2 JuventusBarcelona see off Levante, PSG end winless runHarry Kane scored his first Bundesliga goal of the season to help Bayern Munich edge to a 2-1 win at promoted Elversberg on Sunday. Handed the captain’s armband with skipper Manuel Neuer rested, Kane scored with 18 minutes remaining to break a 1-1 deadlock and put the defending champions on track for victory.Bayern had taken the lead through teenage Germany winger Lennart Karl, but Elversberg – who had won their opening two matches in their maiden top-flight campaign – levelled things up just after the hour mark thanks to a stunning curling effort from Maurice Krattenmacher. Continue reading...",
+      "source": "Guardian Sport",
+      "pubdate": "2026-09-13T22:47:47+00:00",
+      "final_score": 0.2431,
+      "confidence": 24.3,
       "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "F1 leader Antonelli wins Spanish Grand Prix as unlucky Norris misses out",
-      "url": "https://www.aljazeera.com/sports/2026/9/13/f1-leader-antonelli-wins-spanish-grand-prix-as-unlucky-norris-misses-out?traffic_source=rss",
-      "summary": "The 20-year-old Italian has extended his championship lead to 81 points after 14 rounds.",
-      "source": "Al Jazeera",
-      "pubdate": "2026-09-13T16:05:33+00:00",
-      "final_score": 0.268,
-      "confidence": 26.8,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "Police release images of six men sought after violent disorder in Portsmouth",
-      "url": "https://www.theguardian.com/uk-news/2026/sep/13/hampshire-police-release-images-six-men-violent-disorder-portsmouth",
-      "summary": "Hampshire and Isle of Wight force says it wants to speak to men in connection with anti-migrant unrest that left seven officers injuredPolice have released images of six men they would like to speak to after violent disorder in Portsmouth last week that left seven officers injured.About 200 people gathered at Eastney Marina on Sunday night after a small boat carrying asylum seekers arrived on the south coast having crossed the Channel. The activists dispersed the following day in the early hours. Continue reading...",
-      "source": "Guardian World",
-      "pubdate": "2026-09-13T15:45:29+00:00",
-      "final_score": 0.2652,
-      "confidence": 26.5,
-      "category": "其他",
-      "hit_keywords": []
+      "hit_keywords": [
+        "AI"
+      ]
     },
     {
       "title": "US congressman swims to safety after his plane is forced to land on a lake",
@@ -706,19 +904,32 @@
       "summary": "The small plane carrying Rep Tom Tiffany had a mechanical issue that forced the pilot to make an emergency landing on a Wisconsin lake.",
       "source": "BBC World",
       "pubdate": "2026-09-13T15:30:43+00:00",
-      "final_score": 0.2632,
-      "confidence": 26.3,
+      "final_score": 0.2424,
+      "confidence": 24.2,
       "category": "其他",
       "hit_keywords": []
     },
     {
-      "title": "Trump's comments on a united Ireland may have targeted audience across the Atlantic",
-      "url": "https://www.bbc.co.uk/news/articles/cwyzppd1d5lo?at_medium=RSS&at_campaign=rss",
-      "summary": "Nobody could have predicted that today's main global headline would be Trump's desire to see a unified Ireland.",
-      "source": "BBC World",
-      "pubdate": "2026-09-12T21:25:28+00:00",
-      "final_score": 0.2624,
-      "confidence": 26.2,
+      "title": "Trump warns against slowing down AI but he is not against some guardrails",
+      "url": "https://www.npr.org/2026/09/13/nx-s1-5968078/trump-mike-johnson-ai-slowdown",
+      "summary": "President Trump said there were \"negative forces\" predicting things that he says won't happen.",
+      "source": "NPR News",
+      "pubdate": "2026-09-13T22:32:39+00:00",
+      "final_score": 0.241,
+      "confidence": 24.1,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "Alexander Zverev claims first US Open after four-set battle with Ben Shelton",
+      "url": "https://www.theguardian.com/sport/2026/sep/13/alexander-zverev-wins-us-open-four-sets-ben-shelton",
+      "summary": "No 1 seed wins 6-3, 7-6 (2), 5-7, 6-2American’s hopes dashed in tense finalFor a passing moment at the end of a rugged third set, hope sprung anew for Ben Shelton. He had been outserved and outplayed for nearly three hours, but at 6-5 in the third set, one game from defeat, the American finally broke through. He burst into the return game finally pounding his forehand freely and he willed himself into an unexpected fourth set.After he had finished pumping his fist, cupping his ear to the crowd and admirably trying to initiate a drastic momentum shift, the next sequence was most revealing. Shelton opened the fourth set with a shaky game, immediately losing his serve at the start of the set. He worked hard until the end, but he was beaten by Zverev, the top seed, who closed out a 6-3, 7-6 (2), 5-7, 6-2 victory to lift his second grand slam title of the year. Continue reading...",
+      "source": "Guardian Sport",
+      "pubdate": "2026-09-13T22:30:45+00:00",
+      "final_score": 0.2408,
+      "confidence": 24.1,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -730,8 +941,8 @@
       "summary": "中新社名古屋9月13日电 当地时间13日，第二十届亚洲运动会男篮项目小组赛在日本爱知县名古屋市继续举行。中国台北队以91:69大胜卡塔尔队，凭借小组赛两胜一负的战绩晋级八强；韩国队以100:83力克东道主日本队，以小组赛三连胜的战绩锁定A组头名，晋级八强。",
       "source": "中新社",
       "pubdate": "2026-09-13T15:18:36+00:00",
-      "final_score": 0.2615,
-      "confidence": 26.1,
+      "final_score": 0.2407,
+      "confidence": 24.1,
       "category": "国际",
       "hit_keywords": []
     },
@@ -741,8 +952,8 @@
       "summary": "中新社呼伦贝尔9月13日电 (记者 张玮)2026年曲棍球青年亚洲杯赛13日落幕。经过10天60场角逐，印度队包揽男子组、女子组冠军。中国男、女队均成功斩获2027年曲棍球青年世界杯入场券。",
       "source": "中新社",
       "pubdate": "2026-09-13T15:18:08+00:00",
-      "final_score": 0.2614,
-      "confidence": 26.1,
+      "final_score": 0.2407,
+      "confidence": 24.1,
       "category": "其他",
       "hit_keywords": []
     },
@@ -752,8 +963,8 @@
       "summary": "中新社哈尔滨9月13日电 (记者 史轶夫)踏入位于哈尔滨冰雪大世界园区的梦幻冰雪馆，室内人造雪花缓缓飘落，新东方创始人、东方甄选CEO俞敏洪望着晶莹冰雕，生出别样感慨。俞敏洪13日携团队开启黑龙江行，沿中俄边境逆时针穿行，从哈尔滨一路奔赴漠河，开启一场文旅直播游学之旅。",
       "source": "中新社",
       "pubdate": "2026-09-13T15:17:26+00:00",
-      "final_score": 0.2613,
-      "confidence": 26.1,
+      "final_score": 0.2406,
+      "confidence": 24.1,
       "category": "其他",
       "hit_keywords": []
     },
@@ -763,8 +974,8 @@
       "summary": "中新社北京9月13日电 (记者 张晓曦)国情之旅“我和我的祖国”香港回归祖国29周年暨第十三届京港学生迎新交流营结营仪式13日在北京举行，百余名北京高校港澳台学生参加。",
       "source": "中新社",
       "pubdate": "2026-09-13T15:16:56+00:00",
-      "final_score": 0.2612,
-      "confidence": 26.1,
+      "final_score": 0.2405,
+      "confidence": 24.1,
       "category": "其他",
       "hit_keywords": []
     },
@@ -774,10 +985,23 @@
       "summary": "中新社澳门9月13日电 (记者 郑嘉伟)世界乒乓球职业大联盟(WTT)澳门冠军赛决赛13日晚在澳门东亚运动会体育馆打响，瑞典选手特鲁斯·莫雷加德与日本选手张本美和分获男、女单打冠军。",
       "source": "中新社",
       "pubdate": "2026-09-13T15:16:08+00:00",
-      "final_score": 0.2611,
-      "confidence": 26.1,
+      "final_score": 0.2404,
+      "confidence": 24.0,
       "category": "国际",
       "hit_keywords": []
+    },
+    {
+      "title": "US Open 2026 men’s final: Alexander Zverev beats Ben Shelton in four sets to claim title – as it happened",
+      "url": "https://www.theguardian.com/sport/live/2026/sep/13/us-open-tennis-2026-mens-final-alexander-zverev-v-ben-shelton-live-updates",
+      "summary": "The top-seeded German secured his second grand slam title with a 6-3, 7-6 (2), 5-7, 6-2 win over the American in New YorkAs at every US Open final, the Arthur Ashe Stadium crowd will be full of famous faces. For any eagle-eyed tennis/soccer fans wondering if Trinity Rodman will be in attendance (as she has for all of boyfriend Ben Shelton’s matches at this tournament): we probably won’t see her today.The American soccer star is at a match of her own. Her Washington Spirit, locked in a chase for first place in the National Women’s Soccer League, are about to start the second half of their game against the Boston Legacy about five hours south in DC.We’re not done here. The job is not finished. Super excited to get another opportunity to go out there and show my best on Sunday.This whole tournament now at this point has been unchartered territory. I’m in positions I’ve never been in before. I’ve beaten guys – beaten a guy or guys that I have never beaten before. I’m just excited to put it all out on the line. Continue reading...",
+      "source": "Guardian Sport",
+      "pubdate": "2026-09-13T22:27:39+00:00",
+      "final_score": 0.2403,
+      "confidence": 24.0,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
     },
     {
       "title": "“两园一河”京西漂流节联动三区",
@@ -785,8 +1009,8 @@
       "summary": "中新网北京9月13日电 “两园一河”京西漂流节13日再度启幕。与6月首次亮相相比，本次活动从石景山区首钢园一处水域拓展至石景山、丰台、门头沟三区联动，从专业选手竞速延伸至大众亲水体验。",
       "source": "中新社",
       "pubdate": "2026-09-13T14:54:28+00:00",
-      "final_score": 0.2581,
-      "confidence": 25.8,
+      "final_score": 0.2374,
+      "confidence": 23.7,
       "category": "其他",
       "hit_keywords": []
     },
@@ -796,30 +1020,19 @@
       "summary": "中新网娄底9月13日电 (钟余 宋宇晟)“养崽莫上锡矿山，上山容易下山难。养女莫嫁石匠郎，口吐烟子无下场。”",
       "source": "中新社",
       "pubdate": "2026-09-13T14:52:40+00:00",
-      "final_score": 0.2579,
-      "confidence": 25.8,
+      "final_score": 0.2371,
+      "confidence": 23.7,
       "category": "国际",
       "hit_keywords": []
     },
     {
-      "title": "More than 2,000 Yemenis flee to Djibouti amid Houthi advances",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/more-than-2000-yemenis-flee-to-djibouti-amid-houthi-advances?traffic_source=rss",
-      "summary": "Escalating fighting along Yemen’s western coast has driven more than 2,000 Yemenis across the Red Sea to Djibouti.",
-      "source": "Al Jazeera",
-      "pubdate": "2026-09-13T14:38:46+00:00",
-      "final_score": 0.2559,
-      "confidence": 25.6,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "Dramatic insider warnings over AI fall flat with some in Silicon Valley",
-      "url": "https://www.bbc.co.uk/news/articles/cq635037g18o?at_medium=RSS&at_campaign=rss",
-      "summary": "A recent spate of stark warnings about the dangers of AI has been met with scepticism by executives and investors.",
+      "title": "'Culture shift' needed in how UK does business, PM urges",
+      "url": "https://www.bbc.co.uk/news/articles/clyl18x4734o?at_medium=RSS&at_campaign=rss",
+      "summary": "Burnham has said those who take risks should be backed by government, but his government has been criticised for increasing business costs.",
       "source": "BBC Business",
-      "pubdate": "2026-09-13T09:05:10+00:00",
-      "final_score": 0.2546,
-      "confidence": 25.5,
+      "pubdate": "2026-09-13T21:30:21+00:00",
+      "final_score": 0.2324,
+      "confidence": 23.2,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -831,10 +1044,23 @@
       "summary": "The heavyweight champion took on the likes of Muhammad Ali and Joe Frazier, and was known for never once getting knocked out or knocked down.",
       "source": "BBC World",
       "pubdate": "2026-09-13T14:01:44+00:00",
-      "final_score": 0.2508,
-      "confidence": 25.1,
+      "final_score": 0.2301,
+      "confidence": 23.0,
       "category": "其他",
       "hit_keywords": []
+    },
+    {
+      "title": "NFL roundup: Bears and Panthers set scoring record; Bills beat Texans in thriller",
+      "url": "https://www.theguardian.com/sport/2026/sep/13/nfl-roundup-sunday-football-scores",
+      "summary": "Carolina and Chicago combine for 96 pointsBuffalo beat Houston thanks to late rallyCaleb Williams threw for 269 yards and two touchdowns and ran for 65 yards and two more scores as the Chicago Bears defeated the Carolina Panthers in the highest-scoring season opener in NFL history. Chicago and Carolina scored eight more points than the previous record of 88 set in Tampa Bay’s 48-40 win over New Orleans in 2018. Coach Ben Johnson’s prolific Bears also broke a franchise record for points in an opener, a mark that had stood since 1948, when Chicago hung 45 points on Green Bay at Wrigley Field. The 59 points were the most allowed by the Panthers in team history. D’Andre Swift, who received a $33.75m contract extension earlier this week, ran for 124 yards on 18 carries with three touchdowns, while Kyle Monangai had 100 yards rushing, including a 61-yard touchdown burst. Continue reading...",
+      "source": "Guardian Sport",
+      "pubdate": "2026-09-13T21:05:04+00:00",
+      "final_score": 0.2289,
+      "confidence": 22.9,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
     },
     {
       "title": "习言道｜金砖峰会，习近平为何强调“坚定站在历史正确一边”",
@@ -842,8 +1068,8 @@
       "summary": "中新网9月13日电 题：金砖峰会，习近平为何强调“坚定站在历史正确一边”",
       "source": "中新社",
       "pubdate": "2026-09-13T13:48:36+00:00",
-      "final_score": 0.249,
-      "confidence": 24.9,
+      "final_score": 0.2282,
+      "confidence": 22.8,
       "category": "其他",
       "hit_keywords": []
     },
@@ -853,8 +1079,8 @@
       "summary": "中新社合肥9月13日电 (记者 张俊)安徽多家脑机接口项目团队近日接受中新社记者采访，探析脑机接口技术如何从实验室走向临床应用。",
       "source": "中新社",
       "pubdate": "2026-09-13T13:29:13+00:00",
-      "final_score": 0.2463,
-      "confidence": 24.6,
+      "final_score": 0.2256,
+      "confidence": 22.6,
       "category": "其他",
       "hit_keywords": []
     },
@@ -864,8 +1090,8 @@
       "summary": "9月13日，福建省连江县海域上的“海洋牧场”五彩斑斓，蔚为壮观。中新社记者 张斌 摄 9月13日，福建省连江县海域上的“海洋牧场”五彩斑斓，蔚为壮观。中新社记者 张斌 摄 9月13日，福建省连江县海域上的“海洋牧场”五彩斑斓，蔚为壮观。中新社记者 张斌 摄",
       "source": "中新社",
       "pubdate": "2026-09-13T13:28:45+00:00",
-      "final_score": 0.2462,
-      "confidence": 24.6,
+      "final_score": 0.2255,
+      "confidence": 22.5,
       "category": "其他",
       "hit_keywords": []
     },
@@ -875,8 +1101,8 @@
       "summary": "9月13日，第三届粤港澳大湾区博士博士后创新创业大赛复赛暨产才对接交流活动在广州中医药大学大学城校区举行。图为现场展示的五指毛桃等中药材口味月饼吸引参观者。中新社记者 陈楚红 摄 9月13日，第三届粤港澳大湾区博士博士后创新创业大赛复赛暨产才对接交流活动在广州中医药大学大学城校区举行。图为中医药特色社团吸引参观者体验。中新社记者 陈楚红 摄 9月13日，第三届粤港澳大湾区博士博士后创新创业大赛复赛暨产才对接交流活动在广州中医药大学大学城校区举行。图为香港中文大学中医中药研究所所长左中发言。中新社记者 陈楚红 摄",
       "source": "中新社",
       "pubdate": "2026-09-13T13:27:47+00:00",
-      "final_score": 0.2461,
-      "confidence": 24.6,
+      "final_score": 0.2254,
+      "confidence": 22.5,
       "category": "其他",
       "hit_keywords": []
     },
@@ -886,19 +1112,8 @@
       "summary": "图为扎什伦布寺僧人在等候即将开始的“羌姆”活动。中新社记者 李林 摄 图为扎什伦布寺僧人佩戴面具准备参加“羌姆”活动。中新社记者 李林 摄 图为扎什伦布寺僧人整理服饰准备参加“羌姆”活动。中新社记者 李林 摄 图为扎什伦布寺“羌姆”活动现场。中新社记者 李林 摄 图为扎什伦布寺“羌姆”活动现场。中新社记者 李林 摄 图为扎什伦布寺“羌姆”活动现场。中新社记者 李林 摄 图为扎什伦布寺“羌姆”活动现场。中新社记者 李林 摄 图为扎什伦布寺“羌姆”活动现场。中新社记者 李林 摄",
       "source": "中新社",
       "pubdate": "2026-09-13T13:27:15+00:00",
-      "final_score": 0.246,
-      "confidence": 24.6,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "Renewed fighting worsens Yemen’s humanitarian crisis",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/renewed-fighting-worsens-yemens-humanitarian-crisis?traffic_source=rss",
-      "summary": "Renewed fighting worsens Yemen’s humanitarian crisis",
-      "source": "Al Jazeera",
-      "pubdate": "2026-09-13T13:26:45+00:00",
-      "final_score": 0.2459,
-      "confidence": 24.6,
+      "final_score": 0.2253,
+      "confidence": 22.5,
       "category": "其他",
       "hit_keywords": []
     },
@@ -908,10 +1123,23 @@
       "summary": "图为中国Team China队选手商小宇在比赛中。中新社记者 安源 摄 图为中国Dancing for love队选手邓锶琪(中)与队友在比赛中。中新社记者 安源 摄 图为中国Team China队选手李后桦在比赛中。中新社记者 安源 摄 图为颁奖仪式现场。中新社记者 安源 摄 图为中国Team China队选手郭朴在比赛中。中新社记者 安源 摄",
       "source": "中新社",
       "pubdate": "2026-09-13T13:24:23+00:00",
-      "final_score": 0.2456,
-      "confidence": 24.6,
+      "final_score": 0.2249,
+      "confidence": 22.5,
       "category": "其他",
       "hit_keywords": []
+    },
+    {
+      "title": "USA defend Fiba Women’s World Cup title after early scare against France",
+      "url": "https://www.theguardian.com/sport/2026/sep/13/usa-fiba-womens-world-cup-france-breanna-stewart-caitlin-clark",
+      "summary": "USA overcame a 14-point France lead in first halfBreanna Stewart scores 22 points; Caitlin Clark gets 12Defending champions USA fell behind early but stormed back past ⁠France 97-79 on Sunday to win the Women’s World Cup.In a rematch of the 2024 ⁠Olympic final, ⁠the ​American women came out on top once more, earning their fifth consecutive World Cup title ⁠and stretching their impressive unbeaten run at Olympics or World Cups to 20 years. Continue reading...",
+      "source": "Guardian Sport",
+      "pubdate": "2026-09-13T20:35:30+00:00",
+      "final_score": 0.2248,
+      "confidence": 22.5,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
     },
     {
       "title": "重庆一商圈“银河”彩灯吸引游客打卡",
@@ -919,129 +1147,32 @@
       "summary": "图为重庆商圈的中秋主题彩灯。沃欣瑶 摄 图为不少市民游客在彩灯下驻足观赏。吴羡 摄",
       "source": "中新社",
       "pubdate": "2026-09-13T13:23:17+00:00",
-      "final_score": 0.2455,
-      "confidence": 24.5,
+      "final_score": 0.2247,
+      "confidence": 22.5,
       "category": "其他",
       "hit_keywords": []
     },
     {
-      "title": "CTCC第四站在上赛道燃擎开跑",
-      "url": "https://www.chinanews.com.cn/tp/2026/09-13/10695768.shtml",
-      "summary": "图为36号车手张志强高速入弯。中新社记者 张亨伟 摄 图为CTCC中国杯比赛中，赛车高速追逐。中新社记者 张亨伟 摄 图为CTCC中国杯赛事现场，赛车飞驰前进。中新社记者 张亨伟 摄 图为CTCC中国杯赛事现场，赛道工作人员挥动黄旗，示意车手减速通行。中新社记者 张亨伟 摄 图为比赛中车手失误冲出赛道。中新社记者 张亨伟 摄 图为赛道工作人员将事故车辆拖离赛道。中新社记者 张亨伟 摄 图为演员兼车手韩东君(右)在TCR冠军联赛·中国锦标赛中获得第三。中新社记者 张亨伟 摄",
-      "source": "中新社",
-      "pubdate": "2026-09-13T13:22:25+00:00",
-      "final_score": 0.2453,
-      "confidence": 24.5,
-      "category": "社会",
-      "hit_keywords": []
-    },
-    {
-      "title": "欧洲9国考察团探访贺兰山东麓 品味宁夏“紫色名片”",
-      "url": "https://www.chinanews.com.cn/tp/2026/09-13/10695764.shtml",
-      "summary": "图为考察团在酒庄品鉴大厅品尝红酒。中新社记者 于晶 摄 图为考察团在酒庄品鉴大厅品尝红酒。中新社记者 于晶 摄 图为考察团在酒庄品鉴大厅品尝红酒。中新社记者 于晶 摄 图为考察团参观酒庄发酵车间。中新社记者 于晶 摄",
-      "source": "中新社",
-      "pubdate": "2026-09-13T13:20:49+00:00",
-      "final_score": 0.2451,
-      "confidence": 24.5,
+      "title": "Arteta embraces perfect storm to play the victim in game of his own making | Barney Ronay",
+      "url": "https://www.theguardian.com/football/2026/sep/13/mikel-arteta-arsenal-sunderland-premier-league",
+      "summary": "Refereeing is now an impossible job owing to the culture of micro-analysis the Arsenal manager has helped to createA gentleman is never rude unintentionally, only by design. Nobody really knows who said this first. But&nbsp;it could easily be a line from the Elite Football Manager’s Guide to Press Conferences (Premier League edition). Because nothing happens by accident in these spaces.Every word spoken in front of the board covered in adverts is metered and planned. A manager is&nbsp;never angry, or concerned, or even charming unintentionally. The game is the game, but so are all the other bits spilling out either&nbsp;side of it. Continue reading...",
+      "source": "Guardian Sport",
+      "pubdate": "2026-09-13T20:35:23+00:00",
+      "final_score": 0.2247,
+      "confidence": 22.5,
       "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "青海西宁120组亲子家庭湿地公园体验生态趣味课堂",
-      "url": "https://www.chinanews.com.cn/tp/2026/09-13/10695763.shtml",
-      "summary": "图为亲子家庭参与湿地生态乐跑。中新社记者 马铭言 摄 图为青少年通过游戏学习生态保护知识。中新社记者 马铭言 摄 图为亲子协作游戏了解野生动物生活习性。中新社记者 马铭言 摄 图为家长向青少年介绍科普展板内容。中新社记者 马铭言 摄 图为青少年通过游戏了解野生动物栖息地。中新社记者 马铭言 摄",
-      "source": "中新社",
-      "pubdate": "2026-09-13T13:19:16+00:00",
-      "final_score": 0.2449,
-      "confidence": 24.5,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "2026 IRONMAN 70.3云南大理站开赛",
-      "url": "https://www.chinanews.com.cn/tp/2026/09-13/10695761.shtml",
-      "summary": "9月13日，选手正在自行车比赛中。中新社记者 李嘉娴 摄 9月13日，选手正在自行车比赛中。中新社记者 李嘉娴 摄 9月13日，选手正在游泳比赛中。中新社记者 李嘉娴 摄 9月13日，选手正在自行车比赛中。中新社记者 李嘉娴 摄 9月13日，中国选手李鹏程以3:51:23获得男子分龄组全场冠军并创造个人最好成绩。中新社记者 李嘉娴 摄",
-      "source": "中新社",
-      "pubdate": "2026-09-13T13:18:20+00:00",
-      "final_score": 0.2448,
-      "confidence": 24.5,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "2026中国和美乡村自行车赛在河北邯郸开赛",
-      "url": "https://www.chinanews.com.cn/tp/2026/09-13/10695760.shtml",
-      "summary": "图为参赛选手从起点出发。王洪超 摄 图为参赛选手到达终点。王洪超 摄 图为参赛选手参加颁奖仪式。王洪超 摄 图为参赛选手在观岭山赛段骑行。王洪超 摄 图为参赛选手在花海绿廊中骑行。王洪超 摄 图为参赛选手在沁河郊野公园赛段骑行。聂长青 摄 图为参赛选手在乡间林荫道路骑行。侯建信 摄",
-      "source": "中新社",
-      "pubdate": "2026-09-13T13:17:20+00:00",
-      "final_score": 0.2446,
-      "confidence": 24.5,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "2026贵阳国际网球公开赛女单决赛举行",
-      "url": "https://www.chinanews.com.cn/tp/2026/09-13/10695759.shtml",
-      "summary": "9月13日，舒布拉泽在赢球后庆祝。中新社记者 瞿宏伦 摄 9月13日，舒布拉泽在比赛中。中新社记者 瞿宏伦 摄 9月13日，舒布拉泽在比赛中。中新社记者 瞿宏伦 摄 9月13日，任钰菲在比赛中。中新社记者 瞿宏伦 摄 9月13日，女子单打决赛吸引球迷观看。中新社记者 瞿宏伦 摄 9月13日，舒布拉泽捧起奖杯。中新社记者 瞿宏伦 摄 9月13日，任钰菲(左)和舒布拉泽在颁奖仪式后合影。中新社记者 瞿宏伦 摄",
-      "source": "中新社",
-      "pubdate": "2026-09-13T13:16:10+00:00",
-      "final_score": 0.2445,
-      "confidence": 24.4,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "广州：“第12届欧亚MEDIATIONS数字艺术双年展”吸引参观者",
-      "url": "https://www.chinanews.com.cn/tp/2026/09-13/10695758.shtml",
-      "summary": "9月13日，“数字物种：第12届欧亚MEDIATIONS数字艺术双年展”吸引参观者。中新社记者 陈楚红 摄 9月13日，“数字物种：第12届欧亚MEDIATIONS数字艺术双年展”吸引参观者。中新社记者 陈楚红 摄 9月13日，“数字物种：第12届欧亚MEDIATIONS数字艺术双年展”展出艺术家袁隆的《可持续共鸣体》，吸引参观者。中新社记者 陈楚红 摄",
-      "source": "中新社",
-      "pubdate": "2026-09-13T13:15:16+00:00",
-      "final_score": 0.2443,
-      "confidence": 24.4,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "（活力中国调研行）河南确山：“提琴之乡”赶制订单忙",
-      "url": "https://www.chinanews.com.cn/tp/2026/09-13/10695756.shtml",
-      "summary": "9月12日，河南确山一家提琴企业内，小提琴整齐摆放。赵梦阳 摄 9月12日，河南确山，当地提琴企业和手工作坊正在加紧赶制各类提琴订单。赵梦阳 摄 9月12日，河南确山一家提琴企业内，年轻人在演奏提琴。赵梦阳 摄 9月12日，河南确山，当地提琴企业和手工作坊正在加紧赶制各类提琴订单。赵梦阳 摄 9月12日，河南确山，当地提琴企业和手工作坊正在加紧赶制各类提琴订单。赵梦阳 摄 9月12日，河南确山，当地提琴企业和手工作坊正在加紧赶制各类提琴订单。赵梦阳 摄 9月12日，河南确山一家提琴企业内，提琴制作师讲解提琴。赵梦阳 摄 9月12日，河南确山一家提琴企业内，年轻人在演奏提琴。赵梦阳 摄",
-      "source": "中新社",
-      "pubdate": "2026-09-13T13:14:24+00:00",
-      "final_score": 0.2442,
-      "confidence": 24.4,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "成都宠博会上演宠物T台秀",
-      "url": "https://www.chinanews.com.cn/tp/2026/09-13/10695755.shtml",
-      "summary": "9月13日，四川成都，一场时尚与萌趣的宠物T台秀在成都宠博会上演。萌犬萌猫身着各式精致服饰被主人带上T台，对现场观众展现萌宠魅力。中新社记者 张浪 摄 9月13日，四川成都，一场时尚与萌趣的宠物T台秀在成都宠博会上演。萌犬萌猫身着各式精致服饰被主人带上T台，对现场观众展现萌宠魅力。中新社记者 张浪 摄 9月13日，四川成都，一场时尚与萌趣的宠物T台秀在成都宠博会上演。萌犬萌猫身着各式精致服饰被主人带上T台，对现场观众展现萌宠魅力。中新社记者 张浪 摄 9月13日，四川成都，一场时尚与萌趣的宠物T台秀在成都宠博会上演。萌犬萌猫身着各式精致服饰被主人带上T台，对现场观众展现萌宠魅力。中新社记者 张浪 摄 9月13日，四川成都，一场时尚与萌趣的宠物T台秀在成都宠博会上演。萌犬萌猫身着各式精致服饰被主人带上T台，对现场观众展现萌宠魅力。中新社记者 张浪 摄 9月13日，四川成都，一场时尚与萌趣的宠物T台秀在成都宠博会上演。萌犬萌猫身着各式精致服饰被主人带上T台，对现场观众展现萌宠魅力。中新社记者 张浪 摄 9月13日，四川成都，一场时尚与萌趣的宠物T台秀在成都宠博会上演。萌犬萌猫身着各式精致服饰被主人带上T台，对现场观众展现萌宠魅力。中新社记者 张浪 摄 9月13日，四川成都，一场时尚与萌趣的宠物T台秀在成都宠博会上演。萌犬萌猫身着各式精致服饰被主人带上T台，对现场观众展现萌宠魅力。中新社记者 张浪 摄 9月13日，四川成都，一场时尚与萌趣的宠物T台秀在成都宠博会上演。萌犬萌猫身着各式精致服饰被主人带上T台，对现场观众展现萌宠魅力。中新社记者 张浪 摄",
-      "source": "中新社",
-      "pubdate": "2026-09-13T13:11:10+00:00",
-      "final_score": 0.2438,
-      "confidence": 24.4,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "How Israel’s destruction of south Lebanon is making displacement permanent",
-      "url": "https://www.aljazeera.com/features/2026/9/13/how-israels-destruction-of-south-lebanon-is-making-displacement-permanent?traffic_source=rss",
-      "summary": "With lost livelihoods, destroyed homes and little security, many displaced Lebanese are facing an entrenched reality.",
-      "source": "Al Jazeera",
-      "pubdate": "2026-09-13T13:09:22+00:00",
-      "final_score": 0.2435,
-      "confidence": 24.4,
-      "category": "其他",
-      "hit_keywords": []
+      "hit_keywords": [
+        "AI"
+      ]
     },
     {
       "title": "Josh Kerr bags $150,000 for 1500m win at World Athletics Ultimate Championship",
       "url": "https://www.theguardian.com/sport/2026/sep/13/josh-kerr-wins-1500m-world-athletics-ultimate-championship",
-      "summary": "Scot wins with ease ahead of Nuguse and MyersHenrich’s final leg earns Britain silver in mixed relay Throughout Josh Kerr’s year of ­wonder, he has made the sublime look routine. So when the bell rang for the final lap of this men’s Ultimate Championship 1500m final, with the Scot in third and closing fast on the leader Yared Nuguse, the next 53 ­seconds seemed preordained.Kerr first sauntered past ­Robert Farken into second. Then, with 250m remaining, he scootered past Nuguse. The 20-year-old Australian star Cam&nbsp;Myers tried to join the chase but he could not make a dent as Kerr protected a substantial lead to the ­finish. Continue reading...",
+      "summary": "Scot wins with ease ahead of Nuguse and MyersHenrich’s final leg earns Britain silver in mixed relay Throughout Josh Kerr’s perfect season, he has made the sublime look routine. So when the bell rang for the final lap of the men’s Ultimate 1500m final, with the Scot in third and closing on the leader, Yared Nuguse, the next 53 seconds felt preordained.So it proved. First Kerr sauntered past Robert Farken into second. Then with 250m remaining, he scootered past Nuguse. The 20‑year‑old Australian star Cam Myers chased valiantly but Kerr smoothly nursed a three-metre lead to the finish. Continue reading...",
       "source": "Guardian Sport",
       "pubdate": "2026-09-13T20:21:07+00:00",
-      "final_score": 0.2435,
-      "confidence": 24.3,
+      "final_score": 0.2228,
+      "confidence": 22.3,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -1050,11 +1181,11 @@
     {
       "title": "WSL roundup: Arsenal rue misses in Palace draw, Manchester City crush Villa",
       "url": "https://www.theguardian.com/football/2026/sep/13/wsl-roundup-arsenal-crystal-palace-aston-villa-manchester-city",
-      "summary": "Gunners held at Emirates despite 30 attempts on goalCity win 4-1 at Aston Villa to extend perfect startArsenal were left to rue 30 missed chances after dropping points in a 0-0 draw against Crystal Palace at the Emirates Stadium.The Gunners hit the target nine times and had almost 80% possession but could not convert their superiority into goals. Promoted Palace put on a resilient performance, with goalkeeper Pauline Peyraud-Magnin batting away attempts from Alessia Russo, Chloe Kelly and Mariona Caldentey to earn another clean sheet. Continue reading...",
+      "summary": "Gunners held at Emirates despite 30 attempts on goalCity win 4-1 at Aston Villa to extend perfect startArsenal were left to rue 30 missed chances after dropping points in a 0-0 draw against Crystal Palace at the Emirates Stadium.The Gunners hit the target nine times and had almost 80% possession but could not convert their superiority into goals. Promoted Palace put on a resilient performance, with the goalkeeper Pauline Peyraud-Magnin batting away attempts from Alessia Russo, Chloe Kelly and Mariona Caldentey to earn another clean sheet. Continue reading...",
       "source": "Guardian Sport",
       "pubdate": "2026-09-13T19:58:52+00:00",
-      "final_score": 0.2404,
-      "confidence": 24.0,
+      "final_score": 0.2197,
+      "confidence": 22.0,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -1066,21 +1197,8 @@
       "summary": "There’s a safe haven hiding in plain sight.",
       "source": "WSJ Markets",
       "pubdate": "2026-09-13T19:55:00+00:00",
-      "final_score": 0.2399,
-      "confidence": 24.0,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "‘As obvious as it gets’: Carrick fumes at VAR call on Haaland’s derby winner",
-      "url": "https://www.theguardian.com/football/2026/sep/13/michael-carrick-var-erling-haaland-manchester-derby",
-      "summary": "United manager adamant Fernández interfered with playEnzo Maresca suggests Fernandes was also due a red cardAn unhappy Michael Carrick expressed concern over Erling Haaland’s winner in Manchester City’s victory against Manchester United not being ruled out for Enzo Fernández interfering with play when in an offside position.Haaland’s 60th-minute strike at Old Trafford on Sunday came after Josko Gvardiol’s cross hit Patrick Dorgu’s boot, passed Fernández and Lisandro Martínez, the United defender, and was finished by the City No 9. Continue reading...",
-      "source": "Guardian Sport",
-      "pubdate": "2026-09-13T19:35:03+00:00",
-      "final_score": 0.2371,
-      "confidence": 23.7,
+      "final_score": 0.2191,
+      "confidence": 21.9,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -1092,8 +1210,8 @@
       "summary": "Mas wins title after three second-place finishesTobias Johannessen takes final stage in GranadaSpain’s Enric Mas secured his first Vuelta a España title on Sunday as Tobias Johannessen won the 21st and final stage in Granada, bringing the three-week Grand Tour to a close.The 31-year-old, who took the red jersey after Tadej Pogacar abandoned the race after a crash on stage eight, held off the four-time champion Primoz Roglic to become the first Spaniard to win the Vuelta since Alberto Contador in 2014. Continue reading...",
       "source": "Guardian Sport",
       "pubdate": "2026-09-13T19:30:04+00:00",
-      "final_score": 0.2364,
-      "confidence": 23.6,
+      "final_score": 0.2157,
+      "confidence": 21.6,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -1105,8 +1223,8 @@
       "summary": "Retirement in Madrid leaves Hamilton 101 points backAntonelli leads way by 81 points after Spanish GP winLewis Hamilton has conceded his Formula One world title hopes are over as he praised the championship leader, Kimi Antonelli, saying there was no stopping the Italian after his victory at the Spanish Grand Prix.Hamilton, in third place in the championship, had to retire from the race at the Madring with a brake problem on lap six. After Antonelli’s victory it leaves the seven-time world champion 101 points behind the 20-year-old Italian, who took over his seat at Mercedes when Hamilton joined Ferrari. Continue reading...",
       "source": "Guardian Sport",
       "pubdate": "2026-09-13T19:17:07+00:00",
-      "final_score": 0.2346,
-      "confidence": 23.5,
+      "final_score": 0.2139,
+      "confidence": 21.4,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -1118,8 +1236,8 @@
       "summary": "New world No 1’s relationship with her previously banned coach, Stefano Vukov, remains under spotlight despite her rise to the topIn the bitter aftermath of her straight-sets defeat by Elena Rybakina at the WTA Finals last November, an inconsolable Aryna Sabalenka walked over to her courtside player box and slumped into a chair. She had been completely overpowered by her opponent, a strange and unusual feeling for such a powerful player, and she was seething. Sabalenka eventually settled on a popular Russian idiom to explain Rybakina’s untouchable form, which she believed was fortunately timed: “Once a year, even a stick shoots,” she said.That stick, it turns out, has spent the past year shooting straight at Sabalenka in every significant match. Rybakina’s performance in Riyadh was a clear warning and she has dominated the hard‑court grand slam tournaments this year, beating Sabalenka in the Australian Open and US Open finals. Continue reading...",
       "source": "Guardian Sport",
       "pubdate": "2026-09-13T18:56:41+00:00",
-      "final_score": 0.2318,
-      "confidence": 23.2,
+      "final_score": 0.211,
+      "confidence": 21.1,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -1131,8 +1249,8 @@
       "summary": "Brics members agree they need a new global order but it's harder to answer what should replace it and how to get there.",
       "source": "BBC World",
       "pubdate": "2026-09-13T11:23:42+00:00",
-      "final_score": 0.2288,
-      "confidence": 22.9,
+      "final_score": 0.2081,
+      "confidence": 20.8,
       "category": "其他",
       "hit_keywords": []
     },
@@ -1142,8 +1260,21 @@
       "summary": "Erling Haaland’s controversial goal set up a mighty victory for City, who played brilliantly after Phil Foden’s early red cardBrighton’s fourth goal was a screamer from Lewis Dunk, of all people, prompting this email from Steve Bradfield.Is Brighton’s fourth goal a slam Dunk for goal of month? Continue reading...",
       "source": "Guardian Sport",
       "pubdate": "2026-09-13T18:16:13+00:00",
-      "final_score": 0.2261,
-      "confidence": 22.6,
+      "final_score": 0.2054,
+      "confidence": 20.5,
+      "category": "其他",
+      "hit_keywords": [
+        "AI"
+      ]
+    },
+    {
+      "title": "First H5 bird flu death of endangered Australian sea lion recorded amid fears for small population",
+      "url": "https://www.theguardian.com/australia-news/2026/sep/13/first-h5-bird-flu-death-of-endangered-australian-sea-lion-kangaroo-island",
+      "summary": "South Australian authorities say case discovered on Kangaroo Island is first for species of which less than 12,000 animals remainGet our breaking news email, free app or daily news podcastSouth Australia has recorded the first death of an endangered Australian sea lion from H5 bird flu.Experts say about 12,000 Australian sea lions remain – though a more recent estimate put the figure at less than 10,000. Most of the population are found in South Australia, with the remainder in Western Australia. Continue reading...",
+      "source": "Guardian World",
+      "pubdate": "2026-09-13T05:04:52+00:00",
+      "final_score": 0.2005,
+      "confidence": 20.1,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -1155,12 +1286,23 @@
       "summary": "Jamaican says athletes ‘loving’ Ultimate ChampionshipFormer sprinter proposed to Kasi Bennett last monthA year ago, Usain Bolt revealed he had stopped running and got out of breath whenever he went up the stairs. But now the greatest sprinter in history has insisted he has made a lightning return to fitness after proposing last month to his long-term partner Kasi Bennett.Bolt, who is an ambassador for the World Athletics Ultimate Championship in Budapest, laughed as he told reporters that his claims about his lack of fitness in Tokyo last year had been overegged for effect. “I made a joke and you guys took it out of context,” Bolt said, with a grin. Continue reading...",
       "source": "Guardian Sport",
       "pubdate": "2026-09-13T17:24:33+00:00",
-      "final_score": 0.219,
-      "confidence": 21.9,
+      "final_score": 0.1982,
+      "confidence": 19.8,
       "category": "其他",
       "hit_keywords": [
         "AI"
       ]
+    },
+    {
+      "title": "‘An error of judgement’: Pro Ref admits mistake in awarding Haaland’s derby winner",
+      "url": "https://www.theguardian.com/football/2026/sep/13/michael-carrick-var-erling-haaland-manchester-derby",
+      "summary": "Officiating body announces it will review the incidentUnhappy Carrick says error was ‘as obvious as it gets’Pro Ref admitted Erling Haaland’s winner in Sunday’s Manchester derby should not have been allowed after the video assistant referee ruled Enzo Fernández was not interfering with play in the build-up. The elite officiating body will review the decision and has contacted Manchester United.Haaland’s 60th minute goal for Manchester City at Old Trafford was initially ruled offside before the VAR’s intervention. It came after Josko Gvardiol’s cross hit Patrick Dorgu’s boot, passed Fernández and the United defender Lisandro Martínez, and was finished by the City No 9. VAR decided Fernández was not interfering despite Martínez marking the midfielder. Continue reading...",
+      "source": "Guardian Sport",
+      "pubdate": "2026-09-13T21:31:19+00:00",
+      "final_score": 0.1875,
+      "confidence": 18.8,
+      "category": "其他",
+      "hit_keywords": []
     },
     {
       "title": "Europe win Solheim Cup against USA to give captain Anna Nordqvist last laugh",
@@ -1168,21 +1310,8 @@
       "summary": "Europe beat USA 15-13 after 7-5 win in singles matchesLottie Woad seals victory with putt against Auston KimEyebrows were raised when Anna Nordqvist somewhat abruptly announced her retirement from competitive golf last month at the age of just 39. Heads were turned when Nordqvist kept Solheim Cup faith with the pairing of Charley Hull and Lottie Woad despite a miserable points return in the Netherlands. Nordqvist sounded unsure about elements of the Solheim Cup’s captains’ agreement before a ball was whacked in anger. The last laugh belongs to the Swede herself, who can sail off into the sunset having added a triumphant Solheim Cup captaincy to a career that had already returned three major wins.What a rousing afternoon this soon became for women’s golf in Europe. The understated Nordqvist was on the podium once more. Continue reading...",
       "source": "Guardian Sport",
       "pubdate": "2026-09-13T16:06:41+00:00",
-      "final_score": 0.2081,
-      "confidence": 20.8,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "Solheim Cup golf 2026: Europe 15-13 USA – as it happened",
-      "url": "https://www.theguardian.com/sport/live/2026/sep/13/solheim-cup-golf-2026-final-day-live",
-      "summary": "Europe got off to a fast start in the singles before holding off an attempted American comeback to regain the Solheim CupCharley Hull lets go of her club – a wet grip? – while sending her second at the par-five 2nd into a fairway bunker. She whips into the green and makes par, but Megan Khang set up a six-foot birdie chance to level the match. However she repeats the error of the 1st hole, leaving a dribbler short, failing to take into account the slowness of the wet greens. A let-off for Hull.1UP Hull v Khang (2) Henseleit A/S Al. Lee (1) Grant v Yin Continue reading...",
-      "source": "Guardian Sport",
-      "pubdate": "2026-09-13T16:04:36+00:00",
-      "final_score": 0.2079,
-      "confidence": 20.8,
+      "final_score": 0.1874,
+      "confidence": 18.7,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -1194,25 +1323,34 @@
       "summary": "Ex-president urged party at closed-door fundraiser to create sweeping framework, from safety ‘slow-down’ to job lossesBarack Obama urged Democrats to prioritize a “public conversation” about AI management and safety in a closed-door Manhattan fundraiser last week.The comments by the former US president reportedly urged the party to create a sweeping framework for everything from a safety “slow-down” to domestic job losses and children’s wellbeing. Continue reading...",
       "source": "Guardian Technology",
       "pubdate": "2026-09-13T15:47:37+00:00",
-      "final_score": 0.2055,
-      "confidence": 20.5,
+      "final_score": 0.1848,
+      "confidence": 18.5,
       "category": "其他",
       "hit_keywords": [
         "AI"
       ]
     },
     {
-      "title": "Sam Surridge in stoppage time denies Messi and Miami a win: MLS roundup",
-      "url": "https://www.theguardian.com/football/2026/sep/13/mls-lionel-messi-nashville-sc-sporting-kc-antoine-griezmann",
-      "summary": "Sporting KC end a long winless run v LAFCCharlotte and Cincy play a six-goal thrillerGriezmann on target in Orlando City winSam Surridge scored an equalizer in the first minute of second-half stoppage time for visiting Nashville SC, ⁠who played Inter Miami to a 2-2 draw on Saturday evening.Surridge’s goal, his second of the evening and 15th ⁠of the season, ⁠came after Shak ​Mohammed’s shot was saved by Dayne St Clair. Surridge was in position to put home the rebound to help ⁠Eastern Conference-leading Nashville steal a point on the road against second-place Inter Miami. Continue reading...",
-      "source": "Guardian Sport",
-      "pubdate": "2026-09-13T15:44:15+00:00",
-      "final_score": 0.205,
-      "confidence": 20.5,
+      "title": "These are the 10 biggest retirement fears — and what you can do about them",
+      "url": "https://www.marketwatch.com/story/these-are-the-10-biggest-retirement-fears-and-what-you-can-do-about-them-4dde8b9c?mod=mw_rss_topstories",
+      "summary": "No amount of wealth can erase retirement worries.",
+      "source": "WSJ Markets",
+      "pubdate": "2026-09-13T21:10:00+00:00",
+      "final_score": 0.1845,
+      "confidence": 18.5,
       "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
+      "hit_keywords": []
+    },
+    {
+      "title": "I’m locked into a 10-year annuity and now I’m strapped for cash. What are my options?",
+      "url": "https://www.marketwatch.com/story/im-locked-into-a-10-year-annuity-and-now-im-strapped-for-cash-what-are-my-options-e6463c91?mod=mw_rss_topstories",
+      "summary": "A self-described “spender” is concerned about taxes.",
+      "source": "WSJ Markets",
+      "pubdate": "2026-09-13T20:59:00+00:00",
+      "final_score": 0.183,
+      "confidence": 18.3,
+      "category": "其他",
+      "hit_keywords": []
     },
     {
       "title": "Critics celebrate Céline Dion's 'high-stakes' comeback show in Paris",
@@ -1220,12 +1358,23 @@
       "summary": "The iconic Canadian singer kicked off her long-awaited comeback show in Paris on Saturday, after a six-year hiatus due to health issues.",
       "source": "BBC World",
       "pubdate": "2026-09-13T02:41:51+00:00",
-      "final_score": 0.2014,
-      "confidence": 20.1,
+      "final_score": 0.1806,
+      "confidence": 18.1,
       "category": "其他",
       "hit_keywords": [
         "AI"
       ]
+    },
+    {
+      "title": "Your Social Security COLA could go up another $71 per month in 2027. That’s not necessarily good news.",
+      "url": "https://www.marketwatch.com/story/your-social-security-check-could-go-up-another-71-next-year-thats-not-necessarily-good-news-f952c08a?mod=mw_rss_topstories",
+      "summary": "A higher COLA is a sign that persistent inflation isn’t going anywhere.",
+      "source": "WSJ Markets",
+      "pubdate": "2026-09-13T20:40:00+00:00",
+      "final_score": 0.1804,
+      "confidence": 18.0,
+      "category": "其他",
+      "hit_keywords": []
     },
     {
       "title": "One dead and more than 30 missing after ferry sinks off Vanuatu coast in rough seas",
@@ -1233,12 +1382,23 @@
       "summary": "Prime minister’s office tells families of those missing ‘the nation stands with you’ as search and rescue efforts continueOne person has died and more than 30 are missing after a ferry sank off the coast of Vanuatu, the country’s government says.The vessel, MV Matui, had set sail with more than 40 passengers and crew on Friday from the island of Santo to Ambae island in very rough seas, but did not arrive. Continue reading...",
       "source": "Guardian World",
       "pubdate": "2026-09-13T02:39:50+00:00",
-      "final_score": 0.2011,
-      "confidence": 20.1,
+      "final_score": 0.1804,
+      "confidence": 18.0,
       "category": "其他",
       "hit_keywords": [
         "AI"
       ]
+    },
+    {
+      "title": "This simple mistake can give your money to the wrong person when you die. Here’s how to protect your estate.",
+      "url": "https://www.marketwatch.com/story/this-simple-mistake-can-cost-your-loved-ones-their-share-of-your-estate-heres-how-to-protect-your-money-99374a95?mod=mw_rss_topstories",
+      "summary": "Estate-planning crises usually come down to small oversights.",
+      "source": "WSJ Markets",
+      "pubdate": "2026-09-13T20:30:00+00:00",
+      "final_score": 0.179,
+      "confidence": 17.9,
+      "category": "其他",
+      "hit_keywords": []
     },
     {
       "title": "How to trade a well-paying job for more work-life balance — without going broke",
@@ -1246,8 +1406,8 @@
       "summary": "As caregiving demands rise, many professionals are rethinking what success means to them.",
       "source": "WSJ Markets",
       "pubdate": "2026-09-13T20:17:00+00:00",
-      "final_score": 0.1979,
-      "confidence": 19.8,
+      "final_score": 0.1772,
+      "confidence": 17.7,
       "category": "其他",
       "hit_keywords": []
     },
@@ -1257,8 +1417,8 @@
       "summary": "Americans win fifth consecutive titleReese and Clark celebrate their ‘chemistry’USA 17-18 France, 1:30 left, 1st qtr: Angel Reese rotates in for the US.Wide-open three-point attempt for Ayayi looks bad enough that the US will probably let her keep taking those fore a while. Continue reading...",
       "source": "Guardian Sport",
       "pubdate": "2026-09-13T20:03:50+00:00",
-      "final_score": 0.1961,
-      "confidence": 19.6,
+      "final_score": 0.1754,
+      "confidence": 17.5,
       "category": "其他",
       "hit_keywords": []
     },
@@ -1268,23 +1428,10 @@
       "summary": "Social Security, once seen as “old-age insurance,” will eventually disappear, this author predicts.",
       "source": "WSJ Markets",
       "pubdate": "2026-09-13T19:56:00+00:00",
-      "final_score": 0.195,
-      "confidence": 19.5,
+      "final_score": 0.1743,
+      "confidence": 17.4,
       "category": "其他",
       "hit_keywords": []
-    },
-    {
-      "title": "Corporate profit forecasts are topping expectations to an unusual degree. AI is a big reason why.",
-      "url": "https://www.marketwatch.com/story/corporate-profit-forecasts-are-topping-expectations-to-an-unusual-degree-ai-is-a-big-reason-why-50245409?mod=mw_rss_topstories",
-      "summary": "The information-technology sector stands out when it comes to issuing upbeat earnings outlooks.",
-      "source": "WSJ Markets",
-      "pubdate": "2026-09-13T14:00:00+00:00",
-      "final_score": 0.1906,
-      "confidence": 19.1,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
     },
     {
       "title": "Lauren James revels in free role as Chelsea show ‘respect’ by scoring five past Manchester United",
@@ -1292,8 +1439,8 @@
       "summary": "A swaggering Chelsea cast off any suggestion that they had lost the ability to kill off games, putting five goals past a worryingly lacklustre and lackadaisical Manchester United.Sonia Bompastor, the Chelsea manager, said: “When you have the opportunity to really hurt a team, the best way to respect them is to score as many goals as you can, to create as many opportunities as you can. Continue reading...",
       "source": "Guardian Sport",
       "pubdate": "2026-09-13T13:41:27+00:00",
-      "final_score": 0.188,
-      "confidence": 18.8,
+      "final_score": 0.1673,
+      "confidence": 16.7,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -1305,8 +1452,8 @@
       "summary": "Derek McInnes has endured a much‑scrutinised start to life at Ibrox but the Rangers manager got the old ground bouncing here as his side dominated Celtic in front of an all-blue crowd to decide the first Old Firm encounter of the season.Against a backdrop of bouncing techno from the tannoy, Rangers fans celebrated three memorable goals in a thumping League Cup win. A brace for the captain, Dan Neil, bookended Kevin Kelsy’s second‑half finish to put Martin O’Neill’s side down with relative ease. It also showcased a nascent identity for McInnes’s side, one defined by unbending physical commitment and lots and lots of sprinting. The quality of the football may have been patchy, but the commitment was enough to get the 51,212 home fans at the top of their voices. Continue reading...",
       "source": "Guardian Sport",
       "pubdate": "2026-09-13T13:38:16+00:00",
-      "final_score": 0.1875,
-      "confidence": 18.8,
+      "final_score": 0.1668,
+      "confidence": 16.7,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -1318,8 +1465,8 @@
       "summary": "The 10-year Treasury yield is sitting on the doorstep of 5%, and that’s a warning sign for stocks.",
       "source": "WSJ Markets",
       "pubdate": "2026-09-13T19:00:00+00:00",
-      "final_score": 0.1872,
-      "confidence": 18.7,
+      "final_score": 0.1665,
+      "confidence": 16.6,
       "category": "其他",
       "hit_keywords": []
     },
@@ -1329,8 +1476,8 @@
       "summary": "The subversive bacchanal for San Francisco’s eccentric underground is ageing out amid an influx of the super-richBurning Man, the infamous arts festival in the Nevada desert, turned 40 this year, and it’s showing some distinct signs of middle age.It’s not just the tech billionaires who show up to party, the chartered flights straight to the desert or the HBO documentary about behind-the-scenes power struggles. The tens of thousands of people who assemble each year to create a tent city in the wilderness appear to be growing older, and it doesn’t seem that they’re being replaced by as many younger “burners”, as festival participants are called. Continue reading...",
       "source": "Guardian Technology",
       "pubdate": "2026-09-13T13:00:04+00:00",
-      "final_score": 0.1822,
-      "confidence": 18.2,
+      "final_score": 0.1615,
+      "confidence": 16.2,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -1342,8 +1489,8 @@
       "summary": "Officials say more than 300 Russians remain missing after the 2024 Kursk offensive, but no-one really knows the true figure.",
       "source": "BBC World",
       "pubdate": "2026-09-12T23:51:05+00:00",
-      "final_score": 0.1776,
-      "confidence": 17.8,
+      "final_score": 0.1569,
+      "confidence": 15.7,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -1355,19 +1502,8 @@
       "summary": "Wisconsin Congressman Tom Tiffany escaped a sinking plane and swam to shallow water after an emergency landing in a lake. Tiffany and the pilot called 911 from on top of the plane.",
       "source": "NPR News",
       "pubdate": "2026-09-13T17:45:33+00:00",
-      "final_score": 0.1769,
-      "confidence": 17.7,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "Manchester City recover from Foden red card as Haaland wins derby at United",
-      "url": "https://www.theguardian.com/football/2026/sep/13/manchester-united-manchester-city-premier-league-match-report",
-      "summary": "“Enzo, Enzo, Enzo, in your head” was how delirious Manchester City fans regaled Enzo Fernández, who after a star role in a memorable victory has instant cult hero status.This 199th derby was won by Erling Haaland’s ninth strike in the fixture but the visitors’ totem was their new No 17. He was the key nuisance in a goal ruled out initially for offside and which the video assistant referee overturned when ruling that Fernández was not distracting Lisandro Martínez when Josko Gvardiol’s ball came over. The Argentinian, too, was an emblem of the fight Maresca’s team carried to Manchester United after Phil Foden appeared to turn the game the hosts’ way on 22 minutes. Continue reading...",
-      "source": "Guardian Sport",
-      "pubdate": "2026-09-13T17:32:15+00:00",
-      "final_score": 0.175,
-      "confidence": 17.5,
+      "final_score": 0.1562,
+      "confidence": 15.6,
       "category": "其他",
       "hit_keywords": []
     },
@@ -1377,23 +1513,25 @@
       "summary": "Following the midterm convention in Dallas, President Trump's $5,000 campaign promise has generated attention, but not belief. And, Vice President JD Vance characterizes Democrats as extremists.",
       "source": "NPR News",
       "pubdate": "2026-09-13T12:04:27+00:00",
-      "final_score": 0.1745,
-      "confidence": 17.5,
+      "final_score": 0.1538,
+      "confidence": 15.4,
       "category": "其他",
       "hit_keywords": [
         "AI"
       ]
     },
     {
-      "title": "European football: Lamine Yamal keeps Barcelona perfect, Leipzig rout Hamburg",
-      "url": "https://www.theguardian.com/football/2026/sep/13/european-football-barcelona-bayern-munich-napoli-juventus",
-      "summary": "Teenager hits two in 4-2 victory at LevanteLepizig smash five past struggling HamburgBarcelona continued their perfect start to the ⁠season with a hard-fought 4-2 La Liga victory over Levante in Valencia ⁠on Sunday.Levante ⁠found ​themselves two goals down within 19 minutes after swift play from ⁠Barcelona led to goals for Xavi Espart and Lamine Yamal. The home side ⁠then rallied, finishing the half with six ​shots to Barcelona’s ‌three.This story will be updated Continue reading...",
-      "source": "Guardian Sport",
-      "pubdate": "2026-09-13T17:21:35+00:00",
-      "final_score": 0.1735,
-      "confidence": 17.4,
+      "title": "From fracking to data centers: Hearing from people on both sides of the opposition",
+      "url": "https://www.npr.org/2026/09/13/nx-s1-5946724/from-fracking-to-data-centers-hearing-from-people-on-both-sides-of-the-opposition",
+      "summary": "NPR's Ayesha Rascoe speaks with environmentalist, Bill McKibben, and public relations specialist, Frank Maisano, about opposition to industrial development projects like fracking and data centers.",
+      "source": "NPR News",
+      "pubdate": "2026-09-13T12:04:24+00:00",
+      "final_score": 0.1538,
+      "confidence": 15.4,
       "category": "其他",
-      "hit_keywords": []
+      "hit_keywords": [
+        "AI"
+      ]
     },
     {
       "title": "‘I still don’t have my MRI’: My health insurer canceled my plan without warning. Is that legal?",
@@ -1401,8 +1539,8 @@
       "summary": "“It wasn’t an ACA plan, but it was meaningfully cheaper than anything I could find on the ACA exchange.”",
       "source": "WSJ Markets",
       "pubdate": "2026-09-13T16:30:00+00:00",
-      "final_score": 0.1664,
-      "confidence": 16.6,
+      "final_score": 0.1457,
+      "confidence": 14.6,
       "category": "其他",
       "hit_keywords": []
     },
@@ -1412,8 +1550,8 @@
       "summary": "President has hyped growth of federal investment accounts to help US children – for his own political gainSince returning to the White House, Donald Trump has scrapped rules that made childcare more affordable and pushed to cut funding for the nation’s public schools. But with midterm elections fast approaching and his approval ratings very low, the US president has repeatedly trumpeted a two-month-old program designed to help the nation’s children. That program, unhumbly named “Trump accounts”, calls for the federal government to give a one-time $1,000 seed deposit to every newborn whose family applies.In campaign speeches this summer, Trump has sought to milk these accounts for maximum political advantage, making big promises about how much these accounts will help the nation’s children. In a speech in Las Vegas last month, Trump hailed the program, saying: “It’s really giving [children] a head start on the American dream… They start off with $1,000 … and they can end up with $100,000, $200,000, $300,000” and if the stock market booms, “you’d end up with $1m”. Continue reading...",
       "source": "Guardian Business",
       "pubdate": "2026-09-13T11:00:05+00:00",
-      "final_score": 0.1656,
-      "confidence": 16.6,
+      "final_score": 0.1448,
+      "confidence": 14.5,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -1425,8 +1563,8 @@
       "summary": "Technology is going to drastically reshape the economy, and it’s within our power to decide what that looks likeThe idea that autonomous, thinking machines may one day destroy property, hierarchy and inequality is as old as western political thought. In Aristotle’s Politics, the philosopher cites a fantasy from the Iliad, in which machines begin to act independently of human direction, concluding: “If every tool could perform its own work when ordered, or by seeing what to do in advance … if thus shuttles wove and quills played harps of themselves, master-craftsmen would have no need of assistants and masters no need of slaves.”The dream that automation could inaugurate a classless society is also present in the writings of Karl Marx. In 1858 he imagined the replacement of intellectual property with “socialised knowledge”, which would merge into a “general intellect”, blowing the foundations of capitalism sky high. Continue reading...",
       "source": "Guardian Technology",
       "pubdate": "2026-09-13T11:00:02+00:00",
-      "final_score": 0.1656,
-      "confidence": 16.6,
+      "final_score": 0.1448,
+      "confidence": 14.5,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -1438,21 +1576,8 @@
       "summary": "Ex-Tory chancellor says economy has ‘fallen off a cliff’ since Brexit but rejoining union could be ‘quite simple’The former chancellor George Osborne said Britain’s economy had “fallen off a cliff” since Brexit and that rejoining the European Union’s customs union would be the fastest route to recovery.Osborne, who was sacked as chancellor by Theresa May after being part of David Cameron’s cabinet at the time of the referendum, said it was important to rebuild links with the EU. Continue reading...",
       "source": "Guardian Business",
       "pubdate": "2026-09-13T10:48:04+00:00",
-      "final_score": 0.1639,
-      "confidence": 16.4,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
-    },
-    {
-      "title": "Best friends for decades - until a DNA test revealed they were sisters",
-      "url": "https://www.bbc.co.uk/news/articles/c5y6z72z9lno?at_medium=RSS&at_campaign=rss",
-      "summary": "Meena Geltink and Minal Tijssen were adopted from orphanages in Mumbai in the 1980s and grew up in the Netherlands.",
-      "source": "BBC World",
-      "pubdate": "2026-09-12T22:00:28+00:00",
-      "final_score": 0.1623,
-      "confidence": 16.2,
+      "final_score": 0.1432,
+      "confidence": 14.3,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -1464,8 +1589,8 @@
       "summary": "Indonesian rescuers said about 130 passengers and crew are missing after a ferry carrying more than 240 people sank in bad weather in the Java Sea on Sunday.",
       "source": "NPR News",
       "pubdate": "2026-09-13T10:31:10+00:00",
-      "final_score": 0.1615,
-      "confidence": 16.2,
+      "final_score": 0.1408,
+      "confidence": 14.1,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -1477,34 +1602,21 @@
       "summary": "The Italian was the beneficiary of Lando Norris’s ill luck with a virtual safety car and pit stopThe formation lap is away. It’s a hot day in Madrid, 31 degrees, no shade at all. The track temperature is 54 degrees.The 57 laps are soon to start, a voyage into the unknown, with the preliminary races throwing up a few questions of what the track will dish out to the drivers. Continue reading...",
       "source": "Guardian Sport",
       "pubdate": "2026-09-13T15:40:56+00:00",
-      "final_score": 0.1596,
-      "confidence": 16.0,
+      "final_score": 0.1388,
+      "confidence": 13.9,
       "category": "其他",
       "hit_keywords": []
     },
     {
       "title": "Kimi Antonelli holds off Max Verstappen during Madring debut to win F1 Spanish GP",
       "url": "https://www.theguardian.com/sport/2026/sep/13/kimi-antonelli-max-verstappen-madring-circuit-f1-spanish-gp",
-      "summary": "McLaren’s Norris in third and Ferrari’s Leclerc fourthTrack design questioned owing to lack of overtakingKimi Antonelli’s seemingly inexorable march to his first Formula One world championship advanced at double time as the young Italian proved to have good fortune on his side too with his victory at the ­Spanish Grand Prix.His execution was perfect as he became the first driver to win at F1’s newest circuit, the Madring, in beating Red Bull’s Max Verstappen into second and McLaren’s Lando Norris into third. But Antonelli’s win came at a cost to Norris who, while having led until lap 14 and was impressively quick, was just unlucky and try as he might was left tilting at windmills in Madrid. Continue reading...",
+      "summary": "McLaren’s Norris in third and Ferrari’s Leclerc fourthTrack design questioned owing to lack of overtakingKimi Antonelli’s seemingly inexorable march to his first Formula One world championship advanced at double time as the young Italian proved to have good fortune on his side too with his victory at the Spanish Grand Prix.His execution was perfect as he became the first driver to win at F1’s newest circuit, the Madring, in beating Red Bull’s Max Verstappen into second and McLaren’s Lando Norris into third. But Antonelli’s win came at a cost to Norris who, while having led until lap 14 and was impressively quick, was just unlucky and try as he might was left tilting at windmills in Madrid. Continue reading...",
       "source": "Guardian Sport",
       "pubdate": "2026-09-13T15:38:45+00:00",
-      "final_score": 0.1593,
-      "confidence": 15.9,
+      "final_score": 0.1385,
+      "confidence": 13.9,
       "category": "其他",
       "hit_keywords": []
-    },
-    {
-      "title": "Anthropic boss Dario Amodei calls for AI development to slow down",
-      "url": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
-      "summary": "The call comes amid growing concerns that AI models may become able to inflict serious damage worldwide.",
-      "source": "BBC Business",
-      "pubdate": "2026-09-12T21:16:47+00:00",
-      "final_score": 0.1562,
-      "confidence": 15.6,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
     },
     {
       "title": "Lewis Dunk’s showstopper helps five-star Brighton to rout 10-man Coventry",
@@ -1512,8 +1624,8 @@
       "summary": "The bare facts are bleak: Coventry City are only the second team in Premier League history to lose their first four games of the season ­without scoring a goal. “And yet&nbsp;…” will be the enduring message from Frank ­Lampard to his players.And yet they have caused prob­lems for opposition teams. And yet they have already faced three of the top flight’s European contingent. And yet they are not altogether playing that badly – the Brighton goalkeeper Bart&nbsp;­Verbruggen being named player of the match can attest to that. But Coventry des­perately need a point, or even a goal, to give their ­confidence a much-needed boost. It does not take long for a promoted club’s relegation fears to turn to reality. Continue reading...",
       "source": "Guardian Sport",
       "pubdate": "2026-09-13T15:10:47+00:00",
-      "final_score": 0.1554,
-      "confidence": 15.5,
+      "final_score": 0.1347,
+      "confidence": 13.5,
       "category": "其他",
       "hit_keywords": []
     },
@@ -1523,19 +1635,8 @@
       "summary": "“I expect to receive at least $9,000 per month before federal and California state taxes.”",
       "source": "WSJ Markets",
       "pubdate": "2026-09-13T15:00:00+00:00",
-      "final_score": 0.1539,
-      "confidence": 15.4,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "‘We fear financial exploitation’: Who will manage our finances if my wife and I become incapacitated?",
-      "url": "https://www.marketwatch.com/story/we-fear-financial-exploitation-who-will-manage-our-finances-if-my-wife-and-i-become-incapacitated-32efc180?mod=mw_rss_topstories",
-      "summary": "“We have witnessed our parents’ gradual decline in cognitive ability.”",
-      "source": "WSJ Markets",
-      "pubdate": "2026-09-13T14:30:00+00:00",
-      "final_score": 0.1497,
-      "confidence": 15.0,
+      "final_score": 0.1332,
+      "confidence": 13.3,
       "category": "其他",
       "hit_keywords": []
     },
@@ -1545,12 +1646,23 @@
       "summary": "Pilot project in Preston comes with apprenticeship offer for Neets at end of three-week courseIn a youth centre opposite Preston bus station, the UK government is trying to address two of the greatest challenges facing the national economy: AI and youth unemployment.The hope is that one will solve – rather than cause – the other. In a room at the recently opened Vault, a community hub in the Lancashire city, an “AI bootcamp” is under way – part of a trial in the north-west to give 16- to 24-year-olds AI training. Continue reading...",
       "source": "Guardian Technology",
       "pubdate": "2026-09-13T09:00:04+00:00",
-      "final_score": 0.1489,
-      "confidence": 14.9,
+      "final_score": 0.1282,
+      "confidence": 12.8,
       "category": "其他",
       "hit_keywords": [
         "AI"
       ]
+    },
+    {
+      "title": "Actor Tatyana Ali is advocating for Black and Indigenous maternal health",
+      "url": "https://www.npr.org/2026/09/13/nx-s1-5966885/birth-black-and-indigenous-maternal-health",
+      "summary": "Actor Tatyana Ali says her healing journey after a traumatic childbirth has inspired her advocacy for Black maternal health, including support for midwives, doulas and other birth workers.",
+      "source": "NPR News",
+      "pubdate": "2026-09-13T14:00:00+00:00",
+      "final_score": 0.1248,
+      "confidence": 12.5,
+      "category": "其他",
+      "hit_keywords": []
     },
     {
       "title": "They lost their jobs after posting about Charlie Kirk, but some have no regrets",
@@ -1558,23 +1670,10 @@
       "summary": "Some people fired in the wake of Kirk's assassination have won big settlements from employers, others have had to start over from scratch.",
       "source": "BBC World",
       "pubdate": "2026-09-13T00:49:08+00:00",
-      "final_score": 0.1407,
-      "confidence": 14.1,
+      "final_score": 0.12,
+      "confidence": 12.0,
       "category": "其他",
       "hit_keywords": []
-    },
-    {
-      "title": "FastPasses, Mega Honey Deuces and $55 chopped cheese: welcome to the US Open in 2041 | Bryan Armen Graham",
-      "url": "https://www.theguardian.com/sport/2026/sep/13/us-open-disneyland-tennis-premiumization-craig-tiley",
-      "summary": "Craig Tiley says the US Open is going to become the ‘Disneyland of tennis’, and he means it aspirationally. Here’s what that might look like 15 years from nowThe year is 2041 and you’ve successfully made it through security and onto the grounds of the USTA Liquid Death National Tennis Center. Myla Rose and Leo Federer are hitting on Practice Court 23 ahead of their first-round match in the US Open Mixed Doubles sponsored by Botoxxify, the tournament’s official neuromodulator partner. Jake Paul, the 50th president of the United States, is a few hours from attending opening night with first lady Jutta Leerdam-Paul and labor secretary Dana White. Venus Williams has just accepted a wildcard into the women’s singles draw. You’re thisclose to paying off last year’s Honey Deuces on Klarna.Welcome to the Disneyland of tennis. Continue reading...",
-      "source": "Guardian Sport",
-      "pubdate": "2026-09-13T07:00:02+00:00",
-      "final_score": 0.1322,
-      "confidence": 13.2,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
     },
     {
       "title": "Spygate saga continues to haunt Southampton as case drags on",
@@ -1582,8 +1681,8 @@
       "summary": "Manager Tonda Eckert’s future remains in the balance with the FA yet to decide over a suitable punishmentFifty seconds was all it took for the chant to begin. “You know what you are, you know what you are, cheating bastards, you know what you are,” bellowed the Bristol City fans, starting up a cry heard from every away contingent coming to St Mary’s Stadium this season. The Southampton supporters responded with sarcastic applause, then drowned out the noise with songs of their own.This is what life is now like for Southampton after May’s spying scandal – a saga whose full consequences are still unknown and could have ramifications for the season ahead. The English Football League acted swiftly after photographs emerged of a junior staff member hiding behind a tree to film a Middlesbrough training session, expelling Southampton from the Championship play-offs and deducting four points after the club admitted multiple spying offences, including on Oxford United and Ipswich. The Football Association’s case against Tonda Eckert, the manager, is taking far longer. And patience is wearing thin. Continue reading...",
       "source": "Guardian Sport",
       "pubdate": "2026-09-13T07:00:01+00:00",
-      "final_score": 0.1322,
-      "confidence": 13.2,
+      "final_score": 0.1115,
+      "confidence": 11.1,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -1595,8 +1694,8 @@
       "summary": "Ohio State Buckeyes 23-24 Texas LonghornsLonghorns QB shows maturity in huge comebackArch Manning delivered a moment, and it was a big one for Texas and himself. The Longhorns quarterback led No 4 Texas back from a 20-point fourth-quarter deficit to beat No 1 Ohio State 24-23 on Saturday night.Using his legs to keep drives going and his right arm to start the rally with a touchdown pass to Ryan Wingo, Manning delivered the kind of primetime performance that could redefine his career and propel the program’s national championship hopes. Continue reading...",
       "source": "Guardian Sport",
       "pubdate": "2026-09-13T11:25:06+00:00",
-      "final_score": 0.124,
-      "confidence": 12.4,
+      "final_score": 0.1033,
+      "confidence": 10.3,
       "category": "其他",
       "hit_keywords": []
     },
@@ -1606,8 +1705,8 @@
       "summary": "The billionaire and the party have developed a symbiotic relationship to spread their far-right views both in Germany and the USThe Alternative für Deutschland (AfD) party rattled European politics this week after a convincing victory in a German state election, which placed it only a few seats away from forming the country’s first state-level far right government since the second world war.Elon Musk was thrilled. Continue reading...",
       "source": "Guardian Technology",
       "pubdate": "2026-09-13T06:00:01+00:00",
-      "final_score": 0.1239,
-      "confidence": 12.4,
+      "final_score": 0.1032,
+      "confidence": 10.3,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -1619,8 +1718,8 @@
       "summary": "Criminals exploit demand for iPhone 18 Pro and foldable Duo to trick people eager to get their hands on oneApple has just launched a range of new iPhones, including a foldable handset, just as you decide it is time to replace your own ageing mobile. But you balk at the £1,199 price tag for the cheapest of the new options.Searching online for a better price with the words “cheap”, “iPhone” and “deal”, you come across a website which offers an iPhone 18 Pro for a couple of hundred pounds less than the Apple site. You pay for the new phone via a bank transfer and wait for it to arrive. Continue reading...",
       "source": "Guardian Technology",
       "pubdate": "2026-09-13T06:00:00+00:00",
-      "final_score": 0.1239,
-      "confidence": 12.4,
+      "final_score": 0.1032,
+      "confidence": 10.3,
       "category": "其他",
       "hit_keywords": [
         "AI"
@@ -1632,23 +1731,10 @@
       "summary": "As Star Trek celebrates its 60th birthday, the long-running franchise is also grappling with the challenges of timing and technology. \"Its audience is aging,\" says Strange New Worlds star Anson Mount.",
       "source": "NPR News",
       "pubdate": "2026-09-13T11:00:00+00:00",
-      "final_score": 0.1206,
-      "confidence": 12.1,
+      "final_score": 0.0998,
+      "confidence": 10.0,
       "category": "其他",
       "hit_keywords": []
-    },
-    {
-      "title": "Ryan Garcia knocks out Conor Benn to retain WBC welterweight championship – as it happened",
-      "url": "https://www.theguardian.com/sport/live/2026/sep/12/ryan-garcia-v-conor-benn-wbc-welterweight-championship-live-updates",
-      "summary": "Garcia retains 147lb title with second-round TKOTeófimo López confronts Garcia afterward in ringOpetaia retains cruiserweight title on undercardZuffa/Paramount paused for a commercial break with Garcia and Benn in the ring before the fighter announcements. Which is a choice! Anyway, the waiting is over. The final instructions have been given by referee Tom Taylor, the seconds are out and we’ll pick it up with round-by-round coverage from here!And here comes Ryan Garcia! The champion makes his way through the bowels of T-Mobile Arena and on to the floor as Vicente Fernández’s El Rey plays over the sound system, an obvious hit with a febrile crowd on Mexican Independence Day weekend. Continue reading...",
-      "source": "Guardian Sport",
-      "pubdate": "2026-09-13T04:11:45+00:00",
-      "final_score": 0.1089,
-      "confidence": 10.9,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
     },
     {
       "title": "How a young woman was recruited to ISIS — and how she eventually escaped",
@@ -1656,8 +1742,8 @@
       "summary": "A young Canadian mother shares her memories of being an ISIS bride, and her harrowing escape from the extremist group.",
       "source": "NPR News",
       "pubdate": "2026-09-13T09:00:00+00:00",
-      "final_score": 0.1039,
-      "confidence": 10.4,
+      "final_score": 0.0832,
+      "confidence": 8.3,
       "category": "其他",
       "hit_keywords": []
     },
@@ -1667,8 +1753,8 @@
       "summary": "The government needs to do more to support working families, a charity in Rotherham says.",
       "source": "BBC Business",
       "pubdate": "2026-09-13T06:09:16+00:00",
-      "final_score": 0.0802,
-      "confidence": 8.0,
+      "final_score": 0.0594,
+      "confidence": 5.9,
       "category": "其他",
       "hit_keywords": []
     },
@@ -1678,8 +1764,8 @@
       "summary": "The warning comes after the US-Iran conflict drives up heating oil and fuel costs.",
       "source": "BBC Business",
       "pubdate": "2026-09-13T06:01:53+00:00",
-      "final_score": 0.0791,
-      "confidence": 7.9,
+      "final_score": 0.0584,
+      "confidence": 5.8,
       "category": "其他",
       "hit_keywords": []
     },
@@ -1689,23 +1775,10 @@
       "summary": "Andy Burnham wants to get people \"in from the cold\" by Christmas, but the scale of the task is huge.",
       "source": "BBC Business",
       "pubdate": "2026-09-13T05:14:15+00:00",
-      "final_score": 0.0725,
-      "confidence": 7.3,
+      "final_score": 0.0518,
+      "confidence": 5.2,
       "category": "其他",
       "hit_keywords": []
-    },
-    {
-      "title": "OpenAI IPO will not happen in 2026 amid AI safety fears, Sam Altman says",
-      "url": "https://www.theguardian.com/us-news/2026/sep/12/openai-delays-ipo-sam-altman-ai-safety-concerns",
-      "summary": "OpenAI’s decision comes after dire warnings about rapidly progressing technology and lawmakers’ calls for new rulesOpenAI will not go public in 2026, Sam Altman said in a Fortune interview published on Saturday, citing safety concerns over artificial intelligence.“I actually think that, given everything happening with safety, right now would be an ill-advised moment to go public, and we don’t feel pressure on that,” Altman, OpenAI’s CEO, told Fortune. Continue reading...",
-      "source": "Guardian Technology",
-      "pubdate": "2026-09-12T23:00:37+00:00",
-      "final_score": 0.0656,
-      "confidence": 6.6,
-      "category": "其他",
-      "hit_keywords": [
-        "AI"
-      ]
     },
     {
       "title": "Celine Dion returns to the stage after battling rare illness",
@@ -1713,30 +1786,8 @@
       "summary": "The Canadian singer opened up her 16-show residency in Paris at the Plenitude Arena. The entire series is sold out.",
       "source": "NPR News",
       "pubdate": "2026-09-12T23:54:06+00:00",
-      "final_score": 0.0281,
-      "confidence": 2.8,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "Mikel Arteta says penalty given to Sunderland ‘unacceptable at this level’",
-      "url": "https://www.theguardian.com/football/2026/sep/12/mikel-arteta-penalty-decision-arsenal-sunderland-unacceptable",
-      "summary": "Arsenal manager angry: ‘This can never be a penalty’‘It’s a judo roll from the opponent. Ezri does nothing’Mikel Arteta’s delight at Arsenal’s latest win was tempered by his fury with the referee John Brooks as the champions triumphed 2-0 at Sunderland on Saturday night.Before Bruno Guimarães gave Arsenal the lead in a tight match that Régis Le Bris’s team were arguably unlucky to lose, David Raya made a brilliant save to deny Enzo Le Fée from the penalty spot. Arteta, however, did not believe that Ezri Konsa had hauled Dan Ballard to the ground, instead blaming the Sunderland man for pulling down his opponent. Continue reading...",
-      "source": "Guardian Sport",
-      "pubdate": "2026-09-12T22:47:10+00:00",
-      "final_score": 0.0188,
-      "confidence": 1.9,
-      "category": "其他",
-      "hit_keywords": []
-    },
-    {
-      "title": "Iceland to open first store in the Falklands",
-      "url": "https://www.bbc.co.uk/news/articles/cd94kze0y9qo?at_medium=RSS&at_campaign=rss",
-      "summary": "Boss Lord Richard Walker says it would be the the first UK high street brand to operate there.",
-      "source": "BBC Business",
-      "pubdate": "2026-09-12T20:50:54+00:00",
-      "final_score": 0.0026,
-      "confidence": 0.3,
+      "final_score": 0.0073,
+      "confidence": 0.7,
       "category": "其他",
       "hit_keywords": []
     }
